@@ -347,6 +347,14 @@
     "last_checked_sha": "a990bbd440885fc05d232ddd5dd98b59f461cb02",
     "skipped": false
   },
+  "Akaizoku/AlteryxFormulaAddOns": {
+    "default_branch": "master",
+    "e1_file_count": 1,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:27:42.776999+00:00",
+    "last_checked_sha": "2e2eccaf1f4b600d496ffcfeb405047b5266a423",
+    "skipped": false
+  },
   "Akaizoku/PSAYX": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -852,6 +860,14 @@
     "last_checked_sha": "1dfb089523a0e656f02f1b235d9fdadb30b437a3",
     "skipped": false
   },
+  "AlteryxNJ/AdventOfCode_2020": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:28:02.501002+00:00",
+    "last_checked_sha": "4e29daea86aa5c57de399721b81801802e3d3814",
+    "skipped": false
+  },
   "AlteryxNed/Open_AlteryxYXDB": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -1319,6 +1335,14 @@
     "last_checked_sha": "16ae44d0d857d52393a95d4909e0a69f406e33fa",
     "skipped": false
   },
+  "CJ-Mayes/Website-Tutorials": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:28:43.679181+00:00",
+    "last_checked_sha": "de5fc237e0f1e38179744634705fea219bfa4681",
+    "skipped": false
+  },
   "CJCPAs/CJs-Ultimate-Alteryx-Guide": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -1415,6 +1439,22 @@
     "last_checked_sha": "c73a7a5102afa12decb54beeea8097d4c3a869db",
     "skipped": false
   },
+  "ChrisDataBlog/AdventOfCode": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:28:55.728903+00:00",
+    "last_checked_sha": "b2ed9fcab64d5e5ab39fae49a0961a5c6adc0dfa",
+    "skipped": false
+  },
+  "ChrisDataBlog/AdventOfCode_2020": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:28:57.996501+00:00",
+    "last_checked_sha": "cb7ba23b8249a8039edb753dc9dc2e5b29a525a3",
+    "skipped": false
+  },
   "ChrisDataBlog/AdventofCode2015": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -1482,12 +1522,36 @@
     "last_checked_sha": "7fcaae46f431012dc7088875d070b0a391db4db5",
     "skipped": false
   },
+  "Chuqiao-Wang-tax/Open-Tax-System-Kit": {
+    "default_branch": "main",
+    "e1_file_count": 4,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:29:03.865867+00:00",
+    "last_checked_sha": "e5b7a83e38aae1089b6790af5f70155b0cec110e",
+    "skipped": false
+  },
   "ClariFi-Alteryx/NLP": {
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:24:40.972826+00:00",
     "last_checked_sha": "175dda066f6298f1a571d1380da72a8afff66bb4",
+    "skipped": false
+  },
+  "CloseGoingAway/open-fraud-detection-kit": {
+    "default_branch": "main",
+    "e1_file_count": 4,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:29:07.155454+00:00",
+    "last_checked_sha": "c89daeccd49434d235e940bef7ed638178cacb00",
+    "skipped": false
+  },
+  "CoG-Analytics/Advent-of-Code-Solutions": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:29:08.897111+00:00",
+    "last_checked_sha": "cbad0d01c21f8460f24840520c5ed977ed930fd7",
     "skipped": false
   },
   "Collin-Tice/everything-bagels-data-analysis": {
@@ -1916,6 +1980,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:26:49.813291+00:00",
     "last_checked_sha": "14e5f278f06ceb547bd03e1cac50a1c1c84abd4b",
+    "skipped": false
+  },
+  "ErikeCardoso/alteryx": {
+    "default_branch": "master",
+    "e1_file_count": 20,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:29:55.375251+00:00",
+    "last_checked_sha": "23e0f98f19697d4c633ab8579759fda4137f0bf0",
     "skipped": false
   },
   "FL-Marine/Alteryx-Work-Flows": {
@@ -2452,6 +2524,14 @@
     "last_checked_sha": "773bb1fa79e29fbd0b9bf6c4b7ce85ef8ad4cb93",
     "skipped": false
   },
+  "JohnnyFoulds/course-exercises": {
+    "default_branch": "master",
+    "e1_file_count": 9,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:30:42.007079+00:00",
+    "last_checked_sha": "824f2e0bc2989ad4ac1818ae035b2f50470ec011",
+    "skipped": false
+  },
   "Jokebede-Coimbra/ExamplesUsingAlteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -2751,6 +2831,14 @@
     "last_checked_sha": "4f79480f87b829505769f5f616db55ad8732db41",
     "skipped": false
   },
+  "LokeCoder11/Projects": {
+    "default_branch": "main",
+    "e1_file_count": 19,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:31:16.534364+00:00",
+    "last_checked_sha": "57c8233a16da243bd7e7d2c0ae1f2f018cbf111b",
+    "skipped": false
+  },
   "LucienCastle/customer-segmentation-for-automobile-company": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -2925,6 +3013,14 @@
     "last_checked_sha": "68248945bd029f6d912310bebd3e49c8c3355dc4",
     "skipped": false
   },
+  "MatheusLima1/Data-Cleanup": {
+    "default_branch": "master",
+    "e1_file_count": 2,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:31:32.020135+00:00",
+    "last_checked_sha": "2af0230f2abd4b7eca6cca21f0833e6f6975255a",
+    "skipped": false
+  },
   "Maxwellafram/Data_projects_TripleTen": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -3035,6 +3131,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:29:50.643745+00:00",
     "last_checked_sha": "4a47d2515577c7cd759ed3df5022eb5f3ce6febe",
+    "skipped": false
+  },
+  "MirandaZhao/Database-Management": {
+    "default_branch": "master",
+    "e1_file_count": 1,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:31:43.025276+00:00",
+    "last_checked_sha": "b74207e90ba5f0b0fb02b9c52aadae87c95bf3a7",
     "skipped": false
   },
   "Moh-ann/Alteryx-Web-Scraper": {
@@ -3361,6 +3465,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:30:40.542987+00:00",
     "last_checked_sha": "41b1a92bac40d6a273f94bfea8c2d56bf2b9457f",
+    "skipped": false
+  },
+  "NiklasJEk/AdventOfCode_2020": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:32:21.334394+00:00",
+    "last_checked_sha": "ff12d9169634796e6a7c3a5651d428bd85458ecf",
     "skipped": false
   },
   "Nishtha0310/Money-Laundering-Detection-Using-Alteryx": {
@@ -3727,6 +3839,20 @@
     "last_checked_sha": "14c742aa0b5426cfddec7752d5183fb3f048158f",
     "skipped": false
   },
+  "Redback-Operations/redback-data-warehouse": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [
+      {
+        "path": "Archive/Alteryx/Questionnare Data.yxdb",
+        "sha256": "2283ccc00cf9a39023c5fc6649c87b7a8f8a94626af99b4e9a0b5e8924d00f36",
+        "size": 3825760
+      }
+    ],
+    "last_checked_at": "2026-04-04T19:32:54.064845+00:00",
+    "last_checked_sha": "50c9a2a09aba4331d7153d1de4aa70e5d0030225",
+    "skipped": false
+  },
   "RheaAB/Alteryx-Data-Analysis": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -3741,6 +3867,34 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:32:12.952722+00:00",
     "last_checked_sha": "efca33039eaa6ec83ba998baa90fbd740a798f17",
+    "skipped": false
+  },
+  "RichardWhellum/OWASPDependencyCheck": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [
+      {
+        "path": "Archive/Alteryx/Questionnare Data.yxdb",
+        "sha256": "2283ccc00cf9a39023c5fc6649c87b7a8f8a94626af99b4e9a0b5e8924d00f36",
+        "size": 3825760
+      }
+    ],
+    "last_checked_at": "2026-04-04T19:32:58.179384+00:00",
+    "last_checked_sha": "d0fb6dd4990299115e738fdf3ecd98b1b005b2fb",
+    "skipped": false
+  },
+  "RichardWhellum/Trivy-repo-scan": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [
+      {
+        "path": "Archive/Alteryx/Questionnare Data.yxdb",
+        "sha256": "2283ccc00cf9a39023c5fc6649c87b7a8f8a94626af99b4e9a0b5e8924d00f36",
+        "size": 3825760
+      }
+    ],
+    "last_checked_at": "2026-04-04T19:33:00.879084+00:00",
+    "last_checked_sha": "a6cc27216b8c98839e96ca705efb6b4b407d3a12",
     "skipped": false
   },
   "Rishi-Kalpa/Alteryx-Data-Workflow-for-Data-Analytics": {
@@ -4319,12 +4473,20 @@
     "last_checked_sha": "2ae74e532e4d7764fed3fb98636dbbbdd16ab855",
     "skipped": false
   },
+  "Sigilweaver/Loom": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:33:45.589752+00:00",
+    "last_checked_sha": "36256139d2393f75ecf1e00602e844e581881226",
+    "skipped": false
+  },
   "Sigilweaver/OpenYXDB": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:33:42.117356+00:00",
-    "last_checked_sha": "2eda4d46922ecf4bd3b91bdedab534cbab421967",
+    "last_checked_at": "2026-04-04T19:33:47.010790+00:00",
+    "last_checked_sha": "b1dcf39bd5a8f653df9a2deb22e73d36c83a6f5c",
     "skipped": false
   },
   "Sigilweaver/SigilYX": {
@@ -4365,6 +4527,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:33:47.491535+00:00",
     "last_checked_sha": "f15c75432741c9af247dc17246d6327a73bd8157",
+    "skipped": false
+  },
+  "Sivivatu/Advent-of-Code": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:33:51.327120+00:00",
+    "last_checked_sha": "681caf2678f3b70dba47ef76ffcfe6b5e5da983b",
     "skipped": false
   },
   "Sivivatu/Alteryx-Scheduler": {
@@ -5380,12 +5550,28 @@
     "last_checked_sha": "4680c4d0eb13834db902ead0093299753325416d",
     "skipped": false
   },
+  "aalquniah/Alteryx": {
+    "default_branch": "master",
+    "e1_file_count": 1,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:35:13.610423+00:00",
+    "last_checked_sha": "9aa94ab4789eb2573220b4225d1888dbcde80a36",
+    "skipped": false
+  },
   "aashisharora13/BINARY-CLASSIFICATION-MODELING-USING-ALTERYX": {
     "default_branch": "master",
     "e1_file_count": 1,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:39:21.207958+00:00",
     "last_checked_sha": "b7776daf15fe0187a8797af044055e968081b931",
+    "skipped": false
+  },
+  "aashisharora13/Predicting_Sales_For_Catalog_Launch": {
+    "default_branch": "master",
+    "e1_file_count": 1,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:35:15.797400+00:00",
+    "last_checked_sha": "ea8623a469e0d16e57cb42f56b43afbe745ec685",
     "skipped": false
   },
   "abdulj2799/Alteryx-Workflow-Maven": {
@@ -5588,6 +5774,14 @@
     "last_checked_sha": "ef7fc4921fb3eed01c739c0a6704dd41a8b13644",
     "skipped": false
   },
+  "ahmadsq95/Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 39,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:35:44.557399+00:00",
+    "last_checked_sha": "be9ed86ef1ab3d359fca36446f16e8ffb2241373",
+    "skipped": false
+  },
   "ahmedopolis/Predicting-Average-Number-of-Tickets": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -5684,6 +5878,14 @@
     "last_checked_sha": "99d001afb504fd6e3efad2c07a54f34d2ee7c838",
     "skipped": false
   },
+  "alexssandroos/pos-data-science": {
+    "default_branch": "master",
+    "e1_file_count": 6,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:35:56.691450+00:00",
+    "last_checked_sha": "77ee372dfd837888147a2b905ff7be57628e3a65",
+    "skipped": false
+  },
   "alibinkhalid/Predictive_Analytics_Python_vs_Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -5714,6 +5916,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:40:19.516595+00:00",
     "last_checked_sha": "547db8246075018afb1bd8df18d891c9c8c4df76",
+    "skipped": false
+  },
+  "allemar92/A-B-Test-a-New-Menu-Launch": {
+    "default_branch": "master",
+    "e1_file_count": 3,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:36:01.991376+00:00",
+    "last_checked_sha": "e6397397aa50193d6ba841937bd12e628076e552",
     "skipped": false
   },
   "allergictoshellfishh/LTA-Bus-Arrival-Optimization-": {
@@ -5754,6 +5964,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:40:27.679257+00:00",
     "last_checked_sha": "acc1d6de35e29c02133aaa6ef019dcb3d8a1d2f2",
+    "skipped": false
+  },
+  "alteryx-vue/installers": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:36:07.264433+00:00",
+    "last_checked_sha": "3f71aaa2a165eef570dcde54101ce3534ade6a43",
     "skipped": false
   },
   "alteryx-vue/jira-input": {
@@ -6060,6 +6278,47 @@
     "last_checked_sha": "9eac7062807ec52cbbf5d7f395a9c058e497520e",
     "skipped": false
   },
+  "ashercurtis/ACCTG521_Labs": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [
+      {
+        "path": "Class06and07_Pcard/pcardSmallSampleClean.yxdb",
+        "sha256": "6aa39e917c094ac11f3dddd6155d9c1fc4fc6d966d5913a1aa53b232ae887f14",
+        "size": 60907850
+      },
+      {
+        "path": "Class20_FinalProjectHelpers/1 Extract MDA/extractMDA_item7.yxzp!/_externals/1/Tesla_10K-Alteryx.yxdb",
+        "sha256": "bc3eeda4369c0211700621a2b91ce9875595ba003d7695f31692b0468f87a2dd",
+        "size": 3443255
+      }
+    ],
+    "last_checked_at": "2026-04-04T19:36:37.453011+00:00",
+    "last_checked_sha": "643723caaad41aeca879f817cb713fdecf4c35b3",
+    "skipped": false
+  },
+  "ashercurtis/ACCTG522_Labs": {
+    "default_branch": "main",
+    "e1_file_count": 2,
+    "e2_files": [
+      {
+        "path": "Class08_sentiment/parsedData.yxdb",
+        "sha256": "4d51932b12f5aae5f5ace6ec55a46948128a84ca428c893ee3ec5fac687bf161",
+        "size": 22357999
+      }
+    ],
+    "last_checked_at": "2026-04-04T19:36:41.541026+00:00",
+    "last_checked_sha": "835137b13137026e4f7e632e02d3c9900e867d3d",
+    "skipped": false
+  },
+  "ashercurtis/datasets.io": {
+    "default_branch": "main",
+    "e1_file_count": 2,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:36:44.003950+00:00",
+    "last_checked_sha": "351392f45251bd0aa806f4fbd3492ba0081f3789",
+    "skipped": false
+  },
   "ashmitan/Retail-DatawareHouse-Analytics": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -6130,6 +6389,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:41:40.506468+00:00",
     "last_checked_sha": "1d40fb5dac0d4b11d5f4c09536abdee8ecd7fd3b",
+    "skipped": false
+  },
+  "athanatos96/AIM-5014-Auto.Mach.Learn": {
+    "default_branch": "main",
+    "e1_file_count": 3,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:36:52.709154+00:00",
+    "last_checked_sha": "1f39aef2339d2dc4adee92d1051eca244f5afed2",
     "skipped": false
   },
   "atharva49/Alteryx-Customer-Sales-Report": {
@@ -6962,6 +7229,14 @@
     "last_checked_sha": "a6354800384edc8ae53e990cb76325553354c95d",
     "skipped": false
   },
+  "dnlsyfq/alteryx_designer": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:38:04.381558+00:00",
+    "last_checked_sha": "1ae8249b71afffb3c190e3bab5248b7444efd473",
+    "skipped": false
+  },
   "doibajit/Alteryx": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -7158,6 +7433,20 @@
     "last_checked_sha": "84bf50c32ba098f0346037a0140a4ad67d6e9759",
     "skipped": false
   },
+  "enso-org/enso": {
+    "default_branch": "develop",
+    "e1_file_count": 2,
+    "e2_files": [
+      {
+        "path": "test/Table_Tests/data/yxdb/ampdata.yxdb",
+        "sha256": "8df7a129048d7d098ae88799cd6cdf83ecf04d636045569c0dd16e1236322fc1",
+        "size": 124195
+      }
+    ],
+    "last_checked_at": "2026-04-04T19:38:21.996612+00:00",
+    "last_checked_sha": "d1a2997be820108f1f016afc95a7044c8568b0fd",
+    "skipped": false
+  },
   "epinhoodceo/ADR": {
     "default_branch": "ehdevadr",
     "e1_file_count": 0,
@@ -7188,6 +7477,30 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:48:16.374244+00:00",
     "last_checked_sha": "ad6f6e05e0c1b2f5d30b2e967624ebd07bcfa078",
+    "skipped": false
+  },
+  "etiennebert/forest_club": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [
+      {
+        "path": "1_Data/1. HILDA data/3. Split_AEZ/A-4_aez_global_grid_polygons.yxdb",
+        "sha256": "9de9cb9d70664e169f6813734224e9cd2a9b715c0c8934a520d3ae77d1144ebb",
+        "size": 3000023
+      },
+      {
+        "path": "1_Data/1. HILDA data/3. Split_AEZ/C-2_HILDA_V_2_1_State_GTAP_AEZ_limited.yxdb",
+        "sha256": "b06b54bf232f0e7889bd6bad96a45dde952aa0b95aeb721f63d6a19fd4db19e5",
+        "size": 38363
+      },
+      {
+        "path": "1_Data/1. HILDA data/3. Split_AEZ/C-2_HILDA_V_2_1_Transition_GTAP_AEZ_limited.yxdb",
+        "sha256": "dec8f038dcce4a07ea425f8711c967134c4ccc31300cd51bc38d824f7730cae2",
+        "size": 133847
+      }
+    ],
+    "last_checked_at": "2026-04-04T19:38:27.672083+00:00",
+    "last_checked_sha": "14f6dca91bb75d0078c8ec8bb29fc8b2492f9d9a",
     "skipped": false
   },
   "evas30/Alteryx_EXAM": {
@@ -7286,6 +7599,14 @@
     "last_checked_sha": "bd6616d8c493d419ae0e9f0b3f5f74f273944b3c",
     "skipped": false
   },
+  "fragiledata/SPLC-consolidated-dataset": {
+    "default_branch": "master",
+    "e1_file_count": 2,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:38:38.257269+00:00",
+    "last_checked_sha": "15e1650108bd1631d859bbd6c1dd243e5407c63d",
+    "skipped": false
+  },
   "frankimler/alteryx": {
     "default_branch": "main",
     "e1_file_count": 1,
@@ -7324,6 +7645,20 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:48:39.138442+00:00",
     "last_checked_sha": "d47bb536b8eff2ab2a2f0fe9879efc94872af813",
+    "skipped": false
+  },
+  "gaurangg123/electives_repo": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [
+      {
+        "path": "Big Data Visualization/filteredmobiledataset.yxdb",
+        "sha256": "4837c26fd2268b81e703b74a34952bcc8339e8f3fa5e828756a22fcd4a07f77a",
+        "size": 23750
+      }
+    ],
+    "last_checked_at": "2026-04-04T19:38:43.130942+00:00",
+    "last_checked_sha": "6b16e16e774bf2d87a1e3afc0357ff77788efb44",
     "skipped": false
   },
   "gaurav-git-275/Alteryx-COVID-Extraction": {
@@ -7644,6 +7979,14 @@
     "last_checked_sha": "aa36d4b48cd9fe558d7b0eb189339f290b222940",
     "skipped": false
   },
+  "imkalpana/learn": {
+    "default_branch": "main",
+    "e1_file_count": 10,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:39:14.938594+00:00",
+    "last_checked_sha": "d0b0bd5a9f193c58f0d9594c0e6c92a53acc237e",
+    "skipped": false
+  },
   "imratnesh/alteryx": {
     "default_branch": "master",
     "e1_file_count": 8,
@@ -7666,6 +8009,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:49:49.354016+00:00",
     "last_checked_sha": "db437f48e78582d449c98ff03c695a5d2c07d0a7",
+    "skipped": false
+  },
+  "itankar1/Predictive-Analytics-for-Business": {
+    "default_branch": "main",
+    "e1_file_count": 1,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:39:18.501384+00:00",
+    "last_checked_sha": "e018a98865264f8827b2cfc9c77786390824b781",
     "skipped": false
   },
   "itsmesivaa/Alteryx-Tool-Workflow-Challenges": {
@@ -7698,6 +8049,25 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:49:54.516070+00:00",
     "last_checked_sha": "5168a1bd1ce6beccc6acda5a89d8877f8d44250c",
+    "skipped": false
+  },
+  "jarrodthuener/AdventOfCode": {
+    "default_branch": "main",
+    "e1_file_count": 10,
+    "e2_files": [
+      {
+        "path": "AOC_2023/BaseA/Day8_FullCycle_Summary.yxdb",
+        "sha256": "244496a4427c478aa0fc65c7d7009dc3959643d501b82f36785333e069ccb067",
+        "size": 6593
+      },
+      {
+        "path": "AOC_2023/BaseA/Day8.yxzp!/Day8_FullCycle_Summary.yxdb",
+        "sha256": "244496a4427c478aa0fc65c7d7009dc3959643d501b82f36785333e069ccb067",
+        "size": 6593
+      }
+    ],
+    "last_checked_at": "2026-04-04T19:39:29.886016+00:00",
+    "last_checked_sha": "3a849affb8906e39dc07aadccfaa887d4b944e23",
     "skipped": false
   },
   "jarrodthuener/Alteryx-To-Python": {
@@ -7740,12 +8110,36 @@
     "last_checked_sha": "0077c13942717b2d682a29aaf1b10765f502f5ce",
     "skipped": false
   },
+  "jdunkerley/Alteryx": {
+    "default_branch": "master",
+    "e1_file_count": 7,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:39:37.758937+00:00",
+    "last_checked_sha": "7d09c2a3c930135b6335257e2065addb56c1c767",
+    "skipped": false
+  },
   "jdunkerley/AlteryxFormulaAddOns": {
     "default_branch": "master",
     "e1_file_count": 1,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:50:02.760681+00:00",
     "last_checked_sha": "78ca473758f48799b3a1dced177d958cbce23cbc",
+    "skipped": false
+  },
+  "jdunkerley/AlteryxRecordID": {
+    "default_branch": "master",
+    "e1_file_count": 1,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:39:41.674618+00:00",
+    "last_checked_sha": "46a40c0ed88166690f5760ddb7c6e9f4a1c4c8e4",
+    "skipped": false
+  },
+  "jdunkerley/adventofcode": {
+    "default_branch": "master",
+    "e1_file_count": 3,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:39:46.045674+00:00",
+    "last_checked_sha": "dfc7890129178f4338a957a80b61a02c7d2cf882",
     "skipped": false
   },
   "jecleas/AlteryxAgents": {
@@ -7836,6 +8230,14 @@
     "last_checked_sha": "22bf2eb48d0cd52284f5688dd208cd50fd87663c",
     "skipped": false
   },
+  "josecsotomorales/classification-models-examples": {
+    "default_branch": "master",
+    "e1_file_count": 8,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:39:57.798629+00:00",
+    "last_checked_sha": "b43ffd1eb948c6c0e694ff2be72ba4b525ac6f49",
+    "skipped": false
+  },
   "josecsotomorales/diamonds-prediction": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -7844,12 +8246,28 @@
     "last_checked_sha": "5afd0f9a5787c693f4f3dc73f25751e3923ee472",
     "skipped": false
   },
+  "josecsotomorales/edudw": {
+    "default_branch": "master",
+    "e1_file_count": 10,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:40:06.517086+00:00",
+    "last_checked_sha": "4a1605855c205161cb29861f58fc93d37c93def8",
+    "skipped": false
+  },
   "josecsotomorales/forecasting-sales": {
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:50:27.413775+00:00",
     "last_checked_sha": "4e669230e8d5b5d68954b07069f5f2198e3bff14",
+    "skipped": false
+  },
+  "josecsotomorales/fuzzy-matching-customers": {
+    "default_branch": "master",
+    "e1_file_count": 2,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:40:10.337555+00:00",
+    "last_checked_sha": "b671d5a56837355e392bf7b0cfb370c2be13c444",
     "skipped": false
   },
   "josecsotomorales/predict-impact-menu-abtest": {
@@ -7908,6 +8326,14 @@
     ],
     "last_checked_at": "2026-04-04T03:50:48.715613+00:00",
     "last_checked_sha": "a3dfaefb02e636e9df7ac775350a01509be43259",
+    "skipped": false
+  },
+  "jovanepires/uni7-data-science": {
+    "default_branch": "master",
+    "e1_file_count": 6,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:40:17.284312+00:00",
+    "last_checked_sha": "3dbf64f54b0619378c0df930a33bb94f25c11df9",
     "skipped": false
   },
   "jpfunes29/order-shipping-analysis-alteryx": {
@@ -7990,12 +8416,28 @@
     "last_checked_sha": "6bca9e3a60eb3122fd7dca56c75d5fb1cfcb5e7c",
     "skipped": false
   },
+  "jupiterbak/GITHUB-DEMO": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:40:25.644551+00:00",
+    "last_checked_sha": "b39b361cf4fc16f63252e7c69e393b3d64a4a48c",
+    "skipped": false
+  },
   "jupiterbak/OpenOne": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:51:03.557034+00:00",
     "last_checked_sha": "6767a4035f9deccd6f74a9a6d2134c1041e94e0b",
+    "skipped": false
+  },
+  "jwlong91/alteryx_live": {
+    "default_branch": "master",
+    "e1_file_count": 12,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:40:29.856376+00:00",
+    "last_checked_sha": "dcf6f35de15decd841935dcefbfa66ef479f20da",
     "skipped": false
   },
   "kaishengteh/Predictive-Analytics-for-Business-Nanodegree": {
@@ -8182,6 +8624,14 @@
     "last_checked_sha": "9ebba794b545c0828ea894c255f978ab01f4ba3d",
     "skipped": false
   },
+  "kksieski/udacity_pand": {
+    "default_branch": "master",
+    "e1_file_count": 27,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:41:07.459348+00:00",
+    "last_checked_sha": "977a257d9f0977e6aae6d6313690a45e3f338b19",
+    "skipped": false
+  },
   "kl2karpenko/AlteryxBootcamp": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -8244,6 +8694,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:52:56.710896+00:00",
     "last_checked_sha": "198ed585d8e1f5e9cf6a98c3991d5745a9f1044e",
+    "skipped": false
+  },
+  "krishnadasar-sudheer-kumar/neonAxe": {
+    "default_branch": "main",
+    "e1_file_count": 2,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:41:15.592650+00:00",
+    "last_checked_sha": "552cd7c512e6b7b64b5f8c440561373600c59abf",
     "skipped": false
   },
   "kritikagoyal1928/alteryx-retail-data-tableau-project": {
@@ -8509,6 +8967,20 @@
     "last_checked_sha": "6abf6f8b7ed079fe92a07711ab943365d1329f78",
     "skipped": false
   },
+  "loonyuser/linkedinlearning": {
+    "default_branch": "main",
+    "e1_file_count": 2,
+    "e2_files": [
+      {
+        "path": "Alteryx for Financial Services/chapter-04/clustering_data.yxdb",
+        "sha256": "d3b54fa3a7d9e405ebf4787076db2fb15652fb8f2e3c7bc3dcebb2a3fb541856",
+        "size": 159066
+      }
+    ],
+    "last_checked_at": "2026-04-04T19:41:36.963926+00:00",
+    "last_checked_sha": "6a314c705eb355a77988ed07e026e714aa44f2d4",
+    "skipped": false
+  },
   "ma7tcsp/install-ayx-desktop-remove-ai": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -8531,6 +9003,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:54:19.588633+00:00",
     "last_checked_sha": "a9f45645dcd0b7180bf57a79d14202723950f030",
+    "skipped": false
+  },
+  "manoel-victor1602/Predicting-Default-Risk-with-Alteryx": {
+    "default_branch": "master",
+    "e1_file_count": 4,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:41:41.878359+00:00",
+    "last_checked_sha": "bbe29a87513d5cb6fbcbe09e7c685145c1ecd5d1",
     "skipped": false
   },
   "mansiraturi/Alteryx-Tutorial": {
@@ -8621,6 +9101,14 @@
     "last_checked_sha": "5997165a089e2c6d33ef65bfbf0720cd36045a11",
     "skipped": false
   },
+  "mcgovey/slalom-qlik-hack-18": {
+    "default_branch": "master",
+    "e1_file_count": 1,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:41:50.830829+00:00",
+    "last_checked_sha": "ef32dcd424b9dccdec8591235ad7e2f8800d4d1a",
+    "skipped": false
+  },
   "mcha54/alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -8629,12 +9117,28 @@
     "last_checked_sha": "105ecaf0e6ca454b69290aa11eac1f0f787980db",
     "skipped": false
   },
+  "mdhasanali3/alteryx-and-uipath": {
+    "default_branch": "main",
+    "e1_file_count": 17,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:41:59.209374+00:00",
+    "last_checked_sha": "c264a614646615fd5ad092aa3a9697f109c56500",
+    "skipped": false
+  },
   "melvinouseph/Predictive-Analytics-for-Business-Nanodegree": {
     "default_branch": "master",
     "e1_file_count": 1,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:54:44.078765+00:00",
     "last_checked_sha": "9664b3ea54012633b26e41a82a2b4dba9794edbd",
+    "skipped": false
+  },
+  "mesbahkhan/bclearer_projects": {
+    "default_branch": "master",
+    "e1_file_count": 1,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:42:01.569532+00:00",
+    "last_checked_sha": "57bb447da954ab2f378fec829a354befde3952cc",
     "skipped": false
   },
   "mewada-madhusudan/alteryx2spark": {
@@ -8844,6 +9348,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:55:21.716161+00:00",
     "last_checked_sha": "5129ae2516a1efae30e184cd0f1c0ef2181fb824",
+    "skipped": false
+  },
+  "mohanraj-mr/AB-Test-of-a-New-Menu-Launch": {
+    "default_branch": "master",
+    "e1_file_count": 3,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:42:20.599066+00:00",
+    "last_checked_sha": "45b273383d5cafbe5884c1028981f47fb18d438f",
     "skipped": false
   },
   "more8722/Create-an-analytical-dataset-Alteryx": {
@@ -9180,6 +9692,14 @@
     "last_checked_sha": "178ff6e7714478f8faa69eee2fa67fc8d8506cd9",
     "skipped": false
   },
+  "oanokyen/stats-analysis-projs": {
+    "default_branch": "main",
+    "e1_file_count": 3,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:42:50.524122+00:00",
+    "last_checked_sha": "a00034056832c5a8046db6433af43f6da655369c",
+    "skipped": false
+  },
   "ob-cheng/azure-table-connector-for-alteryx": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -9357,6 +9877,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:56:58.762678+00:00",
     "last_checked_sha": "0f34944933cd2962f6a3eef372a730074bd60e56",
+    "skipped": false
+  },
+  "peter-gb/AdventofCode": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:43:08.254569+00:00",
+    "last_checked_sha": "64f1e1cc76e1ad418b258545b965a916f92670ed",
     "skipped": false
   },
   "peter-gb/Cognitive-Services-Text-Translation": {
@@ -10381,6 +10909,14 @@
     "last_checked_sha": "aa58dccb542d6d9f4b4001091eac9dcb6283aced",
     "skipped": false
   },
+  "shahkar01/Credit-Risk": {
+    "default_branch": "main",
+    "e1_file_count": 1,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:44:34.418681+00:00",
+    "last_checked_sha": "b79c7ca22aa5efb0c0cb6eccd3c816bd4bea22fc",
+    "skipped": false
+  },
   "shanker96/dataviz": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -11041,6 +11577,80 @@
     "last_checked_sha": "b609dc2084374ab6ea1efd6cc912f2fb79d11545",
     "skipped": false
   },
+  "tmich1997/alt2py-testing": {
+    "default_branch": "master",
+    "e1_file_count": 510,
+    "e2_files": [
+      {
+        "path": "src/challenges/332/challenge_332_solution.yxzp!/_externals/1/Products.yxdb",
+        "sha256": "ff26a014699ea72e1fa9e0d29a3f0e7b26fa42bf048f924aac8a4f5c55e71a16",
+        "size": 44171
+      },
+      {
+        "path": "src/challenges/332/challenge_332_start_file.yxzp!/_externals/1/Products.yxdb",
+        "sha256": "ff26a014699ea72e1fa9e0d29a3f0e7b26fa42bf048f924aac8a4f5c55e71a16",
+        "size": 44171
+      },
+      {
+        "path": "src/challenges/333/challenge_333_solution.yxzp!/ds_salaries.yxdb",
+        "sha256": "31b2f93f3756b03526300eba325fa3c5418a9a3053809aed17759bfaa17b247d",
+        "size": 13986
+      },
+      {
+        "path": "src/challenges/333/challenge_333_solution.yxzp!/Output2.yxdb",
+        "sha256": "55aaf8343a1f168f4ee044b75cf8019828a0706b339e417d6264c9a55165de5b",
+        "size": 5474
+      },
+      {
+        "path": "src/challenges/333/challenge_333_start_file.yxzp!/ds_salaries.yxdb",
+        "sha256": "31b2f93f3756b03526300eba325fa3c5418a9a3053809aed17759bfaa17b247d",
+        "size": 13986
+      },
+      {
+        "path": "src/challenges/333/challenge_333_start_file.yxzp!/Output2.yxdb",
+        "sha256": "55aaf8343a1f168f4ee044b75cf8019828a0706b339e417d6264c9a55165de5b",
+        "size": 5474
+      },
+      {
+        "path": "src/challenges/335/challenge_335_solution.yxzp!/Input335.yxdb",
+        "sha256": "a674bd1e545fa834b18b46e983f55dbf7b841d15017d44ec15eac65d7255bba4",
+        "size": 45403
+      },
+      {
+        "path": "src/challenges/335/challenge_335_start_file.yxzp!/Input335.yxdb",
+        "sha256": "a674bd1e545fa834b18b46e983f55dbf7b841d15017d44ec15eac65d7255bba4",
+        "size": 45403
+      },
+      {
+        "path": "src/challenges/343/challenge_343_solution_updated.yxzp!/Input.yxdb",
+        "sha256": "21d403b9f4015fcf13c19fcb98a7c81cf3257c0d3e32f119bd846f32047942d2",
+        "size": 40946
+      },
+      {
+        "path": "src/challenges/343/challenge_343_start_file_updated.yxzp!/Input.yxdb",
+        "sha256": "21d403b9f4015fcf13c19fcb98a7c81cf3257c0d3e32f119bd846f32047942d2",
+        "size": 40946
+      },
+      {
+        "path": "src/challenges/378/Weekly%20Challenge%20378_Start%20File_UPDATED.yxzp!/ACE Starting Data.yxdb",
+        "sha256": "a2cbe94c18d882ed16e289ae9a7971ae699271c1750ba34ec5be9c063dbacc71",
+        "size": 552847
+      },
+      {
+        "path": "src/challenges/378/challenge_378_solution.yxzp!/ACE Starting Data.yxdb",
+        "sha256": "a2cbe94c18d882ed16e289ae9a7971ae699271c1750ba34ec5be9c063dbacc71",
+        "size": 552847
+      },
+      {
+        "path": "src/challenges/379/challenge_379_start_file.yxzp!/TripData.yxdb",
+        "sha256": "c53a756a87f0f903d868926fb5179fe1ce3cec49f9a0deb84dd051b19726d4ad",
+        "size": 130943
+      }
+    ],
+    "last_checked_at": "2026-04-04T19:48:36.230193+00:00",
+    "last_checked_sha": "d416453d4fbda4285103a61c3b6e286ffb41bfb8",
+    "skipped": false
+  },
   "tonyjosephsebastians/workflow-alteryx-agent": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -11287,6 +11897,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T04:03:00.451391+00:00",
     "last_checked_sha": "a1ec0a98369805857000bbf97e2ffb37740ff8f9",
+    "skipped": false
+  },
+  "vivekp1705/projects": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:48:56.342426+00:00",
+    "last_checked_sha": "3bffa0b2291ef048b9724a834c0615eace19aab8",
     "skipped": false
   },
   "vivekranjan36/Alteryx": {
@@ -11540,6 +12158,14 @@
     ],
     "last_checked_at": "2026-04-04T04:03:46.643018+00:00",
     "last_checked_sha": "9b7bd8468e6031d33d33e60f8b43b6421f4cdc78",
+    "skipped": false
+  },
+  "ziadwaelai/GIZA": {
+    "default_branch": "master",
+    "e1_file_count": 1,
+    "e2_files": [],
+    "last_checked_at": "2026-04-04T19:49:20.204489+00:00",
+    "last_checked_sha": "fdc572e68b61872462d9879295ba93e6ed866b80",
     "skipped": false
   },
   "zmatthew-young/alteryx": {

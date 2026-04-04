@@ -26,6 +26,7 @@ from github import (
     get_repo_tree,
     is_alteryx_owned,
     search_repos,
+    search_code_repos,
     gh_api,
 )
 from state import (
@@ -55,6 +56,29 @@ SEARCH_QUERIES = [
     "alteryx+AMP",
     "alteryx+yxdb",
     "topic:alteryx",
+    # Extended queries — added 2026-04-04
+    "alteryx+designer",
+    "alteryx+ETL",
+    "alteryx+tool",
+    "alteryx+training",
+    "alteryx+gallery",
+    "alteryx+server",
+    "alteryx+predictive",
+    "alteryx+certification",
+    "alteryx+data+blending",
+    "alteryx+spatial",
+    "alteryx+Udacity",
+    "yxdb+parser",
+    "yxdb+reader",
+    "topic:alteryx-designer",
+]
+
+# Code-search queries — uses search/code to find files by extension or name.
+# These hit repos that don't mention "alteryx" in their description.
+CODE_SEARCH_QUERIES = [
+    "extension:yxmd",
+    "extension:yxmc",
+    "extension:yxzp",
 ]
 
 
@@ -67,6 +91,15 @@ def discover_repos(known: dict) -> set[str]:
     for query in SEARCH_QUERIES:
         print(f"  Searching: {query}")
         found = search_repos(query)
+        new = found - all_repos - set(known.keys())
+        all_repos.update(found)
+        if new:
+            print(f"    +{len(new)} new repos")
+        time.sleep(2)
+    # Code-search queries (find repos by adjacent file extensions)
+    for query in CODE_SEARCH_QUERIES:
+        print(f"  Code search: {query}")
+        found = search_code_repos(query)
         new = found - all_repos - set(known.keys())
         all_repos.update(found)
         if new:

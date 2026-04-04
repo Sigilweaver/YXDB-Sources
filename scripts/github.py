@@ -74,6 +74,26 @@ def search_repos(query: str, per_page: int = 100, max_pages: int = 10) -> set[st
     return repos
 
 
+def search_code_repos(query: str, per_page: int = 100, max_pages: int = 5) -> set[str]:
+    """Return repos from a code-search query (search/code endpoint)."""
+    repos: set[str] = set()
+    for page in range(1, max_pages + 1):
+        ep = f"search/code?q={query}&per_page={per_page}&page={page}"
+        data = gh_api(ep)
+        if not data or "items" not in data:
+            break
+        items = data["items"]
+        for item in items:
+            repo = item.get("repository", {})
+            name = repo.get("full_name")
+            if name:
+                repos.add(name)
+        if len(items) < per_page:
+            break
+        time.sleep(3)  # code search has stricter rate limits
+    return repos
+
+
 def get_default_branch_sha(repo: str) -> str | None:
     """Return the HEAD commit SHA of the repo's default branch, or None."""
     data = gh_api(f"repos/{repo}")

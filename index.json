@@ -1,9 +1,9 @@
 {
-  "generated": "2026-04-04T16:47:31.830895+00:00",
-  "repos_scanned": 1328,
-  "repos_with_yxdb": 156,
-  "total_e1_files": 1644,
-  "total_e2_files": 180,
+  "generated": "2026-04-04T19:50:23.102455+00:00",
+  "repos_scanned": 1388,
+  "repos_with_yxdb": 203,
+  "total_e1_files": 2407,
+  "total_e2_files": 207,
   "repos": [
     {
       "repo": "0xCakin/Udacity_Predictive_Analysis",
@@ -42,11 +42,29 @@
       "e2_file_count": 0
     },
     {
+      "repo": "aalquniah/Alteryx",
+      "url": "https://github.com/aalquniah/Alteryx",
+      "default_branch": "master",
+      "last_checked_sha": "9aa94ab4789eb2573220b4225d1888dbcde80a36",
+      "last_checked_at": "2026-04-04T19:35:13.610423+00:00",
+      "e1_file_count": 1,
+      "e2_file_count": 0
+    },
+    {
       "repo": "aashisharora13/BINARY-CLASSIFICATION-MODELING-USING-ALTERYX",
       "url": "https://github.com/aashisharora13/BINARY-CLASSIFICATION-MODELING-USING-ALTERYX",
       "default_branch": "master",
       "last_checked_sha": "b7776daf15fe0187a8797af044055e968081b931",
       "last_checked_at": "2026-04-04T03:39:21.207958+00:00",
+      "e1_file_count": 1,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "aashisharora13/Predicting_Sales_For_Catalog_Launch",
+      "url": "https://github.com/aashisharora13/Predicting_Sales_For_Catalog_Launch",
+      "default_branch": "master",
+      "last_checked_sha": "ea8623a469e0d16e57cb42f56b43afbe745ec685",
+      "last_checked_at": "2026-04-04T19:35:15.797400+00:00",
       "e1_file_count": 1,
       "e2_file_count": 0
     },
@@ -156,12 +174,30 @@
       "e2_file_count": 0
     },
     {
+      "repo": "ahmadsq95/Alteryx",
+      "url": "https://github.com/ahmadsq95/Alteryx",
+      "default_branch": "main",
+      "last_checked_sha": "be9ed86ef1ab3d359fca36446f16e8ffb2241373",
+      "last_checked_at": "2026-04-04T19:35:44.557399+00:00",
+      "e1_file_count": 39,
+      "e2_file_count": 0
+    },
+    {
       "repo": "AhmadSyed96/Alteryx-Challenges",
       "url": "https://github.com/AhmadSyed96/Alteryx-Challenges",
       "default_branch": "main",
       "last_checked_sha": "238750cd7e7938448785181ee59c03a6ebd6742c",
       "last_checked_at": "2026-04-04T03:14:52.490823+00:00",
       "e1_file_count": 8,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "Akaizoku/AlteryxFormulaAddOns",
+      "url": "https://github.com/Akaizoku/AlteryxFormulaAddOns",
+      "default_branch": "master",
+      "last_checked_sha": "2e2eccaf1f4b600d496ffcfeb405047b5266a423",
+      "last_checked_at": "2026-04-04T19:27:42.776999+00:00",
+      "e1_file_count": 1,
       "e2_file_count": 0
     },
     {
@@ -505,6 +541,24 @@
       "e2_file_count": 0
     },
     {
+      "repo": "alexssandroos/pos-data-science",
+      "url": "https://github.com/alexssandroos/pos-data-science",
+      "default_branch": "master",
+      "last_checked_sha": "77ee372dfd837888147a2b905ff7be57628e3a65",
+      "last_checked_at": "2026-04-04T19:35:56.691450+00:00",
+      "e1_file_count": 6,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "allemar92/A-B-Test-a-New-Menu-Launch",
+      "url": "https://github.com/allemar92/A-B-Test-a-New-Menu-Launch",
+      "default_branch": "master",
+      "last_checked_sha": "e6397397aa50193d6ba841937bd12e628076e552",
+      "last_checked_at": "2026-04-04T19:36:01.991376+00:00",
+      "e1_file_count": 3,
+      "e2_file_count": 0
+    },
+    {
       "repo": "AltonDsouza/Alteryx-Challenge-482-",
       "url": "https://github.com/AltonDsouza/Alteryx-Challenge-482-",
       "default_branch": "main",
@@ -587,12 +641,67 @@
       "e2_file_count": 0
     },
     {
+      "repo": "ashercurtis/ACCTG521_Labs",
+      "url": "https://github.com/ashercurtis/ACCTG521_Labs",
+      "default_branch": "main",
+      "last_checked_sha": "643723caaad41aeca879f817cb713fdecf4c35b3",
+      "last_checked_at": "2026-04-04T19:36:37.453011+00:00",
+      "e1_file_count": 0,
+      "e2_file_count": 2,
+      "e2_files": [
+        {
+          "path": "Class06and07_Pcard/pcardSmallSampleClean.yxdb",
+          "size": 60907850,
+          "sha256": "6aa39e917c094ac11f3dddd6155d9c1fc4fc6d966d5913a1aa53b232ae887f14"
+        },
+        {
+          "path": "Class20_FinalProjectHelpers/1 Extract MDA/extractMDA_item7.yxzp!/_externals/1/Tesla_10K-Alteryx.yxdb",
+          "size": 3443255,
+          "sha256": "bc3eeda4369c0211700621a2b91ce9875595ba003d7695f31692b0468f87a2dd"
+        }
+      ]
+    },
+    {
+      "repo": "ashercurtis/ACCTG522_Labs",
+      "url": "https://github.com/ashercurtis/ACCTG522_Labs",
+      "default_branch": "main",
+      "last_checked_sha": "835137b13137026e4f7e632e02d3c9900e867d3d",
+      "last_checked_at": "2026-04-04T19:36:41.541026+00:00",
+      "e1_file_count": 2,
+      "e2_file_count": 1,
+      "e2_files": [
+        {
+          "path": "Class08_sentiment/parsedData.yxdb",
+          "size": 22357999,
+          "sha256": "4d51932b12f5aae5f5ace6ec55a46948128a84ca428c893ee3ec5fac687bf161"
+        }
+      ]
+    },
+    {
+      "repo": "ashercurtis/datasets.io",
+      "url": "https://github.com/ashercurtis/datasets.io",
+      "default_branch": "main",
+      "last_checked_sha": "351392f45251bd0aa806f4fbd3492ba0081f3789",
+      "last_checked_at": "2026-04-04T19:36:44.003950+00:00",
+      "e1_file_count": 2,
+      "e2_file_count": 0
+    },
+    {
       "repo": "atcodedog05/Alteryx-Weekly-challenges",
       "url": "https://github.com/atcodedog05/Alteryx-Weekly-challenges",
       "default_branch": "master",
       "last_checked_sha": "4e01ba6bd9d5201e4a2fb4ef99ae638fbe183b60",
       "last_checked_at": "2026-04-04T03:41:39.017926+00:00",
       "e1_file_count": 8,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "athanatos96/AIM-5014-Auto.Mach.Learn",
+      "url": "https://github.com/athanatos96/AIM-5014-Auto.Mach.Learn",
+      "default_branch": "main",
+      "last_checked_sha": "1f39aef2339d2dc4adee92d1051eca244f5afed2",
+      "last_checked_at": "2026-04-04T19:36:52.709154+00:00",
+      "e1_file_count": 3,
       "e2_file_count": 0
     },
     {
@@ -703,6 +812,24 @@
       "last_checked_sha": "e886ce6ce1a7cfb91f2c1c21d6b2d745c8877065",
       "last_checked_at": "2026-04-04T03:43:16.356930+00:00",
       "e1_file_count": 2,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "Chuqiao-Wang-tax/Open-Tax-System-Kit",
+      "url": "https://github.com/Chuqiao-Wang-tax/Open-Tax-System-Kit",
+      "default_branch": "main",
+      "last_checked_sha": "e5b7a83e38aae1089b6790af5f70155b0cec110e",
+      "last_checked_at": "2026-04-04T19:29:03.865867+00:00",
+      "e1_file_count": 4,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "CloseGoingAway/open-fraud-detection-kit",
+      "url": "https://github.com/CloseGoingAway/open-fraud-detection-kit",
+      "default_branch": "main",
+      "last_checked_sha": "c89daeccd49434d235e940bef7ed638178cacb00",
+      "last_checked_at": "2026-04-04T19:29:07.155454+00:00",
+      "e1_file_count": 4,
       "e2_file_count": 0
     },
     {
@@ -881,6 +1008,22 @@
       ]
     },
     {
+      "repo": "enso-org/enso",
+      "url": "https://github.com/enso-org/enso",
+      "default_branch": "develop",
+      "last_checked_sha": "d1a2997be820108f1f016afc95a7044c8568b0fd",
+      "last_checked_at": "2026-04-04T19:38:21.996612+00:00",
+      "e1_file_count": 2,
+      "e2_file_count": 1,
+      "e2_files": [
+        {
+          "path": "test/Table_Tests/data/yxdb/ampdata.yxdb",
+          "size": 124195,
+          "sha256": "8df7a129048d7d098ae88799cd6cdf83ecf04d636045569c0dd16e1236322fc1"
+        }
+      ]
+    },
+    {
       "repo": "ericajenny/Predictive-Analytics-for-Business-Nanodegree",
       "url": "https://github.com/ericajenny/Predictive-Analytics-for-Business-Nanodegree",
       "default_branch": "master",
@@ -888,6 +1031,41 @@
       "last_checked_at": "2026-04-04T03:48:14.023473+00:00",
       "e1_file_count": 7,
       "e2_file_count": 0
+    },
+    {
+      "repo": "ErikeCardoso/alteryx",
+      "url": "https://github.com/ErikeCardoso/alteryx",
+      "default_branch": "master",
+      "last_checked_sha": "23e0f98f19697d4c633ab8579759fda4137f0bf0",
+      "last_checked_at": "2026-04-04T19:29:55.375251+00:00",
+      "e1_file_count": 20,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "etiennebert/forest_club",
+      "url": "https://github.com/etiennebert/forest_club",
+      "default_branch": "main",
+      "last_checked_sha": "14f6dca91bb75d0078c8ec8bb29fc8b2492f9d9a",
+      "last_checked_at": "2026-04-04T19:38:27.672083+00:00",
+      "e1_file_count": 0,
+      "e2_file_count": 3,
+      "e2_files": [
+        {
+          "path": "1_Data/1. HILDA data/3. Split_AEZ/A-4_aez_global_grid_polygons.yxdb",
+          "size": 3000023,
+          "sha256": "9de9cb9d70664e169f6813734224e9cd2a9b715c0c8934a520d3ae77d1144ebb"
+        },
+        {
+          "path": "1_Data/1. HILDA data/3. Split_AEZ/C-2_HILDA_V_2_1_State_GTAP_AEZ_limited.yxdb",
+          "size": 38363,
+          "sha256": "b06b54bf232f0e7889bd6bad96a45dde952aa0b95aeb721f63d6a19fd4db19e5"
+        },
+        {
+          "path": "1_Data/1. HILDA data/3. Split_AEZ/C-2_HILDA_V_2_1_Transition_GTAP_AEZ_limited.yxdb",
+          "size": 133847,
+          "sha256": "dec8f038dcce4a07ea425f8711c967134c4ccc31300cd51bc38d824f7730cae2"
+        }
+      ]
     },
     {
       "repo": "faisal-ssh/Predictive-Analytics-for-Business-Nanodegree-Projects",
@@ -955,6 +1133,15 @@
       ]
     },
     {
+      "repo": "fragiledata/SPLC-consolidated-dataset",
+      "url": "https://github.com/fragiledata/SPLC-consolidated-dataset",
+      "default_branch": "master",
+      "last_checked_sha": "15e1650108bd1631d859bbd6c1dd243e5407c63d",
+      "last_checked_at": "2026-04-04T19:38:38.257269+00:00",
+      "e1_file_count": 2,
+      "e2_file_count": 0
+    },
+    {
       "repo": "frankimler/alteryx",
       "url": "https://github.com/frankimler/alteryx",
       "default_branch": "main",
@@ -971,6 +1158,22 @@
       "last_checked_at": "2026-04-04T03:48:36.682123+00:00",
       "e1_file_count": 3,
       "e2_file_count": 0
+    },
+    {
+      "repo": "gaurangg123/electives_repo",
+      "url": "https://github.com/gaurangg123/electives_repo",
+      "default_branch": "main",
+      "last_checked_sha": "6b16e16e774bf2d87a1e3afc0357ff77788efb44",
+      "last_checked_at": "2026-04-04T19:38:43.130942+00:00",
+      "e1_file_count": 0,
+      "e2_file_count": 1,
+      "e2_files": [
+        {
+          "path": "Big Data Visualization/filteredmobiledataset.yxdb",
+          "size": 23750,
+          "sha256": "4837c26fd2268b81e703b74a34952bcc8339e8f3fa5e828756a22fcd4a07f77a"
+        }
+      ]
     },
     {
       "repo": "gsawich/AlteryxChallenge",
@@ -1042,12 +1245,30 @@
       "e2_file_count": 0
     },
     {
+      "repo": "imkalpana/learn",
+      "url": "https://github.com/imkalpana/learn",
+      "default_branch": "main",
+      "last_checked_sha": "d0b0bd5a9f193c58f0d9594c0e6c92a53acc237e",
+      "last_checked_at": "2026-04-04T19:39:14.938594+00:00",
+      "e1_file_count": 10,
+      "e2_file_count": 0
+    },
+    {
       "repo": "imratnesh/alteryx",
       "url": "https://github.com/imratnesh/alteryx",
       "default_branch": "master",
       "last_checked_sha": "e177a13551da38f72e343374826d03d136543878",
       "last_checked_at": "2026-04-04T03:49:46.859026+00:00",
       "e1_file_count": 8,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "itankar1/Predictive-Analytics-for-Business",
+      "url": "https://github.com/itankar1/Predictive-Analytics-for-Business",
+      "default_branch": "main",
+      "last_checked_sha": "e018a98865264f8827b2cfc9c77786390824b781",
+      "last_checked_at": "2026-04-04T19:39:18.501384+00:00",
+      "e1_file_count": 1,
       "e2_file_count": 0
     },
     {
@@ -1058,6 +1279,27 @@
       "last_checked_at": "2026-04-04T03:49:50.867990+00:00",
       "e1_file_count": 1,
       "e2_file_count": 0
+    },
+    {
+      "repo": "jarrodthuener/AdventOfCode",
+      "url": "https://github.com/jarrodthuener/AdventOfCode",
+      "default_branch": "main",
+      "last_checked_sha": "3a849affb8906e39dc07aadccfaa887d4b944e23",
+      "last_checked_at": "2026-04-04T19:39:29.886016+00:00",
+      "e1_file_count": 10,
+      "e2_file_count": 2,
+      "e2_files": [
+        {
+          "path": "AOC_2023/BaseA/Day8_FullCycle_Summary.yxdb",
+          "size": 6593,
+          "sha256": "244496a4427c478aa0fc65c7d7009dc3959643d501b82f36785333e069ccb067"
+        },
+        {
+          "path": "AOC_2023/BaseA/Day8.yxzp!/Day8_FullCycle_Summary.yxdb",
+          "size": 6593,
+          "sha256": "244496a4427c478aa0fc65c7d7009dc3959643d501b82f36785333e069ccb067"
+        }
+      ]
     },
     {
       "repo": "jartantupjar/Business-Analyst-Alteryx-Projects",
@@ -1078,11 +1320,38 @@
       "e2_file_count": 0
     },
     {
+      "repo": "jdunkerley/adventofcode",
+      "url": "https://github.com/jdunkerley/adventofcode",
+      "default_branch": "master",
+      "last_checked_sha": "dfc7890129178f4338a957a80b61a02c7d2cf882",
+      "last_checked_at": "2026-04-04T19:39:46.045674+00:00",
+      "e1_file_count": 3,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "jdunkerley/Alteryx",
+      "url": "https://github.com/jdunkerley/Alteryx",
+      "default_branch": "master",
+      "last_checked_sha": "7d09c2a3c930135b6335257e2065addb56c1c767",
+      "last_checked_at": "2026-04-04T19:39:37.758937+00:00",
+      "e1_file_count": 7,
+      "e2_file_count": 0
+    },
+    {
       "repo": "jdunkerley/AlteryxFormulaAddOns",
       "url": "https://github.com/jdunkerley/AlteryxFormulaAddOns",
       "default_branch": "master",
       "last_checked_sha": "78ca473758f48799b3a1dced177d958cbce23cbc",
       "last_checked_at": "2026-04-04T03:50:02.760681+00:00",
+      "e1_file_count": 1,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "jdunkerley/AlteryxRecordID",
+      "url": "https://github.com/jdunkerley/AlteryxRecordID",
+      "default_branch": "master",
+      "last_checked_sha": "46a40c0ed88166690f5760ddb7c6e9f4a1c4c8e4",
+      "last_checked_at": "2026-04-04T19:39:41.674618+00:00",
       "e1_file_count": 1,
       "e2_file_count": 0
     },
@@ -1093,6 +1362,42 @@
       "last_checked_sha": "4fdff07e2aca13fc35d8f8f0f1de4df338f9d743",
       "last_checked_at": "2026-04-04T03:50:14.261513+00:00",
       "e1_file_count": 18,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "JohnnyFoulds/course-exercises",
+      "url": "https://github.com/JohnnyFoulds/course-exercises",
+      "default_branch": "master",
+      "last_checked_sha": "824f2e0bc2989ad4ac1818ae035b2f50470ec011",
+      "last_checked_at": "2026-04-04T19:30:42.007079+00:00",
+      "e1_file_count": 9,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "josecsotomorales/classification-models-examples",
+      "url": "https://github.com/josecsotomorales/classification-models-examples",
+      "default_branch": "master",
+      "last_checked_sha": "b43ffd1eb948c6c0e694ff2be72ba4b525ac6f49",
+      "last_checked_at": "2026-04-04T19:39:57.798629+00:00",
+      "e1_file_count": 8,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "josecsotomorales/edudw",
+      "url": "https://github.com/josecsotomorales/edudw",
+      "default_branch": "master",
+      "last_checked_sha": "4a1605855c205161cb29861f58fc93d37c93def8",
+      "last_checked_at": "2026-04-04T19:40:06.517086+00:00",
+      "e1_file_count": 10,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "josecsotomorales/fuzzy-matching-customers",
+      "url": "https://github.com/josecsotomorales/fuzzy-matching-customers",
+      "default_branch": "master",
+      "last_checked_sha": "b671d5a56837355e392bf7b0cfb370c2be13c444",
+      "last_checked_at": "2026-04-04T19:40:10.337555+00:00",
+      "e1_file_count": 2,
       "e2_file_count": 0
     },
     {
@@ -1150,6 +1455,15 @@
       ]
     },
     {
+      "repo": "jovanepires/uni7-data-science",
+      "url": "https://github.com/jovanepires/uni7-data-science",
+      "default_branch": "master",
+      "last_checked_sha": "3dbf64f54b0619378c0df930a33bb94f25c11df9",
+      "last_checked_at": "2026-04-04T19:40:17.284312+00:00",
+      "e1_file_count": 6,
+      "e2_file_count": 0
+    },
+    {
       "repo": "JT-Alteryx/Alteryx-Inspire-2023",
       "url": "https://github.com/JT-Alteryx/Alteryx-Inspire-2023",
       "default_branch": "main",
@@ -1174,6 +1488,15 @@
       "last_checked_sha": "e7677d52a2af3fcb29aaac94689b5703962edff7",
       "last_checked_at": "2026-04-04T03:51:00.381531+00:00",
       "e1_file_count": 1,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "jwlong91/alteryx_live",
+      "url": "https://github.com/jwlong91/alteryx_live",
+      "default_branch": "master",
+      "last_checked_sha": "dcf6f35de15decd841935dcefbfa66ef479f20da",
+      "last_checked_at": "2026-04-04T19:40:29.856376+00:00",
+      "e1_file_count": 12,
       "e2_file_count": 0
     },
     {
@@ -1213,6 +1536,15 @@
       "e2_file_count": 0
     },
     {
+      "repo": "kksieski/udacity_pand",
+      "url": "https://github.com/kksieski/udacity_pand",
+      "default_branch": "master",
+      "last_checked_sha": "977a257d9f0977e6aae6d6313690a45e3f338b19",
+      "last_checked_at": "2026-04-04T19:41:07.459348+00:00",
+      "e1_file_count": 27,
+      "e2_file_count": 0
+    },
+    {
       "repo": "KOdoi-OJ/Capstone-Project-Combining-Predictive-Techniques",
       "url": "https://github.com/KOdoi-OJ/Capstone-Project-Combining-Predictive-Techniques",
       "default_branch": "main",
@@ -1249,6 +1581,15 @@
       "last_checked_sha": "812fa2e4881d987ed99d36218f6ac3a9996db3f1",
       "last_checked_at": "2026-04-04T03:52:55.375580+00:00",
       "e1_file_count": 1,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "krishnadasar-sudheer-kumar/neonAxe",
+      "url": "https://github.com/krishnadasar-sudheer-kumar/neonAxe",
+      "default_branch": "main",
+      "last_checked_sha": "552cd7c512e6b7b64b5f8c440561373600c59abf",
+      "last_checked_at": "2026-04-04T19:41:15.592650+00:00",
+      "e1_file_count": 2,
       "e2_file_count": 0
     },
     {
@@ -1376,6 +1717,31 @@
       "e2_file_count": 0
     },
     {
+      "repo": "LokeCoder11/Projects",
+      "url": "https://github.com/LokeCoder11/Projects",
+      "default_branch": "main",
+      "last_checked_sha": "57c8233a16da243bd7e7d2c0ae1f2f018cbf111b",
+      "last_checked_at": "2026-04-04T19:31:16.534364+00:00",
+      "e1_file_count": 19,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "loonyuser/linkedinlearning",
+      "url": "https://github.com/loonyuser/linkedinlearning",
+      "default_branch": "main",
+      "last_checked_sha": "6a314c705eb355a77988ed07e026e714aa44f2d4",
+      "last_checked_at": "2026-04-04T19:41:36.963926+00:00",
+      "e1_file_count": 2,
+      "e2_file_count": 1,
+      "e2_files": [
+        {
+          "path": "Alteryx for Financial Services/chapter-04/clustering_data.yxdb",
+          "size": 159066,
+          "sha256": "d3b54fa3a7d9e405ebf4787076db2fb15652fb8f2e3c7bc3dcebb2a3fb541856"
+        }
+      ]
+    },
+    {
       "repo": "MalavikaKatta/Blood-Cell-Classification-Alteryx",
       "url": "https://github.com/MalavikaKatta/Blood-Cell-Classification-Alteryx",
       "default_branch": "main",
@@ -1392,12 +1758,30 @@
       ]
     },
     {
+      "repo": "manoel-victor1602/Predicting-Default-Risk-with-Alteryx",
+      "url": "https://github.com/manoel-victor1602/Predicting-Default-Risk-with-Alteryx",
+      "default_branch": "master",
+      "last_checked_sha": "bbe29a87513d5cb6fbcbe09e7c685145c1ecd5d1",
+      "last_checked_at": "2026-04-04T19:41:41.878359+00:00",
+      "e1_file_count": 4,
+      "e2_file_count": 0
+    },
+    {
       "repo": "marwan1023/Udacity-Predictive-Analytics-for-Business-Nanodegree",
       "url": "https://github.com/marwan1023/Udacity-Predictive-Analytics-for-Business-Nanodegree",
       "default_branch": "master",
       "last_checked_sha": "7be41d78b9b353edad16b61635129dca702655ab",
       "last_checked_at": "2026-04-04T03:54:35.703294+00:00",
       "e1_file_count": 8,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "MatheusLima1/Data-Cleanup",
+      "url": "https://github.com/MatheusLima1/Data-Cleanup",
+      "default_branch": "master",
+      "last_checked_sha": "2af0230f2abd4b7eca6cca21f0833e6f6975255a",
+      "last_checked_at": "2026-04-04T19:31:32.020135+00:00",
+      "e1_file_count": 2,
       "e2_file_count": 0
     },
     {
@@ -1410,11 +1794,38 @@
       "e2_file_count": 0
     },
     {
+      "repo": "mcgovey/slalom-qlik-hack-18",
+      "url": "https://github.com/mcgovey/slalom-qlik-hack-18",
+      "default_branch": "master",
+      "last_checked_sha": "ef32dcd424b9dccdec8591235ad7e2f8800d4d1a",
+      "last_checked_at": "2026-04-04T19:41:50.830829+00:00",
+      "e1_file_count": 1,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "mdhasanali3/alteryx-and-uipath",
+      "url": "https://github.com/mdhasanali3/alteryx-and-uipath",
+      "default_branch": "main",
+      "last_checked_sha": "c264a614646615fd5ad092aa3a9697f109c56500",
+      "last_checked_at": "2026-04-04T19:41:59.209374+00:00",
+      "e1_file_count": 17,
+      "e2_file_count": 0
+    },
+    {
       "repo": "melvinouseph/Predictive-Analytics-for-Business-Nanodegree",
       "url": "https://github.com/melvinouseph/Predictive-Analytics-for-Business-Nanodegree",
       "default_branch": "master",
       "last_checked_sha": "9664b3ea54012633b26e41a82a2b4dba9794edbd",
       "last_checked_at": "2026-04-04T03:54:44.078765+00:00",
+      "e1_file_count": 1,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "mesbahkhan/bclearer_projects",
+      "url": "https://github.com/mesbahkhan/bclearer_projects",
+      "default_branch": "master",
+      "last_checked_sha": "57bb447da954ab2f378fec829a354befde3952cc",
+      "last_checked_at": "2026-04-04T19:42:01.569532+00:00",
       "e1_file_count": 1,
       "e2_file_count": 0
     },
@@ -1434,6 +1845,15 @@
       "last_checked_sha": "3e807e6b8e5ecf91037daca9083135d80d344437",
       "last_checked_at": "2026-04-04T03:54:50.812787+00:00",
       "e1_file_count": 5,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "MirandaZhao/Database-Management",
+      "url": "https://github.com/MirandaZhao/Database-Management",
+      "default_branch": "master",
+      "last_checked_sha": "b74207e90ba5f0b0fb02b9c52aadae87c95bf3a7",
+      "last_checked_at": "2026-04-04T19:31:43.025276+00:00",
+      "e1_file_count": 1,
       "e2_file_count": 0
     },
     {
@@ -1518,6 +1938,15 @@
       ]
     },
     {
+      "repo": "mohanraj-mr/AB-Test-of-a-New-Menu-Launch",
+      "url": "https://github.com/mohanraj-mr/AB-Test-of-a-New-Menu-Launch",
+      "default_branch": "master",
+      "last_checked_sha": "45b273383d5cafbe5884c1028981f47fb18d438f",
+      "last_checked_at": "2026-04-04T19:42:20.599066+00:00",
+      "e1_file_count": 3,
+      "e2_file_count": 0
+    },
+    {
       "repo": "Muruganandanj/BANK-CUSTOMER-CHURN-ALTERYX",
       "url": "https://github.com/Muruganandanj/BANK-CUSTOMER-CHURN-ALTERYX",
       "default_branch": "master",
@@ -1583,6 +2012,15 @@
       "last_checked_sha": "abe872acbffd7a1e89c0be623864b09f9a1ddf24",
       "last_checked_at": "2026-04-04T03:30:13.382977+00:00",
       "e1_file_count": 4,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "oanokyen/stats-analysis-projs",
+      "url": "https://github.com/oanokyen/stats-analysis-projs",
+      "default_branch": "main",
+      "last_checked_sha": "a00034056832c5a8046db6433af43f6da655369c",
+      "last_checked_at": "2026-04-04T19:42:50.524122+00:00",
+      "e1_file_count": 3,
       "e2_file_count": 0
     },
     {
@@ -1770,6 +2208,22 @@
       ]
     },
     {
+      "repo": "Redback-Operations/redback-data-warehouse",
+      "url": "https://github.com/Redback-Operations/redback-data-warehouse",
+      "default_branch": "main",
+      "last_checked_sha": "50c9a2a09aba4331d7153d1de4aa70e5d0030225",
+      "last_checked_at": "2026-04-04T19:32:54.064845+00:00",
+      "e1_file_count": 0,
+      "e2_file_count": 1,
+      "e2_files": [
+        {
+          "path": "Archive/Alteryx/Questionnare Data.yxdb",
+          "size": 3825760,
+          "sha256": "2283ccc00cf9a39023c5fc6649c87b7a8f8a94626af99b4e9a0b5e8924d00f36"
+        }
+      ]
+    },
+    {
       "repo": "relee713/alteryx",
       "url": "https://github.com/relee713/alteryx",
       "default_branch": "main",
@@ -1792,6 +2246,38 @@
           "path": "Task3Output.yxdb",
           "size": 1262047,
           "sha256": "346e8bfb74546647d72014dc300eba4e7cd6acb7f135dc14766978b83d39b6de"
+        }
+      ]
+    },
+    {
+      "repo": "RichardWhellum/OWASPDependencyCheck",
+      "url": "https://github.com/RichardWhellum/OWASPDependencyCheck",
+      "default_branch": "main",
+      "last_checked_sha": "d0fb6dd4990299115e738fdf3ecd98b1b005b2fb",
+      "last_checked_at": "2026-04-04T19:32:58.179384+00:00",
+      "e1_file_count": 0,
+      "e2_file_count": 1,
+      "e2_files": [
+        {
+          "path": "Archive/Alteryx/Questionnare Data.yxdb",
+          "size": 3825760,
+          "sha256": "2283ccc00cf9a39023c5fc6649c87b7a8f8a94626af99b4e9a0b5e8924d00f36"
+        }
+      ]
+    },
+    {
+      "repo": "RichardWhellum/Trivy-repo-scan",
+      "url": "https://github.com/RichardWhellum/Trivy-repo-scan",
+      "default_branch": "main",
+      "last_checked_sha": "a6cc27216b8c98839e96ca705efb6b4b407d3a12",
+      "last_checked_at": "2026-04-04T19:33:00.879084+00:00",
+      "e1_file_count": 0,
+      "e2_file_count": 1,
+      "e2_files": [
+        {
+          "path": "Archive/Alteryx/Questionnare Data.yxdb",
+          "size": 3825760,
+          "sha256": "2283ccc00cf9a39023c5fc6649c87b7a8f8a94626af99b4e9a0b5e8924d00f36"
         }
       ]
     },
@@ -1965,6 +2451,15 @@
       "last_checked_sha": "aa58dccb542d6d9f4b4001091eac9dcb6283aced",
       "last_checked_at": "2026-04-04T03:59:54.690912+00:00",
       "e1_file_count": 13,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "shahkar01/Credit-Risk",
+      "url": "https://github.com/shahkar01/Credit-Risk",
+      "default_branch": "main",
+      "last_checked_sha": "b79c7ca22aa5efb0c0cb6eccd3c816bd4bea22fc",
+      "last_checked_at": "2026-04-04T19:44:34.418681+00:00",
+      "e1_file_count": 1,
       "e2_file_count": 0
     },
     {
@@ -2244,6 +2739,82 @@
       "e2_file_count": 0
     },
     {
+      "repo": "tmich1997/alt2py-testing",
+      "url": "https://github.com/tmich1997/alt2py-testing",
+      "default_branch": "master",
+      "last_checked_sha": "d416453d4fbda4285103a61c3b6e286ffb41bfb8",
+      "last_checked_at": "2026-04-04T19:48:36.230193+00:00",
+      "e1_file_count": 510,
+      "e2_file_count": 13,
+      "e2_files": [
+        {
+          "path": "src/challenges/332/challenge_332_solution.yxzp!/_externals/1/Products.yxdb",
+          "size": 44171,
+          "sha256": "ff26a014699ea72e1fa9e0d29a3f0e7b26fa42bf048f924aac8a4f5c55e71a16"
+        },
+        {
+          "path": "src/challenges/332/challenge_332_start_file.yxzp!/_externals/1/Products.yxdb",
+          "size": 44171,
+          "sha256": "ff26a014699ea72e1fa9e0d29a3f0e7b26fa42bf048f924aac8a4f5c55e71a16"
+        },
+        {
+          "path": "src/challenges/333/challenge_333_solution.yxzp!/ds_salaries.yxdb",
+          "size": 13986,
+          "sha256": "31b2f93f3756b03526300eba325fa3c5418a9a3053809aed17759bfaa17b247d"
+        },
+        {
+          "path": "src/challenges/333/challenge_333_solution.yxzp!/Output2.yxdb",
+          "size": 5474,
+          "sha256": "55aaf8343a1f168f4ee044b75cf8019828a0706b339e417d6264c9a55165de5b"
+        },
+        {
+          "path": "src/challenges/333/challenge_333_start_file.yxzp!/ds_salaries.yxdb",
+          "size": 13986,
+          "sha256": "31b2f93f3756b03526300eba325fa3c5418a9a3053809aed17759bfaa17b247d"
+        },
+        {
+          "path": "src/challenges/333/challenge_333_start_file.yxzp!/Output2.yxdb",
+          "size": 5474,
+          "sha256": "55aaf8343a1f168f4ee044b75cf8019828a0706b339e417d6264c9a55165de5b"
+        },
+        {
+          "path": "src/challenges/335/challenge_335_solution.yxzp!/Input335.yxdb",
+          "size": 45403,
+          "sha256": "a674bd1e545fa834b18b46e983f55dbf7b841d15017d44ec15eac65d7255bba4"
+        },
+        {
+          "path": "src/challenges/335/challenge_335_start_file.yxzp!/Input335.yxdb",
+          "size": 45403,
+          "sha256": "a674bd1e545fa834b18b46e983f55dbf7b841d15017d44ec15eac65d7255bba4"
+        },
+        {
+          "path": "src/challenges/343/challenge_343_solution_updated.yxzp!/Input.yxdb",
+          "size": 40946,
+          "sha256": "21d403b9f4015fcf13c19fcb98a7c81cf3257c0d3e32f119bd846f32047942d2"
+        },
+        {
+          "path": "src/challenges/343/challenge_343_start_file_updated.yxzp!/Input.yxdb",
+          "size": 40946,
+          "sha256": "21d403b9f4015fcf13c19fcb98a7c81cf3257c0d3e32f119bd846f32047942d2"
+        },
+        {
+          "path": "src/challenges/378/Weekly%20Challenge%20378_Start%20File_UPDATED.yxzp!/ACE Starting Data.yxdb",
+          "size": 552847,
+          "sha256": "a2cbe94c18d882ed16e289ae9a7971ae699271c1750ba34ec5be9c063dbacc71"
+        },
+        {
+          "path": "src/challenges/378/challenge_378_solution.yxzp!/ACE Starting Data.yxdb",
+          "size": 552847,
+          "sha256": "a2cbe94c18d882ed16e289ae9a7971ae699271c1750ba34ec5be9c063dbacc71"
+        },
+        {
+          "path": "src/challenges/379/challenge_379_start_file.yxzp!/TripData.yxdb",
+          "size": 130943,
+          "sha256": "c53a756a87f0f903d868926fb5179fe1ce3cec49f9a0deb84dd051b19726d4ad"
+        }
+      ]
+    },
+    {
       "repo": "vaishnavi-gawali/Analyzing-Sales-Data-using-Alteryx",
       "url": "https://github.com/vaishnavi-gawali/Analyzing-Sales-Data-using-Alteryx",
       "default_branch": "main",
@@ -2379,6 +2950,15 @@
           "sha256": "27504e50aff8fc3a70c04689de4e5c97493a1f2dc60a601c7faf1749c7f16740"
         }
       ]
+    },
+    {
+      "repo": "ziadwaelai/GIZA",
+      "url": "https://github.com/ziadwaelai/GIZA",
+      "default_branch": "master",
+      "last_checked_sha": "fdc572e68b61872462d9879295ba93e6ed866b80",
+      "last_checked_at": "2026-04-04T19:49:20.204489+00:00",
+      "e1_file_count": 1,
+      "e2_file_count": 0
     },
     {
       "repo": "zulekhapathan/Customer-orders-Workflow-using-Alteryx-designer",

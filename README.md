@@ -15,11 +15,11 @@ Both share the `.yxdb` extension but are distinct formats.
 
 | | Repositories | Files |
 |---|---:|---:|
-| **E1** | 129 | 1,644 |
-| **E2** | 46 | 180 |
-| **Total unique repos** | 156 | 1,824 |
+| **E1** | 170 | 2,407 |
+| **E2** | 57 | 207 |
+| **Total unique repos** | 203 | 2,614 |
 
-*1,328 GitHub repositories scanned. 19 repos contain both E1 and E2 files.*
+*1,388 GitHub repositories scanned. 24 repos contain both E1 and E2 files.*
 
 Source listings:
 - [E1-Sources.md](E1-Sources.md) — Index of repositories containing E1 files with per-repo counts.
@@ -28,7 +28,7 @@ Source listings:
 
 ## Methodology
 
-1. **Discover** — Search GitHub for repos containing `.yxdb` or `.yxzp` files using 13 search queries via the `gh` CLI. Alteryx-owned repos are filtered out.
+1. **Discover** — Search GitHub for repos containing `.yxdb` or `.yxzp` files using repository search queries and code-search queries (for adjacent Alteryx file extensions like `.yxmd`, `.yxmc`, `.yxzp`) via the `gh` CLI. Alteryx-owned repos are filtered out.
 
 2. **Check** — For each candidate repo, resolve the current HEAD commit SHA. If the SHA matches the last check, skip entirely (no API calls for tree enumeration or downloads). This makes weekly re-runs cheap.
 
@@ -70,8 +70,8 @@ Set `SWH_API_TOKEN` in `.env` for higher rate limits (1,200/hr vs 120/hr anonymo
 ### Download files
 
 ```bash
-uv run scripts/download.py e2              # download all 180 E2 files
-uv run scripts/download.py e1              # download all 1,644 E1 files
+uv run scripts/download.py e2              # download all 207 E2 files
+uv run scripts/download.py e1              # download all 2,407 E1 files
 uv run scripts/download.py all             # download everything
 uv run scripts/download.py e2 --repo OWNER/NAME   # single repo
 uv run scripts/download.py e2 --dry-run    # preview

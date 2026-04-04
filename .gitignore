@@ -1,6 +1,10 @@
 # Downloads and local state
 downloads/
 data/sources.json
+data/search_results*.json
+data/discovery_results.json
+data/new_discoveries.json
+data/user_expansion_results.json
 
 # Python
 __pycache__/
