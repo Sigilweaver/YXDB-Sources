@@ -1,0 +1,313 @@
+{
+  "ABANISINGHA/Alteryx_workflows": {
+    "last_polled_at": "2026-04-04T16:09:03.726783+00:00",
+    "request_id": 2292904,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T04:27:30.437090+00:00"
+  },
+  "ANBadawy/Alteryx_Project": {
+    "last_polled_at": "2026-04-04T16:09:05.310894+00:00",
+    "request_id": 2292905,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T04:27:33.350353+00:00"
+  },
+  "AkimasaKajitani/AdventOfCode": {
+    "last_polled_at": "2026-04-04T16:09:06.882389+00:00",
+    "request_id": 2292906,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T04:27:36.134264+00:00"
+  },
+  "AltonDsouza/Alteryx-Challenge-482-": {
+    "last_polled_at": "2026-04-04T15:54:46.945978+00:00",
+    "request_id": 2292907,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T04:27:39.065261+00:00"
+  },
+  "ChrisDataBlog/Alteryx-Inspire-2023---Design-Patterns-for-Testing": {
+    "last_polled_at": "2026-04-04T16:09:39.836202+00:00",
+    "request_id": 2292908,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T04:27:41.834732+00:00"
+  },
+  "ChrisDataBlog/AoC_2024": {
+    "last_polled_at": "2026-04-04T16:09:41.395694+00:00",
+    "request_id": 2292909,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T15:36:52.473641+00:00"
+  },
+  "DataNaija/Advanced_Data_Preparation_With_Alteryx": {
+    "last_polled_at": "2026-04-04T16:09:42.942037+00:00",
+    "request_id": 2292910,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T15:37:25.281277+00:00"
+  },
+  "Endeavour-01/Alteryx-Weekly-Challenges": {
+    "last_polled_at": "2026-04-04T16:09:44.496436+00:00",
+    "request_id": 2292911,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T15:37:58.325157+00:00"
+  },
+  "FL-Marine/Alteryx-Work-Flows": {
+    "error": "None",
+    "save_request_status": "error",
+    "submitted_at": "2026-04-04T15:39:00.607403+00:00"
+  },
+  "KOdoi-OJ/Capstone-Project-Combining-Predictive-Techniques": {
+    "last_polled_at": "2026-04-04T16:09:46.116199+00:00",
+    "request_id": 2293292,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T15:39:33.665975+00:00"
+  },
+  "MOHAMMADALI230/NovaKart-Profitability-Analytics": {
+    "last_polled_at": "2026-04-04T16:09:47.674420+00:00",
+    "request_id": 2293293,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:02:09.394549+00:00"
+  },
+  "MalavikaKatta/Blood-Cell-Classification-Alteryx": {
+    "last_polled_at": "2026-04-04T16:09:49.222851+00:00",
+    "request_id": 2293294,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:02:13.351280+00:00"
+  },
+  "Muruganandanj/BANK-CUSTOMER-CHURN-ALTERYX": {
+    "last_polled_at": "2026-04-04T16:09:50.820975+00:00",
+    "request_id": 2293296,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:02:17.127316+00:00"
+  },
+  "PacktPublishing/Alteryx-Designer-Cookbook": {
+    "error": "None",
+    "save_request_status": "error",
+    "submitted_at": "2026-04-04T16:02:50.409094+00:00"
+  },
+  "PacktPublishing/Data-Engineering-with-Alteryx": {
+    "last_polled_at": "2026-04-04T16:09:52.377876+00:00",
+    "request_id": 2293299,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:02:54.373131+00:00"
+  },
+  "Satvikp546/Alteryx_Workflows": {
+    "last_polled_at": "2026-04-04T16:09:53.952131+00:00",
+    "request_id": 2293300,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:02:58.260844+00:00"
+  },
+  "SaudAzmi/airport-alteryx-workflow": {
+    "error": "None",
+    "save_request_status": "error",
+    "submitted_at": "2026-04-04T16:03:31.565331+00:00"
+  },
+  "SeanAdams10/AdventOfCodePython": {
+    "last_polled_at": "2026-04-04T16:09:55.505233+00:00",
+    "request_id": 2293303,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:03:35.533516+00:00"
+  },
+  "SiddinathamHarish/Alteryx": {
+    "last_polled_at": "2026-04-04T16:09:57.120350+00:00",
+    "request_id": 2293304,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:03:39.399701+00:00"
+  },
+  "Sivivatu/Alteryx-Weekly-Challenge": {
+    "last_polled_at": "2026-04-04T16:09:58.736008+00:00",
+    "request_id": 2293305,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:03:43.354190+00:00"
+  },
+  "Suryaprasadindra/Alteryx-flight-delay-project": {
+    "last_polled_at": "2026-04-04T16:10:00.344913+00:00",
+    "request_id": 2293306,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:03:47.320034+00:00"
+  },
+  "Szymon-Czuszek/Alteryx-Weekly-Challenges": {
+    "request_id": 2293307,
+    "save_request_status": "accepted",
+    "save_task_status": "pending",
+    "submitted_at": "2026-04-04T16:03:51.433655+00:00"
+  },
+  "afnfyz/alteryx_weekly_challenge_filter": {
+    "last_polled_at": "2026-04-04T16:10:33.308100+00:00",
+    "request_id": 2293308,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:03:55.250552+00:00"
+  },
+  "daiphuongngo/Alteryx_Challenges": {
+    "last_polled_at": "2026-04-04T16:10:34.900424+00:00",
+    "request_id": 2293309,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:03:59.110189+00:00"
+  },
+  "doriantino/Audit_Fraude_Bancaire_Alteryx": {
+    "last_polled_at": "2026-04-04T16:10:36.474714+00:00",
+    "request_id": 2293310,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:04:02.892094+00:00"
+  },
+  "habramsohn/MSBA-Portfolio": {
+    "last_polled_at": "2026-04-04T16:10:38.088023+00:00",
+    "request_id": 2293311,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:04:06.906845+00:00"
+  },
+  "hnamtraan/Datacamp_Alteryx": {
+    "last_polled_at": "2026-04-04T16:10:39.615084+00:00",
+    "request_id": 2293312,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:04:10.943453+00:00"
+  },
+  "joshuaburkhow/adventofcode": {
+    "last_polled_at": "2026-04-04T16:10:41.223620+00:00",
+    "request_id": 2293313,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:04:14.964348+00:00"
+  },
+  "kumarritik24/Sales-Performance-Optimization-DC-Industries": {
+    "error": "None",
+    "save_request_status": "error",
+    "submitted_at": "2026-04-04T16:04:48.251729+00:00"
+  },
+  "lalithabhupalam/alteryxdatathon": {
+    "last_polled_at": "2026-04-04T16:10:42.872980+00:00",
+    "request_id": 2293316,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:04:52.288389+00:00"
+  },
+  "lisahitchlh/Alteryx": {
+    "last_polled_at": "2026-04-04T16:10:44.445341+00:00",
+    "request_id": 2293317,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:04:56.162409+00:00"
+  },
+  "liyengL/Alteryx_challenges": {
+    "last_polled_at": "2026-04-04T16:10:46.022493+00:00",
+    "request_id": 2293318,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:05:00.048098+00:00"
+  },
+  "mishramayank24/Approve_loan_or_not-using_alteryx": {
+    "error": "None",
+    "save_request_status": "error",
+    "submitted_at": "2026-04-04T16:05:33.308179+00:00"
+  },
+  "mishramayank24/predicitve_analytics_using_ALTERYX": {
+    "last_polled_at": "2026-04-04T16:10:47.612385+00:00",
+    "request_id": 2293320,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:05:37.233804+00:00"
+  },
+  "mzwandile-stuurman/Mzwandile-Alteryx-Portfolio": {
+    "last_polled_at": "2026-04-04T16:10:49.209557+00:00",
+    "request_id": 2293321,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:05:41.187257+00:00"
+  },
+  "pals-02/pals-altryx-datathon": {
+    "last_polled_at": "2026-04-04T16:10:50.810233+00:00",
+    "request_id": 2293322,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:05:45.027824+00:00"
+  },
+  "rahulnarang45/Alteryx-Realworld-ProblemCaseStatements": {
+    "last_polled_at": "2026-04-04T16:10:52.363034+00:00",
+    "request_id": 2293323,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:05:48.862927+00:00"
+  },
+  "ramana4849/ALTERYX_INTERNSHIP": {
+    "last_polled_at": "2026-04-04T16:10:53.986529+00:00",
+    "request_id": 2293324,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:05:52.678705+00:00"
+  },
+  "rdabhane47/alteryx-amazon-cleanup": {
+    "last_polled_at": "2026-04-04T16:10:55.547386+00:00",
+    "request_id": 2293326,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:05:56.528553+00:00"
+  },
+  "relee713/alteryx": {
+    "last_polled_at": "2026-04-04T16:10:57.108132+00:00",
+    "request_id": 2293327,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:06:00.561511+00:00"
+  },
+  "sarincr/Data-Analytics-with-Alteryx": {
+    "last_polled_at": "2026-04-04T16:10:58.739770+00:00",
+    "request_id": 2293328,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:06:04.554145+00:00"
+  },
+  "tadamaen/Analysing-Sales-Data-In-Alteryx": {
+    "last_polled_at": "2026-04-04T16:11:00.384231+00:00",
+    "request_id": 2293329,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:06:08.394131+00:00"
+  },
+  "vaishnavi-gawali/Analyzing-Sales-Data-using-Alteryx": {
+    "last_polled_at": "2026-04-04T16:11:01.957841+00:00",
+    "request_id": 2293331,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:06:12.419721+00:00"
+  },
+  "viniciussalum0405/desafios_alteryx": {
+    "last_polled_at": "2026-04-04T16:11:03.536617+00:00",
+    "request_id": 2293332,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:06:16.227569+00:00"
+  },
+  "ziadasal/alteryx-mini-projects": {
+    "last_polled_at": "2026-04-04T16:11:05.158722+00:00",
+    "request_id": 2293333,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:06:20.244166+00:00"
+  },
+  "zulekhapathan/Customer-orders-Workflow-using-Alteryx-designer": {
+    "last_polled_at": "2026-04-04T16:11:06.731730+00:00",
+    "request_id": 2293334,
+    "save_request_status": "accepted",
+    "save_task_status": "scheduled",
+    "submitted_at": "2026-04-04T16:06:24.096550+00:00"
+  }
+}

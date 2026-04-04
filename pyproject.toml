@@ -1,0 +1,11 @@
+[project]
+name = "yxdb-sources"
+version = "0.1.0"
+description = "Comprehensive index of public YXDB files (E1 and E2 formats)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+e2-scan = "scripts.scan:main"
+e2-report = "scripts.report:main"

@@ -1,0 +1,14 @@
+# Downloads and local state
+downloads/
+data/sources.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor
+.vscode/
+
+# Secrets
+.env
