@@ -174,7 +174,7 @@ def download_e1(index: dict, repo_filter: str | None, dry_run: bool) -> None:
 
             fmt = detect_format(data)
             if fmt != "E1":
-                continue  # skip E2/UNKNOWN — only want E1 here
+                continue  # skip E2/UNKNOWN - only want E1 here
 
             total += 1
             with open(dest, "wb") as out:

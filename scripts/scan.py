@@ -2,7 +2,7 @@
 E2-Sources weekly scan.
 
 Usage:
-    python scan.py                  # full run — discover + check + download
+    python scan.py                  # full run - discover + check + download
     python scan.py --discover-only  # just find new repos, don't download
     python scan.py --check-only     # re-check known repos for new commits
 
@@ -56,7 +56,7 @@ SEARCH_QUERIES = [
     "alteryx+AMP",
     "alteryx+yxdb",
     "topic:alteryx",
-    # Extended queries — added 2026-04-04
+    # Extended queries - added 2026-04-04
     "alteryx+designer",
     "alteryx+ETL",
     "alteryx+tool",
@@ -73,7 +73,7 @@ SEARCH_QUERIES = [
     "topic:alteryx-designer",
 ]
 
-# Code-search queries — uses search/code to find files by extension or name.
+# Code-search queries - uses search/code to find files by extension or name.
 # These hit repos that don't mention "alteryx" in their description.
 CODE_SEARCH_QUERIES = [
     "extension:yxmd",
@@ -305,7 +305,7 @@ def main():
                 print(f"  [{i}/{total}] {status}: {repo}")
             continue
 
-        # Has files — process
+        # Has files - process
         checked += 1
         e2_before = sum(len(e.get("e2_files", [])) for e in known.values())
         print(f"  [{i}/{total}] Checking: {repo} ({len(info['yxdb'])} yxdb, {len(info['yxzp'])} yxzp)")

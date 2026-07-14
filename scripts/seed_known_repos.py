@@ -6,9 +6,9 @@ Run once:  python seed_known_repos.py
 
 from state import save_known_repos
 
-# The 23 sources (A–W) already catalogued in the SigilYX SPECIFICATION-E2.md.
+# The 23 sources (A-W) already catalogued in the SigilYX SPECIFICATION-E2.md.
 # We record them here so scan.py won't re-download files we already have.
-# SHA is set to "seed" — the next scan will see it differs from the real HEAD
+# SHA is set to "seed" - the next scan will see it differs from the real HEAD
 # and re-enumerate, but will skip download for any file whose sha256 is already
 # tracked.  Set "last_checked_sha" to None and the scanner will treat them as
 # needing a fresh check on first real run.

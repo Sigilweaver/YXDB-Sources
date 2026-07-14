@@ -1,7 +1,7 @@
 """
 Retry downloading E2 files that are tracked in known_repos.json but missing from downloads/.
 
-One-shot script — run after scan.py to fill gaps from earlier runs.
+One-shot script - run after scan.py to fill gaps from earlier runs.
 """
 
 import hashlib
@@ -76,7 +76,7 @@ def main():
 
         fmt = detect_format(file_data)
         if fmt != "E2":
-            print(f"NOT E2 (got {fmt}) — removing from ledger")
+            print(f"NOT E2 (got {fmt}) - removing from ledger")
             # Remove from known_repos
             known[repo]["e2_files"] = [
                 f for f in known[repo]["e2_files"] if f["path"] != ef["path"]
@@ -89,7 +89,7 @@ def main():
         expected = ef.get("sha256")
         if expected and file_hash != expected:
             print(f"HASH MISMATCH (got {file_hash[:12]}..., expected {expected[:12]}...)")
-            # Update the hash — file may have been updated
+            # Update the hash - file may have been updated
             ef["sha256"] = file_hash
             ef["size"] = len(file_data)
 

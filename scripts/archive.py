@@ -208,7 +208,7 @@ def main():
 
         if status == "rate_limited":
             wait = body["wait_seconds"] if body else 65
-            print(f"RATE LIMITED — waiting {wait:.0f}s")
+            print(f"RATE LIMITED - waiting {wait:.0f}s")
             time.sleep(wait)
             # Retry once
             status, body = submit_repo(repo)
@@ -224,7 +224,7 @@ def main():
             submitted += 1
         elif status == "rate_limited":
             wait = body["wait_seconds"] if body else 65
-            print(f"RATE LIMITED again — pausing {wait:.0f}s and stopping.")
+            print(f"RATE LIMITED again - pausing {wait:.0f}s and stopping.")
             save_submissions(submissions)
             print(f"\nStopped early. Submitted {submitted} repos. Re-run to continue.")
             return

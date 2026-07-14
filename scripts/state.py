@@ -1,14 +1,14 @@
 """
 Persistent state for the E2 sourcing pipeline.
 
-State is stored in ``data/sources.json`` (git-ignored — local only) and
-``data/known_repos.json`` (committed — the canonical record of what we've found).
+State is stored in ``data/sources.json`` (git-ignored - local only) and
+``data/known_repos.json`` (committed - the canonical record of what we've found).
 
 The split:
-- ``known_repos.json`` — committed.  Maps every repo we've ever checked to its
+- ``known_repos.json`` - committed.  Maps every repo we've ever checked to its
   latest-checked commit SHA, E2 file count, and per-file SHA-256 hashes.
   This is the public ledger.
-- ``sources.json`` — git-ignored.  Transient download state so interrupted runs
+- ``sources.json`` - git-ignored.  Transient download state so interrupted runs
   can resume.  Not useful to anyone else.
 """
 
@@ -91,7 +91,7 @@ def repo_needs_check(known: dict, repo: str, current_sha: str | None) -> bool:
     if entry is None:
         return True
     if current_sha is None:
-        # Couldn't resolve HEAD — skip to be safe
+        # Couldn't resolve HEAD - skip to be safe
         return False
     return entry.get("last_checked_sha") != current_sha
 

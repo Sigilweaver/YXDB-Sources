@@ -13,7 +13,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-# Alteryx-owned orgs — we never source from these.
+# Alteryx-owned orgs - we never source from these.
 ALTERYX_ORGS = frozenset(["alteryx", "AlteryxLabs"])
 
 USER_AGENT = "E2-Sources/1.0 (https://github.com/SigilYX/E2-Sources)"
@@ -50,7 +50,7 @@ def gh_api(endpoint: str, timeout: int = 30) -> dict | list | None:
                 return None
 
         if attempt == 0 and ("rate limit" in r.stderr.lower() or "403" in r.stderr):
-            print(f"  Rate-limited — pausing {RATE_LIMIT_PAUSE}s …")
+            print(f"  Rate-limited - pausing {RATE_LIMIT_PAUSE}s ...")
             time.sleep(RATE_LIMIT_PAUSE)
             continue
         return None

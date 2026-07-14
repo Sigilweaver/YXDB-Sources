@@ -32,7 +32,7 @@ def looks_like_spam(repo: str) -> bool:
     owner, name = repo.split("/", 1)
     # If both owner and name have no hyphens/underscores/dots and are mostly random chars
     if SPAM_RE.match(repo):
-        # Check for vowel ratio — real names have more structure
+        # Check for vowel ratio - real names have more structure
         chars = (owner + name).lower()
         vowels = sum(1 for c in chars if c in "aeiou")
         if vowels / max(len(chars), 1) < 0.15:
@@ -181,7 +181,7 @@ def main():
     print("=" * 60)
 
     for h in sorted(hits, key=lambda x: x["yxdb_count"], reverse=True):
-        print(f"\n  {h['repo']} — {h['yxdb_count']} yxdb, {h['yxzp_count']} yxzp")
+        print(f"\n  {h['repo']} - {h['yxdb_count']} yxdb, {h['yxzp_count']} yxzp")
         for f in h["yxdb_files"][:5]:
             print(f"    {f}")
         if h["yxdb_count"] > 5:
