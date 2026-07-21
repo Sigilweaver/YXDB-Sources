@@ -18,7 +18,7 @@ import sys
 import time
 import zipfile
 
-from detect import detect_format, extract_e2_metadata
+from detect import ARCHIVE_EXTENSIONS, MAX_INNER_FILE_SIZE, detect_format, extract_e2_metadata
 from github import (
     ALTERYX_ORGS,
     download_raw,
@@ -111,7 +111,7 @@ def discover_repos(known: dict) -> set[str]:
     return all_repos
 
 
-# ── Phase 2: Check repos for yxdb/yxzp ─────────────────────
+# ── Phase 2: Check repos for yxdb/archives ──────────────────
 
 
 def check_repo(repo: str, known: dict, sources: dict) -> dict:
@@ -141,9 +141,9 @@ def check_repo(repo: str, known: dict, sources: dict) -> dict:
 
     entries = tree["tree"]
     yxdb = [e for e in entries if e["path"].lower().endswith(".yxdb")]
-    yxzp = [e for e in entries if e["path"].lower().endswith(".yxzp")]
+    archives = [e for e in entries if e["path"].lower().endswith(ARCHIVE_EXTENSIONS)]
 
-    if not yxdb and not yxzp:
+    if not yxdb and not archives:
         mark_repo_checked(known, repo, sha, branch, [], skipped=False)
         return {"status": "no_yxdb", "sha": sha}
 
@@ -152,7 +152,7 @@ def check_repo(repo: str, known: dict, sources: dict) -> dict:
         "sha": sha,
         "branch": branch,
         "yxdb": [(e["path"], e.get("size", 0)) for e in yxdb],
-        "yxzp": [(e["path"], e.get("size", 0)) for e in yxzp],
+        "archives": [(e["path"], e.get("size", 0)) for e in archives],
     }
 
 
@@ -160,7 +160,7 @@ def check_repo(repo: str, known: dict, sources: dict) -> dict:
 
 
 def process_repo(repo: str, info: dict, known: dict, sources: dict) -> None:
-    """Download .yxdb/.yxzp files from a repo, classify, and update state."""
+    """Download .yxdb files and archives (.yxzp/.zip) from a repo, classify, and update state."""
     os.makedirs(DOWNLOADS_DIR, exist_ok=True)
     branch = info["branch"]
     sha = info["sha"]
@@ -205,9 +205,9 @@ def process_repo(repo: str, info: dict, known: dict, sources: dict) -> None:
         sources.setdefault("downloaded_keys", []).append(key)
         time.sleep(0.15)
 
-    # ── .yxzp archives ──────────────────────────────────────
-    for path, size in info.get("yxzp", []):
-        key = f"YXZP:{repo}/{path}"
+    # ── Archives (.yxzp / .zip) ──────────────────────────────
+    for path, size in info.get("archives", []):
+        key = f"ARCHIVE:{repo}/{path}"
         if key in downloaded:
             continue
         if size and size > 200_000_000:
@@ -226,9 +226,13 @@ def process_repo(repo: str, info: dict, known: dict, sources: dict) -> None:
             sources.setdefault("downloaded_keys", []).append(key)
             continue
 
-        inner = [n for n in zf.namelist() if n.lower().endswith(".yxdb")]
-        for name in inner:
-            inner_data = zf.read(name)
+        inner_infos = [zi for zi in zf.infolist() if zi.filename.lower().endswith(".yxdb")]
+        for zi in inner_infos:
+            if zi.file_size > MAX_INNER_FILE_SIZE:
+                sources.setdefault("errors", []).append(f"INNER_TOO_LARGE: {key}!/{zi.filename}")
+                continue
+            name = zi.filename
+            inner_data = zf.read(zi)
             fmt = detect_format(inner_data)
             file_hash = hashlib.sha256(inner_data).hexdigest()
 
@@ -244,7 +248,7 @@ def process_repo(repo: str, info: dict, known: dict, sources: dict) -> None:
                     "size": len(inner_data),
                     "sha256": file_hash,
                 })
-                print(f"    E2 (yxzp): {path} -> {name} ({len(inner_data):,} bytes)")
+                print(f"    E2 (archive): {path} -> {name} ({len(inner_data):,} bytes)")
             elif fmt == "E1":
                 e1_count += 1
 
@@ -308,7 +312,7 @@ def main():
         # Has files - process
         checked += 1
         e2_before = sum(len(e.get("e2_files", [])) for e in known.values())
-        print(f"  [{i}/{total}] Checking: {repo} ({len(info['yxdb'])} yxdb, {len(info['yxzp'])} yxzp)")
+        print(f"  [{i}/{total}] Checking: {repo} ({len(info['yxdb'])} yxdb, {len(info['archives'])} archives)")
         process_repo(repo, info, known, sources)
         e2_after = sum(len(e.get("e2_files", [])) for e in known.values())
         new_e2 += e2_after - e2_before

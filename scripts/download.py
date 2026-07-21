@@ -24,7 +24,7 @@ import sys
 import time
 import zipfile
 
-from detect import detect_format
+from detect import ARCHIVE_EXTENSIONS, MAX_INNER_FILE_SIZE, detect_format
 from github import download_raw, gh_api
 
 DOWNLOADS_DIR = os.path.join(os.path.dirname(__file__), "..", "downloads")
@@ -71,12 +71,12 @@ def download_e2(index: dict, repo_filter: str | None, dry_run: bool) -> None:
                 print(f"  [dry-run] {repo}: {path}")
                 continue
 
-            # Handle yxzp paths (path contains !/)
+            # Handle archive-embedded paths (path contains !/, from .yxzp or .zip)
             if "!/" in path:
-                yxzp_path, inner_name = path.split("!/", 1)
-                data = download_raw(repo, yxzp_path, branch)
+                archive_path, inner_name = path.split("!/", 1)
+                data = download_raw(repo, archive_path, branch)
                 if not data:
-                    print(f"  FAIL (yxzp download): {repo}: {path}")
+                    print(f"  FAIL (archive download): {repo}: {path}")
                     failed += 1
                     continue
                 try:
@@ -148,9 +148,9 @@ def download_e1(index: dict, repo_filter: str | None, dry_run: bool) -> None:
             e for e in tree["tree"]
             if e["path"].lower().endswith(".yxdb")
         ]
-        yxzp_entries = [
+        archive_entries = [
             e for e in tree["tree"]
-            if e["path"].lower().endswith(".yxzp")
+            if e["path"].lower().endswith(ARCHIVE_EXTENSIONS)
         ]
 
         for entry in yxdb_entries:
@@ -182,8 +182,8 @@ def download_e1(index: dict, repo_filter: str | None, dry_run: bool) -> None:
             downloaded += 1
             time.sleep(0.15)
 
-        # Also check inside .yxzp archives for E1 files
-        for entry in yxzp_entries:
+        # Also check inside archives (.yxzp/.zip) for E1 files
+        for entry in archive_entries:
             zpath = entry["path"]
             size = entry.get("size", 0)
             if size and size > 200_000_000:
@@ -191,7 +191,7 @@ def download_e1(index: dict, repo_filter: str | None, dry_run: bool) -> None:
 
             zdata = download_raw(repo, zpath, branch)
             if not zdata:
-                print(f"    FAIL (yxzp): {zpath}")
+                print(f"    FAIL (archive): {zpath}")
                 failed += 1
                 continue
 
@@ -202,9 +202,13 @@ def download_e1(index: dict, repo_filter: str | None, dry_run: bool) -> None:
                 failed += 1
                 continue
 
-            inner = [n for n in zf.namelist() if n.lower().endswith(".yxdb")]
-            for name in inner:
-                inner_data = zf.read(name)
+            inner_infos = [zi for zi in zf.infolist() if zi.filename.lower().endswith(".yxdb")]
+            for zi in inner_infos:
+                if zi.file_size > MAX_INNER_FILE_SIZE:
+                    print(f"    SKIP (inner too large): {zpath}!/{zi.filename}")
+                    continue
+                name = zi.filename
+                inner_data = zf.read(zi)
                 fmt = detect_format(inner_data)
                 if fmt != "E1":
                     continue

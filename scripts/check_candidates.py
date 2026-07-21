@@ -1,5 +1,5 @@
 """
-Check candidate repos discovered by expanded searches for actual .yxdb/.yxzp files.
+Check candidate repos discovered by expanded searches for actual .yxdb/archive files.
 
 Consolidates candidates from:
   - data/search_results.json          (code search)
@@ -8,7 +8,7 @@ Consolidates candidates from:
   - data/user_expansion_results.json  (user expansion)
 
 Filters out known repos, Alteryx-owned repos, and obvious spam.
-Checks each candidate's git tree for .yxdb/.yxzp files.
+Checks each candidate's git tree for .yxdb files and archives (.yxzp/.zip).
 """
 
 import json
@@ -18,6 +18,7 @@ import sys
 import time
 
 sys.path.insert(0, os.path.dirname(__file__))
+from detect import ARCHIVE_EXTENSIONS
 from github import gh_api, is_alteryx_owned
 from state import load_known_repos
 
@@ -97,7 +98,7 @@ def load_candidates() -> set[str]:
 
 
 def check_repo_for_yxdb(repo: str) -> dict | None:
-    """Check if a repo actually contains .yxdb or .yxzp files."""
+    """Check if a repo actually contains .yxdb files or archives (.yxzp/.zip)."""
     info = gh_api(f"repos/{repo}")
     if not info:
         return None
@@ -114,9 +115,9 @@ def check_repo_for_yxdb(repo: str) -> dict | None:
 
     entries = tree["tree"]
     yxdb = [e for e in entries if e["path"].lower().endswith(".yxdb")]
-    yxzp = [e for e in entries if e["path"].lower().endswith(".yxzp")]
+    archives = [e for e in entries if e["path"].lower().endswith(ARCHIVE_EXTENSIONS)]
 
-    if not yxdb and not yxzp:
+    if not yxdb and not archives:
         return None
 
     return {
@@ -124,9 +125,9 @@ def check_repo_for_yxdb(repo: str) -> dict | None:
         "branch": branch,
         "sha": sha,
         "yxdb_count": len(yxdb),
-        "yxzp_count": len(yxzp),
+        "archive_count": len(archives),
         "yxdb_files": [e["path"] for e in yxdb[:20]],  # cap for display
-        "yxzp_files": [e["path"] for e in yxzp[:10]],
+        "archive_files": [e["path"] for e in archives[:10]],
     }
 
 
@@ -166,7 +167,7 @@ def main():
             continue
 
         if result:
-            print(f"HIT! {result['yxdb_count']} yxdb, {result['yxzp_count']} yxzp")
+            print(f"HIT! {result['yxdb_count']} yxdb, {result['archive_count']} archives")
             hits.append(result)
         else:
             print("no yxdb")
@@ -181,7 +182,7 @@ def main():
     print("=" * 60)
 
     for h in sorted(hits, key=lambda x: x["yxdb_count"], reverse=True):
-        print(f"\n  {h['repo']} - {h['yxdb_count']} yxdb, {h['yxzp_count']} yxzp")
+        print(f"\n  {h['repo']} - {h['yxdb_count']} yxdb, {h['archive_count']} archives")
         for f in h["yxdb_files"][:5]:
             print(f"    {f}")
         if h["yxdb_count"] > 5:
