@@ -10,6 +10,15 @@ import re
 E1_MAGIC = b"Alteryx Database File"
 E2_MAGIC = b"Alteryx e2 Database file"
 
+# Archive extensions that may contain .yxdb files inside.
+# .yxzp is Alteryx's own package format; plain .zip shows up when someone
+# just zips up a project folder before pushing it to GitHub.
+ARCHIVE_EXTENSIONS = (".yxzp", ".zip")
+
+# Per-inner-file cap when extracting an archive, to avoid decompression
+# bombs from untrusted zips.
+MAX_INNER_FILE_SIZE = 200_000_000
+
 
 def detect_format(data: bytes) -> str:
     """Return 'E1', 'E2', or 'UNKNOWN' for raw .yxdb bytes."""
