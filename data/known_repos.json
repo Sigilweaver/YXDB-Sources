@@ -47,6 +47,14 @@
     "last_checked_sha": "0cddc409846e2239f4f60056949061b73c490356",
     "skipped": false
   },
+  "23Soham/Food_Inspection_Analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:33:13.519717+00:00",
+    "last_checked_sha": "c74ad76d1e26ec3dc134acd52f4b37d5626ca342",
+    "skipped": false
+  },
   "42Ahmed/Teca-alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -87,6 +95,14 @@
     "last_checked_sha": "1e283e153babd4a8d5fda78d38b3eb9aba0db2fa",
     "skipped": false
   },
+  "99shreya004/Alteryx_Scraping_project": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:33:17.285405+00:00",
+    "last_checked_sha": "a09ba743a9429678cdf6610c60b4170ee3e77893",
+    "skipped": false
+  },
   "A-nkita/Alteryx_Study": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -121,8 +137,16 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:14:15.448559+00:00",
-    "last_checked_sha": "6dd4204f7fb8e9a44c679515bfbe906e08ce41f2",
+    "last_checked_at": "2026-07-21T01:33:22.930011+00:00",
+    "last_checked_sha": "95db4e53a1c11d8d830cd8da060af9232b404d04",
+    "skipped": false
+  },
+  "ADHITYAYELLAPU/amazon-stock-predictive-analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:33:25.636431+00:00",
+    "last_checked_sha": "113235374f56325e160ef6cfb5f2f8cccd5c2bfc",
     "skipped": false
   },
   "ADerbak/2018-07-R-vs-Alteryx-Blog-Post": {
@@ -185,6 +209,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:14:26.091413+00:00",
     "last_checked_sha": "1449d42d7cce4c632c046bb76da2d839d73ff344",
+    "skipped": false
+  },
+  "Abhishek103/Credit_Card_Driver_Prediction": {
+    "default_branch": "master",
+    "e1_file_count": 1,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:33:36.717634+00:00",
+    "last_checked_sha": "542009075c3152e077e84dac8d4549798839b9c6",
+    "skipped": false
+  },
+  "Abhishek9980-cloud/Alteryx_Learning": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:33:49.683441+00:00",
+    "last_checked_sha": "79ce2425841d8f10251b01afdaeeb4044a13328c",
     "skipped": false
   },
   "AbhishekKargawal/alteryx": {
@@ -331,6 +371,14 @@
     "last_checked_sha": "f1d466fa88c8d7a7577428e166ca6857ff5ab734",
     "skipped": false
   },
+  "AhmedReda-7/Bus-saftey": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:34:20.876342+00:00",
+    "last_checked_sha": "fc5d0e8ee7ce9874637adba2da097748b65c7616",
+    "skipped": false
+  },
   "Aimpoint-Digital/PC-Miler-Alteryx-Macro": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -427,12 +475,20 @@
     "last_checked_sha": "b1ef914390a14f6e8d11c4f8bd781352b3a98939",
     "skipped": false
   },
+  "Akaizoku/alteryx-ollama-connector": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:34:56.234089+00:00",
+    "last_checked_sha": "eccbdb98c81430b0568d357f81f15e1b7d88f3d0",
+    "skipped": false
+  },
   "Akaizoku/alteryx-pause": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:15:10.694543+00:00",
-    "last_checked_sha": "b94d21ab42bcd6b90fb21ea2b96d13ddb1d500e9",
+    "last_checked_at": "2026-07-21T01:34:58.248580+00:00",
+    "last_checked_sha": "83620b5ad3715ad41ff877268c0a28ce0db64d10",
     "skipped": false
   },
   "Akaizoku/alteryx-pgp-encryption": {
@@ -441,6 +497,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:15:11.785767+00:00",
     "last_checked_sha": "6fe51e8b787c491f3cd83a039f7a788efc49bb2a",
+    "skipped": false
+  },
+  "Akaizoku/alteryx-unzip": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:35:03.603598+00:00",
+    "last_checked_sha": "42d3da0142cad75b5abdd583be4af95818105e53",
     "skipped": false
   },
   "Akashsrirajendran/Sales-Summarization-Alteryx": {
@@ -457,6 +521,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:15:13.815879+00:00",
     "last_checked_sha": "f903cbfad5f6edd9bb99553b123ba9c198d5e772",
+    "skipped": false
+  },
+  "Akhil4563/Gst-Hst-Alteryx-Workflow": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:35:08.516708+00:00",
+    "last_checked_sha": "fb2c1aa5ada86f6522c69c146a25b1220784061f",
+    "skipped": false
+  },
+  "AkhilKaundinya/NYC-Dallas-Chicago_FI": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:35:11.852086+00:00",
+    "last_checked_sha": "d922f13815cb6f9574e895cbb8c71e81c0cc817c",
     "skipped": false
   },
   "AkimasaKajitani/AdventOfCode": {
@@ -792,8 +872,8 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:15:15.759527+00:00",
-    "last_checked_sha": "c91bfad8ea0dc2b233f94f864f26d220ce02579d",
+    "last_checked_at": "2026-07-21T01:35:17.692187+00:00",
+    "last_checked_sha": "c0143c7166f7780401844243a67c9c765ea53af6",
     "skipped": false
   },
   "AkimasaKajitani/Alteyrx_Cloud_API": {
@@ -836,6 +916,14 @@
     "last_checked_sha": "a64c3d3947acff694911c5cbfe7c3b3787b2ea2f",
     "skipped": false
   },
+  "AlexFrid/MakeGroup": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:35:23.845193+00:00",
+    "last_checked_sha": "1851e8ca45283d84794db73761bc6a54acaf4946",
+    "skipped": false
+  },
   "Aliawadm/ALteryx_Project": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -866,6 +954,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T19:28:02.501002+00:00",
     "last_checked_sha": "4e29daea86aa5c57de399721b81801802e3d3814",
+    "skipped": false
+  },
+  "AlteryxNed/Alteryx_HTML_JS_Tools": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:35:47.602989+00:00",
+    "last_checked_sha": "dd7312b9965c2ff278b8b6448b8448f7af7ccf36",
     "skipped": false
   },
   "AlteryxNed/Open_AlteryxYXDB": {
@@ -1007,6 +1103,30 @@
     "last_checked_sha": "54fe844f6ec61483ead8904ee92cb155d7d12406",
     "skipped": false
   },
+  "Anish508/Alteryx-Retail-Project": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:36:20.536559+00:00",
+    "last_checked_sha": "ec6b352b4101d9e268adc7e10d57bbb97bf756d6",
+    "skipped": false
+  },
+  "Anshchordiya2002/UK-Crime-Geospatial-Analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:36:21.864299+00:00",
+    "last_checked_sha": "8607eae4cb57b4bb057263b9f4c0c28cf2d51026",
+    "skipped": false
+  },
+  "Anshchordiya2002/hesa-graduate-outcomes-alteryx-tableau": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:36:23.024392+00:00",
+    "last_checked_sha": "40a30c3ca2a8f691f08a1ae8937b7c3ef078f872",
+    "skipped": false
+  },
   "AntSpace14/DA-Tennis_Intelligence_ETL_Dashboard": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -1039,6 +1159,14 @@
     "last_checked_sha": "a5ae6b0a34b136d8b2a7d09dd28882caf2bc011e",
     "skipped": false
   },
+  "Arpita-deb/Top_Indian_Firms_Market_Capitalization-Analysis_For_2018": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:36:29.410756+00:00",
+    "last_checked_sha": "d82687c1c93a4d541d9de1d1335df2b6db118372",
+    "skipped": false
+  },
   "ArshadKhan58/Alteryx": {
     "default_branch": "main",
     "e1_file_count": 13,
@@ -1061,6 +1189,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:16:00.162618+00:00",
     "last_checked_sha": "b72f70c6744ae34b4bb6fa029d52d3681f2e46b2",
+    "skipped": false
+  },
+  "Ashana-111/Automated-Data-Preparation-Workflow": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:36:34.174921+00:00",
+    "last_checked_sha": "be081878556899b64cd5a1a5fb7d95c5e3b6085f",
     "skipped": false
   },
   "Ashfaquesayyed/E-Commerce-Store-Sales-and-Workflow-Alteryx-": {
@@ -1159,6 +1295,14 @@
     "last_checked_sha": "26a74be3b80ed483d543df448f8562086ab412ca",
     "skipped": false
   },
+  "AzadKshitij/TriggerEditor": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:36:47.048953+00:00",
+    "last_checked_sha": "8924831dab34404751847a10c2dadd8f955049f0",
+    "skipped": false
+  },
   "BalajiKottana/Data_Analysis_and_Visualization_of_Chicago_Crime_Data": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -1237,6 +1381,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:16:25.917335+00:00",
     "last_checked_sha": "9c3dcd7e9cdde10cad0df49967a6318cf4835553",
+    "skipped": false
+  },
+  "BladesmithCut/yxdbbodv": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:36:57.500625+00:00",
+    "last_checked_sha": "4afe8ed9f374d9bd7bdf0d33bec71bad6bb3ef37",
     "skipped": false
   },
   "Bluebull7/financial_scaffold": {
@@ -1391,6 +1543,14 @@
     "last_checked_sha": "3a93d29865acc507e6c88086a035a706f83001c2",
     "skipped": false
   },
+  "CamzBarber/pyteryx": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:37:23.400794+00:00",
+    "last_checked_sha": "26d28250dd3f6870b4bfe91617af4c55d5b4305e",
+    "skipped": false
+  },
   "CarolineM195/data-analysis-projects": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -1413,6 +1573,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:24:27.480504+00:00",
     "last_checked_sha": "e823269d0c86b132486bd24a2574d23f4b5c8594",
+    "skipped": false
+  },
+  "CezariuszIwoOrlowski/CezariuszIwoOrlowski": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:37:28.487440+00:00",
+    "last_checked_sha": "6b0b16257be02d0eb579289ab9e754e7b30f6068",
     "skipped": false
   },
   "Charlhy/Portfolio": {
@@ -1562,12 +1730,36 @@
     "last_checked_sha": "be4f7cdc5072859b06b47aaca45ca52851760ce5",
     "skipped": false
   },
+  "ComputerTrainer0/Alteryx_Denodo": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:37:47.674394+00:00",
+    "last_checked_sha": "6fcf61008d40937d3a02ed26d8efb87ddbe5e06d",
+    "skipped": false
+  },
   "CostelloTechnicalConsulting/XALINS-Alteryx-Concepts-Level-1": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:24:42.985762+00:00",
     "last_checked_sha": "66fc965f73efa9a581017ec4d64bda12e8f54e40",
+    "skipped": false
+  },
+  "DHWON-cpu/House_Price_Prediction_Using_Alterix": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:37:51.076504+00:00",
+    "last_checked_sha": "7157e83d42b4c2c6d41acbf8536083c97df46abe",
+    "skipped": false
+  },
+  "Daniblit/Designing-and-Developing-an-Ensemble-Predictive-Model-Forecasting-AMGEN-stock-price-at-year-end-31s": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:37:54.186183+00:00",
+    "last_checked_sha": "a8ffc4a7e7eec4db9704325e4b4d77bf2e628721",
     "skipped": false
   },
   "Daniblit/Ensemble-Predictive-Model-Forecasting-AMGEN-stock-price-at-year-end-31s": {
@@ -1712,6 +1904,14 @@
     "last_checked_sha": "20c4d5b4bf59b3ba608bdca87986226c965b1cf8",
     "skipped": false
   },
+  "DeepthiDayanand/Revenue-Forecasting-Decision-Dashboard": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:38:11.492630+00:00",
+    "last_checked_sha": "580062994b25f1b5fb956b770c578bb5cf89e0ac",
+    "skipped": false
+  },
   "Dhamo13/https-github.com-PacktPublishing-Alteryx-Advanced": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -1726,6 +1926,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:25:08.286959+00:00",
     "last_checked_sha": "8f004bef91e4121e176e78f6b1e944253942024e",
+    "skipped": false
+  },
+  "Dheeraj05122000/data-wrangling-alteryx-project": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:38:14.252070+00:00",
+    "last_checked_sha": "2b672350a5170b2b34d58a6c3205f584088ac9d2",
     "skipped": false
   },
   "Didilish/AB-Test-Analysis-New-Menu-Launch": {
@@ -1784,6 +1992,14 @@
     "last_checked_sha": "46e4dcb435beff740de1f6e2f9ce8fbf6400e6d7",
     "skipped": false
   },
+  "Dikshatomarr/Product-Analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:38:21.500150+00:00",
+    "last_checked_sha": "4a2c0243ecb759436348c9f2612920aed7fee0d3",
+    "skipped": false
+  },
   "DimpalJunagade/Alteryx-challenge1": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -1838,6 +2054,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:25:43.430905+00:00",
     "last_checked_sha": "fb62e201cfeef3b29ae0e595b0d84578f69df1bd",
+    "skipped": false
+  },
+  "DiyaSarkar13/alteryx-customer-sales-analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:38:31.975710+00:00",
+    "last_checked_sha": "9ed49f7649b12b0c1bea8b8e2cb85ac6aec98e6b",
     "skipped": false
   },
   "Dougyv21/Automating-opening-and-running-a-workflow-in-alteryx-through-python": {
@@ -1990,6 +2214,14 @@
     "last_checked_sha": "23e0f98f19697d4c633ab8579759fda4137f0bf0",
     "skipped": false
   },
+  "EsoterikStare/alteryx-ui-sdk-poc": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:39:02.647979+00:00",
+    "last_checked_sha": "b779896fbefc4733d2b46433ee99d822897343fe",
+    "skipped": false
+  },
   "FL-Marine/Alteryx-Work-Flows": {
     "default_branch": "main",
     "e1_file_count": 18,
@@ -2092,12 +2324,36 @@
     "last_checked_sha": "63e393903e15c3ff51458943882ae5e519f64d3a",
     "skipped": false
   },
+  "GISSruhl/AlteryxFileGDBReadTableNames": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:39:13.431919+00:00",
+    "last_checked_sha": "180f447571b7efeb9e9b712f6dc6224d50b111f6",
+    "skipped": false
+  },
   "GISSruhl/birdradarjoin": {
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:27:08.575137+00:00",
     "last_checked_sha": "41f6665361e5c5a66ab6331b208f991512830858",
+    "skipped": false
+  },
+  "GUIKAHSIN/UTM_CourseWork": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:39:15.915514+00:00",
+    "last_checked_sha": "7e22bf02f1d012d97ec603053ac3d536f250eec5",
+    "skipped": false
+  },
+  "Gabrilucas/Bases-Software-Product-ADS-2024": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:39:17.255890+00:00",
+    "last_checked_sha": "7e98331a707603347d97da0f132021adaeebc08e",
     "skipped": false
   },
   "Gagan8340/ALTERYX---DATA-PREPARATION-": {
@@ -2200,8 +2456,8 @@
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:27:24.672873+00:00",
-    "last_checked_sha": "321a762db40f815db05523faefa1af85f420fdba",
+    "last_checked_at": "2026-07-21T01:39:29.795501+00:00",
+    "last_checked_sha": "6e4e9739b5a11209fbfe98f6b3d799f80ff2b7eb",
     "skipped": false
   },
   "Guiisantoos/Alteryx-Design": {
@@ -2288,8 +2544,8 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:27:38.398749+00:00",
-    "last_checked_sha": "d249ca669079e54ea41066bbb701ebdac7f6cb54",
+    "last_checked_at": "2026-07-21T01:39:38.275501+00:00",
+    "last_checked_sha": "d10ece1c4c2c7ad81af356747ecab1f2cd62bf11",
     "skipped": false
   },
   "Hiblet/Alteryx_CRS_Demo": {
@@ -2314,6 +2570,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:27:41.464623+00:00",
     "last_checked_sha": "5361f66848a181c358d89b5a9c04206266eb58a0",
+    "skipped": false
+  },
+  "Hiblet/ContinuumHash": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:39:42.323032+00:00",
+    "last_checked_sha": "090fe51736a0275ac96e023128b2aaffbbfd3f46",
+    "skipped": false
+  },
+  "Hiblet/ContinuumProcessRunner": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:39:43.472689+00:00",
+    "last_checked_sha": "78b89e764a86fd5859c3323a317b9125c46a1aea",
     "skipped": false
   },
   "Hiblet/ContinuumXmlSlammer": {
@@ -2356,12 +2628,28 @@
     "last_checked_sha": "1b038457e9904846e6b8c6b812477d5d2c36e5da",
     "skipped": false
   },
+  "IAmShawn98/Alteryx-Tool-Template": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:39:49.229669+00:00",
+    "last_checked_sha": "e2012b589e03bdd70e03e6e9c77214550f88fd23",
+    "skipped": false
+  },
   "Ikra97/Food-Inspections-Mapping-Staging-Visualizations": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:27:47.811287+00:00",
     "last_checked_sha": "0eef056219422c7bae4758c6023137e54102a204",
+    "skipped": false
+  },
+  "Ikra97/IMDB-Movies-ETL-Process-Data-Mapping-Visualizations": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:39:53.175776+00:00",
+    "last_checked_sha": "84fb56c62ae5b992ad16ceb9d4354fbe9e71257a",
     "skipped": false
   },
   "Illias-b/Data-Analysis-Projects": {
@@ -2372,12 +2660,36 @@
     "last_checked_sha": "971baf0b140e7660c54427f494aa4ced54da43f9",
     "skipped": false
   },
+  "Imba456/Alteryx-PCA-Example": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:39:57.430918+00:00",
+    "last_checked_sha": "6720a3f34b3b56a352b5a1b0868555d551d1903f",
+    "skipped": false
+  },
   "Imba456/AlteryxCardsGame": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:27:50.517458+00:00",
     "last_checked_sha": "086b6e9477445af6e5139001166d97cd4558a45c",
+    "skipped": false
+  },
+  "Imba456/The-Simulation-Sampling-Tool-in-Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:40:07.344743+00:00",
+    "last_checked_sha": "46a8a723eaf66f45deaa113f88ebce3e89c7f57b",
+    "skipped": false
+  },
+  "Imba456/Web-Scraping-HTML-Tables-an-Alteryx-workflow-and-R-script": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:40:09.991454+00:00",
+    "last_checked_sha": "19303e0563ba5038dda4e0aea49154028305e878",
     "skipped": false
   },
   "IrenieHan/alteryx_basic_project": {
@@ -2452,6 +2764,14 @@
     "last_checked_sha": "54b5b939c47f3fa9dbd685ade5a1f0829d5b8283",
     "skipped": false
   },
+  "ItsNgaDoan/fonterra-data-transformation-upgrade-alteryx-to-fabric": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:40:24.729364+00:00",
+    "last_checked_sha": "2a1bed18b9b2c093037c92b9fcff15b15afcbcbb",
+    "skipped": false
+  },
   "Itsmitun/Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -2466,6 +2786,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:28:02.662801+00:00",
     "last_checked_sha": "0a41653c92f50fa056f13e1a0b495930b2c079ec",
+    "skipped": false
+  },
+  "JEET-123/Data-Preparation-ETL-with-Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:40:28.171099+00:00",
+    "last_checked_sha": "6cabab88ae3c8b8491229bff8e87d2c723a568e5",
     "skipped": false
   },
   "JT-Alteryx/Alteryx-Inspire-2023": {
@@ -2500,12 +2828,28 @@
     "last_checked_sha": "8685868f7c331abbf0df13bf434c67b9f7260ed9",
     "skipped": false
   },
+  "JackyLeeDesign/alteryx2PQ": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:40:33.337642+00:00",
+    "last_checked_sha": "d4a99c65fa4788395b8ddc435b4deb5c000b5d56",
+    "skipped": false
+  },
   "JananeKabilan/Alteryx_Project": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:28:15.025443+00:00",
     "last_checked_sha": "7d9d77ea5e2bc51e4edcf7659a937adbd4439d6e",
+    "skipped": false
+  },
+  "JanathanPlanas/Monitoring-Report": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:40:38.272566+00:00",
+    "last_checked_sha": "1240cfbf81e2653156088e72b19603b0abbafe6b",
     "skipped": false
   },
   "Jeeva-G/Alteryx_Filters": {
@@ -2554,6 +2898,30 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:28:22.885430+00:00",
     "last_checked_sha": "df2093e5bc1dd2c4fbd3a8ed5550790abc4e7fa5",
+    "skipped": false
+  },
+  "JulianBoel/alteryx_standortanalyse_geojsn": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:40:50.601669+00:00",
+    "last_checked_sha": "2bbdae5669e0f2239ea33b713898bdd56415a0c5",
+    "skipped": false
+  },
+  "JulkarNahin/Alteryx-Tableau-Movie-Analytics-Project": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:40:52.191486+00:00",
+    "last_checked_sha": "069c7a68089be71b3f71ba5d530c9b15dd56f011",
+    "skipped": false
+  },
+  "JulkarNahin/portfolio": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:40:55.232773+00:00",
+    "last_checked_sha": "9da1b47b897c235da3e0a53c1a06a6289dd2979e",
     "skipped": false
   },
   "JustinX5/Alteryx_Justin": {
@@ -2679,6 +3047,14 @@
     "last_checked_sha": "5ddb87a82e33cf0e7ec34f9a578202f9a1510ec4",
     "skipped": false
   },
+  "Kamgamerveille/lab3_alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:41:13.649724+00:00",
+    "last_checked_sha": "c554adc862af0b5b8a320d65d839b59e74b39c8f",
+    "skipped": false
+  },
   "KanikaMamgai09/Chicago_crime_mapping": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -2695,12 +3071,28 @@
     "last_checked_sha": "5cd3d6e5539076c2eba08bb19316d055993e009f",
     "skipped": false
   },
+  "Karankukadiya/Data-Wrangling-ETL-Pipeline-Alteryx-Inspired-": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:41:19.398457+00:00",
+    "last_checked_sha": "af22cd92c8145f8a28b4abc688a004bd99921857",
+    "skipped": false
+  },
   "KarimGuida/alteryx-linear-regression": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:28:43.278598+00:00",
     "last_checked_sha": "e55ac71dfea1c2968fcce742965cf2436506ec58",
+    "skipped": false
+  },
+  "Kartikeya-Saraswat/E-commerceSalesAnalysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:41:22.343207+00:00",
+    "last_checked_sha": "93b61bbf8288cc0db4f2c5660caa45035c502b67",
     "skipped": false
   },
   "Kashish-T/Alteryx-project": {
@@ -2805,6 +3197,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:29:03.124540+00:00",
     "last_checked_sha": "a853f675192eff503633b6601274aa091cad0713",
+    "skipped": false
+  },
+  "Laxmi884/alteryx-git-companion": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:41:32.682694+00:00",
+    "last_checked_sha": "30c9a1612b476dee4652d28056f59dc1b698d824",
+    "skipped": false
+  },
+  "Lay506/Analyzing-Sales-Data-in-Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:41:34.729211+00:00",
+    "last_checked_sha": "08ee2eff352b8fddcdacf56859fcd6dd7305da56",
     "skipped": false
   },
   "Lemon-Soup/NetworkViz": {
@@ -2943,6 +3351,14 @@
     "last_checked_sha": "3641a7c695ed78d8005df156d92ce011b8f01f07",
     "skipped": false
   },
+  "MalakMHemdan/Dw_real-state": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:41:58.137153+00:00",
+    "last_checked_sha": "d37525dfef7984855957cd63244431d706ced2cc",
+    "skipped": false
+  },
   "MalavikaKatta/Blood-Cell-Classification-Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -2997,6 +3413,14 @@
     "last_checked_sha": "046753067e694a895efdb3b5284489e6eb794276",
     "skipped": false
   },
+  "MarkMaxwel112075/ecommerce-data-pipeline": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:42:06.225080+00:00",
+    "last_checked_sha": "527ae509e60f5f95cd5c2571b024d911c32bed1c",
+    "skipped": false
+  },
   "MarkosKaiser/Alteryx-Case_study": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -3011,6 +3435,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:29:35.427715+00:00",
     "last_checked_sha": "68248945bd029f6d912310bebd3e49c8c3355dc4",
+    "skipped": false
+  },
+  "MassSquidSurvive/Alteryx-Designer-Advanced-Analytics-Complete-Suite": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:42:09.123767+00:00",
+    "last_checked_sha": "0a3c5b928f6758368bc4dce589604e5a00eda5b2",
     "skipped": false
   },
   "MatheusLima1/Data-Cleanup": {
@@ -3061,6 +3493,14 @@
     "last_checked_sha": "064ca0835d2c95ad6f47d007a0dd9cf450a72273",
     "skipped": false
   },
+  "MaykeHonorato/fluxos-no-Alteryx-Designer-": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:42:26.444832+00:00",
+    "last_checked_sha": "7b80579e862ac544b56128961fbe45950db26122",
+    "skipped": false
+  },
   "Mayowajoe/Alteryx-workflow": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -3101,12 +3541,52 @@
     "last_checked_sha": "b061af98177d198bb6619feb8608358ba468e9d9",
     "skipped": false
   },
+  "MeTavi/HTS-analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:42:35.269712+00:00",
+    "last_checked_sha": "4e8fbe7eadb4deec94c163c6841dd31076bf28fb",
+    "skipped": false
+  },
+  "Mechanical-Advantage/AdvantageScout": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:42:39.629251+00:00",
+    "last_checked_sha": "e7b414c19885a11aeb09459fc53381f2ebc314fc",
+    "skipped": false
+  },
+  "Mechanical-Advantage/ScoutingCode2016": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:42:41.609886+00:00",
+    "last_checked_sha": "7b5179a680d72ceb523d71ffc5983f2046274791",
+    "skipped": false
+  },
+  "Mechanical-Advantage/ScoutingCode2020": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:42:43.030342+00:00",
+    "last_checked_sha": "ca830a8e5d37385dbcccb48702363427775772de",
+    "skipped": false
+  },
   "MeghaneTawatieu/Tp_Alteryx1": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:29:46.673394+00:00",
     "last_checked_sha": "56554cfe0f04bc81609d81f4a62c2b890d8770d8",
+    "skipped": false
+  },
+  "MervynClarke/MervynClarke": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:42:45.106321+00:00",
+    "last_checked_sha": "d2bb4de9ae18e1e541804f35196fdc5794126316",
     "skipped": false
   },
   "MichaelBurge/yxdb-utils": {
@@ -3213,6 +3693,14 @@
     "last_checked_sha": "2a981cd7d8565635cc545b3732ca5d5ac9b612fd",
     "skipped": false
   },
+  "MoinS11/Data-Engineering-and-Reporting": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:43:00.212251+00:00",
+    "last_checked_sha": "19c3ee3be3ff9d5de19a9f3eb9b540605fc6c578",
+    "skipped": false
+  },
   "MokhtarBichiou/TestAlteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -3221,12 +3709,44 @@
     "last_checked_sha": "ea5fe93f6f33e4539b664e760348372b0662c52a",
     "skipped": false
   },
+  "MooreAnalysis/SaaS-Customer-Churn-Analysis-Alteryx-Tableau-": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:43:03.023034+00:00",
+    "last_checked_sha": "1df902e49178c119dd41f4e146ac97bf0f40a2cb",
+    "skipped": false
+  },
+  "Morrisdata/Alteryx_to_Tableau": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:43:05.098567+00:00",
+    "last_checked_sha": "159d44c0fc9b42a67afe6db580b891094471f9ce",
+    "skipped": false
+  },
   "Mostafa-At-GitHub/Alteryx-Weekly-Challenge": {
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:30:02.267673+00:00",
     "last_checked_sha": "c33a9ca838736f1cb7b758ce79592cfe6cbd7850",
+    "skipped": false
+  },
+  "Mourya-s/for_alteryx_migration": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:43:08.230758+00:00",
+    "last_checked_sha": "786980da7b70d6ae5d3089542dcfcd76d8153bcb",
+    "skipped": false
+  },
+  "Mpaden-glitch/GoogleTranslate": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:43:09.749156+00:00",
+    "last_checked_sha": "b46b497932354ac6c1322610085a35f1b1d79dbd",
     "skipped": false
   },
   "Mpaden-glitch/MongoStreamWorkflow": {
@@ -3323,6 +3843,14 @@
     "last_checked_sha": "f7ed130a218cf06ce53f017a69034c40e4c46254",
     "skipped": false
   },
+  "Nabejo/.hyper-Sources": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:43:22.707056+00:00",
+    "last_checked_sha": "ddc9f595db5c57577d3043d5dafe9be0a9b30865",
+    "skipped": false
+  },
   "Nagarjunakpbi/Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -3387,6 +3915,14 @@
     "last_checked_sha": "929c0c34dd37ec8107b7860a5d32db40c1229f9a",
     "skipped": false
   },
+  "Nathan-D-R/Obsidian-Vault-Signet": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:43:32.498376+00:00",
+    "last_checked_sha": "b5f17dc2ece9bc91604586a9e831b18114132256",
+    "skipped": false
+  },
   "Navaneethan33/Alteryx_new_repository": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -3411,6 +3947,22 @@
     "last_checked_sha": "dd7c4503fc3a8b123aabaa2ec126aa890dc98a26",
     "skipped": false
   },
+  "Neha-Agnihotri/End-to-End-Data-Engineering-Project-with-Visualization": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:43:38.614240+00:00",
+    "last_checked_sha": "2185184867406d4bdeb4cbbe6d8af128c1d7aff8",
+    "skipped": false
+  },
+  "NehaDhirendraSirur/NFLBowl_BigData": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:43:40.176132+00:00",
+    "last_checked_sha": "74b519fba268f004532e455f32807f0d8513f032",
+    "skipped": false
+  },
   "NeoN8/Alteryx-Data-And-Files": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -3425,6 +3977,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:30:33.766130+00:00",
     "last_checked_sha": "5a69458640d19c5f8d18a6088c2d14541b5d8908",
+    "skipped": false
+  },
+  "Ngan-Nguyentt/real-estate-regression-alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:43:43.383772+00:00",
+    "last_checked_sha": "f743feef86b07c0db1f903033380cd608b22af54",
+    "skipped": false
+  },
+  "NickJewell/alexa-alteryx-gallery-api-sample": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:43:45.493467+00:00",
+    "last_checked_sha": "b0f4661dd3a1f945e6ceded42c30a439d5a2b36d",
     "skipped": false
   },
   "NickJewell/alteryx-demo": {
@@ -3475,6 +4043,22 @@
     "last_checked_sha": "ff12d9169634796e6a7c3a5651d428bd85458ecf",
     "skipped": false
   },
+  "NinadPatil66/Alteryx-Projects-Set-1": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:43:57.210447+00:00",
+    "last_checked_sha": "97b74f4cf8b9724feea649589bd2e1a0dd20817b",
+    "skipped": false
+  },
+  "NinadPatil66/Alteryx-Projects-Set-2": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:44:02.396265+00:00",
+    "last_checked_sha": "2469b3f600541f032c61503417441041189c7f15",
+    "skipped": false
+  },
   "Nishtha0310/Money-Laundering-Detection-Using-Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -3505,6 +4089,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:30:45.920810+00:00",
     "last_checked_sha": "4e4cc4e52ae62f5476f25958c3a6cbfc15368bde",
+    "skipped": false
+  },
+  "NoahLamey/Fortune-500-Performance-Analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:44:06.616588+00:00",
+    "last_checked_sha": "4ca56cd0dfc2101910f35da39ebaef615d7fda4e",
     "skipped": false
   },
   "ONLC-ClassMaterials/XAL2NS-Alteryx-Concepts-Level-2": {
@@ -3547,6 +4139,14 @@
     "last_checked_sha": "3cb1f90bb719092f3bab4e03435b227df592a470",
     "skipped": false
   },
+  "Orczerker12/UK-University-Performance-Analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:44:15.099474+00:00",
+    "last_checked_sha": "e3a45eab6a9201a73955f184cb06bfd39e557e1f",
+    "skipped": false
+  },
   "OsanoSteve/Employee-Productivity-Project-Report": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -3585,6 +4185,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:31:05.151868+00:00",
     "last_checked_sha": "8036e06b2c7c3b905ba696997513c4325d6c5e41",
+    "skipped": false
+  },
+  "PacktPublishing/Advanced-Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:44:21.110812+00:00",
+    "last_checked_sha": "aec8767ebb81b50161e93c0d7ab97b3970c91b99",
     "skipped": false
   },
   "PacktPublishing/Alteryx-Advanced": {
@@ -3643,8 +4251,8 @@
         "size": 1204
       }
     ],
-    "last_checked_at": "2026-04-04T03:31:43.699718+00:00",
-    "last_checked_sha": "c3896cb8065b0800c2915047dbc9343243d849aa",
+    "last_checked_at": "2026-07-21T01:44:35.752198+00:00",
+    "last_checked_sha": "36b77828d84f7c094a77c9efef87766a219aef5b",
     "skipped": false
   },
   "PalashHere/AlteryxProjects": {
@@ -3661,6 +4269,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:31:46.246126+00:00",
     "last_checked_sha": "d8a1ab00e06930d9a2b2fd25acbbf6ee5a8f19ef",
+    "skipped": false
+  },
+  "Pantangianjali/deloitte-sales-ETL-dashboard": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:44:38.873461+00:00",
+    "last_checked_sha": "2dce9c4f3a52d1a17a615675a461465de4ef7f0c",
+    "skipped": false
+  },
+  "Paramjeet-singh-neu/IMBD": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:44:40.262061+00:00",
+    "last_checked_sha": "faeca5b5d96ae09725560bdd0af044926778265d",
     "skipped": false
   },
   "ParijatGoswami/ASX-Stock-Picker": {
@@ -3779,8 +4403,8 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:32:01.746580+00:00",
-    "last_checked_sha": "76b3d83ccd606761a8c85139bf849aa2c23d1e89",
+    "last_checked_at": "2026-07-21T01:44:53.797832+00:00",
+    "last_checked_sha": "138db31633f865a84538618229713fbc8eea81e2",
     "skipped": false
   },
   "Promptgiga-edge/Alteryx-Project": {
@@ -3823,12 +4447,36 @@
     "last_checked_sha": "f3a21c4c73fc9fc93134ee1cf1ff93cda1a431f3",
     "skipped": false
   },
+  "Rajasekhar-Chowdary/alteryx-autodocs": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:44:59.206412+00:00",
+    "last_checked_sha": "7218c14acce5b8d36e7b407a447fefbd82e8ec75",
+    "skipped": false
+  },
   "Rajeev585/Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:32:09.818527+00:00",
     "last_checked_sha": "2e2a60cd7d5516e0f973b071ee9f7a461ca16687",
+    "skipped": false
+  },
+  "Ramprashanth17/DataEngineering": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:45:02.424860+00:00",
+    "last_checked_sha": "ecf34a800f4f8ddc44ec33e4b6ce86781438065a",
+    "skipped": false
+  },
+  "RaunaqSinghSarna/MoneyControlAlteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:45:04.194301+00:00",
+    "last_checked_sha": "0b0567fd8091d3ea23a6141f53d81a8135dc1d4d",
     "skipped": false
   },
   "Raushang4/Alteryx-Screenshot": {
@@ -3851,6 +4499,14 @@
     ],
     "last_checked_at": "2026-04-04T19:32:54.064845+00:00",
     "last_checked_sha": "50c9a2a09aba4331d7153d1de4aa70e5d0030225",
+    "skipped": false
+  },
+  "Resultant-Prototype/alteryx-migration-mapper": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:45:08.232257+00:00",
+    "last_checked_sha": "ae1deb1b77587e009a6315a8679abf91de2c453e",
     "skipped": false
   },
   "RheaAB/Alteryx-Data-Analysis": {
@@ -3897,6 +4553,22 @@
     "last_checked_sha": "a6cc27216b8c98839e96ca705efb6b4b407d3a12",
     "skipped": false
   },
+  "RishabGuggali/Data-Transformation-From-Altryx-ETL-Tool-To-Database": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:45:12.580637+00:00",
+    "last_checked_sha": "f1d16d7e09787c5f5f1b8aac7028d4c776472328",
+    "skipped": false
+  },
+  "Rishabh-Gup12/Alteryx_Certification-": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:45:14.267928+00:00",
+    "last_checked_sha": "eaf2369dbfe55e8f9121532f617c1f955a30952c",
+    "skipped": false
+  },
   "Rishi-Kalpa/Alteryx-Data-Workflow-for-Data-Analytics": {
     "default_branch": "main",
     "e1_file_count": 1,
@@ -3929,6 +4601,14 @@
     "last_checked_sha": "dc59fd01f5c686c29d42c31339a439a5fd9de2b0",
     "skipped": false
   },
+  "RishiWaghmare12/Sales-Performance-Analytics-Dashboard-using-Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:45:19.736186+00:00",
+    "last_checked_sha": "791e2d0391e86968e87f685c80f129e602ce7cc3",
+    "skipped": false
+  },
   "Rithikaaasri/Alteryx-Learning-Project-Customer-Transaction-Analysis": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -3949,8 +4629,8 @@
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:32:21.337960+00:00",
-    "last_checked_sha": "8ec5a2d4cf816fda8f45c9ceb7088de973355492",
+    "last_checked_at": "2026-07-21T01:45:23.246953+00:00",
+    "last_checked_sha": "942143d7a3c39f41569b507ef3ad74c90cc282a9",
     "skipped": false
   },
   "Rohitkanithi/NewYorkCity-Food-Inspections": {
@@ -4025,6 +4705,22 @@
     "last_checked_sha": "17b00581b78656622f3ff654cb7e5d26b635002c",
     "skipped": false
   },
+  "RyanMerlin/ayx-rs": {
+    "default_branch": "main",
+    "e1_file_count": 1,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:45:33.741180+00:00",
+    "last_checked_sha": "c3640c1e6f64b82d8510ed600c8d87df660cf2ee",
+    "skipped": false
+  },
+  "RyanMerlin/toolfactory": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:45:35.311285+00:00",
+    "last_checked_sha": "38932fb51358b0b60ea23e1198ec392e5d289d00",
+    "skipped": false
+  },
   "SDA1813/Analysis-of-Month-to-Month-Revenue-Difference-of-a-Company_Analysis-using-Alteryx-My-Big-Project-": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -4047,6 +4743,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:32:39.853230+00:00",
     "last_checked_sha": "652a83f2a21a089c1e6ae8029282140d6c426609",
+    "skipped": false
+  },
+  "SKOPOS-ELEMENTS/SFTPTools_Alteryx": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:45:41.288678+00:00",
+    "last_checked_sha": "29cd982c88c85c3503a3576a622dcb961c9d30c2",
     "skipped": false
   },
   "SOLenthusiast/Exploring-BIXI-dataset-with-Alteryx": {
@@ -4089,6 +4793,28 @@
     "last_checked_sha": "19ab7ccab275134af7bd9ac60b87643643c39d36",
     "skipped": false
   },
+  "SabrinaHeng/UTM_CourseWork": {
+    "default_branch": "main",
+    "e1_file_count": 5,
+    "e2_files": [
+      {
+        "path": "Year 3/Sem 2/BI/Exercise Forecast/Superstore.yxdb",
+        "sha256": "937f98169092b0c23c6bf35220bbd5f3ae4c3ecadd50df324b817eb6323c0331",
+        "size": 1282226
+      }
+    ],
+    "last_checked_at": "2026-07-21T01:45:53.015379+00:00",
+    "last_checked_sha": "ec67b93f5d860293a94a238275d381d78bd504b4",
+    "skipped": false
+  },
+  "Sachinbuilds-sys/Retail-Sales-Performance-Analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:45:55.191522+00:00",
+    "last_checked_sha": "407010f250a5e0458f0437364c1339c0bfa022ec",
+    "skipped": false
+  },
   "Sagnik2097/Video-Game-Sales-Analysis-Alteryx-": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -4111,6 +4837,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:32:49.298416+00:00",
     "last_checked_sha": "13f3ef9200da9abc013f1c912be9e2571fe5da8f",
+    "skipped": false
+  },
+  "Salama1429/Heart-Failure-Prediction-with-Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:45:58.945516+00:00",
+    "last_checked_sha": "1111f746988bf7d351ae69d68bb03402535b31d5",
     "skipped": false
   },
   "Sami-R-BI-Analytics-Portfolio/Sami-R-BI-Analytics-Portfolio": {
@@ -4153,12 +4887,28 @@
     "last_checked_sha": "aba01adad481fa50e5db2a6b00627ca9811ed23c",
     "skipped": false
   },
+  "Sangeetha23-glimpse/retail-analytics-intelligence-platform": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:46:07.779437+00:00",
+    "last_checked_sha": "931fd1ab0b207a417ce2b82b18784cad8aab71d7",
+    "skipped": false
+  },
   "Sanjay5987/Sales-Data-Analysis-with-Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:32:55.460929+00:00",
     "last_checked_sha": "e9bf1be27add4b7413bc9c5db5c8e86e4112b40f",
+    "skipped": false
+  },
+  "SanjayAiKumar09/Alteryx2SQL": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:46:09.966569+00:00",
+    "last_checked_sha": "169fa010592bf7f4a64d7c7d1f519e7ae5222a86",
     "skipped": false
   },
   "Sank02/alteryx-sales-analysis": {
@@ -4294,12 +5044,28 @@
     "last_checked_sha": "06924f874d0614786efe84ef7fc6fd03e2863b7b",
     "skipped": false
   },
+  "SeanAdams10/AlteryxSDKTools": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:46:23.003248+00:00",
+    "last_checked_sha": "834bb2ff4c194b0abaa0949b702f94479c079625",
+    "skipped": false
+  },
   "SehrawatAmi/Alteryx1": {
     "default_branch": "main",
     "e1_file_count": 3,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:33:14.037798+00:00",
     "last_checked_sha": "fcb6dd51776dff7ba3a6741712982f84c1b6233e",
+    "skipped": false
+  },
+  "ShahroozG/Data_Cleaning_With_Alteryx": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:46:26.082699+00:00",
+    "last_checked_sha": "d84d58383dc4e773ceb66c35c351653472757446",
     "skipped": false
   },
   "ShamleeBhoi/Alteryx": {
@@ -4414,6 +5180,14 @@
     "last_checked_sha": "e0cedf41c4846f3d203dd4e4bb2510be2a6afeb7",
     "skipped": false
   },
+  "Shriya-Pekamwar/NYPD_ArrestData": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:46:42.569636+00:00",
+    "last_checked_sha": "5ff4200cf858a979902390ae9903ea11b3c1fac2",
+    "skipped": false
+  },
   "Shruti-Nagar/Alteryx-Portfolio": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -4454,6 +5228,14 @@
     "last_checked_sha": "26cd0c9d862e88ae0b017f3c2e3481425142e502",
     "skipped": false
   },
+  "SiddhiPrabhu1995/Datawarehousing-and-Business-Intelligence": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:46:51.179547+00:00",
+    "last_checked_sha": "f825ce03ec714ac4286f2a38c0a11d9c93a6069f",
+    "skipped": false
+  },
   "SiddinathamHarish/Alteryx": {
     "default_branch": "main",
     "e1_file_count": 1,
@@ -4485,16 +5267,16 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T19:33:47.010790+00:00",
-    "last_checked_sha": "b1dcf39bd5a8f653df9a2deb22e73d36c83a6f5c",
+    "last_checked_at": "2026-07-21T01:46:53.582493+00:00",
+    "last_checked_sha": "1f6f03f77b689efdf43a6118d3d17bda102a9630",
     "skipped": false
   },
   "Sigilweaver/SigilYX": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:33:43.276226+00:00",
-    "last_checked_sha": "259efe13814137229ad955f2d9f081be06560b26",
+    "last_checked_at": "2026-07-21T01:46:54.865313+00:00",
+    "last_checked_sha": "01f1ffca960bddaf23831750f25b31815078e108",
     "skipped": false
   },
   "Sigilweaver/SigilYX-Old": {
@@ -4503,6 +5285,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:33:44.405913+00:00",
     "last_checked_sha": "3cab2c4e857104b108f6e7659a7e16f8561c2ca4",
+    "skipped": false
+  },
+  "Sigilweaver/YXDB-Sources": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:46:57.631024+00:00",
+    "last_checked_sha": "0bc548d2e209a1fa8037b75b869b8c8ca24196cd",
     "skipped": false
   },
   "SiharaVikashIITD/Alteryx-DataAnalytics-Projects": {
@@ -4892,6 +5682,14 @@
     "last_checked_sha": "c1ccf7496f3e0d79ff6822b25e4c504a4b2583e6",
     "skipped": false
   },
+  "Spy3y3/Data-Analytics": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:47:53.266595+00:00",
+    "last_checked_sha": "4601cc925712f11ad65e30d707df1f00ecebda06",
+    "skipped": false
+  },
   "SreenijaKurra/AirBnB-Zero-Shot-Analysis-on-Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -5004,6 +5802,14 @@
     "last_checked_sha": "97058aa1970baa2f59966b2674678d02bb9aa5c8",
     "skipped": false
   },
+  "SuryanshRSystems/Alteryx-to-Knime": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:48:33.724536+00:00",
+    "last_checked_sha": "37e7fabb2077f05cd2d552d5bbee246f43a155a7",
+    "skipped": false
+  },
   "Suryaprasadindra/Alteryx-flight-delay-project": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -5016,6 +5822,22 @@
     ],
     "last_checked_at": "2026-04-04T03:35:25.551379+00:00",
     "last_checked_sha": "f3039ff767348a1a23e8b068843d44b218f7451b",
+    "skipped": false
+  },
+  "Suvikshapathariya93/Gamified-Alteryx-Learning": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:48:35.978074+00:00",
+    "last_checked_sha": "1dfbc53c5d29faa7f105e7d3b39c5ff8e4780f09",
+    "skipped": false
+  },
+  "Swagatika04/predicting_credit_worthiness_with_Alteryx": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:48:37.121068+00:00",
+    "last_checked_sha": "a91b9fa7fff9a13d3371554000cc3d6ed1cc0134",
     "skipped": false
   },
   "Swatikhedekar/MASTER-THE-ART-OF-EXTRACT-TRANSFORM-LOAD-WITH-ALTERYX": {
@@ -5102,6 +5924,14 @@
     "last_checked_sha": "46911790791525685b83c43f405fbc0b7f71a3de",
     "skipped": false
   },
+  "THISHUKUMAR/FlowBench--Mini-Version-of-Alteryx-from-Python-Js": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:48:42.970893+00:00",
+    "last_checked_sha": "e653e9ce3a6cf0dec7df32a3c0417b2af00a7bb8",
+    "skipped": false
+  },
   "TPoluch/COVID_alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -5178,8 +6008,16 @@
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:35:50.850095+00:00",
-    "last_checked_sha": "20d2f424d9173b4f7b6c60723e22f3f77a3db2b9",
+    "last_checked_at": "2026-07-21T01:48:51.292684+00:00",
+    "last_checked_sha": "f70740ab219c0747f4211e59a3f67355ee7aabfe",
+    "skipped": false
+  },
+  "TheInformationLab/AlteryxServer": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:48:52.418324+00:00",
+    "last_checked_sha": "913c9aea58fc58ff3266106a248a839a5ad06cb8",
     "skipped": false
   },
   "TheInformationLab/Tableau-WDC-Alteryx": {
@@ -5188,6 +6026,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:35:51.961468+00:00",
     "last_checked_sha": "d62897c1dd87c4256116090c1cf76a8dad3a39a3",
+    "skipped": false
+  },
+  "TheInformationLab/alteryx-api-tools": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:48:54.484914+00:00",
+    "last_checked_sha": "da5db10e848198167f8d33b8b579b386e6da1fa8",
     "skipped": false
   },
   "TheInformationLab/alteryx-server-backup-scripts": {
@@ -5228,6 +6074,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:35:57.423479+00:00",
     "last_checked_sha": "87fe9c59924f090ff56cf440c26b48febc3bfb09",
+    "skipped": false
+  },
+  "TorAP/AlteryxToolTest": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:48:59.329354+00:00",
+    "last_checked_sha": "ced8999dc404f980cc44d803d879aff4bb1c6a49",
     "skipped": false
   },
   "TowanaD/Alteryx": {
@@ -5286,6 +6140,14 @@
     "last_checked_sha": "419829fa441661147837515c054ad0ed70a54945",
     "skipped": false
   },
+  "UmerMuzaffar/social-media-analytics-warehouse": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:49:05.788363+00:00",
+    "last_checked_sha": "5773d17cb8883e2d8977fe9d8df1bd38c8de5bcc",
+    "skipped": false
+  },
   "Ushoshi-cloud/Alteryx_Sales_ETL_Analysis": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -5340,6 +6202,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:36:11.892931+00:00",
     "last_checked_sha": "ddeef5bdf2754d9a56f3c428bd9086ffae35b973",
+    "skipped": false
+  },
+  "Vatsal-77/Cinematic-Analytics-Uncovering-Insights-from-IMDB-Movie-Data": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:49:12.214925+00:00",
+    "last_checked_sha": "ddc7e838d1ff5f7d97d742b11ac2ff1b441d9338",
     "skipped": false
   },
   "Venkatanjan91/Automated-Customer-Revenue-Analytics-Alteryx": {
@@ -5430,6 +6300,14 @@
     "last_checked_sha": "9b655f96aa93914112906bc681b7b29cc1fb4faa",
     "skipped": false
   },
+  "WALEED-WAHEED/Alteryx-Workflows-of-NHS-Hospital-Length-of-Stay-LOS-Prediction": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:49:23.527097+00:00",
+    "last_checked_sha": "3528948336d44d5a0f7d88812e36d96c69f97dec",
+    "skipped": false
+  },
   "WatermarkData/alteryx": {
     "default_branch": "main",
     "e1_file_count": 6,
@@ -5470,6 +6348,14 @@
     "last_checked_sha": "652cd0087910607f0a0aabc153f684a205045566",
     "skipped": false
   },
+  "YashThk/FEC-Election": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:49:27.992627+00:00",
+    "last_checked_sha": "526bf54dd33d02ed5dddabdf2aa649b26377a7a2",
+    "skipped": false
+  },
   "Yashwanth280/Basic-Superstore-Project---Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -5502,6 +6388,22 @@
     "last_checked_sha": "b165651027a6485b711fe674667991450c026aad",
     "skipped": false
   },
+  "Zainularab-Zarabi/Alteryx-Linear-Regression": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:49:32.975995+00:00",
+    "last_checked_sha": "c8fd5dce59df432f1ca7408be76e628561453188",
+    "skipped": false
+  },
+  "ZhanmingHu/DBS_Bon_Secour": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:49:34.048899+00:00",
+    "last_checked_sha": "8ad102e74b1ab8608416b5ac051f25db1be4c3ae",
+    "skipped": false
+  },
   "ZoranJ-hub/Alteryx_Automation": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -5524,6 +6426,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:39:16.034310+00:00",
     "last_checked_sha": "3bcd7bc964985a6408f466c80f1f113054567dd7",
+    "skipped": false
+  },
+  "a30005830/test": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:49:37.366034+00:00",
+    "last_checked_sha": "a0c05087227eafc55ed051a6bc324a1e6f1aa998",
     "skipped": false
   },
   "aadi2796/Price-and-Inflation-Analysis-Alteryx": {
@@ -5638,6 +6548,14 @@
     "last_checked_sha": "732ca5b49fbfbb18082f5950a2d775bf0aec019e",
     "skipped": false
   },
+  "abhishek2511ch/Dynamic-KPIs-and-Business-Insights": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:49:48.665578+00:00",
+    "last_checked_sha": "41043f59a52338749a5bfe233232265f29707554",
+    "skipped": false
+  },
   "abmath/Alteryx2ADF": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -5686,6 +6604,22 @@
     "last_checked_sha": "30266929d0c19e099e5bafb06dfef428257f7341",
     "skipped": false
   },
+  "adeyinka813/Cleaning-Creating-Blending-data-to-create-an-Analytical-Dataset-using-Alteryx": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:49:54.281454+00:00",
+    "last_checked_sha": "27e84bd490531b498681a9b661a3956b2e38b93d",
+    "skipped": false
+  },
+  "adeyinka813/Prediction-of-a-Catalog-Demand-using-Alteryx.": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:49:55.358712+00:00",
+    "last_checked_sha": "ce2c3c6178689c80010035d1d8b7191e67cb393c",
+    "skipped": false
+  },
   "adi-tsvet/Los-Angeles-Crime-Report": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -5702,12 +6636,28 @@
     "last_checked_sha": "d8273c92e2f37bc5fb27d96e7cfd19aa4b902b90",
     "skipped": false
   },
+  "aditishinde2906/IMDB---Data-Analytics-Pipeline": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:49:58.148788+00:00",
+    "last_checked_sha": "3bfce498dd0b404e8e2279c76fe503f7f05e5e06",
+    "skipped": false
+  },
   "aditya3134802/Retail-Dataware-Analysis": {
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:39:50.974804+00:00",
     "last_checked_sha": "a9eae9b74b72af31444830b7f5fb78b1deef45a1",
+    "skipped": false
+  },
+  "adityaprakashneu/DAMG-7370-DADABI": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:50:08.053596+00:00",
+    "last_checked_sha": "04a7da6ec01ca8628474802d014ce7a9dd3342ec",
     "skipped": false
   },
   "adityaprkshiitp/Alteryx_PowerBI": {
@@ -5734,6 +6684,14 @@
     "last_checked_sha": "64951650dc1cf8f6af2aa9689b4a8d433bf23e48",
     "skipped": false
   },
+  "aflahh12/UTM-Academic-Project": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:50:13.683331+00:00",
+    "last_checked_sha": "6f1a5c3bce8ca6863e2e84fa2f1bfe9bfbf763d2",
+    "skipped": false
+  },
   "afnfyz/alteryx_weekly_challenge_filter": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -5758,12 +6716,20 @@
     "last_checked_sha": "79436bfffd335a40b236591c4e9f0b53f73a71c2",
     "skipped": false
   },
+  "agandhi11/Market-Research-and-Brand-Renewal-Strategy": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:50:15.888534+00:00",
+    "last_checked_sha": "2859cb6bca1ee0fde990493b88cb02df988c0cca",
+    "skipped": false
+  },
   "aggarwalkartik/alteryx2dbx": {
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:39:57.521353+00:00",
-    "last_checked_sha": "236c6ce8d701ab146478e59b73e5185094598977",
+    "last_checked_at": "2026-07-21T01:50:17.345819+00:00",
+    "last_checked_sha": "aa36bee489e395b653057d402637c84fa1cbe90c",
     "skipped": false
   },
   "agomoll/Insurance-Cross-Sell-": {
@@ -5772,6 +6738,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:39:58.671185+00:00",
     "last_checked_sha": "ef7fc4921fb3eed01c739c0a6704dd41a8b13644",
+    "skipped": false
+  },
+  "agrawalmanyata/conference-location-optimization": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:50:19.094199+00:00",
+    "last_checked_sha": "7af32dd83d60323dc79912b0620dcbf783bbe4a0",
     "skipped": false
   },
   "ahmadsq95/Alteryx": {
@@ -5836,6 +6810,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:40:06.259993+00:00",
     "last_checked_sha": "d291ab5cd2b278e158ad9131f58bb4e02e6c25fe",
+    "skipped": false
+  },
+  "akshtalati/Food_Inspections_Chicago_Dallas": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:50:29.426625+00:00",
+    "last_checked_sha": "06796cf84cee9293e2d20c5316357facd4f7aeb3",
+    "skipped": false
+  },
+  "aksingh-ops/pay-equity-anomaly-detection": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:50:30.811994+00:00",
+    "last_checked_sha": "00d19375b2fd21225e0634189652ba74fa6b6a44",
     "skipped": false
   },
   "akvileta/Alteryx_API_2020": {
@@ -5918,6 +6908,14 @@
     "last_checked_sha": "547db8246075018afb1bd8df18d891c9c8c4df76",
     "skipped": false
   },
+  "allanrogge/estudos": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:50:40.471717+00:00",
+    "last_checked_sha": "370dbaa9d7734aae65123b885aa77e4bd67450dc",
+    "skipped": false
+  },
   "allemar92/A-B-Test-a-New-Menu-Launch": {
     "default_branch": "master",
     "e1_file_count": 3,
@@ -5932,6 +6930,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:40:21.483428+00:00",
     "last_checked_sha": "ff30fe7bcbefb34f7d223abef6fe82bbe6d93bdc",
+    "skipped": false
+  },
+  "allisonljones-code/Makeover_Monday": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:50:42.307957+00:00",
+    "last_checked_sha": "1b9c70af7d588de32d72a6a2deda2e07d093517a",
     "skipped": false
   },
   "allurichandralekha00/Alteryx-Projects": {
@@ -6036,6 +7042,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:40:42.327946+00:00",
     "last_checked_sha": "5b3625726284ef9ec4dcf94049dee05ee80c7fad",
+    "skipped": false
+  },
+  "ambtiharibabu/Sales-incentive-payout-validator": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:50:55.727219+00:00",
+    "last_checked_sha": "78556609b26a8abd59771674944aa1f56613d8e2",
     "skipped": false
   },
   "amesarovic/alteryx-spatial": {
@@ -6174,6 +7188,14 @@
     "last_checked_sha": "c1cca891f37395726c9c74fe2a8f1798c9312d5b",
     "skipped": false
   },
+  "andre347/alteryx_gallery_api": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:09.568097+00:00",
+    "last_checked_sha": "111617073c7f7413f8e973ebdd30f70420ec05ba",
+    "skipped": false
+  },
   "angferna/Amazon-Review-Analysis": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -6206,6 +7228,22 @@
     "last_checked_sha": "1bc9f519bd387721ce1d98712a5aa52f722c31d3",
     "skipped": false
   },
+  "anishnavale/Chicago-Dallas-Food-Inspections": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:12.256101+00:00",
+    "last_checked_sha": "654ccc4251a6684728aa49f314f4146a55956dea",
+    "skipped": false
+  },
+  "ant-6112/POSEY": {
+    "default_branch": "main",
+    "e1_file_count": 4,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:16.183025+00:00",
+    "last_checked_sha": "1f6d28c3d2f361ed81a10344c20dfcaaf4d4ed27",
+    "skipped": false
+  },
   "antaradas404/HackTX2023": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -6214,12 +7252,36 @@
     "last_checked_sha": "1dc9e5233e39e41c5d937140ba12d5b31fedc637",
     "skipped": false
   },
+  "anujapdixit/Superbowl-54-Predictions": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:18.710026+00:00",
+    "last_checked_sha": "45eb562f30a5831e476777736bac6b6342036ed1",
+    "skipped": false
+  },
+  "anujhsrsaini/Alteryx-Alternate": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:20.134118+00:00",
+    "last_checked_sha": "cd60f2c429cfa560d0f8e99fac70f45a4560dc8f",
+    "skipped": false
+  },
   "anumohan10/FoodSafeIQ": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:41:12.048245+00:00",
     "last_checked_sha": "0f3374762689171c6aad6e07e76cf291054dfa5b",
+    "skipped": false
+  },
+  "anuragjraj/Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:22.011439+00:00",
+    "last_checked_sha": "19288c604989174fcd8c731ba09ea7cd7cc2cc61",
     "skipped": false
   },
   "anvithakommineni/Dashboarding_UtilityData-": {
@@ -6274,8 +7336,16 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:41:19.557470+00:00",
-    "last_checked_sha": "9eac7062807ec52cbbf5d7f395a9c058e497520e",
+    "last_checked_at": "2026-07-21T01:51:27.675660+00:00",
+    "last_checked_sha": "1ae05a922a89781b81a94bb283c17e261f24446f",
+    "skipped": false
+  },
+  "arpit-k16/Optimizing-Airline-Loyalty-Retention-Using-Customer-Analytics-ML": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:28.835812+00:00",
+    "last_checked_sha": "2db1f2661c2cb84ec6c12c06430e48ba50a9d90c",
     "skipped": false
   },
   "ashercurtis/ACCTG521_Labs": {
@@ -6313,10 +7383,10 @@
   },
   "ashercurtis/datasets.io": {
     "default_branch": "main",
-    "e1_file_count": 2,
+    "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T19:36:44.003950+00:00",
-    "last_checked_sha": "351392f45251bd0aa806f4fbd3492ba0081f3789",
+    "last_checked_at": "2026-07-21T01:51:31.420627+00:00",
+    "last_checked_sha": "39ee0ae356aaa4d211609b015c1aaac64c6a1cc5",
     "skipped": false
   },
   "ashmitan/Retail-DatawareHouse-Analytics": {
@@ -6357,6 +7427,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:41:24.806145+00:00",
     "last_checked_sha": "0e2a3c5524bb582d28e4e8c463fbff961cabe26f",
+    "skipped": false
+  },
+  "assimilate-dev/alterryx": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:37.303456+00:00",
+    "last_checked_sha": "22e45e73c7a7928a8d0b75c691dbd6f4af3a4c0d",
     "skipped": false
   },
   "atcodedog05/Alteryx-Tool-Palette-Run-Through": {
@@ -6405,6 +7483,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:41:41.523566+00:00",
     "last_checked_sha": "4818efaa46dce7dbe6f6a58d4798a9d91cc8043e",
+    "skipped": false
+  },
+  "atharvagadgil13/311_kc_service_requests": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:43.525270+00:00",
+    "last_checked_sha": "5680bdc64cdf5988698b91263facd938ab6f76b8",
+    "skipped": false
+  },
+  "atharvagadgil13/Food_Inspection_ETL": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:44.616292+00:00",
+    "last_checked_sha": "5466c4189df0132430b4ae322ec89a458276d0fd",
     "skipped": false
   },
   "athi-satheesh/Alteryx-Analytical-App": {
@@ -6463,12 +7557,44 @@
     "last_checked_sha": "6ab9a65416f6dd8a110f1dac83df207b1d86e976",
     "skipped": false
   },
+  "ayumiohashi/udacity-business-analyst": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:52.476959+00:00",
+    "last_checked_sha": "0faed8ef2bd3490a27260788206641b352bc9b07",
+    "skipped": false
+  },
   "ayushgandhi44/Alteryxtodbt": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:42:16.542711+00:00",
     "last_checked_sha": "6454b6515e80bf99a1f09cf1cbebb88caa453245",
+    "skipped": false
+  },
+  "ayx-builders/AlteryxTools": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:55.242971+00:00",
+    "last_checked_sha": "4bfaefbf59f7206215f42a6ca5b364f71c35fa1f",
+    "skipped": false
+  },
+  "ayx-builders/ayx_builders_pack": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:56.401238+00:00",
+    "last_checked_sha": "eb76da135e2982186d1972c7199ae76ca669178b",
+    "skipped": false
+  },
+  "ayx-builders/proj_ayx-build-202007-tweepy": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:51:57.552293+00:00",
+    "last_checked_sha": "9ddf9446f17dddf40a7329f56fc86da8815f6106",
     "skipped": false
   },
   "ayzmlamzh/AlteryxExercise": {
@@ -6485,6 +7611,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:42:19.680382+00:00",
     "last_checked_sha": "eb779e6c9bf0dcd3d390f582e1596dd27c621637",
+    "skipped": false
+  },
+  "azu-azu/yxray": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:01.179446+00:00",
+    "last_checked_sha": "362454d515ad45fa3e57edb771670f111cc6c192",
     "skipped": false
   },
   "baibrahima-lab/Business-Intelligence-Dashboards": {
@@ -6511,6 +7645,14 @@
     "last_checked_sha": "c987edf6aebfa59696bba7a5f1ed676c1b683aa7",
     "skipped": false
   },
+  "bathulababu/E-Commerce-Sales-Analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:05.479339+00:00",
+    "last_checked_sha": "7e88f6137d2907862befaf40eee49d7953aac1ed",
+    "skipped": false
+  },
   "bcross2/pipeforge": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -6531,16 +7673,24 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:42:26.438609+00:00",
-    "last_checked_sha": "201b901a292ce5495b1d12d7df071be74a0fc9c0",
+    "last_checked_at": "2026-07-21T01:52:06.539023+00:00",
+    "last_checked_sha": "7170ada3c667c0096b25f6590c30a676c51744b4",
     "skipped": false
   },
   "bensonby/alteryx-workflow-viewer": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:42:27.478606+00:00",
-    "last_checked_sha": "22e79bc98aaa28d1ced9a76c6e543d7f85093387",
+    "last_checked_at": "2026-07-21T01:52:07.668921+00:00",
+    "last_checked_sha": "65a4f110207d9255550427bff371c73386a6a18e",
+    "skipped": false
+  },
+  "berno11/alteryx-analytics-portfolio": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:08.752561+00:00",
+    "last_checked_sha": "096e625a19c5c39ae1eddeec7ed446959bd692af",
     "skipped": false
   },
   "bhagyanair/New-York-Arrests-Data-Analysis-and-Integration-": {
@@ -6627,8 +7777,16 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:42:40.297949+00:00",
-    "last_checked_sha": "96e3a337b94e526b722d35ddd96c56dad6dc5190",
+    "last_checked_at": "2026-07-21T01:52:18.816456+00:00",
+    "last_checked_sha": "0faade1606a4d761e38eaea0a5ef74cf8055b60e",
+    "skipped": false
+  },
+  "bindus72004-art/Sales-Performance-Analysis-Customer-Insights-Alteryx-": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:20.177478+00:00",
+    "last_checked_sha": "6a3ff4e0ef5ffb78dcef46af16086376033e2722",
     "skipped": false
   },
   "bipinsultania/predictiveAnalysisAlteryx": {
@@ -6671,6 +7829,134 @@
     "last_checked_sha": "73f193abcca158b837ca2f106853dc1dd47c2a53",
     "skipped": false
   },
+  "bobpeers/Alteryx_SDK_CSVAppend": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:25.426543+00:00",
+    "last_checked_sha": "5371c8ef17c7c6c9171ecf3e3fac067156cf835d",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_Credentials": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:27.108397+00:00",
+    "last_checked_sha": "3179a215fb5f09647ec16d62b59e0109d8f87f51",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_Data_Hash": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:28.351017+00:00",
+    "last_checked_sha": "89d6a1adfebf51453452ac7adb0692594cfce4e6",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_Delete": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:29.435352+00:00",
+    "last_checked_sha": "6d73e44a4485b8e64fe5eac79f436cf72c5606ea",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_EventTrigger": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:30.462526+00:00",
+    "last_checked_sha": "1f261c362dfcd97c44417a98c25de038bd4eceb7",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_FileCopyMove": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:31.523461+00:00",
+    "last_checked_sha": "8188a07da0e331e85cf8e6fe292972313b86bce8",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_GenerateDateRange": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:32.545861+00:00",
+    "last_checked_sha": "55c6b09d7e62db115ca2bfceb7d11125c5af9d35",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_QR_Code_Generator": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:33.634990+00:00",
+    "last_checked_sha": "6db972127ff602ef16b13e772653464332f3010f",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_SharePointDownloader": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:34.781291+00:00",
+    "last_checked_sha": "b23d52fa7b0fa2fc77bfecd7f2d29e3020cfb30c",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_Snowflake_Admin": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:36.205982+00:00",
+    "last_checked_sha": "de116f219259bab05f34536587e488ebd56ab315",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_Snowflake_Output": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:38.016320+00:00",
+    "last_checked_sha": "8a1affdc606f33643afae11309dc2c528475f655",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_Snowflake_Output_SemiStructured": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:39.131397+00:00",
+    "last_checked_sha": "555813d8a776b479ed3de1cb88ada0516e949ca3",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_UrlParser": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:40.930966+00:00",
+    "last_checked_sha": "f3cb328b9580495481df16619142b22349985684",
+    "skipped": false
+  },
+  "bobpeers/Alteryx_SDK_Zip": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:41.999746+00:00",
+    "last_checked_sha": "a81ce76ffb6dadc41407ac09c039f91e56f9dcca",
+    "skipped": false
+  },
+  "bollasatyavani/ETL-Data-Quality": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:43.096075+00:00",
+    "last_checked_sha": "16eeecc89ae4728a18e280e94b547c2881618f1e",
+    "skipped": false
+  },
+  "bollasatyavani/Shared-Services-Operations": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:45.264794+00:00",
+    "last_checked_sha": "e23bbf77df39a6e156b0be474b0df150b1a8685e",
+    "skipped": false
+  },
   "bolleddu15/Data-Engineering_pipelines": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -6685,6 +7971,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:42:48.661110+00:00",
     "last_checked_sha": "d0411ab2cf79c8bc6031fa47485c59aaf2b2fa42",
+    "skipped": false
+  },
+  "bradleyconger1228/alteryx_alt": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:48.891099+00:00",
+    "last_checked_sha": "26f77fb2cc7fac54d48fae925e8ed06908b1813e",
     "skipped": false
   },
   "brckstr/alteryx2dbx": {
@@ -6759,6 +8053,14 @@
     "last_checked_sha": "0f248f120faa610d551d5cc255b2a3cb59a45844",
     "skipped": false
   },
+  "cardchase/VibeETL": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:52:58.550585+00:00",
+    "last_checked_sha": "9e65be21e249975e4913bbdec61e7ed5842c87f1",
+    "skipped": false
+  },
   "cateallen/Alteryx_Workflows": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -6807,6 +8109,14 @@
     "last_checked_sha": "b2ed0e89a223a945a46a1e551adb093bc180dfb3",
     "skipped": false
   },
+  "changch223/AI-Solutions-Development-Coding-Exercises": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:53:07.457582+00:00",
+    "last_checked_sha": "7ab5d643e269ca367a28436ee9452fba1a1e4510",
+    "skipped": false
+  },
   "charan1026/alteryx-retail-sales-analytics": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -6847,6 +8157,22 @@
     "last_checked_sha": "cb036ce84b39044a65d4c56bf488e08c747b8334",
     "skipped": false
   },
+  "chohjingyia23cs0296/Business-Intelligence": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:53:12.593391+00:00",
+    "last_checked_sha": "deeb7a7e5da65d310b012f6c01f6e15b2c3ad20d",
+    "skipped": false
+  },
+  "chris-gann/anything-to-dataiku": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:53:13.633606+00:00",
+    "last_checked_sha": "8050c17e827c1d85663731765a25ecf64344436f",
+    "skipped": false
+  },
   "chrishom/Matched-Pair-AB-Test-Alteryx-Implementation-": {
     "default_branch": "master",
     "e1_file_count": 2,
@@ -6877,6 +8203,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:43:20.780124+00:00",
     "last_checked_sha": "bdec2cf67b3cdf0f3aca6b84c6c51442fd2bcbc0",
+    "skipped": false
+  },
+  "cknxdnjjfc51/yxdbbv": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:53:19.813228+00:00",
+    "last_checked_sha": "aa27fa54a69bc52f7a6df5c4431230d7fc6cef0e",
     "skipped": false
   },
   "ckulkarni13/Kansas-Call-Center-Report": {
@@ -6911,6 +8245,14 @@
     "last_checked_sha": "67956189e8c6d0dd272cd81543d5214c79c730a7",
     "skipped": false
   },
+  "code932/alteryx": {
+    "default_branch": "master",
+    "e1_file_count": 20,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:53:41.938480+00:00",
+    "last_checked_sha": "23e0f98f19697d4c633ab8579759fda4137f0bf0",
+    "skipped": false
+  },
   "companieshouse/alteryx-terraform": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -6923,8 +8265,8 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:43:28.066454+00:00",
-    "last_checked_sha": "65f753ce1c94b2493996135a5ea4274439b2d0fd",
+    "last_checked_at": "2026-07-21T01:53:45.089533+00:00",
+    "last_checked_sha": "81ebe1ddf244ae29bd78ea8856071ff544beba29",
     "skipped": false
   },
   "coxta/AdobeAnalytics": {
@@ -6933,6 +8275,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:43:29.107796+00:00",
     "last_checked_sha": "d89a2a8ae14e7c33096e1979731208935eee3801",
+    "skipped": false
+  },
+  "cran/alterryx": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:53:47.022748+00:00",
+    "last_checked_sha": "36441a74811158d6a0e8407a5a665c6fd2afe167",
+    "skipped": false
+  },
+  "cristofer-ap/Proyecto-Mineria-Datos": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:53:48.111574+00:00",
+    "last_checked_sha": "87e250054537c914c0c0682e06711cbb18e32ebd",
     "skipped": false
   },
   "cschan1828/Predicting-Diamond-Prices": {
@@ -6989,6 +8347,14 @@
     "last_checked_sha": "21597482f5018c8e9dc195a146168b9b0e4f8560",
     "skipped": false
   },
+  "daiqaa/yxzphq": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:53:54.083241+00:00",
+    "last_checked_sha": "88498d95e1d7f3a667b33e7b96724ab352f301c2",
+    "skipped": false
+  },
   "danieljbridges/lab-dataprocessing": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -7029,6 +8395,22 @@
     "last_checked_sha": "2c1f53f76b74652916d89693403c552453fef9d8",
     "skipped": false
   },
+  "databricks-solutions/alteryx-to-databricks-converter": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:00.871199+00:00",
+    "last_checked_sha": "e4fb2570edda8151b0132ed9da2a22fd503ca97e",
+    "skipped": false
+  },
+  "datakind/datakit-housing-fall-2024": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:02.745283+00:00",
+    "last_checked_sha": "5dc4a8f8458b0f20e98f47dc81b6af065b6a6330",
+    "skipped": false
+  },
   "datatomas/Data_Engineering_Pipelines_Portafolio": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -7057,8 +8439,8 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:44:10.420289+00:00",
-    "last_checked_sha": "96ff47b2c4570f0b5af8638ddafce51181a04071",
+    "last_checked_at": "2026-07-21T01:54:07.390737+00:00",
+    "last_checked_sha": "e87f694036d31856613cd00c3143944dda4408d6",
     "skipped": false
   },
   "davidlivingrooms/FakeDataGenerator": {
@@ -7075,6 +8457,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:44:12.434231+00:00",
     "last_checked_sha": "064e7bc7dde06722da53c10f7e406330d47d22b2",
+    "skipped": false
+  },
+  "dbenjamin9/Implementing-a-Data-Warehouse-for-Analytics": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:11.007515+00:00",
+    "last_checked_sha": "b606b2c5be53a996f804c22f19d39add1eb048c4",
     "skipped": false
   },
   "dbos23/alteryx_challenges_in_python": {
@@ -7099,6 +8489,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:44:17.421294+00:00",
     "last_checked_sha": "f7d5249f483d83b9eddc24f995f0453dd6e6278d",
+    "skipped": false
+  },
+  "deepakchav/yxdbij": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:16.562304+00:00",
+    "last_checked_sha": "61a86a6ff3370821fdaaa16236883de0763bc5ca",
+    "skipped": false
+  },
+  "dehls-onix/alteryx_translation": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:17.989558+00:00",
+    "last_checked_sha": "de35c521a7c84e0fc3bb8959a3827c46a1ac0324",
     "skipped": false
   },
   "demand-james/alteryx_with_file_upload": {
@@ -7157,6 +8563,14 @@
     "last_checked_sha": "3cf9ade3b1becf26c9f689bc540035e512eb02c4",
     "skipped": false
   },
+  "devmithun7/BI-Implementation-for-Food-Inspection-Analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:27.169044+00:00",
+    "last_checked_sha": "50bd2b09f3403ad8a81318f05b2f4f22447c72dd",
+    "skipped": false
+  },
   "devoliveiraAlesson/Alteryx-Server": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -7189,6 +8603,14 @@
     "last_checked_sha": "50ab90d84060ce051a104483575e8929adabeec2",
     "skipped": false
   },
+  "dhirajsahu-analyst/Ask-Alteryx-15th-July": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:32.859953+00:00",
+    "last_checked_sha": "9f208157e2c0553bf05737d304f48f99fe98d786",
+    "skipped": false
+  },
   "diegoelages/WC-Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -7205,6 +8627,14 @@
     "last_checked_sha": "2c04c368021da2239f3055e18565a2426623b2a0",
     "skipped": false
   },
+  "dishajain-dataanalyst/alteryx-fitness-data-analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:36.240499+00:00",
+    "last_checked_sha": "698e9544a7a1330399259ed2a10808fc48dad32c",
+    "skipped": false
+  },
   "djyvesimon/AlteryxTD3": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -7219,6 +8649,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:44:34.670728+00:00",
     "last_checked_sha": "0ef0731f0b9343d83fec5a84b8995c334d0fc74b",
+    "skipped": false
+  },
+  "dlon450/Retail-Store-Sales-Forecasting": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:38.841555+00:00",
+    "last_checked_sha": "ec666864e2b55f948a341cc89e496ca47522d412",
     "skipped": false
   },
   "dmishra2311/Alteryx_Enron_data_wkflow": {
@@ -7321,6 +8759,22 @@
     "last_checked_sha": "30788269b2d4414d28d96ba2298647dafeb55d6d",
     "skipped": false
   },
+  "dpak2411/AlteryxGalleryAPIWrapper": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:46.286315+00:00",
+    "last_checked_sha": "65eb46b5cba28c2eec7492562968017c063de08d",
+    "skipped": false
+  },
+  "dpak2411/AlteryxGalleryAPIWrapper-master": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:47.331037+00:00",
+    "last_checked_sha": "ff293b3428be3a36377e2babce6d837cf298d19b",
+    "skipped": false
+  },
   "drewsp7/mlb_ETL_project": {
     "default_branch": "master",
     "e1_file_count": 2,
@@ -7345,12 +8799,44 @@
     "last_checked_sha": "82129b6f477fb1224b3d4c4be86972dea098a3e2",
     "skipped": false
   },
+  "dsmdavid/PythonSDKTools": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:51.833603+00:00",
+    "last_checked_sha": "135bf947d0bd93dcc6869f7afd814d76e4832c68",
+    "skipped": false
+  },
+  "ducanh2306/Lab3_ML_Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:52.845351+00:00",
+    "last_checked_sha": "4e8a19a91cae0bb35ce737ec638b8f30c92999b1",
+    "skipped": false
+  },
+  "dyl-lee/Alteryx-ETL": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:55.432306+00:00",
+    "last_checked_sha": "db228296b0306bd655f2bb1a2bf881698916d890",
+    "skipped": false
+  },
   "e-casellas/Alteryx---Weekly-Challenge-321": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:47:57.181256+00:00",
     "last_checked_sha": "32210e170a6cf1cbe9a77da5d194b13313ae3003",
+    "skipped": false
+  },
+  "ecommandeur/findnearest": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:54:57.392334+00:00",
+    "last_checked_sha": "450ae64fd27e2767c7d7da0fc27c753d6bf28a79",
     "skipped": false
   },
   "economadtech/Udacity-Business-Analytics-Nano-Degree-Program": {
@@ -7381,8 +8867,8 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:48:01.568792+00:00",
-    "last_checked_sha": "12d644d693bf0f4a9910fd546bae98a20ba4b2c7",
+    "last_checked_at": "2026-07-21T01:55:01.736283+00:00",
+    "last_checked_sha": "5cc51cfd525349fa4b8b348607ce387ff15d1fc5",
     "skipped": false
   },
   "eduhoh/Alteryx-by-Hohmann": {
@@ -7391,6 +8877,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:48:02.574780+00:00",
     "last_checked_sha": "58740fde25adb826e79d729092baee565aeb5dfd",
+    "skipped": false
+  },
+  "eferical/yxzplx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:55:03.746492+00:00",
+    "last_checked_sha": "724d5316f5fee3c368e52fdaa4b04cfab4cbc7e5",
     "skipped": false
   },
   "egvesther/AYX-portfolio": {
@@ -7407,6 +8901,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:48:05.893437+00:00",
     "last_checked_sha": "6dce99c97b5da0c3333f907eca5c66d2bed9867a",
+    "skipped": false
+  },
+  "elecivi/airport-city-population-pipeline": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:55:06.445748+00:00",
+    "last_checked_sha": "c6c079a83b9dd9f9084156b004514a09ab760382",
     "skipped": false
   },
   "ella-abung/Loan-Application-Approvals": {
@@ -7433,6 +8935,14 @@
     "last_checked_sha": "84bf50c32ba098f0346037a0140a4ad67d6e9759",
     "skipped": false
   },
+  "encighvikh/alteryx_designer": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:55:09.770208+00:00",
+    "last_checked_sha": "b7dba121173ca3f4c1541277a48576683e02ddeb",
+    "skipped": false
+  },
   "enso-org/enso": {
     "default_branch": "develop",
     "e1_file_count": 2,
@@ -7455,12 +8965,28 @@
     "last_checked_sha": "b74daacecc786e8dc423e9243a39a189e8b6aa01",
     "skipped": false
   },
+  "eric-thomas-dagster/alteryx-to-dagster": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:55:11.697804+00:00",
+    "last_checked_sha": "8d3866498e44bdbb6ee993cf152c2ac914dfd8e6",
+    "skipped": false
+  },
   "ericajenny/Predictive-Analytics-for-Business-Nanodegree": {
     "default_branch": "master",
     "e1_file_count": 7,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:48:14.023473+00:00",
     "last_checked_sha": "7df6289042c5ef8b7ba9e2a5cf60c236e14c037b",
+    "skipped": false
+  },
+  "erickmattoso/alteryx_python_sdk_template": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:55:13.667133+00:00",
+    "last_checked_sha": "4599268204ef5d97c987eac8576e88843ae3ae2f",
     "skipped": false
   },
   "etekeli/IMDb-Titles": {
@@ -7477,6 +9003,30 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:48:16.374244+00:00",
     "last_checked_sha": "ad6f6e05e0c1b2f5d30b2e967624ebd07bcfa078",
+    "skipped": false
+  },
+  "etiennebert/Forest_Club_to_Halt_Deforestation": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [
+      {
+        "path": "1_Data/1. HILDA data/3. Split_AEZ/A-4_aez_global_grid_polygons.yxdb",
+        "sha256": "9de9cb9d70664e169f6813734224e9cd2a9b715c0c8934a520d3ae77d1144ebb",
+        "size": 3000023
+      },
+      {
+        "path": "1_Data/1. HILDA data/3. Split_AEZ/C-2_HILDA_V_2_1_State_GTAP_AEZ_limited.yxdb",
+        "sha256": "b06b54bf232f0e7889bd6bad96a45dde952aa0b95aeb721f63d6a19fd4db19e5",
+        "size": 38363
+      },
+      {
+        "path": "1_Data/1. HILDA data/3. Split_AEZ/C-2_HILDA_V_2_1_Transition_GTAP_AEZ_limited.yxdb",
+        "sha256": "dec8f038dcce4a07ea425f8711c967134c4ccc31300cd51bc38d824f7730cae2",
+        "size": 133847
+      }
+    ],
+    "last_checked_at": "2026-07-21T01:55:25.470240+00:00",
+    "last_checked_sha": "cc273a622a228ccc856e6b6a8fb6590fffd8e9df",
     "skipped": false
   },
   "etiennebert/forest_club": {
@@ -7669,6 +9219,30 @@
     "last_checked_sha": "32dede5d87c0432c3b3c58161d7e9d92efe193d5",
     "skipped": false
   },
+  "gauravXddd/Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [
+      {
+        "path": "Epson/Edit_row.yxdb",
+        "sha256": "8b89e6719ae20a32b8bf6c5d2ba62da98f6d2ece674e8820cf0d2f86cf4d216e",
+        "size": 3613
+      },
+      {
+        "path": "Epson/Select_cuts.yxdb",
+        "sha256": "05f6e1a92b1fdd909d4dcf13b0a6e6f9cd6f0fa93e23c6ccf000f22d28192933",
+        "size": 690
+      },
+      {
+        "path": "Epson/edit_buffer.yxdb",
+        "sha256": "c14482bc27b10cf54b0097799dc29d7ff9873f74aa63740c9be4f877fac40c58",
+        "size": 625
+      }
+    ],
+    "last_checked_at": "2026-07-21T01:55:47.753980+00:00",
+    "last_checked_sha": "f6f34e426c4f395314f3ce9a59c1db95627385cd",
+    "skipped": false
+  },
   "gauravdeore17/Alteryx-Metadata-Parser": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -7693,12 +9267,28 @@
     "last_checked_sha": "8955838eb3c9869714665a358cdfc0691c5e94e4",
     "skipped": false
   },
+  "gauripatole/New-York-City-Motor-Vehicles-Collisions": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:55:49.973837+00:00",
+    "last_checked_sha": "c8ed8c587904605f413825050923b96e75b82723",
+    "skipped": false
+  },
   "gediminasgruodis/alteryx-projects": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:48:44.384184+00:00",
     "last_checked_sha": "2776e111148aba130fbec1c2da5a509f60de73b9",
+    "skipped": false
+  },
+  "gionnani/dotsandboxes": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:56:44.722095+00:00",
+    "last_checked_sha": "389287ebcfffe491d8d3d16079fc39f5669934d1",
     "skipped": false
   },
   "giserh/alteryx2python": {
@@ -7723,6 +9313,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:48:47.543286+00:00",
     "last_checked_sha": "79a76f3007ebaac20f7d48431e9062ada8aa4f4c",
+    "skipped": false
+  },
+  "greshma2697-spec/Zepto-Sales-Analysis-by-Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:56:48.526892+00:00",
+    "last_checked_sha": "5e306cc5451dab74fc6edb1ad28c3fa8693ebdfd",
     "skipped": false
   },
   "grosz99/alter_yx": {
@@ -7757,6 +9355,14 @@
     "last_checked_sha": "c298e41ded5e42c0b112b3548d9a6640aec8d318",
     "skipped": false
   },
+  "gurpreet-vilkhoo/Customer-Transaction-in-Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:56:52.771112+00:00",
+    "last_checked_sha": "e660077b3c35a123856407a330a29e8df60ba580",
+    "skipped": false
+  },
   "gurpreet-vilkhoo/Predictive-Analytics-using-Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -7787,6 +9393,14 @@
     ],
     "last_checked_at": "2026-03-16T00:00:00Z",
     "last_checked_sha": "ba264c63d0c49749dd9e14513dbb41e684f62280",
+    "skipped": false
+  },
+  "hamodikk/fleet_data_quality_automation_prototype": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:56:56.075167+00:00",
+    "last_checked_sha": "4249a8699bdc5b4c194cc1b4bb08e8cc8a708c8c",
     "skipped": false
   },
   "hanishchalicham/Alteryx_NYC_Housing": {
@@ -7845,6 +9459,22 @@
     "last_checked_sha": "2482776fde02c962670c5ddde7a3c3ca596a5f4b",
     "skipped": false
   },
+  "harshgaggar06/Global-Superstore-Sales-Analytics": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:02.297253+00:00",
+    "last_checked_sha": "02213541d795bff40de50d89af608e785d0658ca",
+    "skipped": false
+  },
+  "harshitparikh1/NYPD-Arrests": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:03.387562+00:00",
+    "last_checked_sha": "0c25893c77013ac8251e26fefdfa24fb3d18bce9",
+    "skipped": false
+  },
   "hashim-co/Predictive-Analytics-for-Business-Nanodegree-Program": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -7877,12 +9507,36 @@
     "last_checked_sha": "0d422c00a7a2d609c7fcb0e1d7a83f22e777a3ae",
     "skipped": false
   },
+  "henry12-masa/Alteryx-Designer-quiz": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:07.445541+00:00",
+    "last_checked_sha": "1837c37a840d518f217aa077b55edf76a532f346",
+    "skipped": false
+  },
   "hesronwells/Alteryx_project_for_data_processing": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:49:09.674106+00:00",
     "last_checked_sha": "bce5108ee45291928faf9d55a48e3a57cd3f3bda",
+    "skipped": false
+  },
+  "hetalgada15/Seattle-Pet-License": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:09.947029+00:00",
+    "last_checked_sha": "e2db5c404346a4da37872d478cf4856764283ffe",
+    "skipped": false
+  },
+  "himanshusharmacu/Alteryx_Automation_Files_Transfer_Local_Server": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:11.061335+00:00",
+    "last_checked_sha": "9f58ec84665adf2348f423ed8e2c3dcbe663f3d7",
     "skipped": false
   },
   "himanshusharmacu/Alteryx_Predicting-Catalog-Demand": {
@@ -7899,6 +9553,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:49:11.724091+00:00",
     "last_checked_sha": "422a2d9bf2906613f5963ab7e9e6a2ea704828ab",
+    "skipped": false
+  },
+  "hkailee/Udacity": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:14.874915+00:00",
+    "last_checked_sha": "3f9c263c019c551e2ecddb7c0030e0e865800b03",
     "skipped": false
   },
   "hnamtraan/Datacamp_Alteryx": {
@@ -7929,6 +9591,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:49:15.601032+00:00",
     "last_checked_sha": "7a9a06175c4709c96229637cf8cf5bf734831ddd",
+    "skipped": false
+  },
+  "howtoalteryx/alteryxserver": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:16.758276+00:00",
+    "last_checked_sha": "52d260080fa37d3251561c13db5c6466e3b6c384",
     "skipped": false
   },
   "hrithikmuthanna2004/WholesaleStore_Orders_Data---Alteryx-": {
@@ -7971,12 +9641,68 @@
     "last_checked_sha": "c4f18e0e24bf096e00b97ec39cb96bfe49af9893",
     "skipped": false
   },
+  "iammahdali123/Fashion-Intelligence-Stream": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:21.891895+00:00",
+    "last_checked_sha": "c329467dc6c84b7ce3650ff2b10f961f79092638",
+    "skipped": false
+  },
+  "iammahdali123/social-media-competitor-analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:23.414327+00:00",
+    "last_checked_sha": "ab68089a6c8a92f521d63e5277f0ad7039d2f7ed",
+    "skipped": false
+  },
+  "icarr/alteryx-gallery-api": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:24.752134+00:00",
+    "last_checked_sha": "3028f66587ca84d30c2408ece01eac4de7a93719",
+    "skipped": false
+  },
+  "icarr/alteryx-monitoring": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:25.833193+00:00",
+    "last_checked_sha": "4fe14dc829e970bea6dec363b4e4af94c218ca42",
+    "skipped": false
+  },
+  "ihyrda/alteryxLinReg": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:26.897431+00:00",
+    "last_checked_sha": "0b4dbc8c10e3b429ec8ca691be72c9c4e1685954",
+    "skipped": false
+  },
+  "ilhrwu2cj816/yxdbko": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:27.974178+00:00",
+    "last_checked_sha": "26b7588d643f63b8bd65ea04576cd967d46c7113",
+    "skipped": false
+  },
   "imcuteani/Alteryx_Training": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:49:42.336362+00:00",
     "last_checked_sha": "aa36d4b48cd9fe558d7b0eb189339f290b222940",
+    "skipped": false
+  },
+  "imcuteani/Azure_Databricks_Training_Feb": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:30.060477+00:00",
+    "last_checked_sha": "66d5ce0432c0ba009cbfcb54499cff4e0beaef2a",
     "skipped": false
   },
   "imkalpana/learn": {
@@ -7995,12 +9721,36 @@
     "last_checked_sha": "e177a13551da38f72e343374826d03d136543878",
     "skipped": false
   },
+  "imsuryya/alteryx-one-conversion-engine": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:32.701250+00:00",
+    "last_checked_sha": "68b2c96bf23f07b9e69dd6d3ea0de3f70a2cc770",
+    "skipped": false
+  },
+  "imsuryya/alteryx-one-mcp": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:33.863278+00:00",
+    "last_checked_sha": "556c16cd12bf8e155dd45549543fa697e88a728e",
+    "skipped": false
+  },
   "ioan20ab/Visual-Analytics-w-Tableau-Alteryx-python": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:49:48.343484+00:00",
     "last_checked_sha": "bc1e0df1679a76d0af65a11286b6a73ba0906a39",
+    "skipped": false
+  },
+  "isaac-r-sa/geniecodeskills-alteryxmigration": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:35.748300+00:00",
+    "last_checked_sha": "3ca0fdfc245b63f86520378ff5f28ce1e5a8edf3",
     "skipped": false
   },
   "isha0605/Financial-risk-monitoring-alteryx": {
@@ -8017,6 +9767,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T19:39:18.501384+00:00",
     "last_checked_sha": "e018a98865264f8827b2cfc9c77786390824b781",
+    "skipped": false
+  },
+  "itaycohen5/Alteryx-Profitability-Data-Pipeline": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:39.466901+00:00",
+    "last_checked_sha": "ee24f867a9c854dbc2714144bd5f2defc62db2ab",
     "skipped": false
   },
   "itsmesivaa/Alteryx-Tool-Workflow-Challenges": {
@@ -8102,12 +9860,28 @@
     "last_checked_sha": "13101986cafa24709a3385c21441e5c81b33ee57",
     "skipped": false
   },
+  "jayhache/BaseToolsConversion310": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:48.210765+00:00",
+    "last_checked_sha": "e88e0acc1a7809fbef601b0ffa066e558e3528f3",
+    "skipped": false
+  },
   "jd9835/Udacity-Projects": {
     "default_branch": "main",
     "e1_file_count": 1,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:50:00.789104+00:00",
     "last_checked_sha": "0077c13942717b2d682a29aaf1b10765f502f5ce",
+    "skipped": false
+  },
+  "jdunkerley/AlterD3": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:49.964762+00:00",
+    "last_checked_sha": "da35cfb0be0925c68de2c345a9b8071a1613c2ae",
     "skipped": false
   },
   "jdunkerley/Alteryx": {
@@ -8118,12 +9892,28 @@
     "last_checked_sha": "7d09c2a3c930135b6335257e2065addb56c1c767",
     "skipped": false
   },
+  "jdunkerley/AlteryxAddIns": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:52.019482+00:00",
+    "last_checked_sha": "72d851676862fe85db99153f02f60ba2383e7114",
+    "skipped": false
+  },
   "jdunkerley/AlteryxFormulaAddOns": {
     "default_branch": "master",
     "e1_file_count": 1,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:50:02.760681+00:00",
     "last_checked_sha": "78ca473758f48799b3a1dced177d958cbce23cbc",
+    "skipped": false
+  },
+  "jdunkerley/AlteryxHelloFromJS": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:53.881875+00:00",
+    "last_checked_sha": "09007e4d23db77e46c4c646bee98aa7aec973dcf",
     "skipped": false
   },
   "jdunkerley/AlteryxRecordID": {
@@ -8140,6 +9930,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T19:39:46.045674+00:00",
     "last_checked_sha": "dfc7890129178f4338a957a80b61a02c7d2cf882",
+    "skipped": false
+  },
+  "jdunkerley/jdunkerley": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:57:56.823406+00:00",
+    "last_checked_sha": "2dd8b03d974933a7b81523da620b0d0f60cc7215",
     "skipped": false
   },
   "jecleas/AlteryxAgents": {
@@ -8164,6 +9962,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:50:15.695194+00:00",
     "last_checked_sha": "b9c19d3ae5a7ec5aa6fcac9c0902e6080870d9ab",
+    "skipped": false
+  },
+  "jiayiwangjw/isye6501x-intro-to-analytics-modeling": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:58:00.723747+00:00",
+    "last_checked_sha": "e7c047e202ff312783625c515f4df47ba69c47d7",
     "skipped": false
   },
   "jiteshkumarkumar/Alteryx": {
@@ -8198,12 +10004,36 @@
     "last_checked_sha": "bec8a37baccc6fbf698c4052f2b1dc66358dc385",
     "skipped": false
   },
+  "jmotlagh/alteryx-workflows": {
+    "default_branch": "main",
+    "e1_file_count": 2,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:58:06.521213+00:00",
+    "last_checked_sha": "ec2aabfcab8f8c709e0cf6c83704525b1fc205c0",
+    "skipped": false
+  },
+  "john-smith/alteryx_tools": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:58:08.077893+00:00",
+    "last_checked_sha": "f33871757b90cee50df99b5fd241d1d0a6bdfa2b",
+    "skipped": false
+  },
   "johnkabler/GoogleAnalytics": {
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:50:21.555326+00:00",
     "last_checked_sha": "9bed92a7ec61c868d133f716688be714e874888b",
+    "skipped": false
+  },
+  "johnkabler/PyRyx": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:58:10.095289+00:00",
+    "last_checked_sha": "95abebe618631ca2e144418730b99da7c8ef9164",
     "skipped": false
   },
   "johnkabler/yx_motor": {
@@ -8352,6 +10182,14 @@
     "last_checked_sha": "8b50ff70ad0b70c32cb15895a5b2cc255bee7f8e",
     "skipped": false
   },
+  "jredrage/yxdbsi": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:58:22.251943+00:00",
+    "last_checked_sha": "d776ce1312ee6e4e0280d88ac6fe53dee6fa4a90",
+    "skipped": false
+  },
   "js816/alteryx_adobe_analytics": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -8374,6 +10212,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:50:55.105668+00:00",
     "last_checked_sha": "76679e95d51c29f5beeaa5fc91b3a9b747c312db",
+    "skipped": false
+  },
+  "judexo/Udacity---Predictive-Analytics-For-Business-Nanodegree": {
+    "default_branch": "master",
+    "e1_file_count": 5,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:58:28.489629+00:00",
+    "last_checked_sha": "df2093e5bc1dd2c4fbd3a8ed5550790abc4e7fa5",
     "skipped": false
   },
   "jumail-j/Alteryx-Analytical-App": {
@@ -8416,6 +10262,22 @@
     "last_checked_sha": "6bca9e3a60eb3122fd7dca56c75d5fb1cfcb5e7c",
     "skipped": false
   },
+  "jupiterbak/AYX-MLOPS-DEMO": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:58:33.474329+00:00",
+    "last_checked_sha": "f14f3fe2507d80f95a3bf3c6bdf35ab4d432d93b",
+    "skipped": false
+  },
+  "jupiterbak/Alteryx-LLM-Connect": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:58:34.581198+00:00",
+    "last_checked_sha": "ee05629a3b9110b0f2c8972525db63544094019e",
+    "skipped": false
+  },
   "jupiterbak/GITHUB-DEMO": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -8430,6 +10292,28 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:51:03.557034+00:00",
     "last_checked_sha": "6767a4035f9deccd6f74a9a6d2134c1041e94e0b",
+    "skipped": false
+  },
+  "jupiterbak/Zurich-Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [
+      {
+        "path": "XGBoost-Model.yxdb",
+        "sha256": "e1157c95e5a1d5dc020029fa3bd7712a108404d1a1c67cc88d58843c48e467b7",
+        "size": 81046
+      }
+    ],
+    "last_checked_at": "2026-07-21T01:58:37.623195+00:00",
+    "last_checked_sha": "93e8b886f7a865523e657b7eb5f2b2ad0dff02e6",
+    "skipped": false
+  },
+  "jusdespommes/ajajaj-content": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:58:39.040396+00:00",
+    "last_checked_sha": "39d19bd35c52535051430b33d8efe3d684020d47",
     "skipped": false
   },
   "jwlong91/alteryx_live": {
@@ -8520,6 +10404,14 @@
     "last_checked_sha": "0f8926d56541c770ef6b4ab7aa11606e14d5a3a5",
     "skipped": false
   },
+  "kaushik-bhide/Alteryx-Tutorial": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:58:49.859844+00:00",
+    "last_checked_sha": "aad1b65ffbb94c6085f2cb301dc026e19d208d65",
+    "skipped": false
+  },
   "kaustubhvasu/Alteryx_Weekly-Challenges": {
     "default_branch": "main",
     "e1_file_count": 24,
@@ -8532,8 +10424,8 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:51:24.648778+00:00",
-    "last_checked_sha": "21856c589e4961c86295860c48f38f5d08b94194",
+    "last_checked_at": "2026-07-21T01:58:51.668352+00:00",
+    "last_checked_sha": "0b89279208da7939d774426aab8735aff5e3e46e",
     "skipped": false
   },
   "kbdv/indian_meal_delivery": {
@@ -8598,6 +10490,30 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:52:43.755814+00:00",
     "last_checked_sha": "2230e4d1f03b0a0d80f5831b9f517da39db3ea0f",
+    "skipped": false
+  },
+  "kfnawaz/alteryx-openlineage-sidecar": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:58:59.604878+00:00",
+    "last_checked_sha": "e057396df5c03276afa939f8ed36cfccee859b7f",
+    "skipped": false
+  },
+  "khavnekar-y/Data-Integration-and-Business-Intelligence-for-Crash-Detection": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:01.341845+00:00",
+    "last_checked_sha": "367f4efcb3ac1aab4c84ae8bfb2b328d735d853a",
+    "skipped": false
+  },
+  "khuneninad/Emp_Churn-Analysis-using-Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:02.764117+00:00",
+    "last_checked_sha": "966345d521db13f94b551449b496872634af4a1c",
     "skipped": false
   },
   "khushishetty22/stock-data-pipeline": {
@@ -8672,6 +10588,14 @@
     "last_checked_sha": "1a8f674bb5f9b07df7176696965cb5b03052fcdb",
     "skipped": false
   },
+  "kpkaranpatil600/DAMG7370-Designing-Advanced-Data-Architectures-for-Business-Intelligence": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:10.496371+00:00",
+    "last_checked_sha": "53a9706c1cb86a94d160b373632f8683078a8d0e",
+    "skipped": false
+  },
   "kpkaranpatil600/Data-Warehousing-and-Business-Intelligence-for-IMDB": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -8712,6 +10636,38 @@
     "last_checked_sha": "3ed882c594b7559850a5ce5ad95b0a093216f281",
     "skipped": false
   },
+  "kroberts1/alteryx-training": {
+    "default_branch": "master",
+    "e1_file_count": 2,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:14.416509+00:00",
+    "last_checked_sha": "9f68a88c86ef56e5610997ae03792ecf20010a5a",
+    "skipped": false
+  },
+  "kroberts1/alteryx-training-logistic": {
+    "default_branch": "master",
+    "e1_file_count": 2,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:16.725335+00:00",
+    "last_checked_sha": "65e8e824d0283f3bcb4f0d89b6322c2119a05584",
+    "skipped": false
+  },
+  "kshitijzutshi/BI-Analysis-on-Chicago-Food-Inspection": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:18.078696+00:00",
+    "last_checked_sha": "7aa9f3c51d6f460900efd8c2e6d1882263f11a0c",
+    "skipped": false
+  },
+  "kshitijzutshi/BI-Analysis-on-NYC-Food-Inspection": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:19.203623+00:00",
+    "last_checked_sha": "4ef82661847f0de6a4e62a6e8cb32a0cc7dbd256",
+    "skipped": false
+  },
   "kumarritik24/Sales-Performance-Optimization-DC-Industries": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -8724,6 +10680,14 @@
     ],
     "last_checked_at": "2026-04-04T03:52:59.158122+00:00",
     "last_checked_sha": "8d8e77e0fccdf53d44b41c6202330dab643ecef3",
+    "skipped": false
+  },
+  "kumarsrbh1/enterprise-data-pipeline-alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:20.975032+00:00",
+    "last_checked_sha": "5eb01104ecaef9a4646c167bbe594fcd960c2524",
     "skipped": false
   },
   "kunaltibe/food-safety-inspection-analytics": {
@@ -8748,6 +10712,30 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:53:02.942313+00:00",
     "last_checked_sha": "68a9bb9c348d20740600f7d1f008b028dc09f0fa",
+    "skipped": false
+  },
+  "kunalydv-2000/Alteryx-Complete-Course-Beginner-to-Advanced": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:24.279388+00:00",
+    "last_checked_sha": "4ef7ecf1039a1c9858b1cad56d5c1cf06f7859ba",
+    "skipped": false
+  },
+  "lahonu/Mimesis_Tool": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:25.446380+00:00",
+    "last_checked_sha": "6f09c1c705b585b2caf2da7a8a7ce30348d8b8ca",
+    "skipped": false
+  },
+  "lahonu/alteryx-tool-generator": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:26.500510+00:00",
+    "last_checked_sha": "aedef1364d5034047ef5934a05a86bcd015a0679",
     "skipped": false
   },
   "lahonu/analyze-server-logs": {
@@ -8804,6 +10792,28 @@
     "last_checked_sha": "8abf3246ac0a7722d43be73685a9d9231ac5ec3f",
     "skipped": false
   },
+  "lauyeewen123/UTM_CourseWork": {
+    "default_branch": "main",
+    "e1_file_count": 5,
+    "e2_files": [
+      {
+        "path": "Year 3/Sem 2/BUSINESS INTELLIGENCE/Lab Exercise/SuperstoreCom.yxdb",
+        "sha256": "660e0671fbc915e4fafd5da7db6a0d767ee9397f4d6b6d84091eeab9d78235fb",
+        "size": 788389
+      }
+    ],
+    "last_checked_at": "2026-07-21T01:59:38.553608+00:00",
+    "last_checked_sha": "5f0cd48d31b75a24bc374bbf277c8f5b93bebc14",
+    "skipped": false
+  },
+  "lbhatti-risk/financial-audit-logic-automation": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:39.905126+00:00",
+    "last_checked_sha": "33775202db4a36a2247199f6debe22f2780dc6e6",
+    "skipped": false
+  },
   "lch129444/Business_Analysis_Projects_Alteryx": {
     "default_branch": "master",
     "e1_file_count": 6,
@@ -8858,6 +10868,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:53:29.444331+00:00",
     "last_checked_sha": "ae36efe220182fa054b063a649407181732e2d88",
+    "skipped": false
+  },
+  "linataghub/Predicting-Catalogue-Demand": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:46.044636+00:00",
+    "last_checked_sha": "ecbafcd858e2d94a99edf6d8ca1a5842413fa22c",
     "skipped": false
   },
   "linataghub/Predictions-models-for-Store-Expansion-Project": {
@@ -8981,12 +10999,52 @@
     "last_checked_sha": "6a314c705eb355a77988ed07e026e714aa44f2d4",
     "skipped": false
   },
+  "lwhit24/alteryx-byo-llm": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:55.784424+00:00",
+    "last_checked_sha": "c9190fba4f3db7f025b3eafa5e7e0b6798f59511",
+    "skipped": false
+  },
+  "m-carini/m-carini.github.io": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T01:59:59.445589+00:00",
+    "last_checked_sha": "9e6a4a807323dc998589fd20de905ecadea53fae",
+    "skipped": false
+  },
   "ma7tcsp/install-ayx-desktop-remove-ai": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:54:17.482692+00:00",
     "last_checked_sha": "d09834db1bb25dd6d424726e5a0b50da197f9f38",
+    "skipped": false
+  },
+  "maahiimaq/alteryx-migration": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:01.654525+00:00",
+    "last_checked_sha": "a37eae9837a270abdb5f96647feda7ea3f12350d",
+    "skipped": false
+  },
+  "macedoaemg/Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:02.789058+00:00",
+    "last_checked_sha": "0cef65894c9ea2b21c435a9bda5d9336297ebeb2",
+    "skipped": false
+  },
+  "madhuripuli/Amsterdam-Airbnb-using-Alteryx-Designer": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:03.938253+00:00",
+    "last_checked_sha": "e53ee23daa9b39fa3580c1ddd97f144d3be369bb",
     "skipped": false
   },
   "magarSushant/NHS-Hospital-Stay-Duration-Analysis": {
@@ -9019,6 +11077,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:54:20.628362+00:00",
     "last_checked_sha": "fcd1b311df1e96ec62a06af3708b4fb2e222b219",
+    "skipped": false
+  },
+  "manushii/IMDB_DataScrapping": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:08.308535+00:00",
+    "last_checked_sha": "13a94af03e6f7fbe41a7dcb59ee9b52c27a03046",
     "skipped": false
   },
   "manvimehta1009/Alteryx-RSM-Datathon-Project": {
@@ -9093,12 +11159,28 @@
     "last_checked_sha": "f5e81eb781680c3f70ebf4001f402651111c4512",
     "skipped": false
   },
+  "mattantimatter/mclaren-alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:16.246429+00:00",
+    "last_checked_sha": "993df7a76f1964c4e2575104055711b5579264f1",
+    "skipped": false
+  },
   "mattburtnz07/Udacity-Predictive-Analytics-for-Business-Coursework": {
     "default_branch": "master",
     "e1_file_count": 6,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:54:41.272178+00:00",
     "last_checked_sha": "5997165a089e2c6d33ef65bfbf0720cd36045a11",
+    "skipped": false
+  },
+  "mauromorales-dev/YXDB-Python-Loader-for-Power-BI": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:18.188805+00:00",
+    "last_checked_sha": "b268cd08652b2d2ea8b26a835ed764b6b41b10b7",
     "skipped": false
   },
   "mcgovey/slalom-qlik-hack-18": {
@@ -9123,6 +11205,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T19:41:59.209374+00:00",
     "last_checked_sha": "c264a614646615fd5ad092aa3a9697f109c56500",
+    "skipped": false
+  },
+  "megelundmuller-devo/alteryx-to-sql-agent": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:22.323768+00:00",
+    "last_checked_sha": "88d61d1b5ecd9ccf9b36e32e3b0f0650e3955ee3",
     "skipped": false
   },
   "melvinouseph/Predictive-Analytics-for-Business-Nanodegree": {
@@ -9155,6 +11245,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:54:46.841702+00:00",
     "last_checked_sha": "0056634f2dc0ddca1eeb97572bfdb98c53b1f519",
+    "skipped": false
+  },
+  "mguida22/alteryx-crypto": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:25.643678+00:00",
+    "last_checked_sha": "27ce1e6ed9f59b438d3c59083fe41a73617ef88e",
+    "skipped": false
+  },
+  "mhumpher/pyflow-studio": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:26.831026+00:00",
+    "last_checked_sha": "2d2d56da63491f5dd79fdc48e96bcde12060d15c",
     "skipped": false
   },
   "michal10moravec/alteryx-fullstack-project": {
@@ -9310,6 +11416,14 @@
     "last_checked_sha": "8be067cb62a29c3046b4e2a1e8d196f4e9f1ecfe",
     "skipped": false
   },
+  "mkklsn/alteryx_play": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:39.908915+00:00",
+    "last_checked_sha": "f335705bf62889febcaad278a238419d1bcba31d",
+    "skipped": false
+  },
   "mkp64/BDA_Trends_Market_Basket_Analysis": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -9342,6 +11456,14 @@
     "last_checked_sha": "9fd0dbe720ee6761f33ec0741f545b5cf1faafed",
     "skipped": false
   },
+  "mohamadsabbagh707/alteryx-linear-regression": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:43.871129+00:00",
+    "last_checked_sha": "eba8928f0ddc91321bf8a09341ccee4d2b04c42c",
+    "skipped": false
+  },
   "mohammed0786-tech/retail-order-analytics-alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -9356,6 +11478,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T19:42:20.599066+00:00",
     "last_checked_sha": "45b273383d5cafbe5884c1028981f47fb18d438f",
+    "skipped": false
+  },
+  "mojiggre/Lab3-Linear-Regression": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:46.428086+00:00",
+    "last_checked_sha": "2752f1dc92fc626c91b92c38410f7ba2dc6f5122",
+    "skipped": false
+  },
+  "monetenmangel/Spotify-Rewind": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:47.524343+00:00",
+    "last_checked_sha": "13b8db88980535a0ba4df25fed68c93a7ff120cb",
     "skipped": false
   },
   "more8722/Create-an-analytical-dataset-Alteryx": {
@@ -9390,6 +11528,22 @@
     "last_checked_sha": "d7a6804bb9266e0f9cefe9612e0daa40e479f9a6",
     "skipped": false
   },
+  "mrstrangesree/Alteryx-Workflows-And-Artifacts": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:51.941814+00:00",
+    "last_checked_sha": "0df2c9dea7a6faa6e2d35e12055b73be80fda396",
+    "skipped": false
+  },
+  "mrstrangesree/AlteryxTraining": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:00:56.744896+00:00",
+    "last_checked_sha": "ca7966cb12b2f52cc8a5bb6b4280f34571863cb0",
+    "skipped": false
+  },
   "mrtellington/alteryx-newhire-swag": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -9422,6 +11576,14 @@
     "last_checked_sha": "ca121112d34c24f6a31a2df41a46f69f195a7063",
     "skipped": false
   },
+  "mugdha812/IMDB-Data-Scrapping": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:01.190319+00:00",
+    "last_checked_sha": "8f71f6aa9213732e35297a8b3aeeea9116474e2f",
+    "skipped": false
+  },
   "mukuljain2909/Missing-Timesheet-and-Engagement-Alteryx-Workflow": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -9430,12 +11592,28 @@
     "last_checked_sha": "9aec3d5ac848e7ed91a08ab2b0432fc8771c3690",
     "skipped": false
   },
+  "muluwerkderebe-StatisticalAnalyst/Machine-Learning-Labs": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:03.168721+00:00",
+    "last_checked_sha": "03a9671c92b935b397a79debd930ec3f047c2bfc",
+    "skipped": false
+  },
   "murkasad/Linear-Regression-Alteryx-Workflow": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:55:32.990150+00:00",
     "last_checked_sha": "3609484f4d32bf8f69906f3c99bd76657c92c090",
+    "skipped": false
+  },
+  "mvortizr/analytics-and-ds-practice": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:04.967537+00:00",
+    "last_checked_sha": "2aa27005de499f69a1f570bd4524087739b86c5d",
     "skipped": false
   },
   "mwam0008/Alteryx-Project": {
@@ -9540,12 +11718,68 @@
     "last_checked_sha": "32451e9ba445856698234eda7c263f20d1180c52",
     "skipped": false
   },
+  "nandukmelath/alteryx-to-fabric-migration-template": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:15.675880+00:00",
+    "last_checked_sha": "b5b842efc6114cf129f4e2137d53f62a20a78829",
+    "skipped": false
+  },
+  "nastazya/Alteryx-EDA": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:16.774020+00:00",
+    "last_checked_sha": "f93e0485afa86aa809b952db63487fded32410d9",
+    "skipped": false
+  },
   "nataliatamiteva/alteryx-plus-neo4j": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:56:14.625687+00:00",
     "last_checked_sha": "d5ac878f432ed020828dc5a002f4fa7fe5d5e691",
+    "skipped": false
+  },
+  "nateGeorge/udacity_pred_analytics_4_biz": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:21.950492+00:00",
+    "last_checked_sha": "883184f491a5a72d3edf83a4b555a5af24293227",
+    "skipped": false
+  },
+  "navintkr/alteryx-fabric-migrator": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:23.515433+00:00",
+    "last_checked_sha": "7778962e22d3bab0566f2ea82df2da420599bcb5",
+    "skipped": false
+  },
+  "nehalakhani1805/House-Price-Predictor": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:24.639871+00:00",
+    "last_checked_sha": "177f4409fb75f31aef82467f368b8c1d26c3c4c5",
+    "skipped": false
+  },
+  "nessa1408/CovidDataDashboard": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:25.820587+00:00",
+    "last_checked_sha": "c62cdf0476a810e901bf4fc518b348629cadd51f",
+    "skipped": false
+  },
+  "nhsx/social-care-connectivity-devices": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:27.070125+00:00",
+    "last_checked_sha": "5fbb73f656f36fc3942d25584513c2dc9b017dd3",
     "skipped": false
   },
   "niadel91/Alteryx-Avocado-Consumption-Analytics": {
@@ -9596,12 +11830,28 @@
     "last_checked_sha": "d18877b3812a29e9e4cc8eab4be4d77c95fd3b75",
     "skipped": false
   },
+  "nicholasmccall/alteryx_gallery_api": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:32.859218+00:00",
+    "last_checked_sha": "29d6c5fbf45dc6aebf6d88b3935aab23e7eb5047",
+    "skipped": false
+  },
   "nidhaltijani/Alteryx-Web-Scraping": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:56:22.951685+00:00",
     "last_checked_sha": "9dfd9b364fe3e4e99a5463b3f961431f9a55095e",
+    "skipped": false
+  },
+  "nidhigup01/AB-testing-in-Alteryx-": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:35.459674+00:00",
+    "last_checked_sha": "63b35654cd4e9e7d53eb1d99f5c7f0e2e334a3f0",
     "skipped": false
   },
   "nikhil-1310/Data-Visulaization--STAAR-Test-Outcomes": {
@@ -9644,6 +11894,14 @@
     "last_checked_sha": "57cc04a6abd23d052b4b98321815bbe440b410e9",
     "skipped": false
   },
+  "nitinpy-hub/alteryx-migration": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:40.255496+00:00",
+    "last_checked_sha": "70372924517f9150165c114437e0a459db605b71",
+    "skipped": false
+  },
   "nitishkthakur/AlteryxParser": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -9668,6 +11926,14 @@
     "last_checked_sha": "7335f890cb52c03c421e57fae5ff77174936d189",
     "skipped": false
   },
+  "nmryan/webimage": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:43.460578+00:00",
+    "last_checked_sha": "0413cb85cb80f6c4ac1437578e7e26a5fff6ca8a",
+    "skipped": false
+  },
   "nokute2008/Hospital-Data-warehouse": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -9690,6 +11956,30 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:56:34.678331+00:00",
     "last_checked_sha": "178ff6e7714478f8faa69eee2fa67fc8d8506cd9",
+    "skipped": false
+  },
+  "nyck33/fintech2023": {
+    "default_branch": "master",
+    "e1_file_count": 19,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:55.153945+00:00",
+    "last_checked_sha": "b04e16e2a2ecf1904650b13fc3d08ca0cfb13641",
+    "skipped": false
+  },
+  "nyika-janos/ford-training-vol3-day5-alteryx-migration": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:56.651167+00:00",
+    "last_checked_sha": "037aebfe638a5deac0450384b6fb9897040b2b1e",
+    "skipped": false
+  },
+  "o10199/Housing_Price_Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:01:57.802992+00:00",
+    "last_checked_sha": "d12542629642215d0db08e7635e543a9a5062086",
     "skipped": false
   },
   "oanokyen/stats-analysis-projs": {
@@ -9823,6 +12113,14 @@
     "last_checked_sha": "bf63cd90f320eaf06dd46f6174eb782604357616",
     "skipped": false
   },
+  "paterkaas/Mini-project": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:02:08.020934+00:00",
+    "last_checked_sha": "4c806371ac5ff0518410bb357ab4a4122662c20c",
+    "skipped": false
+  },
   "patryktecza/Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -9845,6 +12143,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:56:53.149394+00:00",
     "last_checked_sha": "cd8ba5e5b8e4764184cc7f0e2fd6c89d895e0834",
+    "skipped": false
+  },
+  "pavanngsv/US_Unemployment-Education_DataAnalysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:02:11.272709+00:00",
+    "last_checked_sha": "43eac24ccb367845c8fa4ee37f624aec4cd224e9",
     "skipped": false
   },
   "pawarpa/Alteryx": {
@@ -9911,6 +12217,14 @@
     "last_checked_sha": "5bc485ee4363967e942d464fc2ede00858e32d00",
     "skipped": false
   },
+  "pgensler/data.world-Alteryx-Connector": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:02:19.828339+00:00",
+    "last_checked_sha": "282a877ffde601aad4e542e1bf0c6c522fca26eb",
+    "skipped": false
+  },
   "piguy314159265/AP_Standards": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -9935,12 +12249,28 @@
     "last_checked_sha": "1d6953759681913e675dcff165c3427d6f8b6e83",
     "skipped": false
   },
+  "pjsk02/IMDb-ETL-Dashboard": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:02:23.268290+00:00",
+    "last_checked_sha": "167ea201d2c2525767fe4e416473dd1e12bc52a9",
+    "skipped": false
+  },
   "pleasemarkdarkly/wsdot_visualization": {
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:57:07.696649+00:00",
     "last_checked_sha": "3570acd46be4b6676caf15c2e5f2549110a4b0aa",
+    "skipped": false
+  },
+  "pohlokyee/Academic-Project": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:02:25.356957+00:00",
+    "last_checked_sha": "7121713c2c87bf96c732ac45d57e86b389754cfd",
     "skipped": false
   },
   "pooh2304/Alteryx-Weekly-Challenges": {
@@ -9999,12 +12329,39 @@
     "last_checked_sha": "3d07a23b5ba6fc4bacc0dc3963f8916ddb31d3ef",
     "skipped": false
   },
+  "pratik1055/alteryx-data-projects": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [
+      {
+        "path": "02-customer-orders-designer-desktop/data/order_items.yxdb",
+        "sha256": "80749e132037ab6449b1ea51f5f4e52d1ae3013ab2dc2c0b661b5133e07d8d1e",
+        "size": 29227
+      },
+      {
+        "path": "02-customer-orders-designer-desktop/data/orders.yxdb",
+        "sha256": "ef80391e108626d4b2329d7e01ef594308a37a9990f1ab59b30e68d6ab2ae100",
+        "size": 23149
+      }
+    ],
+    "last_checked_at": "2026-07-21T02:02:33.063407+00:00",
+    "last_checked_sha": "d65c6467ed781cd3a2881b62947a39e589d7c43b",
+    "skipped": false
+  },
   "pratik3336/ChicagoDallas-FoodInspection-DataEngineeringProject": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:57:17.105943+00:00",
     "last_checked_sha": "dcd0085dc08d23da40765f1d65f8d24ec81a4682",
+    "skipped": false
+  },
+  "pravalikareddyanumandla/Enterprise-IAM-Risk": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:02:35.264294+00:00",
+    "last_checked_sha": "e6b21206ebef8e9374b353dd08785d72eb7dfddd",
     "skipped": false
   },
   "prithvivasireddy/R_NBA_data_EDA_Storage_ViZ": {
@@ -10053,6 +12410,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:57:23.577502+00:00",
     "last_checked_sha": "02f3ee7701a93bf27bf15719b0c9b60c7b453dab",
+    "skipped": false
+  },
+  "pujanpatel0265/alteryx-machine-learning": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:02:40.792056+00:00",
+    "last_checked_sha": "54c1e974efa6e215ed8e41fac6ff10c1c9e9e7ed",
     "skipped": false
   },
   "pushkardps/Predictive_Analytics_For_Business": {
@@ -10123,8 +12488,8 @@
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:57:34.814798+00:00",
-    "last_checked_sha": "68ddb707d1a6c678c6458c8aa5894190bb0aca82",
+    "last_checked_at": "2026-07-21T02:02:47.328325+00:00",
+    "last_checked_sha": "3cab4f42d620ee41695f4dbefc377e8f1ca60102",
     "skipped": false
   },
   "r0han01/supplyChainDataOps": {
@@ -10249,12 +12614,28 @@
     "last_checked_sha": "92ca7c571422faca699475cdb031a11ec1476956",
     "skipped": false
   },
+  "rakshithashri/Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:02:56.547011+00:00",
+    "last_checked_sha": "091fcce290a2e23e847713c892776a5583dd99aa",
+    "skipped": false
+  },
   "ramakrishna1997/Alteryx-Assignment": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:57:53.144808+00:00",
     "last_checked_sha": "4bf31a91ca4934ed6ef05ef5f07755f84958430c",
+    "skipped": false
+  },
+  "ramakrishna1997/Udemy_task": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:02:57.646197+00:00",
+    "last_checked_sha": "620c26902054d77bf2ee968a116bef9e87e6e195",
     "skipped": false
   },
   "ramakrishna1997/Udmey-Alteryx-Training-": {
@@ -10287,6 +12668,14 @@
     "last_checked_sha": "1db0c9cd77a9c0577ccb3f23c56942c73c681785",
     "skipped": false
   },
+  "ramumarrp77/Designing-data-architecutre-and-business-intelligence-for-iowa-liquor-sales": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:03:01.487103+00:00",
+    "last_checked_sha": "7d03e54abdda6859af7e8aae3509a6452935b53f",
+    "skipped": false
+  },
   "ranade-ame/Iowa-Liquor-Sales-Dimensional-Model": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -10301,6 +12690,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:58:08.277648+00:00",
     "last_checked_sha": "556b44c467f2d9f721f9523e296f565880ea5f0e",
+    "skipped": false
+  },
+  "raomah/DW_BI_IMDB_Data": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:03:04.470631+00:00",
+    "last_checked_sha": "bcc58ba8ed0057514f05dd772ab60fc8023790fc",
     "skipped": false
   },
   "ravi-kumbar-de/Business_Analytics": {
@@ -10339,6 +12736,22 @@
     ],
     "last_checked_at": "2026-04-04T03:58:15.054636+00:00",
     "last_checked_sha": "46a3368a66b481f640ab28831e22d76ccf876313",
+    "skipped": false
+  },
+  "realpir-ai/yxzpet": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:03:08.702693+00:00",
+    "last_checked_sha": "c296b4cfd1937a5fa2974395c57406ea42919043",
+    "skipped": false
+  },
+  "redbackoperations/Projects": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:03:18.019579+00:00",
+    "last_checked_sha": "4ece54cf83c9c60be07275740343b33691f4f3f1",
     "skipped": false
   },
   "relee713/alteryx": {
@@ -10427,6 +12840,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:58:34.807630+00:00",
     "last_checked_sha": "3a633294877b8cabd92b460a8de9cceefeeb871c",
+    "skipped": false
+  },
+  "ritimoradiya/US-Economic-Opportunity-Index": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:03:26.133051+00:00",
+    "last_checked_sha": "87e6c58ee5943d665a96b8e3237781d7d2ec5db5",
+    "skipped": false
+  },
+  "rittminrec/yxdbls": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:03:27.285607+00:00",
+    "last_checked_sha": "9f169eff85360611cb0ed0fcb7690054928fa55b",
     "skipped": false
   },
   "ritu-05/Cluster-Case-Study": {
@@ -10549,6 +12978,14 @@
     "last_checked_sha": "6377e8a929e138aab0fecf02387ceb11c00ebccb",
     "skipped": false
   },
+  "rpaugh/Alteryx-Salesforce-Tools": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:03:39.718571+00:00",
+    "last_checked_sha": "bf38a5b27173d22658cb95300f0e577b90356bf9",
+    "skipped": false
+  },
   "rprashanth507/Alteryx-Contest": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -10587,6 +13024,22 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:58:56.412009+00:00",
     "last_checked_sha": "000d2d689df729254bb02a8f6f63814aaa98c5f7",
+    "skipped": false
+  },
+  "sabarissh11/Transaction-Reconciliation-Workflow": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:03:44.606453+00:00",
+    "last_checked_sha": "d4d145ddbe6c54176586b989e426a3ee3f232075",
+    "skipped": false
+  },
+  "sachinbasantia/Wholesale-Data-Warehouse-Automation-using-Alteryx-": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:03:45.645953+00:00",
+    "last_checked_sha": "cc9b94eae470371cabc55301ee45c527dba025a4",
     "skipped": false
   },
   "sahu1shivani/Iowa-Liquour-Sales-Dataset-Analysis": {
@@ -10693,12 +13146,28 @@
     "last_checked_sha": "3b1a1f606088a8fde51792a6fe96a1b58ad7acbc",
     "skipped": false
   },
+  "sanhita54742/Chicago_Restaurant_Inspection_Analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:03:56.155179+00:00",
+    "last_checked_sha": "3586878cca003061ef38189ae649466e95616257",
+    "skipped": false
+  },
+  "sanhita54742/Seattle_Pet_Licence_Data_Analysis": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:03:57.229932+00:00",
+    "last_checked_sha": "7a277fe93c595f3d84b7d7c90314ff5192d303d5",
+    "skipped": false
+  },
   "sanjanaveeram-lgtm/instacart-data-analytics-project": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T03:59:13.396849+00:00",
-    "last_checked_sha": "c77b9772eeaf5f3a696f4366222762a8ae702b19",
+    "last_checked_at": "2026-07-21T02:03:58.280255+00:00",
+    "last_checked_sha": "75bba64f750484abc05495f76c050ec69ce6a49b",
     "skipped": false
   },
   "sanjay75139/Alteryx-Learnings": {
@@ -10773,6 +13242,14 @@
     "last_checked_sha": "04c5bc7fe66d74d6766fa87a05d22dfbcc1b9b24",
     "skipped": false
   },
+  "santhanalakshmi21/Alteryx_-Designer_core": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:04:06.003767+00:00",
+    "last_checked_sha": "09fc255a5cbc74105160e50acca1d65d0ea65417",
+    "skipped": false
+  },
   "santosh47863/Superstore_Alteryx-workflow": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -10787,6 +13264,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:59:25.179352+00:00",
     "last_checked_sha": "b6a7908b1f1d201e6b69f9592233ab6add62b5dc",
+    "skipped": false
+  },
+  "saqibsafdar11/Tableau-DSL-Dashboard": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:04:08.601794+00:00",
+    "last_checked_sha": "cbf1a2b7d259658ef648961c65df8d2536e0c85e",
     "skipped": false
   },
   "sarashaikh1701/Credit-Risk-Segmentation": {
@@ -10845,12 +13330,28 @@
     "last_checked_sha": "7788f881437c158fe55b1efa7480969ba48296fd",
     "skipped": false
   },
+  "sathyaNEU/FoodInspectionDW_Project": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:04:13.463498+00:00",
+    "last_checked_sha": "3c8783bb53db3df4b5adbfd84b09ba516e6b986a",
+    "skipped": false
+  },
   "saurasarkar/predictive_analytics_projects": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:59:37.525771+00:00",
     "last_checked_sha": "c14b9efabe91036af492f8f9a22074f487a0f18d",
+    "skipped": false
+  },
+  "sayanghosh123/tableau-alteryx-to-powerbi-converter": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:04:15.327175+00:00",
+    "last_checked_sha": "3b21717771c07dcc843a4270a988b33a368a8c00",
     "skipped": false
   },
   "scallybrian/Alteryx-Dummy-Code": {
@@ -10869,6 +13370,14 @@
     "last_checked_sha": "2f3fb4e203a885c7c11a53b0fe28d85b48f10e82",
     "skipped": false
   },
+  "scallybrian/OpenFromTableauServer": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:04:18.010367+00:00",
+    "last_checked_sha": "de079db303382690ef43b7c34ebc2e2dc08c8354",
+    "skipped": false
+  },
   "sebastian-huynh/alteryx-datathon-23": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -10883,6 +13392,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T03:59:42.347776+00:00",
     "last_checked_sha": "dc54331140a53a2631b1454d02ad512e80efaf08",
+    "skipped": false
+  },
+  "sgabriel62/habitat_alteryx": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:04:20.974839+00:00",
+    "last_checked_sha": "ba7e74fd04c082244eab49bf74d392a1442ad271",
     "skipped": false
   },
   "sgpohlj87/Alteryx-Weekly-Challenges": {
@@ -10915,6 +13432,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T19:44:34.418681+00:00",
     "last_checked_sha": "b79c7ca22aa5efb0c0cb6eccd3c816bd4bea22fc",
+    "skipped": false
+  },
+  "shaikbaji-wq/alteryx_to_python": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:04:24.546761+00:00",
+    "last_checked_sha": "ba42cdd0b43692f8ccd449e700a18d9b57807151",
     "skipped": false
   },
   "shanker96/dataviz": {
@@ -10989,6 +13514,28 @@
     "last_checked_sha": "d1cce19bce53ccc5f01c776f60a6cf3373b81fab",
     "skipped": false
   },
+  "shivanimishal/alteryx-workflow-documentation": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:04:32.377056+00:00",
+    "last_checked_sha": "6ea01e3e83d7f5f12a37d2dbed3ec25cd6cff4a1",
+    "skipped": false
+  },
+  "shouryajain72-code/Shourya-Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [
+      {
+        "path": "practice.yxdb",
+        "sha256": "6a41c1522c60d1d2b778fd7a3c3d220163b46219f966329747ce67cdd4d999f4",
+        "size": 1345712
+      }
+    ],
+    "last_checked_at": "2026-07-21T02:04:34.046742+00:00",
+    "last_checked_sha": "8afc0cdd7965e9e2c946d733f51c81c193f54dfe",
+    "skipped": false
+  },
   "showssteamrolls/ShowsShares": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -11003,6 +13550,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T04:00:10.266646+00:00",
     "last_checked_sha": "8861191cd1dbb25de372afada364ea93c4a2f02d",
+    "skipped": false
+  },
+  "shreyasinharoy-16/Alteryx-Project": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:04:36.911627+00:00",
+    "last_checked_sha": "289d7eb0c819664e39ff336bb294d88147e1a8f4",
     "skipped": false
   },
   "shrimantasatpati/alteryx_certification_advanced": {
@@ -11029,6 +13584,14 @@
     "last_checked_sha": "929439292ea934c0ebb755608da9d4b64331cb21",
     "skipped": false
   },
+  "shubh0000007/Sales-Analytics-Workflow-using-Alteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:04:40.197022+00:00",
+    "last_checked_sha": "2efc268de433c27e670b8840c58a1818d214beee",
+    "skipped": false
+  },
   "shushilgirish/FoodInspection-Data-Analysis-for-Dallas-and-Chicago-": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -11043,6 +13606,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T04:00:15.481269+00:00",
     "last_checked_sha": "17be874809888e9e4a2afdf555a900e6c1984527",
+    "skipped": false
+  },
+  "siddhantsid2199/Alteryx-Workflows-Multiple-Problems-": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:04:43.515405+00:00",
+    "last_checked_sha": "5df00585e28304493cef77ed1ab4e6e800d651f3",
     "skipped": false
   },
   "sidigui16/portfolio-data-analyst": {
@@ -11129,8 +13700,8 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T04:00:33.337426+00:00",
-    "last_checked_sha": "31e784dd68cb4d596a8e31166337a434d15e6e22",
+    "last_checked_at": "2026-07-21T02:04:52.162833+00:00",
+    "last_checked_sha": "f14908f902f349c3421b0a3b987aa2b6ef02fe75",
     "skipped": false
   },
   "sky-bot-ops/sky-bot-ops": {
@@ -11139,6 +13710,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T04:00:34.521199+00:00",
     "last_checked_sha": "8331610994a1aabb2e8ee150ffb6476b7d668ac9",
+    "skipped": false
+  },
+  "sm-ak-r33/Formula1-Circuit-Excitement-Analysis-": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:04:53.998438+00:00",
+    "last_checked_sha": "ffeef2d401fac7f4c7f69e54262f74948c09b11b",
     "skipped": false
   },
   "smartdong/YXDBarChartDemo": {
@@ -11205,6 +13784,22 @@
     "last_checked_sha": "802169006863d5f7a42109180af9494fa3b407d3",
     "skipped": false
   },
+  "soumitmondal17/Alteryx-Sales-Analytics-Pipeline": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:02.033528+00:00",
+    "last_checked_sha": "61454adb5696bee3124d2826c1e1cd7480af8114",
+    "skipped": false
+  },
+  "spencer-scott/pyteryx": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:03.106693+00:00",
+    "last_checked_sha": "ab64b25316d1d12bb63a5709bd9b2ea9cd665bc3",
+    "skipped": false
+  },
   "spreethit/Business-Analysis-Data-analytics": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -11217,8 +13812,8 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T04:00:48.569698+00:00",
-    "last_checked_sha": "58169213181181310c04ce5d635eea670f2d8bc0",
+    "last_checked_at": "2026-07-21T02:05:04.960998+00:00",
+    "last_checked_sha": "705ef1167c31738224f16f8f18def3d903e6fd7e",
     "skipped": false
   },
   "srahulelite/Alteryx_Projects": {
@@ -11245,20 +13840,84 @@
     "last_checked_sha": "18f764ee9befafa6eb79d1d57d3f02b8fcedbbf1",
     "skipped": false
   },
+  "stephen-wagner/alteryx-base64-tool": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:08.973121+00:00",
+    "last_checked_sha": "c136cd3506b7871a6f8731aaa997777338363630",
+    "skipped": false
+  },
+  "stephen-wagner/ayx-tool-for-tableau-pat-authentication": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:10.081971+00:00",
+    "last_checked_sha": "b6ab71d324f3d56005774dde01458c3377824acd",
+    "skipped": false
+  },
+  "stephen-wagner/gmail-attachment-input-alteryx-tool": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:11.163281+00:00",
+    "last_checked_sha": "d0eef1549b82204dd029b93d4d6e5b7a6cc45d0d",
+    "skipped": false
+  },
+  "stephen-wagner/json-build-alteryx-tool": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:12.280879+00:00",
+    "last_checked_sha": "c9da2b726e3321903a0c14619e980ac7c183d096",
+    "skipped": false
+  },
+  "stephen-wagner/quick-start": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:14.311654+00:00",
+    "last_checked_sha": "b13d4446a25fe351efed966d45c3ae99e7bd06cd",
+    "skipped": false
+  },
+  "stephen-wagner/snakeplane-pilot": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:15.683360+00:00",
+    "last_checked_sha": "3f49ff06bd9f61366c6c8098eab3cbf8c1efafdc",
+    "skipped": false
+  },
+  "stephen-wagner/tableau-data-source-downloader": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:16.760846+00:00",
+    "last_checked_sha": "e0ec11dad7880fce09508aaaf33228530d4e2661",
+    "skipped": false
+  },
+  "stephen-wagner/twilio-sms-alert-tool": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:17.865476+00:00",
+    "last_checked_sha": "0e466ac1e53f9f3eb40303ff1119cf616fc6557e",
+    "skipped": false
+  },
   "stephenjpdelta/portfolio": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T04:00:58.450922+00:00",
-    "last_checked_sha": "94078007b38918931a205948a4793b7ae709136a",
+    "last_checked_at": "2026-07-21T02:05:19.642468+00:00",
+    "last_checked_sha": "a8fa270e06d0793bf1d505b19d5828036d153edf",
     "skipped": false
   },
   "stevenphilipgodoyhbs-glitch/Alteryx-Weekly-Challenge-Workflow-Solutions": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T04:00:59.533139+00:00",
-    "last_checked_sha": "292eae8a57810a1720de50d94bef4df744f72b88",
+    "last_checked_at": "2026-07-21T02:05:20.800862+00:00",
+    "last_checked_sha": "161d0fd706d6369e349fd47958ce9daa4ffe98a4",
     "skipped": false
   },
   "stevieedgar/SAP-Financial-Audit-Alteryx": {
@@ -11413,8 +14072,8 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T04:01:17.242470+00:00",
-    "last_checked_sha": "e4dc16d236bf3b0bd939bf07d8766b79b341965d",
+    "last_checked_at": "2026-07-21T02:05:32.140788+00:00",
+    "last_checked_sha": "58ac3a2ed2df6bd73a52a5f3968cee5d1771fdb5",
     "skipped": false
   },
   "teikkeat80/alteryx-trigger-aws": {
@@ -11423,6 +14082,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T04:01:18.231094+00:00",
     "last_checked_sha": "a9e8360c248c616460b6086e62cc0d7a8fc78146",
+    "skipped": false
+  },
+  "tejasrameshtre-blip/private-banking-credit-facility-engine": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:34.288995+00:00",
+    "last_checked_sha": "1701bd29bc78636aedc45f0ba9d088a038c54a4c",
     "skipped": false
   },
   "tejaswinikannan/Meridian_Hospital_ER_Analytics": {
@@ -11469,8 +14136,16 @@
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
-    "last_checked_at": "2026-04-04T04:01:26.850769+00:00",
-    "last_checked_sha": "4e16ae7e4454d7ed0acda61a7af13699aae63c61",
+    "last_checked_at": "2026-07-21T02:05:38.582453+00:00",
+    "last_checked_sha": "a504e8c15cf5a6babc759d2f020a54929597eb54",
+    "skipped": false
+  },
+  "tkuehner/Alteryx": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:40.657368+00:00",
+    "last_checked_sha": "1872164ac2636823d08d086579daf5bcf4ec0086",
     "skipped": false
   },
   "tlarsendataguy-yxdb/yxdb-go": {
@@ -11521,6 +14196,14 @@
     "last_checked_sha": "7c4c914ee537db854cd0787e43734b4c888c1478",
     "skipped": false
   },
+  "tlarsendataguy/alteryx_formulas": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:46.772187+00:00",
+    "last_checked_sha": "eabe07483c82e778f92a4663c5b374fc2e95e942",
+    "skipped": false
+  },
   "tlarsendataguy/alteryx_streams_go": {
     "default_branch": "master",
     "e1_file_count": 0,
@@ -11561,6 +14244,14 @@
     "last_checked_sha": "e528e7c909a86eb302b7e325d909c1afe29dd4f8",
     "skipped": false
   },
+  "tlarsendataguy/import_geotiff": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:52.994306+00:00",
+    "last_checked_sha": "e6cafb9fa0a114fb5dac53af3ef1927fc08f6008",
+    "skipped": false
+  },
   "tlarsendataguy/render_image_public": {
     "default_branch": "main",
     "e1_file_count": 1,
@@ -11569,12 +14260,28 @@
     "last_checked_sha": "589f49c3e43cc2d2f74f2d61e72b328f6c5b6f60",
     "skipped": false
   },
+  "tlarsendataguy/ryx": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:55.017137+00:00",
+    "last_checked_sha": "34d04f75574a33a2ecc786f355b0d5170f99d36f",
+    "skipped": false
+  },
   "tlarsendataguy/us_airspace_data": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T04:02:10.246240+00:00",
     "last_checked_sha": "b609dc2084374ab6ea1efd6cc912f2fb79d11545",
+    "skipped": false
+  },
+  "tlsandbox/AYX_Expand-Your-Predictive": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:56.834891+00:00",
+    "last_checked_sha": "4f25017c7ef8a10427e0b0c50d4e596e2bb94435",
     "skipped": false
   },
   "tmich1997/alt2py-testing": {
@@ -11651,6 +14358,14 @@
     "last_checked_sha": "d416453d4fbda4285103a61c3b6e286ffb41bfb8",
     "skipped": false
   },
+  "tmschbgr/AlteryxGalleryAPI-JS-POC": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:57.983419+00:00",
+    "last_checked_sha": "311a5755a71924c04588b40686c3fc87f9101dff",
+    "skipped": false
+  },
   "tonyjosephsebastians/workflow-alteryx-agent": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -11659,12 +14374,28 @@
     "last_checked_sha": "c79a9781725593b0b5088906b85fc13304aca50b",
     "skipped": false
   },
+  "tpandiang/Alteryx-Weekly-Challenges": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:05:59.831269+00:00",
+    "last_checked_sha": "74844878a67a30b8fa47b774ef80208a837522df",
+    "skipped": false
+  },
   "treyburn/PUBG_API": {
     "default_branch": "master",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T04:02:12.345563+00:00",
     "last_checked_sha": "8e9f91cb0ac6e073f5c3c7c8ab0fcf02182e282c",
+    "skipped": false
+  },
+  "tushar2002-sable/Project-on-Alteryx-": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:06:01.917139+00:00",
+    "last_checked_sha": "d00f6c9dbbe42dd209aba2cbd2413b4bc1f2e734",
     "skipped": false
   },
   "tusharpl/data-cleaning-alteryxflows": {
@@ -11713,6 +14444,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T04:02:18.489451+00:00",
     "last_checked_sha": "cb872878d35f3771849f05d18880acb1bbfc7793",
+    "skipped": false
+  },
+  "uxspe/yxzpbp": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:06:08.671493+00:00",
+    "last_checked_sha": "46a23541a103cab607186405353e74d306047dc0",
     "skipped": false
   },
   "vaibhavrastogi142/Business_Analytics_Alteryx_Tableau": {
@@ -11793,12 +14532,36 @@
     "last_checked_sha": "74f1c109a2538fed52234d88815b4f96cab24db1",
     "skipped": false
   },
+  "viggomeesters/obsidian-alteryx-viewer": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:06:17.178334+00:00",
+    "last_checked_sha": "e18ba5d54606066a880520c223c5f4444da54014",
+    "skipped": false
+  },
+  "vikash-singh-prac/IMDB-Insights-A-Data-Warehouse-Project": {
+    "default_branch": "master",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:06:18.641467+00:00",
+    "last_checked_sha": "e4909e6a49d21e9460472651e7caf5e44f1f110e",
+    "skipped": false
+  },
   "vinaypattanashetti/Retail-Credit-Scoring-Analytics-using-Alteryx": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T04:02:30.528617+00:00",
     "last_checked_sha": "beb92b065caa9feb14178bf7f08f20ddbdcd12f5",
+    "skipped": false
+  },
+  "vinayygoudd/Customer-Retention-Revenue-Optimization-using-Cohort-Analysis-Alteryx-": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:06:20.427782+00:00",
+    "last_checked_sha": "b656c8e4f2ea10be22a7955a00f8155799002627",
     "skipped": false
   },
   "vincentmuiruri/First-alteryx-report": {
@@ -11865,6 +14628,14 @@
     ],
     "last_checked_at": "2026-04-04T04:02:54.299764+00:00",
     "last_checked_sha": "bf2706fec469f1954b3c7bef70d515782e75ad5e",
+    "skipped": false
+  },
+  "vipin4395/Alteryx-Challenges": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:06:25.001437+00:00",
+    "last_checked_sha": "4b5524a0430aa046f3c2d103156580915b14168b",
     "skipped": false
   },
   "vishwapardeshi/AB_Testing": {
@@ -11971,12 +14742,28 @@
     "last_checked_sha": "b7bfaaad30c16476df10ab8e1e865c6e8002e422",
     "skipped": false
   },
+  "wisespira/Alteryx-Gallery-Dark-Mode-Extension": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:06:36.380729+00:00",
+    "last_checked_sha": "0e5c30a46238b10fed5e1ea9366cfa117281fd04",
+    "skipped": false
+  },
   "wisespira/Alteryx-SDK-Macro-Tool-Example": {
     "default_branch": "main",
     "e1_file_count": 0,
     "e2_files": [],
     "last_checked_at": "2026-04-04T04:03:12.131773+00:00",
     "last_checked_sha": "c90ff6e1dc39cf96cbe647dd9c36f2591f5356ed",
+    "skipped": false
+  },
+  "wjsutton/preppin-data": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:06:38.494615+00:00",
+    "last_checked_sha": "a07a8aa14190ef56d6079a8c6418f53c2e07e5a0",
     "skipped": false
   },
   "wrjones104/alteryx-lineage": {
@@ -12051,6 +14838,14 @@
     "last_checked_sha": "5d42806d426739ed5e398e1a792db259718f062b",
     "skipped": false
   },
+  "yashwanth938/Excel_Flow_easy_for_data-transformation-": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:06:45.705395+00:00",
+    "last_checked_sha": "cb37ade71d4c7388128400822e30341847726781",
+    "skipped": false
+  },
   "yashwanthkasoju/Alteryx_projects": {
     "default_branch": "main",
     "e1_file_count": 0,
@@ -12121,6 +14916,14 @@
     "e2_files": [],
     "last_checked_at": "2026-04-04T04:03:33.111776+00:00",
     "last_checked_sha": "be598aba874e61e8744f883ad9c9dd34ea4466da",
+    "skipped": false
+  },
+  "zeenat098/superstore-analytics-pipeline": {
+    "default_branch": "main",
+    "e1_file_count": 0,
+    "e2_files": [],
+    "last_checked_at": "2026-07-21T02:06:54.088075+00:00",
+    "last_checked_sha": "9db2161e6fbffb73c738c336c5edd64e19fb9dd9",
     "skipped": false
   },
   "ziadasal/End-to-end-data-engineer-project-E-commerce": {

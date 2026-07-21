@@ -1,9 +1,9 @@
 {
-  "generated": "2026-04-04T19:50:23.102455+00:00",
-  "repos_scanned": 1388,
-  "repos_with_yxdb": 203,
-  "total_e1_files": 2407,
-  "total_e2_files": 207,
+  "generated": "2026-07-21T02:07:44.986161+00:00",
+  "repos_scanned": 1730,
+  "repos_with_yxdb": 218,
+  "total_e1_files": 2471,
+  "total_e2_files": 219,
   "repos": [
     {
       "repo": "0xCakin/Udacity_Predictive_Analysis",
@@ -109,6 +109,15 @@
       "last_checked_sha": "580af26d87c1fc343bee6e1e16922d87747178bf",
       "last_checked_at": "2026-04-04T03:39:38.084127+00:00",
       "e1_file_count": 5,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "Abhishek103/Credit_Card_Driver_Prediction",
+      "url": "https://github.com/Abhishek103/Credit_Card_Driver_Prediction",
+      "default_branch": "master",
+      "last_checked_sha": "542009075c3152e077e84dac8d4549798839b9c6",
+      "last_checked_at": "2026-07-21T01:33:36.717634+00:00",
+      "e1_file_count": 1,
       "e2_file_count": 0
     },
     {
@@ -623,6 +632,15 @@
       "e2_file_count": 0
     },
     {
+      "repo": "ant-6112/POSEY",
+      "url": "https://github.com/ant-6112/POSEY",
+      "default_branch": "main",
+      "last_checked_sha": "1f6d28c3d2f361ed81a10344c20dfcaaf4d4ed27",
+      "last_checked_at": "2026-07-21T01:51:16.183025+00:00",
+      "e1_file_count": 4,
+      "e2_file_count": 0
+    },
+    {
       "repo": "ARgruny/Business-Analyst-Projects",
       "url": "https://github.com/ARgruny/Business-Analyst-Projects",
       "default_branch": "master",
@@ -676,15 +694,6 @@
           "sha256": "4d51932b12f5aae5f5ace6ec55a46948128a84ca428c893ee3ec5fac687bf161"
         }
       ]
-    },
-    {
-      "repo": "ashercurtis/datasets.io",
-      "url": "https://github.com/ashercurtis/datasets.io",
-      "default_branch": "main",
-      "last_checked_sha": "351392f45251bd0aa806f4fbd3492ba0081f3789",
-      "last_checked_at": "2026-04-04T19:36:44.003950+00:00",
-      "e1_file_count": 2,
-      "e2_file_count": 0
     },
     {
       "repo": "atcodedog05/Alteryx-Weekly-challenges",
@@ -830,6 +839,15 @@
       "last_checked_sha": "c89daeccd49434d235e940bef7ed638178cacb00",
       "last_checked_at": "2026-04-04T19:29:07.155454+00:00",
       "e1_file_count": 4,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "code932/alteryx",
+      "url": "https://github.com/code932/alteryx",
+      "default_branch": "master",
+      "last_checked_sha": "23e0f98f19697d4c633ab8579759fda4137f0bf0",
+      "last_checked_at": "2026-07-21T01:53:41.938480+00:00",
+      "e1_file_count": 20,
       "e2_file_count": 0
     },
     {
@@ -1068,6 +1086,32 @@
       ]
     },
     {
+      "repo": "etiennebert/Forest_Club_to_Halt_Deforestation",
+      "url": "https://github.com/etiennebert/Forest_Club_to_Halt_Deforestation",
+      "default_branch": "main",
+      "last_checked_sha": "cc273a622a228ccc856e6b6a8fb6590fffd8e9df",
+      "last_checked_at": "2026-07-21T01:55:25.470240+00:00",
+      "e1_file_count": 0,
+      "e2_file_count": 3,
+      "e2_files": [
+        {
+          "path": "1_Data/1. HILDA data/3. Split_AEZ/A-4_aez_global_grid_polygons.yxdb",
+          "size": 3000023,
+          "sha256": "9de9cb9d70664e169f6813734224e9cd2a9b715c0c8934a520d3ae77d1144ebb"
+        },
+        {
+          "path": "1_Data/1. HILDA data/3. Split_AEZ/C-2_HILDA_V_2_1_State_GTAP_AEZ_limited.yxdb",
+          "size": 38363,
+          "sha256": "b06b54bf232f0e7889bd6bad96a45dde952aa0b95aeb721f63d6a19fd4db19e5"
+        },
+        {
+          "path": "1_Data/1. HILDA data/3. Split_AEZ/C-2_HILDA_V_2_1_Transition_GTAP_AEZ_limited.yxdb",
+          "size": 133847,
+          "sha256": "dec8f038dcce4a07ea425f8711c967134c4ccc31300cd51bc38d824f7730cae2"
+        }
+      ]
+    },
+    {
       "repo": "faisal-ssh/Predictive-Analytics-for-Business-Nanodegree-Projects",
       "url": "https://github.com/faisal-ssh/Predictive-Analytics-for-Business-Nanodegree-Projects",
       "default_branch": "main",
@@ -1172,6 +1216,32 @@
           "path": "Big Data Visualization/filteredmobiledataset.yxdb",
           "size": 23750,
           "sha256": "4837c26fd2268b81e703b74a34952bcc8339e8f3fa5e828756a22fcd4a07f77a"
+        }
+      ]
+    },
+    {
+      "repo": "gauravXddd/Alteryx",
+      "url": "https://github.com/gauravXddd/Alteryx",
+      "default_branch": "main",
+      "last_checked_sha": "f6f34e426c4f395314f3ce9a59c1db95627385cd",
+      "last_checked_at": "2026-07-21T01:55:47.753980+00:00",
+      "e1_file_count": 0,
+      "e2_file_count": 3,
+      "e2_files": [
+        {
+          "path": "Epson/Edit_row.yxdb",
+          "size": 3613,
+          "sha256": "8b89e6719ae20a32b8bf6c5d2ba62da98f6d2ece674e8820cf0d2f86cf4d216e"
+        },
+        {
+          "path": "Epson/Select_cuts.yxdb",
+          "size": 690,
+          "sha256": "05f6e1a92b1fdd909d4dcf13b0a6e6f9cd6f0fa93e23c6ccf000f22d28192933"
+        },
+        {
+          "path": "Epson/edit_buffer.yxdb",
+          "size": 625,
+          "sha256": "c14482bc27b10cf54b0097799dc29d7ff9873f74aa63740c9be4f877fac40c58"
         }
       ]
     },
@@ -1365,6 +1435,15 @@
       "e2_file_count": 0
     },
     {
+      "repo": "jmotlagh/alteryx-workflows",
+      "url": "https://github.com/jmotlagh/alteryx-workflows",
+      "default_branch": "main",
+      "last_checked_sha": "ec2aabfcab8f8c709e0cf6c83704525b1fc205c0",
+      "last_checked_at": "2026-07-21T01:58:06.521213+00:00",
+      "e1_file_count": 2,
+      "e2_file_count": 0
+    },
+    {
       "repo": "JohnnyFoulds/course-exercises",
       "url": "https://github.com/JohnnyFoulds/course-exercises",
       "default_branch": "master",
@@ -1482,6 +1561,15 @@
       "e2_file_count": 0
     },
     {
+      "repo": "judexo/Udacity---Predictive-Analytics-For-Business-Nanodegree",
+      "url": "https://github.com/judexo/Udacity---Predictive-Analytics-For-Business-Nanodegree",
+      "default_branch": "master",
+      "last_checked_sha": "df2093e5bc1dd2c4fbd3a8ed5550790abc4e7fa5",
+      "last_checked_at": "2026-07-21T01:58:28.489629+00:00",
+      "e1_file_count": 5,
+      "e2_file_count": 0
+    },
+    {
       "repo": "jumorris2017/alteryx_workflows",
       "url": "https://github.com/jumorris2017/alteryx_workflows",
       "default_branch": "master",
@@ -1489,6 +1577,22 @@
       "last_checked_at": "2026-04-04T03:51:00.381531+00:00",
       "e1_file_count": 1,
       "e2_file_count": 0
+    },
+    {
+      "repo": "jupiterbak/Zurich-Alteryx",
+      "url": "https://github.com/jupiterbak/Zurich-Alteryx",
+      "default_branch": "main",
+      "last_checked_sha": "93e8b886f7a865523e657b7eb5f2b2ad0dff02e6",
+      "last_checked_at": "2026-07-21T01:58:37.623195+00:00",
+      "e1_file_count": 0,
+      "e2_file_count": 1,
+      "e2_files": [
+        {
+          "path": "XGBoost-Model.yxdb",
+          "size": 81046,
+          "sha256": "e1157c95e5a1d5dc020029fa3bd7712a108404d1a1c67cc88d58843c48e467b7"
+        }
+      ]
     },
     {
       "repo": "jwlong91/alteryx_live",
@@ -1593,6 +1697,24 @@
       "e2_file_count": 0
     },
     {
+      "repo": "kroberts1/alteryx-training",
+      "url": "https://github.com/kroberts1/alteryx-training",
+      "default_branch": "master",
+      "last_checked_sha": "9f68a88c86ef56e5610997ae03792ecf20010a5a",
+      "last_checked_at": "2026-07-21T01:59:14.416509+00:00",
+      "e1_file_count": 2,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "kroberts1/alteryx-training-logistic",
+      "url": "https://github.com/kroberts1/alteryx-training-logistic",
+      "default_branch": "master",
+      "last_checked_sha": "65e8e824d0283f3bcb4f0d89b6322c2119a05584",
+      "last_checked_at": "2026-07-21T01:59:16.725335+00:00",
+      "e1_file_count": 2,
+      "e2_file_count": 0
+    },
+    {
       "repo": "kumarritik24/Sales-Performance-Optimization-DC-Industries",
       "url": "https://github.com/kumarritik24/Sales-Performance-Optimization-DC-Industries",
       "default_branch": "main",
@@ -1621,6 +1743,22 @@
           "path": "PGA (1).yxzp!/Individual Hole Difficulty By Season.yxdb",
           "size": 151134,
           "sha256": "388286a3d868b0c295ac4a96177d6fc4b237dff016c3a3d99175af2c75feada1"
+        }
+      ]
+    },
+    {
+      "repo": "lauyeewen123/UTM_CourseWork",
+      "url": "https://github.com/lauyeewen123/UTM_CourseWork",
+      "default_branch": "main",
+      "last_checked_sha": "5f0cd48d31b75a24bc374bbf277c8f5b93bebc14",
+      "last_checked_at": "2026-07-21T01:59:38.553608+00:00",
+      "e1_file_count": 5,
+      "e2_file_count": 1,
+      "e2_files": [
+        {
+          "path": "Year 3/Sem 2/BUSINESS INTELLIGENCE/Lab Exercise/SuperstoreCom.yxdb",
+          "size": 788389,
+          "sha256": "660e0671fbc915e4fafd5da7db6a0d767ee9397f4d6b6d84091eeab9d78235fb"
         }
       ]
     },
@@ -2015,6 +2153,15 @@
       "e2_file_count": 0
     },
     {
+      "repo": "nyck33/fintech2023",
+      "url": "https://github.com/nyck33/fintech2023",
+      "default_branch": "master",
+      "last_checked_sha": "b04e16e2a2ecf1904650b13fc3d08ca0cfb13641",
+      "last_checked_at": "2026-07-21T02:01:55.153945+00:00",
+      "e1_file_count": 19,
+      "e2_file_count": 0
+    },
+    {
       "repo": "oanokyen/stats-analysis-projs",
       "url": "https://github.com/oanokyen/stats-analysis-projs",
       "default_branch": "main",
@@ -2079,8 +2226,8 @@
       "repo": "PacktPublishing/Data-Engineering-with-Alteryx",
       "url": "https://github.com/PacktPublishing/Data-Engineering-with-Alteryx",
       "default_branch": "main",
-      "last_checked_sha": "c3896cb8065b0800c2915047dbc9343243d849aa",
-      "last_checked_at": "2026-04-04T03:31:43.699718+00:00",
+      "last_checked_sha": "36b77828d84f7c094a77c9efef87766a219aef5b",
+      "last_checked_at": "2026-07-21T01:44:35.752198+00:00",
       "e1_file_count": 9,
       "e2_file_count": 1,
       "e2_files": [
@@ -2120,6 +2267,27 @@
       "last_checked_at": "2026-04-04T03:57:03.023174+00:00",
       "e1_file_count": 1,
       "e2_file_count": 0
+    },
+    {
+      "repo": "pratik1055/alteryx-data-projects",
+      "url": "https://github.com/pratik1055/alteryx-data-projects",
+      "default_branch": "main",
+      "last_checked_sha": "d65c6467ed781cd3a2881b62947a39e589d7c43b",
+      "last_checked_at": "2026-07-21T02:02:33.063407+00:00",
+      "e1_file_count": 0,
+      "e2_file_count": 2,
+      "e2_files": [
+        {
+          "path": "02-customer-orders-designer-desktop/data/order_items.yxdb",
+          "size": 29227,
+          "sha256": "80749e132037ab6449b1ea51f5f4e52d1ae3013ab2dc2c0b661b5133e07d8d1e"
+        },
+        {
+          "path": "02-customer-orders-designer-desktop/data/orders.yxdb",
+          "size": 23149,
+          "sha256": "ef80391e108626d4b2329d7e01ef594308a37a9990f1ab59b30e68d6ab2ae100"
+        }
+      ]
     },
     {
       "repo": "pushkardps/bank_marketing_prediction",
@@ -2318,6 +2486,31 @@
       "e2_file_count": 0
     },
     {
+      "repo": "RyanMerlin/ayx-rs",
+      "url": "https://github.com/RyanMerlin/ayx-rs",
+      "default_branch": "main",
+      "last_checked_sha": "c3640c1e6f64b82d8510ed600c8d87df660cf2ee",
+      "last_checked_at": "2026-07-21T01:45:33.741180+00:00",
+      "e1_file_count": 1,
+      "e2_file_count": 0
+    },
+    {
+      "repo": "SabrinaHeng/UTM_CourseWork",
+      "url": "https://github.com/SabrinaHeng/UTM_CourseWork",
+      "default_branch": "main",
+      "last_checked_sha": "ec67b93f5d860293a94a238275d381d78bd504b4",
+      "last_checked_at": "2026-07-21T01:45:53.015379+00:00",
+      "e1_file_count": 5,
+      "e2_file_count": 1,
+      "e2_files": [
+        {
+          "path": "Year 3/Sem 2/BI/Exercise Forecast/Superstore.yxdb",
+          "size": 1282226,
+          "sha256": "937f98169092b0c23c6bf35220bbd5f3ae4c3ecadd50df324b817eb6323c0331"
+        }
+      ]
+    },
+    {
       "repo": "sarincr/Data-Analytics-with-Alteryx",
       "url": "https://github.com/sarincr/Data-Analytics-with-Alteryx",
       "default_branch": "main",
@@ -2461,6 +2654,22 @@
       "last_checked_at": "2026-04-04T19:44:34.418681+00:00",
       "e1_file_count": 1,
       "e2_file_count": 0
+    },
+    {
+      "repo": "shouryajain72-code/Shourya-Alteryx",
+      "url": "https://github.com/shouryajain72-code/Shourya-Alteryx",
+      "default_branch": "main",
+      "last_checked_sha": "8afc0cdd7965e9e2c946d733f51c81c193f54dfe",
+      "last_checked_at": "2026-07-21T02:04:34.046742+00:00",
+      "e1_file_count": 0,
+      "e2_file_count": 1,
+      "e2_files": [
+        {
+          "path": "practice.yxdb",
+          "size": 1345712,
+          "sha256": "6a41c1522c60d1d2b778fd7a3c3d220163b46219f966329747ce67cdd4d999f4"
+        }
+      ]
     },
     {
       "repo": "ShrishtiHore/AB-Testing-and-Predictive-Analysis-for-New-Menu-Launch-using-Alteryx",
