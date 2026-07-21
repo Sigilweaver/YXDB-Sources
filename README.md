@@ -83,6 +83,7 @@ E2 files download directly from paths in `index.json`. E1 files require tree enu
 
 ```bash
 uv run scripts/gen_index.py          # regenerate index.json from known_repos.json
+uv run scripts/gen_docs.py           # regenerate README's index table + E1/E2-Sources.md
 ```
 
 ### View status
@@ -123,6 +124,7 @@ YXDB-Sources/
 │   ├── download.py        # Bulk file downloader
 │   ├── archive.py         # Software Heritage archival submissions
 │   ├── gen_index.py       # Generate index.json from known_repos.json
+│   ├── gen_docs.py        # Generate README index table + E1/E2-Sources.md
 │   ├── detect.py          # Format detection + metadata extraction
 │   ├── github.py          # GitHub API + download helpers
 │   ├── state.py           # Persistent state management
