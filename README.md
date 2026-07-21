@@ -15,11 +15,11 @@ Both share the `.yxdb` extension but are distinct formats.
 
 | | Repositories | Files |
 |---|---:|---:|
-| **E1** | 170 | 2,407 |
-| **E2** | 57 | 207 |
-| **Total unique repos** | 203 | 2,614 |
+| **E1** | 180 | 2,471 |
+| **E2** | 64 | 219 |
+| **Total unique repos** | 218 | 2,690 |
 
-*1,388 GitHub repositories scanned. 24 repos contain both E1 and E2 files.*
+*1,730 GitHub repositories scanned. 26 repos contain both E1 and E2 files.*
 
 Source listings:
 - [E1-Sources.md](E1-Sources.md) - Index of repositories containing E1 files with per-repo counts.
