@@ -133,8 +133,15 @@ def download_raw(repo: str, path: str, branch: str = "main") -> bytes | None:
     encoded_branch = urllib.parse.quote(branch, safe="")
     url = f"https://raw.githubusercontent.com/{encoded_repo}/{encoded_branch}/{encoded_path}"
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        resp = urllib.request.urlopen(req, timeout=60)
-        return resp.read()
-    except (urllib.error.HTTPError, urllib.error.URLError, OSError):
-        return None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                return resp.read()
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (429, 500, 502, 503, 504) or attempt == 2:
+                return None
+        except (urllib.error.URLError, OSError):
+            if attempt == 2:
+                return None
+        time.sleep(2 ** attempt)
+    return None

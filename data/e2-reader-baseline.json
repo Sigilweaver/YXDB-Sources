@@ -1,0 +1,6944 @@
+{
+  "format_version": 1,
+  "reviewed_date": "2026-09-19",
+  "description": "Regression baseline for local strict E2 decoder changes. Successful value digests establish stability, not independent semantic correctness. Known unsupported payloads must raise exact recorded errors.",
+  "unique_files": 183,
+  "summary": {
+    "sigilyx": {
+      "decode_error": 16,
+      "ok": 167
+    },
+    "openyxdb": {
+      "decode_error": 16,
+      "ok": 167
+    }
+  },
+  "build_artifact_sha256": {
+    "sigilyx": "004399aa06f05674828a9cc7208ca976d0764386d1e08ea691f1751bd6f10d6b",
+    "openyxdb": "49657ca65e68d312145a865e74457b690accbd1f95dfee3dfc34613b573848eb"
+  },
+  "results": {
+    "openyxdb:0016c205e7983f71438dcbd22101cdf559a0b3dcb7640e9d13db7c6aff535d48": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: ambiguous Int32 encoding in record 5"
+    },
+    "openyxdb:005d32f0a1c768cbae8759bd783e3c272d645a4277aa30c5980c824fb9a1c604": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "0721cdcf7533821bf060095877ed7aaddade33a02cc7da79443c1ff7f118b4da"
+    },
+    "openyxdb:02b28823218ff7637cbcec3fe6145527bbca18725ab88dc0989a6653932c5f17": {
+      "status": "ok",
+      "rows": 0,
+      "columns": [
+        "RecordID",
+        "Concat_Value"
+      ],
+      "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "openyxdb:02c9d50f1eae95e43d40f61ded50519d6c950d574d21b534fb6125fcc33382a2": {
+      "status": "ok",
+      "rows": 339,
+      "columns": [
+        "SRC1",
+        "SRC3",
+        "Operator",
+        "TGT"
+      ],
+      "values_sha256": "97599e316782e3d343ab6cb26e9fa3853bbcc28ce11b0b805d84e34e31b870aa"
+    },
+    "openyxdb:0427426b2627648311d7860744aa01ba484a0f78c9061ae749c5ffe518ecab44": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "de7c3a8035008f1588b03a52c6b0f52a7b04efab1141685b1a99ea53efd77698"
+    },
+    "openyxdb:047c97bdc17e74181d00847c30e9ed4786d3ed18fd2eb0f81d6b6335a7c1f495": {
+      "status": "ok",
+      "rows": 317,
+      "columns": [
+        "ID",
+        "x",
+        "y",
+        "Input",
+        "Route"
+      ],
+      "values_sha256": "541481183a622d206ee8c140b19664f4ef9cfb85f136ce51f81c9d7638c3293f"
+    },
+    "openyxdb:04e773a4212388cbff882102d0b77e16c1c38c47f895ea4ce2ca24226c00a7c5": {
+      "status": "ok",
+      "rows": 64471,
+      "columns": [
+        "CREATED",
+        "BIC NUMBER",
+        "ACCOUNT NAME",
+        "TRADE NAME",
+        "ADDRESS",
+        "CITY",
+        "STATE",
+        "POSTCODE",
+        "PHONE",
+        "EMAIL",
+        "MARKET",
+        "APPLICATION TYPE",
+        "DISPOSITION DATE",
+        "EFFECTIVE DATE",
+        "EXPIRATION DATE",
+        "EXPORT DATE",
+        "LATITUDE",
+        "LONGITUDE",
+        "COMMUNITY BOARD",
+        "COUNCIL DISTRICT",
+        "CENSUS TRACT",
+        "BIN",
+        "BBL",
+        "NTA",
+        "BORO"
+      ],
+      "values_sha256": "3f6d0338a72289e797ac15c51e990dfeb8875d493d137dd7c752ae325f3bf023"
+    },
+    "openyxdb:054a6a93e80899ba3ee529a74db336fa7063d932803bef74167fbc10a57391a7": {
+      "status": "ok",
+      "rows": 3,
+      "columns": [
+        "Final_Cluster",
+        "Count"
+      ],
+      "values_sha256": "00613bc231f509e343a76fdc315896273c34be086e8a2ee5d81d356d89ea2fc9"
+    },
+    "openyxdb:05f6e1a92b1fdd909d4dcf13b0a6e6f9cd6f0fa93e23c6ccf000f22d28192933": {
+      "status": "ok",
+      "rows": 6,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "310d9f83b0777975c6d4459087c49b9617ee405377d02a3308a8182fac5a3e83"
+    },
+    "openyxdb:083cbefe11509f0a08b174fc51cbed8d10f5bdc0c5e5bd71f0ba5624ec919fb3": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "205e90488580b9b24d5db70ae6e9f0d4628c718fb6ee202b039d075c248c73b8"
+    },
+    "openyxdb:0ad2c3ed864fd2014f602d4bde75483f7fee3f036b3dd14554ffaf97abc3e9c0": {
+      "status": "ok",
+      "rows": 85,
+      "columns": [
+        "Store",
+        "Total.Sales",
+        "Cluster1",
+        "Address",
+        "City",
+        "State",
+        "Zip",
+        "Type"
+      ],
+      "values_sha256": "893013a4f4c5f99fcead2a5df1a259eb65ea59d3a839554c5ea112d555acbd96"
+    },
+    "openyxdb:0e77f6c40341151566395de5b337c412c58c91e0cf52051e24d60a7cc9901d90": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Count_FN",
+        "Montant_FN"
+      ],
+      "values_sha256": "a79ae19b206fb1841e84a4a94d0261862587e87db02901f949a21b29b30d9604"
+    },
+    "openyxdb:0eedd7360cdf94c29d682d8d6bc1168f680bb24c31eb051f0e1127de12721db9": {
+      "status": "ok",
+      "rows": 1011,
+      "columns": [
+        "map",
+        "row",
+        "column",
+        "data"
+      ],
+      "values_sha256": "842700e7adf0107cc18b6ddd8e3c02fe59b25c1298c35f8aa5348e11fa3d9f96"
+    },
+    "openyxdb:1099621aa7f5ba0fe48a1377d3146dc5ecd21f07476e0c71a21e404c8a7d9fcf": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: ambiguous Int32 encoding in record 5"
+    },
+    "openyxdb:12fdb6c209cc869a9a725fe80fb6947c06d441c40f3c89d8c0b12d6af841b607": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "fafb6f08465693b6f24a2e310ebc6646137e2fa5840015dcba1bbce10b6b81bb"
+    },
+    "openyxdb:140005f71950f0587bed4de043f2c2dc0ea4f601442a15ffad3dd82b3258dce5": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "HeadX",
+        "HeadY",
+        "1X",
+        "1Y",
+        "2X",
+        "2Y",
+        "3X",
+        "3Y",
+        "4X",
+        "4Y",
+        "5X",
+        "5Y",
+        "6X",
+        "6Y",
+        "7X",
+        "7Y",
+        "8X",
+        "8Y",
+        "9X",
+        "9Y",
+        "Concat_Direction"
+      ],
+      "values_sha256": "cb925a213203e01b3f9dd2006967a3b391ba933cd1b24c28dfb1c8b52e7975f2"
+    },
+    "openyxdb:14f28dcee75c7a4034f9aba0b611fdc84eb57cfb0da2c9eef4458f3bdcd66e0c": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "0ccd3f8223f053b6ae42a8e3f82ddedaa2e08d5fcb172ef03679a42dfb639e3b"
+    },
+    "openyxdb:156376ee57ddc063571b5af41dc6000db4433596f0934c3c7c33bf884503246d": {
+      "status": "ok",
+      "rows": 4758,
+      "columns": [
+        "Stock Name",
+        "Month",
+        "Monthly_Avg"
+      ],
+      "values_sha256": "da0d1524fd41d54fbc75e0c6e22d33b33b000092927a53f18f6417a0e39043dd"
+    },
+    "openyxdb:16b107369b9fbf224262c33b2058bebbc544f080d7627c7926df48b14852dee1": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "35bcdb691340f7825b6ff3b2a2800096a1e71366401c2851604767463036d3f2"
+    },
+    "openyxdb:17d6a9205fb846a4e29e911d083c21b8421ffcc35743d39a31ef1e3abbc0be4f": {
+      "status": "ok",
+      "rows": 3,
+      "columns": [
+        "ReportID",
+        "Field_1",
+        "number_cnt",
+        "Before",
+        "After",
+        "Left",
+        "Current",
+        "Right"
+      ],
+      "values_sha256": "2b5fea755c5466010d572b7b0b2b918f33fe52a7eacde3f4bc86df8d6cae8c7b"
+    },
+    "openyxdb:185d1aa9c29c0ffd32d9396010d23cbcc2076e2645ed393ff2bdb6aca345c177": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "5d61b39e3829c5aa50bf5a256a624bdc565892e0f3c7cf22d6fe66fac74a71f0"
+    },
+    "openyxdb:18b15ba5bf3648a5e0a07b3f4d0d0c0a4ebb4576b98874bb4f3975ffbbaa5b45": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "2e48592599c765d62155106ea9a9b02754a3a4a8cf9ffc88932186a7d8133bb9"
+    },
+    "openyxdb:1bf4947c9d3b778025bdf986ce201b10db5dd7a058d6c079fee3888898caf516": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "4918fe328ddd5167d50894041b383f277a61ea55ce38e46d4f1b01fc0f1bd84e"
+    },
+    "openyxdb:1e42843ed5a561046d83ae429d089e53570bdc5de8b6c5645c10a0bd8d444d3d": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "5d4e88961d8db7dda75198dd256b7d492d65773301e780701a9e7b5a8489e7d9"
+    },
+    "openyxdb:20ead3d7394f1c960f225cf403495d418abba020044180acf6b30a4ecdf4c56f": {
+      "status": "ok",
+      "rows": 5,
+      "columns": [
+        "RowID",
+        "Input",
+        "RouteDir"
+      ],
+      "values_sha256": "bf4d3de61bdcc774d78762807421bd6f73da6ffdd4ad247f4f51d8ac288e3b38"
+    },
+    "openyxdb:21d403b9f4015fcf13c19fcb98a7c81cf3257c0d3e32f119bd846f32047942d2": {
+      "status": "ok",
+      "rows": 1000,
+      "columns": [
+        "Product",
+        "Creator",
+        "Application Fee"
+      ],
+      "values_sha256": "7dbac7d90f4726a9314675b8e158b3224d7fb3c64f28a68430f886a0067e39b8"
+    },
+    "openyxdb:2283ccc00cf9a39023c5fc6649c87b7a8f8a94626af99b4e9a0b5e8924d00f36": {
+      "status": "ok",
+      "rows": 10175,
+      "columns": [
+        "SEQN",
+        "ACD011A",
+        "ACD011B",
+        "ACD011C",
+        "ACD040",
+        "ACD110",
+        "ALQ101",
+        "ALQ110",
+        "ALQ120Q",
+        "ALQ120U",
+        "ALQ130",
+        "ALQ141Q",
+        "ALQ141U",
+        "ALQ151",
+        "ALQ160",
+        "BPQ020",
+        "BPQ030",
+        "BPD035",
+        "BPQ040A",
+        "BPQ050A",
+        "BPQ056",
+        "BPD058",
+        "BPQ059",
+        "BPQ080",
+        "BPQ060",
+        "BPQ070",
+        "BPQ090D",
+        "BPQ100D",
+        "CBD070",
+        "CBD090",
+        "CBD110",
+        "CBD120",
+        "CBD130",
+        "HSD010",
+        "HSQ500",
+        "HSQ510",
+        "HSQ520",
+        "HSQ571",
+        "HSQ580",
+        "HSQ590",
+        "HSAQUEX",
+        "CSQ010",
+        "CSQ020",
+        "CSQ030",
+        "CSQ040",
+        "CSQ060",
+        "CSQ070",
+        "CSQ080",
+        "CSQ090A",
+        "CSQ090B",
+        "CSQ090C",
+        "CSQ090D",
+        "CSQ100",
+        "CSQ110",
+        "CSQ120A",
+        "CSQ120B",
+        "CSQ120C",
+        "CSQ120D",
+        "CSQ120E",
+        "CSQ120F",
+        "CSQ120G",
+        "CSQ120H",
+        "CSQ140",
+        "CSQ160",
+        "CSQ170",
+        "CSQ180",
+        "CSQ190",
+        "CSQ200",
+        "CSQ202",
+        "CSQ204",
+        "CSQ210",
+        "CSQ220",
+        "CSQ240",
+        "CSQ250",
+        "CSQ260",
+        "AUQ136",
+        "AUQ138",
+        "CDQ001",
+        "CDQ002",
+        "CDQ003",
+        "CDQ004",
+        "CDQ005",
+        "CDQ006",
+        "CDQ009A",
+        "CDQ009B",
+        "CDQ009C",
+        "CDQ009D",
+        "CDQ009E",
+        "CDQ009F",
+        "CDQ009G",
+        "CDQ009H",
+        "CDQ008",
+        "CDQ010",
+        "DIQ010",
+        "DID040",
+        "DIQ160",
+        "DIQ170",
+        "DIQ172",
+        "DIQ175A",
+        "DIQ175B",
+        "DIQ175C",
+        "DIQ175D",
+        "DIQ175E",
+        "DIQ175F",
+        "DIQ175G",
+        "DIQ175H",
+        "DIQ175I",
+        "DIQ175J",
+        "DIQ175K",
+        "DIQ175L",
+        "DIQ175M",
+        "DIQ175N",
+        "DIQ175O",
+        "DIQ175P",
+        "DIQ175Q",
+        "DIQ175R",
+        "DIQ175S",
+        "DIQ175T",
+        "DIQ175U",
+        "DIQ175V",
+        "DIQ175W",
+        "DIQ175X",
+        "DIQ180",
+        "DIQ050",
+        "DID060",
+        "DIQ060U",
+        "DIQ070",
+        "DIQ230",
+        "DIQ240",
+        "DID250",
+        "DID260",
+        "DIQ260U",
+        "DIQ275",
+        "DIQ280",
+        "DIQ291",
+        "DIQ300S",
+        "DIQ300D",
+        "DID310S",
+        "DID310D",
+        "DID320",
+        "DID330",
+        "DID341",
+        "DID350",
+        "DIQ350U",
+        "DIQ360",
+        "DIQ080",
+        "DBQ010",
+        "DBD030",
+        "DBD041",
+        "DBD050",
+        "DBD055",
+        "DBD061",
+        "DBQ073A",
+        "DBQ073B",
+        "DBQ073C",
+        "DBQ073D",
+        "DBQ073E",
+        "DBQ073U",
+        "DBQ700",
+        "DBQ197",
+        "DBQ223A",
+        "DBQ223B",
+        "DBQ223C",
+        "DBQ223D",
+        "DBQ223E",
+        "DBQ223U",
+        "DBQ229",
+        "DBQ235A",
+        "DBQ235B",
+        "DBQ235C",
+        "DBQ301",
+        "DBQ330",
+        "DBQ360",
+        "DBQ370",
+        "DBD381",
+        "DBQ390",
+        "DBQ400",
+        "DBD411",
+        "DBQ421",
+        "DBQ424",
+        "DBD895",
+        "DBD900",
+        "DBD905",
+        "DBD910",
+        "CBQ596",
+        "CBQ606",
+        "CBQ611",
+        "CBQ505",
+        "CBQ535",
+        "CBQ540",
+        "CBQ545",
+        "CBQ550",
+        "CBQ552",
+        "CBQ580",
+        "CBQ585",
+        "CBQ590",
+        "DED031",
+        "DEQ034A",
+        "DEQ034C",
+        "DEQ034D",
+        "DEQ038G",
+        "DEQ038Q",
+        "DED120",
+        "DED125",
+        "DLQ010",
+        "DLQ020",
+        "DLQ040",
+        "DLQ050",
+        "DLQ060",
+        "DLQ080",
+        "DPQ010",
+        "DPQ020",
+        "DPQ030",
+        "DPQ040",
+        "DPQ050",
+        "DPQ060",
+        "DPQ070",
+        "DPQ080",
+        "DPQ090",
+        "DPQ100",
+        "DUQ200",
+        "DUQ210",
+        "DUQ211",
+        "DUQ213",
+        "DUQ215Q",
+        "DUQ215U",
+        "DUQ217",
+        "DUQ219",
+        "DUQ220Q",
+        "DUQ220U",
+        "DUQ230",
+        "DUQ240",
+        "DUQ250",
+        "DUQ260",
+        "DUQ270Q",
+        "DUQ270U",
+        "DUQ272",
+        "DUQ280",
+        "DUQ290",
+        "DUQ300",
+        "DUQ310Q",
+        "DUQ310U",
+        "DUQ320",
+        "DUQ330",
+        "DUQ340",
+        "DUQ350Q",
+        "DUQ350U",
+        "DUQ352",
+        "DUQ360",
+        "DUQ370",
+        "DUQ380A",
+        "DUQ380B",
+        "DUQ380C",
+        "DUQ380D",
+        "DUQ380E",
+        "DUQ390",
+        "DUQ400Q",
+        "DUQ400U",
+        "DUQ410",
+        "DUQ420",
+        "DUQ430",
+        "ECD010",
+        "ECQ020",
+        "ECD070A",
+        "ECD070B",
+        "ECQ080",
+        "ECQ090",
+        "WHQ030E",
+        "MCQ080E",
+        "ECQ150",
+        "FSD032A",
+        "FSD032B",
+        "FSD032C",
+        "FSD041",
+        "FSD052",
+        "FSD061",
+        "FSD071",
+        "FSD081",
+        "FSD092",
+        "FSD102",
+        "FSD032D",
+        "FSD032E",
+        "FSD032F",
+        "FSD111",
+        "FSD122",
+        "FSD132",
+        "FSD141",
+        "FSD146",
+        "FSDHH",
+        "FSDAD",
+        "FSDCH",
+        "FSD151",
+        "FSQ165",
+        "FSQ012",
+        "FSD012N",
+        "FSD230",
+        "FSD225",
+        "FSQ235",
+        "FSQ162",
+        "FSD650ZC",
+        "FSD660ZC",
+        "FSD675",
+        "FSD680",
+        "FSD670ZC",
+        "FSQ690",
+        "FSQ695",
+        "FSD650ZW",
+        "FSD660ZW",
+        "FSD670ZW",
+        "HEQ010",
+        "HEQ020",
+        "HEQ030",
+        "HEQ040",
+        "HIQ011",
+        "HIQ031A",
+        "HIQ031B",
+        "HIQ031C",
+        "HIQ031D",
+        "HIQ031E",
+        "HIQ031F",
+        "HIQ031G",
+        "HIQ031H",
+        "HIQ031I",
+        "HIQ031J",
+        "HIQ031AA",
+        "HIQ260",
+        "HIQ105",
+        "HIQ270",
+        "HIQ210",
+        "HOD050",
+        "HOQ065",
+        "HUQ010",
+        "HUQ020",
+        "HUQ030",
+        "HUQ041",
+        "HUQ051",
+        "HUQ061",
+        "HUQ071",
+        "HUD080",
+        "HUQ090",
+        "IMQ011",
+        "IMQ020",
+        "IMQ040",
+        "IMQ070",
+        "IMQ080",
+        "IMQ090",
+        "IMQ045",
+        "INQ020",
+        "INQ012",
+        "INQ030",
+        "INQ060",
+        "INQ080",
+        "INQ090",
+        "INQ132",
+        "INQ140",
+        "INQ150",
+        "IND235",
+        "INDFMMPI",
+        "INDFMMPC",
+        "INQ244",
+        "IND247",
+        "MCQ010",
+        "MCQ025",
+        "MCQ035",
+        "MCQ040",
+        "MCQ050",
+        "AGQ030",
+        "MCQ053",
+        "MCQ070",
+        "MCQ075",
+        "MCQ080",
+        "MCQ082",
+        "MCQ084",
+        "MCQ086",
+        "MCQ092",
+        "MCD093",
+        "MCQ149",
+        "MCQ151",
+        "MCQ160A",
+        "MCQ180A",
+        "MCQ195",
+        "MCQ160N",
+        "MCQ180N",
+        "MCQ160B",
+        "MCQ180B",
+        "MCQ160C",
+        "MCQ180C",
+        "MCQ160D",
+        "MCQ180D",
+        "MCQ160E",
+        "MCQ180E",
+        "MCQ160F",
+        "MCQ180F",
+        "MCQ160G",
+        "MCQ180G",
+        "MCQ160M",
+        "MCQ170M",
+        "MCQ180M",
+        "MCQ160K",
+        "MCQ170K",
+        "MCQ180K",
+        "MCQ160L",
+        "MCQ170L",
+        "MCQ180L",
+        "MCQ160O",
+        "MCQ203",
+        "MCQ206",
+        "MCQ220",
+        "MCQ230A",
+        "MCQ230B",
+        "MCQ230C",
+        "MCQ230D",
+        "MCQ240A",
+        "MCQ240AA",
+        "MCQ240B",
+        "MCQ240BB",
+        "MCQ240C",
+        "MCQ240CC",
+        "MCQ240D",
+        "MCQ240DD",
+        "MCQ240DK",
+        "MCQ240E",
+        "MCQ240F",
+        "MCQ240G",
+        "MCQ240H",
+        "MCQ240J",
+        "MCQ240K",
+        "MCQ240L",
+        "MCQ240M",
+        "MCQ240N",
+        "MCQ240O",
+        "MCQ240P",
+        "MCQ240Q",
+        "MCQ240S",
+        "MCQ240T",
+        "MCQ240U",
+        "MCQ240V",
+        "MCQ240W",
+        "MCQ240X",
+        "MCQ240Y",
+        "MCQ240Z",
+        "MCQ300A",
+        "MCQ300B",
+        "MCQ300C",
+        "MCQ365A",
+        "MCQ365B",
+        "MCQ365C",
+        "MCQ365D",
+        "MCQ370A",
+        "MCQ370B",
+        "MCQ370C",
+        "MCQ370D",
+        "MCQ380",
+        "OCD150",
+        "OCQ180",
+        "OCQ210",
+        "OCQ260",
+        "OCD270",
+        "OCQ380",
+        "OCD390G",
+        "OCD395",
+        "OHQ030",
+        "OHQ033",
+        "OHQ770",
+        "OHQ780A",
+        "OHQ780B",
+        "OHQ780C",
+        "OHQ780D",
+        "OHQ780E",
+        "OHQ780F",
+        "OHQ780G",
+        "OHQ780H",
+        "OHQ780I",
+        "OHQ780J",
+        "OHQ780K",
+        "OHQ555G",
+        "OHQ555Q",
+        "OHQ555U",
+        "OHQ560G",
+        "OHQ560Q",
+        "OHQ560U",
+        "OHQ565",
+        "OHQ570Q",
+        "OHQ570U",
+        "OHQ575G",
+        "OHQ575Q",
+        "OHQ575U",
+        "OHQ580",
+        "OHQ585Q",
+        "OHQ585U",
+        "OHQ590G",
+        "OHQ590Q",
+        "OHQ590U",
+        "OHQ610",
+        "OHQ612",
+        "OHQ614",
+        "OHQ620",
+        "OHQ640",
+        "OHQ680",
+        "OHQ835",
+        "OHQ845",
+        "OHQ848G",
+        "OHQ848Q",
+        "OHQ849",
+        "OHQ850",
+        "OHQ855",
+        "OHQ860",
+        "OHQ865",
+        "OHQ870",
+        "OHQ875",
+        "OHQ880",
+        "OHQ885",
+        "OHQ895",
+        "OHQ900",
+        "OSQ010A",
+        "OSQ010B",
+        "OSQ010C",
+        "OSQ020A",
+        "OSQ020B",
+        "OSQ020C",
+        "OSD030AA",
+        "OSQ040AA",
+        "OSD050AA",
+        "OSD030AB",
+        "OSQ040AB",
+        "OSD050AB",
+        "OSD030AC",
+        "OSQ040AC",
+        "OSD050AC",
+        "OSD030BA",
+        "OSQ040BA",
+        "OSD050BA",
+        "OSD030BB",
+        "OSQ040BB",
+        "OSD050BB",
+        "OSD030BC",
+        "OSQ040BC",
+        "OSD050BC",
+        "OSD030BD",
+        "OSQ040BD",
+        "OSD050BD",
+        "OSD030BE",
+        "OSQ040BE",
+        "OSD030BF",
+        "OSQ040BF",
+        "OSD030BG",
+        "OSQ040BG",
+        "OSD030BH",
+        "OSQ040BH",
+        "OSD030BI",
+        "OSQ040BI",
+        "OSD030BJ",
+        "OSQ040BJ",
+        "OSD030CA",
+        "OSQ040CA",
+        "OSD050CA",
+        "OSD030CB",
+        "OSQ040CB",
+        "OSD050CB",
+        "OSD030CC",
+        "OSQ040CC",
+        "OSQ080",
+        "OSQ090A",
+        "OSQ100A",
+        "OSD110A",
+        "OSQ120A",
+        "OSQ090B",
+        "OSQ100B",
+        "OSD110B",
+        "OSQ120B",
+        "OSQ090C",
+        "OSQ100C",
+        "OSD110C",
+        "OSQ120C",
+        "OSQ090D",
+        "OSQ100D",
+        "OSD110D",
+        "OSQ120D",
+        "OSQ090E",
+        "OSQ100E",
+        "OSD110E",
+        "OSQ120E",
+        "OSQ090F",
+        "OSQ120F",
+        "OSQ090G",
+        "OSQ100G",
+        "OSD110G",
+        "OSQ120G",
+        "OSQ090H",
+        "OSQ120H",
+        "OSQ060",
+        "OSQ072",
+        "OSQ130",
+        "OSQ140Q",
+        "OSQ140U",
+        "OSQ150",
+        "OSQ160A",
+        "OSQ160B",
+        "OSQ170",
+        "OSQ180",
+        "OSQ190",
+        "OSQ200",
+        "OSQ210",
+        "OSQ220",
+        "PFQ020",
+        "PFQ030",
+        "PFQ033",
+        "PFQ041",
+        "PFQ049",
+        "PFQ051",
+        "PFQ054",
+        "PFQ057",
+        "PFQ059",
+        "PFQ061A",
+        "PFQ061B",
+        "PFQ061C",
+        "PFQ061D",
+        "PFQ061E",
+        "PFQ061F",
+        "PFQ061G",
+        "PFQ061H",
+        "PFQ061I",
+        "PFQ061J",
+        "PFQ061K",
+        "PFQ061L",
+        "PFQ061M",
+        "PFQ061N",
+        "PFQ061O",
+        "PFQ061P",
+        "PFQ061Q",
+        "PFQ061R",
+        "PFQ061S",
+        "PFQ061T",
+        "PFQ063A",
+        "PFQ063B",
+        "PFQ063C",
+        "PFQ063D",
+        "PFQ063E",
+        "PFQ090",
+        "PAQ605",
+        "PAQ610",
+        "PAD615",
+        "PAQ620",
+        "PAQ625",
+        "PAD630",
+        "PAQ635",
+        "PAQ640",
+        "PAD645",
+        "PAQ650",
+        "PAQ655",
+        "PAD660",
+        "PAQ665",
+        "PAQ670",
+        "PAD675",
+        "PAD680",
+        "PAQ706",
+        "PAQ710",
+        "PAQ715",
+        "PAQ722",
+        "PAQ724A",
+        "PAQ724B",
+        "PAQ724C",
+        "PAQ724D",
+        "PAQ724E",
+        "PAQ724F",
+        "PAQ724G",
+        "PAQ724H",
+        "PAQ724I",
+        "PAQ724J",
+        "PAQ724K",
+        "PAQ724L",
+        "PAQ724M",
+        "PAQ724N",
+        "PAQ724O",
+        "PAQ724P",
+        "PAQ724Q",
+        "PAQ724R",
+        "PAQ724S",
+        "PAQ724T",
+        "PAQ724U",
+        "PAQ724V",
+        "PAQ724W",
+        "PAQ724X",
+        "PAQ724Y",
+        "PAQ724Z",
+        "PAQ724AA",
+        "PAQ724AB",
+        "PAQ724AC",
+        "PAQ724AD",
+        "PAQ724AE",
+        "PAQ724AF",
+        "PAQ724CM",
+        "PAQ731",
+        "PAD733",
+        "PAQ677",
+        "PAQ678",
+        "PAQ740",
+        "PAQ742",
+        "PAQ744",
+        "PAQ746",
+        "PAQ748",
+        "PAQ755",
+        "PAQ759A",
+        "PAQ759B",
+        "PAQ759C",
+        "PAQ759D",
+        "PAQ759E",
+        "PAQ759F",
+        "PAQ759G",
+        "PAQ759H",
+        "PAQ759I",
+        "PAQ759J",
+        "PAQ759K",
+        "PAQ759L",
+        "PAQ759M",
+        "PAQ759N",
+        "PAQ759O",
+        "PAQ759P",
+        "PAQ759Q",
+        "PAQ759R",
+        "PAQ759S",
+        "PAQ759T",
+        "PAQ759U",
+        "PAQ759V",
+        "PAQ762",
+        "PAQ764",
+        "PAQ766",
+        "PAQ679",
+        "PAQ750",
+        "PAQ770",
+        "PAQ772A",
+        "PAQ772B",
+        "PAQ772C",
+        "PAAQUEX",
+        "PUQ100",
+        "PUQ110",
+        "RHQ010",
+        "RHQ020",
+        "RHQ031",
+        "RHD043",
+        "RHQ060",
+        "RHQ070",
+        "RHQ074",
+        "RHQ076",
+        "RHQ078",
+        "RHQ131",
+        "RHD143",
+        "RHQ160",
+        "RHQ162",
+        "RHQ163",
+        "RHQ166",
+        "RHQ169",
+        "RHQ172",
+        "RHD173",
+        "RHQ171",
+        "RHD180",
+        "RHD190",
+        "RHQ197",
+        "RHQ200",
+        "RHD280",
+        "RHQ291",
+        "RHQ305",
+        "RHQ332",
+        "RHQ420",
+        "RHQ540",
+        "RHQ542A",
+        "RHQ542B",
+        "RHQ542C",
+        "RHQ542D",
+        "RHQ554",
+        "RHQ560Q",
+        "RHQ560U",
+        "RHQ570",
+        "RHQ576Q",
+        "RHQ576U",
+        "RHQ580",
+        "RHQ586Q",
+        "RHQ586U",
+        "RHQ596",
+        "RHQ602Q",
+        "RHQ602U",
+        "RXQ510",
+        "RXQ515",
+        "RXQ520",
+        "RXQ525G",
+        "RXQ525Q",
+        "RXQ525U",
+        "RXD530",
+        "SLD010H",
+        "SLQ050",
+        "SLQ060",
+        "SMQ020",
+        "SMD030",
+        "SMQ040",
+        "SMQ050Q",
+        "SMQ050U",
+        "SMD055",
+        "SMD057",
+        "SMQ078",
+        "SMD641",
+        "SMD650",
+        "SMD093",
+        "SMDUPCA",
+        "SMD100BR",
+        "SMD100FL",
+        "SMD100MN",
+        "SMD100LN",
+        "SMD100TR",
+        "SMD100NI",
+        "SMD100CO",
+        "SMQ621",
+        "SMD630",
+        "SMQ661",
+        "SMQ665A",
+        "SMQ665B",
+        "SMQ665C",
+        "SMQ665D",
+        "SMQ670",
+        "SMQ848",
+        "SMQ852Q",
+        "SMQ852U",
+        "SMAQUEX2",
+        "SMD460",
+        "SMD470",
+        "SMD480",
+        "SMQ856",
+        "SMQ858",
+        "SMQ860",
+        "SMQ862",
+        "SMQ866",
+        "SMQ868",
+        "SMQ870",
+        "SMQ872",
+        "SMQ874",
+        "SMQ876",
+        "SMQ878",
+        "SMQ880",
+        "SMAQUEX.x",
+        "SMQ681",
+        "SMQ690A",
+        "SMQ710",
+        "SMQ720",
+        "SMQ725",
+        "SMQ690B",
+        "SMQ740",
+        "SMQ690C",
+        "SMQ770",
+        "SMQ690G",
+        "SMQ845",
+        "SMQ690H",
+        "SMQ849",
+        "SMQ851",
+        "SMQ690D",
+        "SMQ800",
+        "SMQ690E",
+        "SMQ817",
+        "SMQ690I",
+        "SMQ857",
+        "SMQ863",
+        "SMQ690F",
+        "SMQ830",
+        "SMQ840",
+        "SMDANY",
+        "SMAQUEX.y",
+        "SXD021",
+        "SXQ800",
+        "SXQ803",
+        "SXQ806",
+        "SXQ809",
+        "SXQ700",
+        "SXQ703",
+        "SXQ706",
+        "SXQ709",
+        "SXD031",
+        "SXD171",
+        "SXD510",
+        "SXQ824",
+        "SXQ827",
+        "SXD633",
+        "SXQ636",
+        "SXQ639",
+        "SXD642",
+        "SXQ410",
+        "SXQ550",
+        "SXQ836",
+        "SXQ841",
+        "SXQ853",
+        "SXD621",
+        "SXQ624",
+        "SXQ627",
+        "SXD630",
+        "SXQ645",
+        "SXQ648",
+        "SXQ610",
+        "SXQ251",
+        "SXQ590",
+        "SXQ600",
+        "SXD101",
+        "SXD450",
+        "SXQ724",
+        "SXQ727",
+        "SXQ130",
+        "SXQ490",
+        "SXQ741",
+        "SXQ753",
+        "SXQ260",
+        "SXQ265",
+        "SXQ267",
+        "SXQ270",
+        "SXQ272",
+        "SXQ280",
+        "SXQ292",
+        "SXQ294",
+        "WHD010",
+        "WHD020",
+        "WHQ030",
+        "WHQ040",
+        "WHD050",
+        "WHQ060",
+        "WHQ070",
+        "WHD080A",
+        "WHD080B",
+        "WHD080C",
+        "WHD080D",
+        "WHD080E",
+        "WHD080F",
+        "WHD080G",
+        "WHD080H",
+        "WHD080I",
+        "WHD080J",
+        "WHD080K",
+        "WHD080M",
+        "WHD080N",
+        "WHD080O",
+        "WHD080P",
+        "WHD080Q",
+        "WHD080R",
+        "WHD080S",
+        "WHD080T",
+        "WHD080U",
+        "WHD080L",
+        "WHD110",
+        "WHD120",
+        "WHD130",
+        "WHD140",
+        "WHQ150",
+        "WHQ030M",
+        "WHQ500",
+        "WHQ520"
+      ],
+      "values_sha256": "0d9a10cf083bc476a635935537555aad4b46738cb8a964ed2211c6d18be8844c"
+    },
+    "openyxdb:22f73d800087650a7ae254b60d2a621677b732dd878f94e18efcdd9bb1a3c4a8": {
+      "status": "ok",
+      "rows": 625,
+      "columns": [
+        "Airport ID",
+        "Length ft",
+        "Lighted",
+        "Right_Airport ID",
+        "Name",
+        "Region"
+      ],
+      "values_sha256": "9c8032f626a56045889095c0e461d2d3f67da4e8e2e8ac75179a3be336f27610"
+    },
+    "openyxdb:244496a4427c478aa0fc65c7d7009dc3959643d501b82f36785333e069ccb067": {
+      "status": "ok",
+      "rows": 798,
+      "columns": [
+        "Starting_Node",
+        "End_Node",
+        "length_of_dir"
+      ],
+      "values_sha256": "185727adc2677edc00fc9f12c55e5e1ca660074cf55d18a5c273b1a63991f2c9"
+    },
+    "openyxdb:261693ab15a1a05f1afe484eb21e47568f1dc2aeb6b7059111975180bf81563f": {
+      "status": "ok",
+      "rows": 2,
+      "columns": [
+        "type_transac",
+        "Total_FN_Incoherences"
+      ],
+      "values_sha256": "508dae7146b5011c6ea7aa0a7b2e07992edc64bfa0d184b8399b8f1d1836513e"
+    },
+    "openyxdb:27504e50aff8fc3a70c04689de4e5c97493a1f2dc60a601c7faf1749c7f16740": {
+      "status": "ok",
+      "rows": 93774,
+      "columns": [
+        "yarn_id",
+        "percentage",
+        "fiber_type_id",
+        "fiber_type_name",
+        "fiber_type_animal_fiber",
+        "fiber_type_synthetic",
+        "fiber_type_vegetable_fiber"
+      ],
+      "values_sha256": "1a2c75386831c883a7a247c13cd8d8872b3bb84e8fead4af73ae704da75676f4"
+    },
+    "openyxdb:287535bb27e00e7d0cbd24d729ae470e92c87152e612f6327e49fdbae91c03c6": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "c4f07b280934efa88dad845e52fade4c04f86168705f6ab2c227e5278f16c31a"
+    },
+    "openyxdb:28e62a8dea1355f387a7cf89eecf384886c154afa211978bde2577bd3fe1ea05": {
+      "status": "ok",
+      "rows": 13101,
+      "columns": [
+        "Master Patient ID",
+        "Patient Admission Datetime",
+        "Patient Discharge Datetime",
+        "Patient InICU Flag",
+        "Patient Address Number",
+        "Patient Address Street",
+        "Patient Address Full",
+        "Patient City",
+        "Patient Zip Code",
+        "Patient County",
+        "Patient State",
+        "Patient Country",
+        "Patient Name",
+        "Patient Gender",
+        "Patient LACE Score",
+        "Patient DOB",
+        "Patient Marital Status",
+        "Patient Primary Language",
+        "Patient Is Citizen Flag",
+        "Patient Is Deceased Flag",
+        "Patient PCP Type",
+        "Patient Ethnicity",
+        "Hospital Name",
+        "Hospital Address Number",
+        "Hospital Address Street",
+        "Hospital Address Full",
+        "Hospital City",
+        "Hospital Zip Code",
+        "Hospital County",
+        "Hospital State",
+        "Hospital Country",
+        "Department Name",
+        "Specialty Description",
+        "Primary ICD Diagnosis Code",
+        "Admit ICD Diangosis Code",
+        "Primary ICD Procedure Code",
+        "Primary Payor ID",
+        "Total Account Balance $",
+        "Total Account Adjustment $",
+        "Total Account Charge $",
+        "Total Account Payment $",
+        "HRRP Condition"
+      ],
+      "values_sha256": "3cbd4ab5980c0c73d00e5ad8374e062ecbe3be42cb046938438f11edc6f5df63"
+    },
+    "openyxdb:292993299d7d9d9f914de39488c290d97230d575d19b8a4dba97392f54c29683": {
+      "status": "ok",
+      "rows": 0,
+      "columns": [
+        "Total_VP"
+      ],
+      "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "openyxdb:29e529806d58e85909d6914b7a794bee3530325b9e51590874078665348af8e8": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "4a331f3b2a10ec3a9cd00362e2ac1de3e864086946fc6a37c33a4e6b5122b745"
+    },
+    "openyxdb:2f79a4581cc57c5dbbf7f6ddc36b67e4c09cf4c02d05496532a15924df2457b5": {
+      "status": "ok",
+      "rows": 500,
+      "columns": [
+        "Order ID",
+        "Order Date",
+        "CustomerName",
+        "State"
+      ],
+      "values_sha256": "bb762804eca51f5ab14ff2b95292703a8512879a2823ed0436fbf96582c97194"
+    },
+    "openyxdb:315cabea2e0c1433726248c644e270afc0c9d554ffdc3ab0fc0a7f229c62d847": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "609ed16461b527e8184f010b31a67759f97359b8d936aae922219a3d8570b9c2"
+    },
+    "openyxdb:31b2f93f3756b03526300eba325fa3c5418a9a3053809aed17759bfaa17b247d": {
+      "status": "ok",
+      "rows": 607,
+      "columns": [
+        "work_year",
+        "experience_level",
+        "employment_type",
+        "job_title",
+        "salary",
+        "salary_currency",
+        "salary_in_usd",
+        "employee_residence",
+        "remote_ratio",
+        "company_location_country_code",
+        "company_size"
+      ],
+      "values_sha256": "63fffb8ba8c1f7b1205449994800480ad1756639181d0f5a57520018b43d536d"
+    },
+    "openyxdb:32764f3265955730514a8d87f177cec2d0ae34e3738c6d8e3b8bc655cc830b18": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "79d90f3b6d330921cc10725685ce7782a915e415c9ab660fb7a6ab2874cb283d"
+    },
+    "openyxdb:32bcbcd8019e9457a1d74e5b77bc68aeede2a3a55a8ef2201e61cc61031d78a6": {
+      "status": "ok",
+      "rows": 2,
+      "columns": [
+        "Team",
+        "Sum_Total"
+      ],
+      "values_sha256": "5157efed4775eb710526b0aa936c8de81ef1045e7ecbfb2291db3ff24478ff34"
+    },
+    "openyxdb:33dfc8d045ba81df9d1a012112ad52856ac494f80c1784bf7ec386cfcca39bda": {
+      "status": "ok",
+      "rows": 11,
+      "columns": [
+        "first",
+        "last",
+        "gender",
+        "dining out expenses",
+        "age"
+      ],
+      "values_sha256": "6331e365778c1e88b2c4c6795d47190b7f5c63531fa8bcd601505390aa56c2f0"
+    },
+    "openyxdb:3461e5469cc3f5223df52466f88c2dd1eb20cf3b06a9ef200ab4b2a39dc20006": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "ba81078433baa9e568757bc550b9bffb06607ce9a29b02c8c503e5b7f8d1a58e"
+    },
+    "openyxdb:346e8bfb74546647d72014dc300eba4e7cd6acb7f135dc14766978b83d39b6de": {
+      "status": "ok",
+      "rows": 8365,
+      "columns": [
+        "Master Patient ID",
+        "Patient Admission Datetime",
+        "Patient Discharge Datetime",
+        "Patient InICU Flag",
+        "Patient Address Number",
+        "Patient Address Street",
+        "Patient Address Full",
+        "Patient City",
+        "Patient Zip Code",
+        "Patient County",
+        "Patient State",
+        "Patient Country",
+        "Patient Name",
+        "Patient Gender",
+        "Patient LACE Score",
+        "Patient DOB",
+        "Patient Marital Status",
+        "Patient Primary Language",
+        "Patient Is Citizen Flag",
+        "Patient Is Deceased Flag",
+        "Patient PCP Type",
+        "Patient Ethnicity",
+        "Hospital Name",
+        "Hospital Address Number",
+        "Hospital Address Street",
+        "Hospital Address Full",
+        "Hospital City",
+        "Hospital Zip Code",
+        "Hospital County",
+        "Hospital State",
+        "Hospital Country",
+        "Department Name",
+        "Specialty Description",
+        "Primary ICD Diagnosis Code",
+        "Admit ICD Diangosis Code",
+        "Primary ICD Procedure Code",
+        "Primary Payor ID",
+        "Total Account Balance $",
+        "Total Account Adjustment $",
+        "Total Account Charge $",
+        "Total Account Payment $",
+        "HRRP Condition",
+        "Patient Age",
+        "Length of Stay",
+        "DIAGNOSIS LONG DESCRIPTION",
+        "DIAGNOSIS SHORT DESCRIPTION ",
+        "PROCEDURE LONG DESCRIPTION",
+        "PROCEDURE SHORT DESCRIPTION",
+        "ADMIT LONG DESCRIPTION",
+        "Sequence ID",
+        "Readmit",
+        "ReadmitDelta",
+        "+30 Day Readmission"
+      ],
+      "values_sha256": "8b94eda44e6e4abcca416bbbfe427ed79ac2dbba517c2b87b192dbc2b625377f"
+    },
+    "openyxdb:37ef36b660a65de4897d4c8c398e51e22d8ddf913ca798aab7f565e03bcb1dae": {
+      "status": "ok",
+      "rows": 84,
+      "columns": [
+        "EdgeID",
+        "Node_s",
+        "Node_e",
+        "Steps",
+        "InputDir",
+        "OutputDir",
+        "ConnectableCount_s",
+        "ConnectableCount_e",
+        "Goal",
+        "Start"
+      ],
+      "values_sha256": "b0ed39d656c0de977eb75243c2a7ef74ff482b1630b966251682b44ee8039c23"
+    },
+    "openyxdb:388286a3d868b0c295ac4a96177d6fc4b237dff016c3a3d99175af2c75feada1": {
+      "status": "ok",
+      "rows": 4986,
+      "columns": [
+        "COURSE",
+        "HOLE",
+        "PAR",
+        "YARDS",
+        "AVG",
+        "+/-",
+        "EAGLE",
+        "BIRDIE",
+        "PARS",
+        "BOGEY",
+        "DBL BOGEY",
+        "DBL BOGEY+",
+        "Season "
+      ],
+      "values_sha256": "0e7e093e0d7d550732821efa9f6d9ad1aaa294bc514f83fda66f7755045103d6"
+    },
+    "openyxdb:389cc48715dcd494dbd5ee5c7f5285b4aad59f79b6a993c36d50c8209a3e95d1": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "17078b9bc9a0ff826facbe06d05756c0c07abaa194ab05714bd2107d6343269b"
+    },
+    "openyxdb:3995300f84054fb97dd0eec93e3d9fd11550d1bcde51dcfcc0e0a9a8db995a38": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "SpatialObj_Water"
+      ],
+      "values_sha256": "f8a20285f0652d8d19a70de35cbba7c1262434863f8dc7935f2140b5568836c8"
+    },
+    "openyxdb:3a30f216b753e3ade2f15af6f802d6567327335ef14bde0cd1ba50f6a368cf5e": {
+      "status": "ok",
+      "rows": 20000,
+      "columns": [
+        "Order",
+        "Input"
+      ],
+      "values_sha256": "ed85624a4877f632efba378d5777d1ba1e4aa28c786976faeb3a972dff7bfa9c"
+    },
+    "openyxdb:40263690192dcb948e3403cc22399805be448f45f86b6e3250429bef4ed01f12": {
+      "status": "ok",
+      "rows": 100,
+      "columns": [
+        "Id",
+        "Year_Birth",
+        "Education",
+        "Marital_Status",
+        "Income",
+        "Kidhome",
+        "Teenhome",
+        "Dt_Customer",
+        "Recency",
+        "MntWines",
+        "MntFruits",
+        "MntMeatProducts",
+        "MntFishProducts",
+        "MntSweetProducts",
+        "MntGoldProds",
+        "NumDealsPurchases",
+        "NumWebPurchases",
+        "NumCatalogPurchases",
+        "NumStorePurchases",
+        "NumWebVisitsMonth",
+        "Response",
+        "Complain",
+        "RecordID",
+        "Right_Id",
+        "Right_Year_Birth",
+        "Right_Education",
+        "Right_Marital_Status",
+        "Right_Income",
+        "Right_Kidhome",
+        "Right_Teenhome",
+        "Right_Dt_Customer",
+        "Right_Recency",
+        "Right_MntWines",
+        "Right_MntFruits",
+        "Right_MntMeatProducts",
+        "Right_MntFishProducts",
+        "Right_MntSweetProducts",
+        "Right_MntGoldProds",
+        "Right_NumDealsPurchases",
+        "Right_NumWebPurchases",
+        "Right_NumCatalogPurchases",
+        "Right_NumStorePurchases",
+        "Right_NumWebVisitsMonth",
+        "Right_Response",
+        "Right_Complain",
+        "Dt_Customer1",
+        "Dt_Customer2",
+        "Dt_Customer3"
+      ],
+      "values_sha256": "75be8eef64cf0c82eeb0862a9b5dcc6ee859ccfea6d7ce5985ca6d67b92bddfd"
+    },
+    "openyxdb:404ad05087e099ca159d4190a30c5e6a7de9314228a68a30fe6fbc5331230992": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "de90203774ec5721e0d14bf41c04f1e939f3a09827f88c601f69a1a40e4a61fa"
+    },
+    "openyxdb:41586f7612a7d27b84375e6162536cf5a483855ea0cc200aaef2b12c60d4eadc": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "c1213f5b257c792bf9238177af81a7c1736a774c4427a4e6a766f9842727087a"
+    },
+    "openyxdb:43925fb1ddcb7dc574e5a1dd3c0b7c51af66a72460bfce20f8951fc63e2c56bb": {
+      "status": "ok",
+      "rows": 13101,
+      "columns": [
+        "Master Patient ID",
+        "Patient Admission Datetime",
+        "Patient Discharge Datetime",
+        "Patient InICU Flag",
+        "Patient Address Number",
+        "Patient Address Street",
+        "Patient Address Full",
+        "Patient City",
+        "Patient Zip Code",
+        "Patient County",
+        "Patient State",
+        "Patient Country",
+        "Patient Name",
+        "Patient Gender",
+        "Patient LACE Score",
+        "Patient DOB",
+        "Patient Marital Status",
+        "Patient Primary Language",
+        "Patient Is Citizen Flag",
+        "Patient Is Deceased Flag",
+        "Patient PCP Type",
+        "Patient Ethnicity",
+        "Hospital Name",
+        "Hospital Address Number",
+        "Hospital Address Street",
+        "Hospital Address Full",
+        "Hospital City",
+        "Hospital Zip Code",
+        "Hospital County",
+        "Hospital State",
+        "Hospital Country",
+        "Department Name",
+        "Specialty Description",
+        "Primary ICD Diagnosis Code",
+        "Admit ICD Diangosis Code",
+        "Primary ICD Procedure Code",
+        "Primary Payor ID",
+        "Total Account Balance $",
+        "Total Account Adjustment $",
+        "Total Account Charge $",
+        "Total Account Payment $",
+        "HRRP Condition"
+      ],
+      "values_sha256": "e0f4de19400d22a7c217d5a48b02a365df79063789421b63cad5320ae0179f3a"
+    },
+    "openyxdb:4577ab0b59b4f1b052052bf334a8ded3d26f692f1966af08c9998b460bb6e50a": {
+      "status": "ok",
+      "rows": 1176,
+      "columns": [
+        "Before",
+        "After"
+      ],
+      "values_sha256": "af4a55827bbe24664a178f0a627116175c00609319f428d586bd48d437175f4f"
+    },
+    "openyxdb:4756878f100bc77c0edca1fb476ab3ef4f1e4c675d71d0f1b2323aba67a458ec": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "1febf3255d6e52ef66e08c54866a0f172d995bf4ceb357302ada8847a657a6ef"
+    },
+    "openyxdb:4837c26fd2268b81e703b74a34952bcc8339e8f3fa5e828756a22fcd4a07f77a": {
+      "status": "ok",
+      "rows": 1512,
+      "columns": [
+        "phone_name",
+        "brand",
+        "battery",
+        "price(USD)"
+      ],
+      "values_sha256": "00a7cb38e417d9a91ae591445690368f3feb73462ee977686cc5edc04f0e8429"
+    },
+    "openyxdb:4b69d667a6d262b6bd992a90bf8500c9c56c3a047f71f9dec3d5efb0c4e4e474": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "business_status",
+        "formatted_address",
+        "name",
+        "types_0",
+        "types_1",
+        "types_2"
+      ],
+      "values_sha256": "1babdfd20a98109538b7f642ab884470fc0588e95aec5ddf849872ef3009d38b"
+    },
+    "openyxdb:4c2d1c7808474532a5863868dcccf2df546d1d114918f57ca3133fd3f52fa29b": {
+      "status": "ok",
+      "rows": 302,
+      "columns": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "TOTAL",
+        "Cumulative Total",
+        "PCT_Jan",
+        "PCT_Feb",
+        "PCT_Mar",
+        "PCT_Apr"
+      ],
+      "values_sha256": "132e7be77ed8bc344c15977f5744cdb94187b22cfba6ae284ec6e59df0687db3"
+    },
+    "openyxdb:4d2489fa47306f64c80d187d4dc4609e0c7f54d2deb2a3e48cc5503d490fbdeb": {
+      "status": "ok",
+      "rows": 1000,
+      "columns": [
+        "Input"
+      ],
+      "values_sha256": "21d741d0a249a160bf87a2986d13f4c8261cee79b6d80a7f97303bf9064dac21"
+    },
+    "openyxdb:4d51932b12f5aae5f5ace6ec55a46948128a84ca428c893ee3ec5fac687bf161": {
+      "status": "ok",
+      "rows": 26751,
+      "columns": [
+        "EmailData",
+        "emailHeader",
+        "emailBody",
+        "MessageID",
+        "emailDate",
+        "emailFrom",
+        "emailTo",
+        "DateTime_Out",
+        "dayOfWeek",
+        "Month",
+        "Year",
+        "isReply",
+        "isForward"
+      ],
+      "values_sha256": "215b3f4aecbd6b570f9a418cc25c0b4ac6acdfb5d5501425fab4df4678e50fb5"
+    },
+    "openyxdb:4f1b1dea78920c999176d63266789654717663fe88083d53284fa87779ef7d65": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "e32520a00186151c0e471a0658f928d1ae901f5d262d6333d6fa636c9b2f31f8"
+    },
+    "openyxdb:509752a5113603749768e443caf9c35432c444618e66717e088eeb045136cc96": {
+      "status": "ok",
+      "rows": 3721,
+      "columns": [
+        "Port Name",
+        "Date",
+        "Month",
+        "Vehicle Type",
+        "Number of People",
+        "Port ID"
+      ],
+      "values_sha256": "5ed5c66c1cc414775630fb293ba6dd1240d570d48fc6e60486c20695142c5a8d"
+    },
+    "openyxdb:540ef104d278c44e15092648f6c3a110d1d67ac606435a74907f945e4eb3dd37": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "f9f244c8727af7a9b0788aa6607ae203eb69c7f67533ae3c3b790cd44c0d086e"
+    },
+    "openyxdb:55aaf8343a1f168f4ee044b75cf8019828a0706b339e417d6264c9a55165de5b": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Chart"
+      ],
+      "values_sha256": "2fc61cbf7aeee38ad160d04cd2d9481802e21f017845e6a1c3c91d864473a531"
+    },
+    "openyxdb:56c8235c4dc118abcf89ac144814dbc6dc9ec0d7e8a2ebf29f1f68b6bc67a927": {
+      "status": "ok",
+      "rows": 44175,
+      "columns": [
+        "CREATED",
+        "BIC NUMBER",
+        "ACCOUNT NAME",
+        "TRADE NAME",
+        "ADDRESS",
+        "CITY",
+        "STATE",
+        "POSTCODE",
+        "PHONE",
+        "EMAIL",
+        "MARKET",
+        "APPLICATION TYPE",
+        "DISPOSITION DATE",
+        "EFFECTIVE DATE",
+        "EXPIRATION DATE",
+        "EXPORT DATE",
+        "LATITUDE",
+        "LONGITUDE",
+        "COMMUNITY BOARD",
+        "COUNCIL DISTRICT",
+        "CENSUS TRACT",
+        "BIN",
+        "BBL",
+        "NTA",
+        "BORO"
+      ],
+      "values_sha256": "21a5af4550eac154c8d59c287c195faa801dcc0ecd54c0f70424ac54e530740f"
+    },
+    "openyxdb:56f908509118b791dbf1bca568fe445ea4386dd1b3d46102a56e295236aa90d1": {
+      "status": "ok",
+      "rows": 413,
+      "columns": [
+        "x",
+        "y",
+        "Max_x",
+        "Max_y",
+        "Dir",
+        "Input",
+        "Cost",
+        "Fixed",
+        "history"
+      ],
+      "values_sha256": "34119bfde4fbbbfc224b9d3a4754e2cb278021fd8631d8eeec62e32e60a042cd"
+    },
+    "openyxdb:57a7619be2b44cb7a7cacbafd964852f780f7e9694b00d48bfecd61b6a3db3d1": {
+      "status": "ok",
+      "rows": 10,
+      "columns": [
+        "Store",
+        "Address",
+        "City",
+        "Zip",
+        "Type",
+        "Cluster"
+      ],
+      "values_sha256": "4b1540438c68a49a93451d8eac440b787990c38eff110a85cf7c30fc6677a048"
+    },
+    "openyxdb:58ffa514cd66e6562c309e515a8d019b4be557299e303da85697a4e4be60e764": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "1d6f5e1cd961e310f05b22d7c3703f8df54f644a55c114d5f3ebe6f2b9f7d16e"
+    },
+    "openyxdb:5ae0e644c1f834f15e26e20ef84f4711892d0948c663bab4b13751fff653437a": {
+      "status": "ok",
+      "rows": 9,
+      "columns": [
+        "league",
+        "team",
+        "season",
+        "Player_Name",
+        "Position",
+        "Age",
+        "Annual_Salary_GBP",
+        "Weekly_Salary_GBP"
+      ],
+      "values_sha256": "7988f54c5d2544759ed189379e1115f4cd26c8844edf85cc53ee13c0f5722185"
+    },
+    "openyxdb:5c411cf4cc2594300ee087f83f9b89ae5667b8a1ccadc5a48a6f403d0cacd9bf": {
+      "status": "ok",
+      "rows": 5,
+      "columns": [
+        "CustomerID",
+        "FirstPurchaseDate"
+      ],
+      "values_sha256": "37e65acbebe382e06e9848aff51112f2a133babfe5d134c0858ef24bc122dc0f"
+    },
+    "openyxdb:5c5fe77a32ca58be9316ad1482e847128971c5e4f9f8e7697667e6e7c29745f9": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "65c10340aba95679b4c76bcded8361d6c85a13702e7a01f4c9442ae2e351e7db"
+    },
+    "openyxdb:5d58f1440e8773d8dec3bc3179cb48afd02547f144cefa5e9aee1110dcc27c2c": {
+      "status": "ok",
+      "rows": 12,
+      "columns": [
+        "FullPath",
+        "Directory",
+        "FileName",
+        "Size",
+        "Class",
+        "path",
+        "file",
+        "page",
+        "image",
+        "image_processed"
+      ],
+      "values_sha256": "c7e0bf7bbc89421e274b6041def577c70bb2ad4e3548e09c83d69125d93c9aa8"
+    },
+    "openyxdb:5df1743cfcc2e4d67fe6949d7df01f82be71b56bf2ade05951dd38a25ec99a94": {
+      "status": "ok",
+      "rows": 7493,
+      "columns": [
+        "EdgeID",
+        "Node_s",
+        "Node_e",
+        "Steps",
+        "InputDir",
+        "OutputDir",
+        "ConnectableCount_s",
+        "ConnectableCount_e",
+        "Goal",
+        "Start"
+      ],
+      "values_sha256": "6b8589144b426bc0e4bf6f847855a80563aa2ddbfe2c51bee8320f84d4d38607"
+    },
+    "openyxdb:5eeddc560976e28ca8a1302887a6e5d667f0bde996dc58bc779040c4bc5dddb3": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: ambiguous Int32 encoding in record 68"
+    },
+    "openyxdb:64bbd6f6ba868f8834bbb696a48f392d37b8beccf7ed0f8f18fc085699d7916b": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "bbeba968cb1c730282d4dcd779ebed69136a9f244d75c86440b61ac7d8383ead"
+    },
+    "openyxdb:660e0671fbc915e4fafd5da7db6a0d767ee9397f4d6b6d84091eeab9d78235fb": {
+      "status": "ok",
+      "rows": 12420,
+      "columns": [
+        "Category",
+        "City",
+        "Country/Region",
+        "Customer Name",
+        "Discount",
+        "Order ID",
+        "Postal Code",
+        "Product Name",
+        "Profit",
+        "Quantity",
+        "Region",
+        "Sales",
+        "Segment",
+        "Ship Mode",
+        "State",
+        "Sub-Category",
+        "OrderDate",
+        "ShipDate",
+        "Days to Ship Scheduled"
+      ],
+      "values_sha256": "877771d446417f79a09c2cfd3b0a402fa5c6904b0bcc339b5483361d6076aeab"
+    },
+    "openyxdb:6932356a4490e77039def43fdffbecaf1802b0ad3fe09219c2e1589ef5544fab": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "a11c4a611af5dc1dd8db187dd84b69914a0be2dbafb352d1bd05aa9061230f2f"
+    },
+    "openyxdb:69627fc6eff02e0b9833a39b0c267bd21c8e72ded18f03b793982048ca3a3de0": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "a8eb330082cf575e9133b81ea1a4e2b34c6f2106c3752f531f0209b7391ea136"
+    },
+    "openyxdb:6a41c1522c60d1d2b778fd7a3c3d220163b46219f966329747ce67cdd4d999f4": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: ambiguous Int32 encoding in record 48789"
+    },
+    "openyxdb:6aa39e917c094ac11f3dddd6155d9c1fc4fc6d966d5913a1aa53b232ae887f14": {
+      "status": "ok",
+      "rows": 1012364,
+      "columns": [
+        "Agency Number",
+        "Agency Name",
+        "Last Name",
+        "First Initial",
+        "Item Description",
+        "Amount",
+        "Merchant",
+        "Transaction Date",
+        "Post Date",
+        "Purchase Description",
+        "UpperLastName",
+        "CHFlag",
+        "CHRem",
+        "convertedAmount",
+        "EmployeeID",
+        "TransactionDate",
+        "PostedDate"
+      ],
+      "values_sha256": "1e339b0a6ba6f429218c74fbee5428892d2e3c8eb169d87fb97e78c42318b741"
+    },
+    "openyxdb:6e55cea03775f6e8b294a489dab1cec15967413ea1deaacb17d0f0907f63f9a4": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Chart"
+      ],
+      "values_sha256": "c66e8a538ad0b6f22e10f79b8a58dbed9d2104af98a3dfb3716c29e3f4895932"
+    },
+    "openyxdb:6f245c6006146b6092d62ffa7288f9023a26d25d8982029b3a85891f1efccca8": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "b4c3c43a2544da8c1de1c3593c744685b0869db1336b36d9d5fad8ac39890f1f"
+    },
+    "openyxdb:718ac75fdcbf6db3dec28e4e2593a55c37ad6e22f15d5dbafc0b88b6fb56e2d2": {
+      "status": "ok",
+      "rows": 3,
+      "columns": [
+        "Width_MM",
+        "RATIO",
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "c867d3d2365b72b911d4cd88a9ce2b8633bc1eda88fc306c253e104874e57dc4"
+    },
+    "openyxdb:75f56d31d753b576bed9987c74b2cb46518c6f86d0eb890a01b8ed65d23089c4": {
+      "status": "ok",
+      "rows": 793,
+      "columns": [
+        "Customer ID",
+        "Customer Name",
+        "Total_Revenue",
+        "Total_Margin",
+        "Total_Net_Profit_After_Returns",
+        "First_Order Date",
+        "Last_Order Date",
+        "LTV_Segment"
+      ],
+      "values_sha256": "6876458b565bf32b29cb6b253907282834967e4eee0244d337e6066735110417"
+    },
+    "openyxdb:763b19e40aaeafedac382e6492d6b2dd5e17a5d20f4d699240d2c248e3e28bc2": {
+      "status": "ok",
+      "rows": 14,
+      "columns": [
+        "borough",
+        "gispropnum",
+        "location",
+        "name",
+        "polygon",
+        "the_geom",
+        "pooltype",
+        "shape_star",
+        "shape_stle",
+        "Size",
+        "Accessible",
+        "lat",
+        "lon"
+      ],
+      "values_sha256": "3f7f6c66dc19138517bf8a156a3995363b83c451f0ff7f3ca08bacaa8a36a9bd"
+    },
+    "openyxdb:78e6f9954878d6f2b4e77024b648fa49f03e2b0f8d079adb5beff8cacdd0aa59": {
+      "status": "ok",
+      "rows": 5009,
+      "columns": [
+        "Order ID",
+        "Order Date",
+        "Ship Date",
+        "Customer ID",
+        "Product ID",
+        "Category",
+        "Sub-Category",
+        "Revenue",
+        "Quantity",
+        "Discount",
+        "Profit",
+        "Region",
+        "Country",
+        "State",
+        "City",
+        "Customer Name",
+        "Segment",
+        "Cost_Price",
+        "Returned",
+        "Return_Reason",
+        "COGS",
+        "Margin",
+        "Margin_pct",
+        "Return_flag",
+        "Net_Profit_After_Returns"
+      ],
+      "values_sha256": "54575301bf375039878ceaec4eb1296d5247316ead34b9d6aa493fb6170895a5"
+    },
+    "openyxdb:7915381a197d34ab36a171bdc3193b05fe5b9bc5f18d55c4be7ca02da2fc2ffa": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "a29197b674c97f2afaaa3639621b5c48565605a9850d584618c23c511f53bc16"
+    },
+    "openyxdb:7ab36db86d50b3aec6ec6620a3098a8c8b1a9fe031dd7b87359e4d3816cea66f": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: ambiguous Int32 encoding in record 4537"
+    },
+    "openyxdb:7b32cbda58e24d75de7db6a8b355731efe081c171f661307e6e964e22cb8b8c4": {
+      "status": "ok",
+      "rows": 200000,
+      "columns": [
+        "Tree ID",
+        "Planting Date",
+        "Height (m)",
+        "Status",
+        "Health",
+        "Latin Name",
+        "Common Name",
+        "Borough Code",
+        "Latitude",
+        "Longitude",
+        "Centroid"
+      ],
+      "values_sha256": "d32e7afd9aa2d825e656f402c0643beb6800172c7ee253d63b00e9e6c0c524fa"
+    },
+    "openyxdb:7b75e18714785b5570c1153f0929ae180849bf291ff3c03462da7c7f2fb32776": {
+      "status": "ok",
+      "rows": 18,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "76b14da1b078ee7c7065c046ea3a3254b6a604a7d071dc6a969a4e5bd5eb6c4b"
+    },
+    "openyxdb:7dfb79432fde920670425606f24229afd713e82e165875469814cd917faf76c3": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: ambiguous Int32 encoding in record 41"
+    },
+    "openyxdb:7eca4c3cb1eeb0ad8e174989dd795d4f7b4127a828a549a8f45cc87162ec320e": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: ambiguous Int32 encoding in record 205"
+    },
+    "openyxdb:80749e132037ab6449b1ea51f5f4e52d1ae3013ab2dc2c0b661b5133e07d8d1e": {
+      "status": "ok",
+      "rows": 3914,
+      "columns": [
+        "ORDER_ID",
+        "LINE_ITEM_ID",
+        "PRODUCT_ID",
+        "UNIT_PRICE",
+        "QUANTITY"
+      ],
+      "values_sha256": "aa38813da06cff0552ec994167da4f6e97e8495f3f2f1af3a044b4d6dfd236da"
+    },
+    "openyxdb:81bcceb50f035bce9048dac978ff6937314498189ef01935b684bd035aeea3fb": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "a856cd979d915651b4fe3cb7c7803347ccdd3902d26449911be086d7500e1570"
+    },
+    "openyxdb:83b034730634ed0a81b95eabce6b928c3d67f69113487eed6030d8491b7437f8": {
+      "status": "ok",
+      "rows": 5,
+      "columns": [
+        "Customer_ID",
+        "Store_Number",
+        "Customer_Segment",
+        "Region",
+        "TransInYear"
+      ],
+      "values_sha256": "f5d657844f6b617bef280261c05b00e71403cf967b7aae7a7c1ea08149eb0f9d"
+    },
+    "openyxdb:84787b23df0cb3d29e5b7713a198c81be15e5f49d2357b8144982d257466f5ed": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "cells",
+        "curr_c",
+        "curr_r",
+        "curr_dir_id",
+        "Max_c",
+        "Max_r",
+        "VisitHistory"
+      ],
+      "values_sha256": "7f1a639f9e35ee40b32dfacb373406afb15195d919085564dc3a6ecc69aaaabd"
+    },
+    "openyxdb:875bb3399ed4acc8b7c7f12f4b32b842a8e6a9962ea560fe35010967ee788cc3": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "data",
+        "row",
+        "column",
+        "dir"
+      ],
+      "values_sha256": "bcdd1f91a32d6ef9777dbfa722af966a1ac8422d6d55922feca8942c330183ad"
+    },
+    "openyxdb:87f87e9b1eb00a26e9b7520fff10f47ab75e58ebfa18024a982b51444ca3c849": {
+      "status": "ok",
+      "rows": 22,
+      "columns": [
+        "Row ID",
+        "Order ID",
+        "Order Date",
+        "Ship Date",
+        "Ship Mode",
+        "Customer ID",
+        "Customer Name",
+        "Segment",
+        "Country/Region",
+        "City",
+        "State/Province",
+        "Postal Code",
+        "Region",
+        "Product ID",
+        "Category",
+        "Sub-Category",
+        "Product Name",
+        "Sales",
+        "Quantity",
+        "Discount",
+        "Profit"
+      ],
+      "values_sha256": "3c6fb73d747cb475e721c69e2b57a15d235344ec6be0347fbfa3a2b7d957562d"
+    },
+    "openyxdb:88967def92b49e2a7a9f34f8aee76079a2dc405f8aa43916bf14d99e7a53afc2": {
+      "status": "ok",
+      "rows": 2319,
+      "columns": [
+        "Port Name",
+        "Date",
+        "Month",
+        "Vehicle Type",
+        "Number of People"
+      ],
+      "values_sha256": "51a0628920fef810ad3944bdad6700cf3053c3da40720474940271c06fbd103b"
+    },
+    "openyxdb:88e8d19624a08c4e3711d9eddee3a66cde0f1add6011274345e7dd6d438f3cd5": {
+      "status": "ok",
+      "rows": 58,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "a6caecb23fd4820fef28320173edb39447ae6fda9242240636fb537ef566c755"
+    },
+    "openyxdb:88e95bc630608fa933ad212ed3d5a2d35b282b54d4686ee34984b8b101544da2": {
+      "status": "ok",
+      "rows": 216,
+      "columns": [
+        "borough",
+        "gispropnum",
+        "location",
+        "name",
+        "polygon",
+        "the_geom",
+        "pooltype",
+        "shape_star",
+        "shape_stle",
+        "Size",
+        "Accessible",
+        "lat",
+        "lon"
+      ],
+      "values_sha256": "59f518cd2d76b317e6cc22e9aa981a41f9ea5e91d358f0a104ed48a4ca217521"
+    },
+    "openyxdb:8a578cf741075e25df184bcd3eb5bfae3effa1f5e8835e95a01ae240212b41d2": {
+      "status": "ok",
+      "rows": 56164,
+      "columns": [
+        "TRIPDURATION",
+        "STARTTIME",
+        "STOPTIME",
+        "START_STATION_ID",
+        "START_STATION_NAME",
+        "START_STATION_LATITUDE",
+        "START_STATION_LONGITUDE",
+        "END_STATION_ID",
+        "END_STATION_NAME",
+        "END_STATION_LATITUDE",
+        "END_STATION_LONGITUDE",
+        "BIKEID",
+        "MEMBERSHIP_TYPE",
+        "USERTYPE",
+        "BIRTH_YEAR",
+        "GENDER",
+        "BIRTH_MONTH",
+        "BIRTH_DAY",
+        "BIRTHDAY_STR",
+        "BIRTHDAY",
+        "AGE"
+      ],
+      "values_sha256": "a7db3b3ea768e9877aae5ed44299361111fdb6913afdb84471da4a048698f6c5"
+    },
+    "openyxdb:8a90e3079a89b429de4e930b5f4a72f06018a830d70e70df4f227c5ff322fdf8": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Total_FN_Sans_Incoferences"
+      ],
+      "values_sha256": "cf315fb9e0ee09af9571e4bd2adc322ac80ea6b0259b070af2ea418286354a8f"
+    },
+    "openyxdb:8ad6f216ef4b2460c16afcbd047ef173270dbc89fb223e603cff916133ae2a92": {
+      "status": "ok",
+      "rows": 5,
+      "columns": [
+        "Input"
+      ],
+      "values_sha256": "42d6fb29d92fbdb4efbef546502c101a634e76788b649bc2a3ab974057d36a6b"
+    },
+    "openyxdb:8b89e6719ae20a32b8bf6c5d2ba62da98f6d2ece674e8820cf0d2f86cf4d216e": {
+      "status": "ok",
+      "rows": 2,
+      "columns": [
+        "BFC_ID",
+        "USE_ID",
+        "BPY_ID",
+        "BFC_DESCR",
+        "BFG_FLG_STATE",
+        "BFC_NOTE",
+        "SYS_DATE_TIME_INS",
+        "SYS_DATE_TIME_UPD",
+        "MON_ID",
+        "SCE_ID_DEFAULT",
+        "BFC_FLG_TYPE",
+        "BFC_FORECAST_ID",
+        "MON_ID_SELLIN_EXP_START",
+        "MON_ID_SELLIN_LAST_ACTUAL",
+        "BFC_FLG_CAN_UPLOAD_EXPECTATIONS",
+        "BFC_VERSION"
+      ],
+      "values_sha256": "42a77f31dbf7115a2b21a65b9b5309aa84ac349047d4bc6d68426ad9a1b23418"
+    },
+    "openyxdb:8df7a129048d7d098ae88799cd6cdf83ecf04d636045569c0dd16e1236322fc1": {
+      "status": "ok",
+      "rows": 2020,
+      "columns": [
+        "EIN",
+        "invoice_amount",
+        "company_name",
+        "bill_contact",
+        "invoice_date",
+        "phone_number"
+      ],
+      "values_sha256": "5c6527a52156888dab45a5076fbea0bd931b08cb9f909171082d75891cc4f22d"
+    },
+    "openyxdb:8f63e157853f84db7255e56cb6da45b5062bf2065241e8ec68291bf439395be5": {
+      "status": "ok",
+      "rows": 8,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "699b6dffd3b37ab04d165a9d908c2c6525d7b025d83dfd349dd3dc295e659813"
+    },
+    "openyxdb:9042ef46359d12920802727bf4376c14fc11c46b2996228a00ca7634ed44e436": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Chart"
+      ],
+      "values_sha256": "3a0a58d1074a54f94b8365a158c8693af7070b3bc75533eec59990e5b2972bd2"
+    },
+    "openyxdb:9291a2eb0e072dbfb8b49757b5f06374d6ef8af1470921b1ad05c254ddb16262": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: ambiguous Int32 encoding in record 32"
+    },
+    "openyxdb:92ad03917b413a6096025d7048b70abcb19967f4b7932006e6bc748064c1b581": {
+      "status": "ok",
+      "rows": 1500,
+      "columns": [
+        "OrderID",
+        "Category",
+        "Total Profit"
+      ],
+      "values_sha256": "bc580a057b3738f83fb538ce75ed81e671aa60d8b100f13856cde55663640046"
+    },
+    "openyxdb:937f98169092b0c23c6bf35220bbd5f3ae4c3ecadd50df324b817eb6323c0331": {
+      "status": "ok",
+      "rows": 18319,
+      "columns": [
+        "Category",
+        "City",
+        "Country/Region",
+        "Customer Name",
+        "Discount",
+        "Order ID",
+        "Postal Code",
+        "Product Name",
+        "Profit",
+        "Quantity",
+        "Region",
+        "Sales",
+        "Segment",
+        "Ship Mode",
+        "State",
+        "Sub-Category",
+        "OrderDate",
+        "ShipDate",
+        "Days to Ship Scheduled"
+      ],
+      "values_sha256": "0fe3df69733a77cd81d422f092aff36f2e717941c939c20579dba51e6f29c1f6"
+    },
+    "openyxdb:94a4dd22c6a0331e4561626f603fe9bbdb4a8c422d52e053597308603a16ed9f": {
+      "status": "ok",
+      "rows": 50,
+      "columns": [
+        "Row ID",
+        "Customer Name",
+        "Region",
+        "Product Name",
+        "Sales",
+        "Quantity",
+        "Discount"
+      ],
+      "values_sha256": "6e0a672f609ddf2c8e62f940058c074d98a3ac85b74d136f69522ac2666e9de2"
+    },
+    "openyxdb:95876acd7f6252c8d80760dbad3a2f018b58a58aca515c493c44369e02722cd2": {
+      "status": "ok",
+      "rows": 21,
+      "columns": [
+        "league",
+        "team",
+        "season",
+        "Player_Name",
+        "Position",
+        "Age",
+        "Annual_Salary_GBP",
+        "Weekly_Salary_GBP"
+      ],
+      "values_sha256": "138e10700b7da8316fc24a315088c7d62755edbdf1ddf99fdcd8b574ee00eaac"
+    },
+    "openyxdb:96dd999ab7b624f1c51684f9f51ee8d5e3f66d3313ac98f81fd23df0a9407a95": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "7a6892e4b528e15cfd1a6dce01a264143d6388f436080491a194393218e5448e"
+    },
+    "openyxdb:9a5c20336e88675d9d1e97fa485b7ada9bb08cfebf26354e82e455403099757b": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "67aec68d67a257d324a8167989dd5d5e82e5e77dd7ffbb96d84ce7ff401ebdc5"
+    },
+    "openyxdb:9ad5fe00a6e9e0184a6b1c35a85b5d937151ffd82a3d880fd099e910059d3bf4": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: ambiguous Int32 encoding in record 0"
+    },
+    "openyxdb:9d54553de8e34bfb501233ce419ddb13281f0d4be6d39994abf07f8f75486d45": {
+      "status": "ok",
+      "rows": 4,
+      "columns": [
+        "Store",
+        "Amount",
+        "Date"
+      ],
+      "values_sha256": "53ffb170809f0a49646f049a0df77f2bed00b3eab980b587c3da7c9fbbbe9265"
+    },
+    "openyxdb:9de9cb9d70664e169f6813734224e9cd2a9b715c0c8934a520d3ae77d1144ebb": {
+      "status": "ok",
+      "rows": 21025,
+      "columns": [
+        "Id",
+        "SpatialObj",
+        "AEZ"
+      ],
+      "values_sha256": "d037cffb986346ab59e25855a35ae234b495aae07900e0ead341a32589c28614"
+    },
+    "openyxdb:a00779e2e06d4213c64e925a4ab8c7e34ba7ae44362bcea5ed8a1de5c3f0a89a": {
+      "status": "ok",
+      "rows": 96,
+      "columns": [
+        "ReportID",
+        "Field_1",
+        "number_cnt",
+        "Before",
+        "After",
+        "Left",
+        "Current",
+        "Right"
+      ],
+      "values_sha256": "ec573e2ab6570db3ce873a603d3acda060896c611013773f90edb0be344920d0"
+    },
+    "openyxdb:a2cbe94c18d882ed16e289ae9a7971ae699271c1750ba34ec5be9c063dbacc71": {
+      "status": "ok",
+      "rows": 20093,
+      "columns": [
+        "Site",
+        "Date.Time.Customer",
+        "JobTypeName - simple",
+        "ClosedReason",
+        "weightbread",
+        "weightdairy_alt",
+        "weightdessert",
+        "weightdrinks_water",
+        "weightdrinks_other",
+        "weightfruit",
+        "weightmeals_sw",
+        "weightmeat_eggs",
+        "weightpantry",
+        "weightsnacks",
+        "Date.Time.Customer1",
+        "Date.Time.Customer2",
+        "ID"
+      ],
+      "values_sha256": "1303aed9f35554c23269654e1538fc284883f379cba2a66ba6c3f55ecc112473"
+    },
+    "openyxdb:a2d882c35b0f192644ba98d686f38b85fd037673192e2b9c38d736422f28d731": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "7ef5ec3c5dab48616e5ab541e879fab0510262b9e3f0ae766e92b7a6ac7af2c4"
+    },
+    "openyxdb:a4da00172b896d7d53ddc6ea689ce61fe2446e962554ae8739257c0870cfcf6c": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Count_VP"
+      ],
+      "values_sha256": "76d0d491e38a3c6487fe171f0b93a52fe1be5462423fdcbbbe1ddfe980abff5b"
+    },
+    "openyxdb:a6574825a2a4edc46311a0ec358bbc0cc63c02ca940e5618041a65b137bebe5e": {
+      "status": "ok",
+      "rows": 58,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "a07ce17a236cff79f29ca7bda914b387530834df722f18fd1fad4866a4186e7b"
+    },
+    "openyxdb:a6694490cfba00033c4dc65a2242fd45eebb281d0c2fecb52b26f3fd609b1f18": {
+      "status": "ok",
+      "rows": 6,
+      "columns": [
+        "Players",
+        "Sum_Total"
+      ],
+      "values_sha256": "c17d4ea277ec4d9f6d59a51ec71ff9293cb2cbf63668888d81c6e18d1cee2f9e"
+    },
+    "openyxdb:a674bd1e545fa834b18b46e983f55dbf7b841d15017d44ec15eac65d7255bba4": {
+      "status": "ok",
+      "rows": 1000,
+      "columns": [
+        "Actor Popularity",
+        "Actor",
+        "Genre",
+        "Film Location",
+        "Revenue",
+        "Diva Score"
+      ],
+      "values_sha256": "63537713f27a8e32030ae9f43a20914dcdb779d544fcb1067182489731bd834e"
+    },
+    "openyxdb:a81bc23879605a80702ece6cb2c8f760212442176c8490ce391c409cd8f2bfff": {
+      "status": "ok",
+      "rows": 43,
+      "columns": [
+        "Challenge Number",
+        "Challenge URL",
+        "Challenge Name",
+        "Difficulty Level",
+        "Certification Level",
+        "Thread ID",
+        "Subject Matter",
+        "username",
+        "user id",
+        "Date Completed"
+      ],
+      "values_sha256": "05181c504ecf21921a41ed405385b3a542a7bfa04da3943a5598ea48be3bd4e9"
+    },
+    "openyxdb:a8eeee98a608fd1e181c3662c02c78884a05e807d02b580acacc90e052f03556": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Concat_Direction",
+        "HeadX",
+        "HeadY",
+        "TailX",
+        "TailY"
+      ],
+      "values_sha256": "9fa7f1f1d2b26daf7f2b7b613488ae7defadb9f9bb0a12641b1b1616d94de2e9"
+    },
+    "openyxdb:aaa9431b97d7eaff96730f4d115be3b522cdde8b0e0584955e249f5d014695ea": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "e29a1a2ccb7d4a08f9b4deaf13664b0361457dc7cb1ee63a1b15074f7bfaf415"
+    },
+    "openyxdb:acb2cc69c41098be0bc805a12143a7908bcf50eb9631cd6ed4bd4f863fd1ad20": {
+      "status": "ok",
+      "rows": 2678,
+      "columns": [
+        "Customer ID",
+        "First Name",
+        "Last Name",
+        "City",
+        "State",
+        "Transactions",
+        "TOTAL_Unit_Price",
+        "TOTAL_Sales"
+      ],
+      "values_sha256": "ba88f37c354a7eaa373c20c1bb1e11d430acb4a095b69a1811d2e2b709c18969"
+    },
+    "openyxdb:b06b54bf232f0e7889bd6bad96a45dde952aa0b95aeb721f63d6a19fd4db19e5": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: failed to decode record 4: no exact match for the declared schema"
+    },
+    "openyxdb:b1d89869879c269654c0407ebbda06b01f3453de8d5a7e4407a30982e8fb8f12": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: ambiguous Int32 encoding in record 37"
+    },
+    "openyxdb:b39d8516fb12922e509a2b7ecef27b3cc59ea2d672aee703d73e768f5cf340ec": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: failed to decode record 0: no exact match for the declared schema"
+    },
+    "openyxdb:b3a58ee7257401dcce83e7358a21f209ea3a7b8abd5a49a603faa08dd986fc84": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "49ebcffbf7b8d0f7bc4deca91fcdf27902d82e9fae6099a3f7da76231365a561"
+    },
+    "openyxdb:b61104a9895b76bc02ef21d1c8f6846077082f13323a9a19a46a6cff4819d7d9": {
+      "status": "ok",
+      "rows": 73517,
+      "columns": [
+        "Order ID",
+        "Order Date",
+        "Ship Date",
+        "Customer ID",
+        "Product ID",
+        "Category",
+        "Sub-Category",
+        "Sales",
+        "Quantity",
+        "Discount",
+        "Profit",
+        "Region",
+        "Country",
+        "State",
+        "City",
+        "Customer Name",
+        "Segment",
+        "Cost_Price",
+        "Returned",
+        "Return_Reason"
+      ],
+      "values_sha256": "9672b61dd1938e1315d71142a2adb1f615d71e9fe76039cf65857ffa350348e7"
+    },
+    "openyxdb:b73e29e96b9a18584b586eebfab87e32d0a3c60967054f1e3c1085b2139714a5": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "1cb4e1acad956a06533f31e0715872dfc0680deaa07b3920d97e3fda49966e9f"
+    },
+    "openyxdb:b797b50d13ed4b497afacee218a85111ccef11872f0db7444c785b62f770f71f": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Name",
+        "Object"
+      ],
+      "values_sha256": "2b049bc14c005286bf9ba5e3d391d57e0ce3c5dd99a78eeb9ed185efcec180f9"
+    },
+    "openyxdb:b834d2100d6de6bca047fc368afa95cb4e1388b4c418a40813e0786e88967925": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "4d1140857a2dd7ab37289c4b60a9564c109e87e20451c5bd4c5cc9cd43a1d2ce"
+    },
+    "openyxdb:b85dfe922028b0759aa039ba4da3e1a2d717b757ae75a0e9fffb9f1addde5a65": {
+      "status": "ok",
+      "rows": 142,
+      "columns": [
+        "Input"
+      ],
+      "values_sha256": "2fa03af1c52fc16a8bb31285747738f05b37fbdbf16a9e00bd55c33dacb1480b"
+    },
+    "openyxdb:baeec5eff8c7702b0d944151f06d75b27391196fb1c84afce73f41cb5d81117d": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: ambiguous Int32 encoding in record 10"
+    },
+    "openyxdb:bc3eeda4369c0211700621a2b91ce9875595ba003d7695f31692b0468f87a2dd": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "cik",
+        "paddedCIK",
+        "url",
+        "DownloadHeaders",
+        "JSON_Name",
+        "JSON_ValueString",
+        "JSON_Name1",
+        "JSON_Name2",
+        "JSON_Name3",
+        "JSON_Name4",
+        "Right_cik",
+        "Right_paddedCIK",
+        "Right_url",
+        "Right_DownloadHeaders",
+        "Right_JSON_Name",
+        "Right_JSON_ValueString",
+        "Right_JSON_Name1",
+        "Right_JSON_Name2",
+        "Right_JSON_Name3",
+        "Right_JSON_Name4",
+        "number",
+        "shortCIK",
+        "10K_url",
+        "DownloadData",
+        "DownloadHeaders2"
+      ],
+      "values_sha256": "056e4f7699434fce67ba43f1bef7a2ab57de271aa70764caf4c34cc7dde31be8"
+    },
+    "openyxdb:bfd29cb89eb2fa9f8bc33f4638b42bac45a1ffe5ec0fa972747d79d776380b45": {
+      "status": "ok",
+      "rows": 250,
+      "columns": [
+        "Neighborhood",
+        "Sum_Residential Units",
+        "Sum_Commercial Units",
+        "Min_Year Built",
+        "Max_Year Built",
+        "Median_Sale Price"
+      ],
+      "values_sha256": "fc41ad53f612da11b7927f070d527d40fe33348d09a6548dadc634a67e99f9c1"
+    },
+    "openyxdb:c049c9dd2a974f64e4039ee2d07a32031e213e4360a2b9b1d8a1638980df6319": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "223496635aa0755922b1e8a982ef96334926a238458b452c0e8f4b5bc13142d1"
+    },
+    "openyxdb:c07530fe89c5b1ee572eb66dd57998247176dd79070eefba3fe869b6270d7c1f": {
+      "status": "ok",
+      "rows": 1500,
+      "columns": [
+        "Order ID",
+        "Order Date",
+        "CustomerName",
+        "State",
+        "Region",
+        "DOW",
+        "Sale Price",
+        "Quantity",
+        "Cost per Item",
+        "PaymentMode",
+        "Category",
+        "Sub-Category",
+        "Profit",
+        "Profitability"
+      ],
+      "values_sha256": "f2ef16056c813c1e064bcea78d18a0b359e2c101c9853054fdd49eba5a5d7729"
+    },
+    "openyxdb:c14482bc27b10cf54b0097799dc29d7ff9873f74aa63740c9be4f877fac40c58": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "ID",
+        "Description",
+        "Include Reports",
+        "Archived"
+      ],
+      "values_sha256": "d0df70e5cd9e60e6934d90e009d23176f94319033d8b31133755e5409b145c36"
+    },
+    "openyxdb:c2dd7e04f3f3f55d0b2fe3401057db07f4096f9171786f37af6c5cb28be6bfc3": {
+      "status": "ok",
+      "rows": 82,
+      "columns": [
+        "league",
+        "team",
+        "season",
+        "Player_Name",
+        "Position",
+        "Age",
+        "Annual_Salary_GBP",
+        "Weekly_Salary_GBP",
+        "Club",
+        "Goals",
+        "Assists",
+        "Combined"
+      ],
+      "values_sha256": "695a7f11154cb297639b827f7069ff8aa207aaec0631ec8b9e449697bba5246f"
+    },
+    "openyxdb:c3284b36a210b9ae2d0dd5948c77fb127937d9a7e778dddbd792957f56914ff1": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "719186cd64028e0340a8ba58a8325e203b331ee28511b5d45d3064b0e8dfe6a8"
+    },
+    "openyxdb:c3788ecb5c5e284a3a8a1b5bc780910e167dc868d971be5159821460c6be10cf": {
+      "status": "ok",
+      "rows": 346,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "a87c3c282d4ea56eb364b7f2d7df6425cfc08c7e752dac6806db6be1cadaf902"
+    },
+    "openyxdb:c3991569f65f1558e138b9ecdcd269d9a29eb07a18a5fc6654ef93346a40aef6": {
+      "status": "ok",
+      "rows": 5,
+      "columns": [
+        "RowID",
+        "Input",
+        "RouteDir"
+      ],
+      "values_sha256": "47ab937e486c97318353864ba4e14ed8067cc68fe3a8d857d3de10859dd5fdc9"
+    },
+    "openyxdb:c47d2db646cc237b60fcf31ee0064ccfe00e84042c050eec6fffaeb2ba8d29d4": {
+      "status": "ok",
+      "rows": 249,
+      "columns": [
+        "Neighborhood",
+        "Sum_Residential Units",
+        "Sum_Commercial Units",
+        "Min_Year Built",
+        "Max_Year Built",
+        "Median_Sale Price"
+      ],
+      "values_sha256": "dddb03e85f2bcef2c8022b4888b90a312f27c37e9896dc0c665cd2a3bc5e42d5"
+    },
+    "openyxdb:c53a756a87f0f903d868926fb5179fe1ce3cec49f9a0deb84dd051b19726d4ad": {
+      "status": "ok",
+      "rows": 1188,
+      "columns": [
+        "Trip ID",
+        "Date",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "61"
+      ],
+      "values_sha256": "5030d563e8c87e384c04bdbd4c0bf46a6b102e1d0233d6f39194f54dd3aa9322"
+    },
+    "openyxdb:c5ff454ee3805c2048c9d7f6b68845bf95d2d6971f14b335179c8d6bd38995fc": {
+      "status": "ok",
+      "rows": 21,
+      "columns": [
+        "Before",
+        "After"
+      ],
+      "values_sha256": "a148605c0bfebaea78377e84febb5de3904203c72ee42fb79705f7f8b7c280ac"
+    },
+    "openyxdb:c827410d278c6752212b0c9b9d5671684b01f57180ad66293ba847236d7a663f": {
+      "status": "ok",
+      "rows": 100,
+      "columns": [
+        "league",
+        "Team Name",
+        "season",
+        "Player",
+        "Position",
+        "Age",
+        "Annual_Salary_GBP",
+        "Weekly_Salary_GBP"
+      ],
+      "values_sha256": "ca42627e2059ec26b3afc963f232e357953673d632b3f934483278b9f9aee46b"
+    },
+    "openyxdb:caa39753763e3987a993e6b4084416666300b612aae67da26fffa42511472b0c": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "3eb5b679bf107f9003d5e8824d4710599247f39d92d977ccb7f6048fbaaf3de0"
+    },
+    "openyxdb:cba941f4c634071a81ab9c41f36374ae5a19c66075e299fd139124b4a09900cc": {
+      "status": "ok",
+      "rows": 10,
+      "columns": [
+        "RecordID",
+        "Store",
+        "Cluster"
+      ],
+      "values_sha256": "25343e440788b0c7fc4fc37c292b4820ea1949145877d0ea557e474f5e1fd505"
+    },
+    "openyxdb:ccc37a4e8d89318edec97e796d8aef50584a7f7d4f220cc61a6e372c51ad9c1f": {
+      "status": "ok",
+      "rows": 558715,
+      "columns": [
+        "FlightDate",
+        "Operating_Airline ",
+        "Flight_Number_Operating_Airline",
+        "Origin",
+        "Dest",
+        "CRSDepTime",
+        "DepDelayMinutes",
+        "CRSArrTime",
+        "ArrDelayMinutes",
+        "ArrDel15",
+        "Cancelled",
+        "Diverted",
+        "CarrierDelay",
+        "WeatherDelay",
+        "NASDelay",
+        "LateAircraftDelay",
+        "SLA_Breach",
+        "DelayCategory"
+      ],
+      "values_sha256": "826d9e2066e174f375571951978b0e9a46eeef06e16372d4d1f2bcfb6003932f"
+    },
+    "openyxdb:ccccff2c5e2aabe250bf8d21ec329f9b79f1e76f91087beaf04249d62fe8bf4c": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "18eae6b735d05965702bc4fca719524269851ec5042a95fe19c063ee3bed49b6"
+    },
+    "openyxdb:cfb9789abbee56d3dea244f58c8dce6fcb9992175017f34e6eb1a8e7a9e85ba3": {
+      "status": "ok",
+      "rows": 5296,
+      "columns": [
+        "Airport_Code",
+        "Airport_Name",
+        "City",
+        "Country",
+        "population"
+      ],
+      "values_sha256": "95025c34dbb20201cf1113a54e2c7cb8096f85883b365ce4239a6cae6477b373"
+    },
+    "openyxdb:d2d8f5dbc5f5a0215aa91837e5271fd611752ba34bbaf9a0cf407d294f427212": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "6a9ef51defb2bad2f758f9f495e7fb3d74735cea1c87015140b97d3dd59afbcb"
+    },
+    "openyxdb:d345339823ba271bbd61abb604c9227c8bc39c814b2eae582c2fd2d0f9b4d026": {
+      "status": "ok",
+      "rows": 7,
+      "columns": [
+        "Width_MM",
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "c84f9995d72f3e9a48186458e807f7363d3ca807ccca8a0d92992a41141990bd"
+    },
+    "openyxdb:d3b54fa3a7d9e405ebf4787076db2fb15652fb8f2e3c7bc3dcebb2a3fb541856": {
+      "status": "ok",
+      "rows": 9633,
+      "columns": [
+        "age",
+        "balance",
+        "default_no",
+        "default_yes",
+        "ed_primary",
+        "ed_secondary",
+        "ed_tertiary",
+        "ed_unknown",
+        "housing_no",
+        "housing_yes",
+        "job_admin_",
+        "job_blue_collar",
+        "job_entrepreneur",
+        "job_housemaid",
+        "job_management",
+        "job_retired",
+        "job_self_employed",
+        "job_services",
+        "job_student",
+        "job_technician",
+        "job_unemployed",
+        "job_unknown",
+        "loan_no",
+        "loan_yes",
+        "marital_divorced",
+        "marital_married",
+        "marital_single"
+      ],
+      "values_sha256": "4fba663873ec11acef5e9a4d6c7584a4611e3b405abe075bcbcbe4637eff612b"
+    },
+    "openyxdb:d80b328270b34289f361cb199d6f0c545b2f503d7db653e4b460dd75c79017d6": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "fc76d508e45293bfeeb57b35ffe4aad816dbb3684a29a1bb1630d83c7dca6841"
+    },
+    "openyxdb:d91c428aa437f43aba8a1ce35e4326a17c96d31c322c9ea8d248856c579340a4": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "0fdcd9f4ef1f439cf1c5e323f968adf46947e01bab6cce97d7bbaf66f68d88d1"
+    },
+    "openyxdb:d9d69b2fdb01a9e2acf69bcf6d404843826b5581ca8888d44deca4ece23af056": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Total_FN_Amount_Inc"
+      ],
+      "values_sha256": "c4804be4ba32720d7c19dc84c1a421eb018cdfce5b3f981ad6b87288c170e911"
+    },
+    "openyxdb:dd016f78e6d2eacab67cc973ee0f59470af5a4acfbeca78e8ede6d5e0437f363": {
+      "status": "ok",
+      "rows": 6760,
+      "columns": [
+        "2",
+        "1"
+      ],
+      "values_sha256": "76631f80f9cec6508efbd874061837ab7f3c26ef8afafe0fd5721e70ab50ecf1"
+    },
+    "openyxdb:dec8f038dcce4a07ea425f8711c967134c4ccc31300cd51bc38d824f7730cae2": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: failed to decode record 10: no exact match for the declared schema"
+    },
+    "openyxdb:e06a6ca47b29caf57994f3b306b448fd5634d0fdc5517c988a64eea2939288fb": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "e4c93d593833360be5b4568184482d3cd34badbd54cc3ddc8f09d83f87ffaaeb"
+    },
+    "openyxdb:e1157c95e5a1d5dc020029fa3bd7712a108404d1a1c67cc88d58843c48e467b7": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Model"
+      ],
+      "values_sha256": "2d7f7ce62d294262bbc9ce7db83a59e451c5080bdc4ddfc83b65305cde2ea424"
+    },
+    "openyxdb:e50b34380767529b8689d1e09c041e6acb4d7bd4e43f2f403ef064b4dc0365d2": {
+      "status": "ok",
+      "rows": 16,
+      "columns": [
+        "County",
+        "SpatialObj_County"
+      ],
+      "values_sha256": "1c3357455ba420a0ea6cac00b553ad5f73020e5bcc306536e767e91b84da5f32"
+    },
+    "openyxdb:e68fc1f7a8771eab5a6c1637e827c7f1406c91180a24e5658b1fdd8dd7b1942e": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: failed to decode record 0: no exact match for the declared schema"
+    },
+    "openyxdb:e9943c3fda1b4e3f696fe2fad76dbcfe9a5e8784c7996a9e23bad1980ea26171": {
+      "status": "ok",
+      "rows": 14069,
+      "columns": [
+        "NodeID",
+        "Goal",
+        "Dir",
+        "Cost",
+        "Fixed",
+        "history"
+      ],
+      "values_sha256": "afcc1ac725504bd6066042c642aeb0d11434411fb34723cfd9c4153725905350"
+    },
+    "openyxdb:e9f99982ca88c67af53b53ddcee2eaaff5994f47470af3e5d4a772c47026f0dd": {
+      "status": "ok",
+      "rows": 108646,
+      "columns": [
+        "CREATED",
+        "BIC NUMBER",
+        "ACCOUNT NAME",
+        "TRADE NAME",
+        "ADDRESS",
+        "CITY",
+        "STATE",
+        "POSTCODE",
+        "PHONE",
+        "EMAIL",
+        "MARKET",
+        "APPLICATION TYPE",
+        "DISPOSITION DATE",
+        "EFFECTIVE DATE",
+        "EXPIRATION DATE",
+        "EXPORT DATE",
+        "LATITUDE",
+        "LONGITUDE",
+        "COMMUNITY BOARD",
+        "COUNCIL DISTRICT",
+        "CENSUS TRACT",
+        "BIN",
+        "BBL",
+        "NTA",
+        "BORO"
+      ],
+      "values_sha256": "71872d0f99f74bf65fb3c27bc9b0ba32772f88fce2823b06ac32b7bdda4cba2c"
+    },
+    "openyxdb:eb40dadc09a9fb001f68361629849a43f9c6e146f8e4c3e899e6573454f0064f": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "ab0e0988fd1b6c0eed2b3c90020d075e8097a0b40783990bccb8b46c78327d98"
+    },
+    "openyxdb:eb5eb3bdb94fb4924bc9750bfb9d96c6c77d498a3aea9c77835277475483b6f9": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "078264f8e29dde61cfcb820a7574a9f75699bb9b8b95d70bdce22aed09111925"
+    },
+    "openyxdb:ece2fe70519b4f8c79915437b396751a3aaf606eb083b8135f4e8eb454e39972": {
+      "status": "ok",
+      "rows": 0,
+      "columns": [
+        "Formula1",
+        "Target",
+        "Formula2",
+        "Formula3"
+      ],
+      "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "openyxdb:ef80391e108626d4b2329d7e01ef594308a37a9990f1ab59b30e68d6ab2ae100": {
+      "status": "ok",
+      "rows": 1950,
+      "columns": [
+        "ORDER_ID",
+        "ORDER_DATE",
+        "CUSTOMER_ID",
+        "ORDER_STATUS",
+        "STORE_ID"
+      ],
+      "values_sha256": "b5a31aa0c606812ff3bfcb37a08d80d42fa20d27a31448a6a51ec985d757fcc9"
+    },
+    "openyxdb:f0ee048237383eeb47e448bfe487c5f58ee739a15493ff48db12fc29ae976573": {
+      "status": "ok",
+      "rows": 346,
+      "columns": [
+        "Challenge Number",
+        "Challenge URL",
+        "Challenge Name",
+        "Difficulty Level",
+        "Certification Level",
+        "Thread ID",
+        "Subject Matter"
+      ],
+      "values_sha256": "3767a0b576e92495b25ccf355f939bf755d180f8ab095138a0e0d8177a59ec27"
+    },
+    "openyxdb:f141d573e2b1067ea069b0c6cbc43c54a2cfacccebb265197c855841fc40a839": {
+      "status": "ok",
+      "rows": 1230,
+      "columns": [
+        "Index",
+        "Prime Number"
+      ],
+      "values_sha256": "b8a2c99fac5bee54cab562fb48f33f6a858d8b213a7aa8a08eb378fdf39ff140"
+    },
+    "openyxdb:f2b25ba716e3dd824000b3e2291a95f3b31ba2e769abe7eb3117c692a49d03e2": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "1",
+        "Width_MM",
+        "RATIO",
+        "Wheel size",
+        "Tire Height",
+        "Width_IN",
+        "Sidewall IN",
+        "circum",
+        "Revs/Mile"
+      ],
+      "values_sha256": "247a4192dc0583478e73f00ba2c97d37a8e1342a4086b85b4b3565a9d5a0ae79"
+    },
+    "openyxdb:f7eaf44aef0b3269f07cb5c0be05e6d6ea7cac17dd5ab2e413e857e6413c7238": {
+      "status": "ok",
+      "rows": 514,
+      "columns": [
+        "IterativeID",
+        "Start",
+        "DIr",
+        "Goar_dir",
+        "Goal",
+        "DiffCost"
+      ],
+      "values_sha256": "dc188fdff9589348637dad0cc4187063a8deebd2924370630f4e6f1da1d87109"
+    },
+    "openyxdb:fbc5b83fd88256eba152f79afe1811795b6e585831fc65225697dbcd681c8530": {
+      "status": "decode_error",
+      "error_type": "RuntimeError",
+      "error": "E2: failed to decode record 0: no exact match for the declared schema"
+    },
+    "openyxdb:fe52c8565c9368f8f54dd07ddda4805965cb11bd16625a432011d960cf403ebe": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "72f20a3f5b7aee0610c9a636b5867c0317c99a5ef2839899aa072123c01099b4"
+    },
+    "openyxdb:ff0da08c460430459eafe2b66acfde9bed1f72a410958b8e700aa2e2484cab72": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "1947559b736547554d1f99c52a9c3aaac83201091bdf5d4553dc412c5df4054b"
+    },
+    "openyxdb:ff26a014699ea72e1fa9e0d29a3f0e7b26fa42bf048f924aac8a4f5c55e71a16": {
+      "status": "ok",
+      "rows": 299,
+      "columns": [
+        "brand",
+        "key",
+        "name",
+        "subhead",
+        "description",
+        "rating",
+        "rating_count",
+        "ingredients"
+      ],
+      "values_sha256": "c79f38eb34a2b14cd87f390ef66c87f6f55ea143179fce63972725f670357776"
+    },
+    "openyxdb:ffff479a709deeebc72ab34d1be32a0683170add690b493609dc6dd75c759a4f": {
+      "status": "ok",
+      "rows": 0,
+      "columns": [
+        "Formula1",
+        "Target",
+        "Formula2",
+        "Formula3"
+      ],
+      "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "sigilyx:0016c205e7983f71438dcbd22101cdf559a0b3dcb7640e9d13db7c6aff535d48": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 5: data conversion error: E2 record has multiple exact Int32 framings with different values in field(s): row, column"
+    },
+    "sigilyx:005d32f0a1c768cbae8759bd783e3c272d645a4277aa30c5980c824fb9a1c604": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "0721cdcf7533821bf060095877ed7aaddade33a02cc7da79443c1ff7f118b4da"
+    },
+    "sigilyx:02b28823218ff7637cbcec3fe6145527bbca18725ab88dc0989a6653932c5f17": {
+      "status": "ok",
+      "rows": 0,
+      "columns": [
+        "RecordID",
+        "Concat_Value"
+      ],
+      "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "sigilyx:02c9d50f1eae95e43d40f61ded50519d6c950d574d21b534fb6125fcc33382a2": {
+      "status": "ok",
+      "rows": 339,
+      "columns": [
+        "SRC1",
+        "SRC3",
+        "Operator",
+        "TGT"
+      ],
+      "values_sha256": "97599e316782e3d343ab6cb26e9fa3853bbcc28ce11b0b805d84e34e31b870aa"
+    },
+    "sigilyx:0427426b2627648311d7860744aa01ba484a0f78c9061ae749c5ffe518ecab44": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "de7c3a8035008f1588b03a52c6b0f52a7b04efab1141685b1a99ea53efd77698"
+    },
+    "sigilyx:047c97bdc17e74181d00847c30e9ed4786d3ed18fd2eb0f81d6b6335a7c1f495": {
+      "status": "ok",
+      "rows": 317,
+      "columns": [
+        "ID",
+        "x",
+        "y",
+        "Input",
+        "Route"
+      ],
+      "values_sha256": "541481183a622d206ee8c140b19664f4ef9cfb85f136ce51f81c9d7638c3293f"
+    },
+    "sigilyx:04e773a4212388cbff882102d0b77e16c1c38c47f895ea4ce2ca24226c00a7c5": {
+      "status": "ok",
+      "rows": 64471,
+      "columns": [
+        "CREATED",
+        "BIC NUMBER",
+        "ACCOUNT NAME",
+        "TRADE NAME",
+        "ADDRESS",
+        "CITY",
+        "STATE",
+        "POSTCODE",
+        "PHONE",
+        "EMAIL",
+        "MARKET",
+        "APPLICATION TYPE",
+        "DISPOSITION DATE",
+        "EFFECTIVE DATE",
+        "EXPIRATION DATE",
+        "EXPORT DATE",
+        "LATITUDE",
+        "LONGITUDE",
+        "COMMUNITY BOARD",
+        "COUNCIL DISTRICT",
+        "CENSUS TRACT",
+        "BIN",
+        "BBL",
+        "NTA",
+        "BORO"
+      ],
+      "values_sha256": "3f6d0338a72289e797ac15c51e990dfeb8875d493d137dd7c752ae325f3bf023"
+    },
+    "sigilyx:054a6a93e80899ba3ee529a74db336fa7063d932803bef74167fbc10a57391a7": {
+      "status": "ok",
+      "rows": 3,
+      "columns": [
+        "Final_Cluster",
+        "Count"
+      ],
+      "values_sha256": "00613bc231f509e343a76fdc315896273c34be086e8a2ee5d81d356d89ea2fc9"
+    },
+    "sigilyx:05f6e1a92b1fdd909d4dcf13b0a6e6f9cd6f0fa93e23c6ccf000f22d28192933": {
+      "status": "ok",
+      "rows": 6,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "310d9f83b0777975c6d4459087c49b9617ee405377d02a3308a8182fac5a3e83"
+    },
+    "sigilyx:083cbefe11509f0a08b174fc51cbed8d10f5bdc0c5e5bd71f0ba5624ec919fb3": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "205e90488580b9b24d5db70ae6e9f0d4628c718fb6ee202b039d075c248c73b8"
+    },
+    "sigilyx:0ad2c3ed864fd2014f602d4bde75483f7fee3f036b3dd14554ffaf97abc3e9c0": {
+      "status": "ok",
+      "rows": 85,
+      "columns": [
+        "Store",
+        "Total.Sales",
+        "Cluster1",
+        "Address",
+        "City",
+        "State",
+        "Zip",
+        "Type"
+      ],
+      "values_sha256": "893013a4f4c5f99fcead2a5df1a259eb65ea59d3a839554c5ea112d555acbd96"
+    },
+    "sigilyx:0e77f6c40341151566395de5b337c412c58c91e0cf52051e24d60a7cc9901d90": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Count_FN",
+        "Montant_FN"
+      ],
+      "values_sha256": "a79ae19b206fb1841e84a4a94d0261862587e87db02901f949a21b29b30d9604"
+    },
+    "sigilyx:0eedd7360cdf94c29d682d8d6bc1168f680bb24c31eb051f0e1127de12721db9": {
+      "status": "ok",
+      "rows": 1011,
+      "columns": [
+        "map",
+        "row",
+        "column",
+        "data"
+      ],
+      "values_sha256": "842700e7adf0107cc18b6ddd8e3c02fe59b25c1298c35f8aa5348e11fa3d9f96"
+    },
+    "sigilyx:1099621aa7f5ba0fe48a1377d3146dc5ecd21f07476e0c71a21e404c8a7d9fcf": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 5: data conversion error: E2 record has multiple exact Int32 framings with different values in field(s): Row, Col"
+    },
+    "sigilyx:12fdb6c209cc869a9a725fe80fb6947c06d441c40f3c89d8c0b12d6af841b607": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "fafb6f08465693b6f24a2e310ebc6646137e2fa5840015dcba1bbce10b6b81bb"
+    },
+    "sigilyx:140005f71950f0587bed4de043f2c2dc0ea4f601442a15ffad3dd82b3258dce5": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "HeadX",
+        "HeadY",
+        "1X",
+        "1Y",
+        "2X",
+        "2Y",
+        "3X",
+        "3Y",
+        "4X",
+        "4Y",
+        "5X",
+        "5Y",
+        "6X",
+        "6Y",
+        "7X",
+        "7Y",
+        "8X",
+        "8Y",
+        "9X",
+        "9Y",
+        "Concat_Direction"
+      ],
+      "values_sha256": "cb925a213203e01b3f9dd2006967a3b391ba933cd1b24c28dfb1c8b52e7975f2"
+    },
+    "sigilyx:14f28dcee75c7a4034f9aba0b611fdc84eb57cfb0da2c9eef4458f3bdcd66e0c": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "0ccd3f8223f053b6ae42a8e3f82ddedaa2e08d5fcb172ef03679a42dfb639e3b"
+    },
+    "sigilyx:156376ee57ddc063571b5af41dc6000db4433596f0934c3c7c33bf884503246d": {
+      "status": "ok",
+      "rows": 4758,
+      "columns": [
+        "Stock Name",
+        "Month",
+        "Monthly_Avg"
+      ],
+      "values_sha256": "da0d1524fd41d54fbc75e0c6e22d33b33b000092927a53f18f6417a0e39043dd"
+    },
+    "sigilyx:16b107369b9fbf224262c33b2058bebbc544f080d7627c7926df48b14852dee1": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "35bcdb691340f7825b6ff3b2a2800096a1e71366401c2851604767463036d3f2"
+    },
+    "sigilyx:17d6a9205fb846a4e29e911d083c21b8421ffcc35743d39a31ef1e3abbc0be4f": {
+      "status": "ok",
+      "rows": 3,
+      "columns": [
+        "ReportID",
+        "Field_1",
+        "number_cnt",
+        "Before",
+        "After",
+        "Left",
+        "Current",
+        "Right"
+      ],
+      "values_sha256": "2b5fea755c5466010d572b7b0b2b918f33fe52a7eacde3f4bc86df8d6cae8c7b"
+    },
+    "sigilyx:185d1aa9c29c0ffd32d9396010d23cbcc2076e2645ed393ff2bdb6aca345c177": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "5d61b39e3829c5aa50bf5a256a624bdc565892e0f3c7cf22d6fe66fac74a71f0"
+    },
+    "sigilyx:18b15ba5bf3648a5e0a07b3f4d0d0c0a4ebb4576b98874bb4f3975ffbbaa5b45": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "2e48592599c765d62155106ea9a9b02754a3a4a8cf9ffc88932186a7d8133bb9"
+    },
+    "sigilyx:1bf4947c9d3b778025bdf986ce201b10db5dd7a058d6c079fee3888898caf516": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "4918fe328ddd5167d50894041b383f277a61ea55ce38e46d4f1b01fc0f1bd84e"
+    },
+    "sigilyx:1e42843ed5a561046d83ae429d089e53570bdc5de8b6c5645c10a0bd8d444d3d": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "5d4e88961d8db7dda75198dd256b7d492d65773301e780701a9e7b5a8489e7d9"
+    },
+    "sigilyx:20ead3d7394f1c960f225cf403495d418abba020044180acf6b30a4ecdf4c56f": {
+      "status": "ok",
+      "rows": 5,
+      "columns": [
+        "RowID",
+        "Input",
+        "RouteDir"
+      ],
+      "values_sha256": "bf4d3de61bdcc774d78762807421bd6f73da6ffdd4ad247f4f51d8ac288e3b38"
+    },
+    "sigilyx:21d403b9f4015fcf13c19fcb98a7c81cf3257c0d3e32f119bd846f32047942d2": {
+      "status": "ok",
+      "rows": 1000,
+      "columns": [
+        "Product",
+        "Creator",
+        "Application Fee"
+      ],
+      "values_sha256": "7dbac7d90f4726a9314675b8e158b3224d7fb3c64f28a68430f886a0067e39b8"
+    },
+    "sigilyx:2283ccc00cf9a39023c5fc6649c87b7a8f8a94626af99b4e9a0b5e8924d00f36": {
+      "status": "ok",
+      "rows": 10175,
+      "columns": [
+        "SEQN",
+        "ACD011A",
+        "ACD011B",
+        "ACD011C",
+        "ACD040",
+        "ACD110",
+        "ALQ101",
+        "ALQ110",
+        "ALQ120Q",
+        "ALQ120U",
+        "ALQ130",
+        "ALQ141Q",
+        "ALQ141U",
+        "ALQ151",
+        "ALQ160",
+        "BPQ020",
+        "BPQ030",
+        "BPD035",
+        "BPQ040A",
+        "BPQ050A",
+        "BPQ056",
+        "BPD058",
+        "BPQ059",
+        "BPQ080",
+        "BPQ060",
+        "BPQ070",
+        "BPQ090D",
+        "BPQ100D",
+        "CBD070",
+        "CBD090",
+        "CBD110",
+        "CBD120",
+        "CBD130",
+        "HSD010",
+        "HSQ500",
+        "HSQ510",
+        "HSQ520",
+        "HSQ571",
+        "HSQ580",
+        "HSQ590",
+        "HSAQUEX",
+        "CSQ010",
+        "CSQ020",
+        "CSQ030",
+        "CSQ040",
+        "CSQ060",
+        "CSQ070",
+        "CSQ080",
+        "CSQ090A",
+        "CSQ090B",
+        "CSQ090C",
+        "CSQ090D",
+        "CSQ100",
+        "CSQ110",
+        "CSQ120A",
+        "CSQ120B",
+        "CSQ120C",
+        "CSQ120D",
+        "CSQ120E",
+        "CSQ120F",
+        "CSQ120G",
+        "CSQ120H",
+        "CSQ140",
+        "CSQ160",
+        "CSQ170",
+        "CSQ180",
+        "CSQ190",
+        "CSQ200",
+        "CSQ202",
+        "CSQ204",
+        "CSQ210",
+        "CSQ220",
+        "CSQ240",
+        "CSQ250",
+        "CSQ260",
+        "AUQ136",
+        "AUQ138",
+        "CDQ001",
+        "CDQ002",
+        "CDQ003",
+        "CDQ004",
+        "CDQ005",
+        "CDQ006",
+        "CDQ009A",
+        "CDQ009B",
+        "CDQ009C",
+        "CDQ009D",
+        "CDQ009E",
+        "CDQ009F",
+        "CDQ009G",
+        "CDQ009H",
+        "CDQ008",
+        "CDQ010",
+        "DIQ010",
+        "DID040",
+        "DIQ160",
+        "DIQ170",
+        "DIQ172",
+        "DIQ175A",
+        "DIQ175B",
+        "DIQ175C",
+        "DIQ175D",
+        "DIQ175E",
+        "DIQ175F",
+        "DIQ175G",
+        "DIQ175H",
+        "DIQ175I",
+        "DIQ175J",
+        "DIQ175K",
+        "DIQ175L",
+        "DIQ175M",
+        "DIQ175N",
+        "DIQ175O",
+        "DIQ175P",
+        "DIQ175Q",
+        "DIQ175R",
+        "DIQ175S",
+        "DIQ175T",
+        "DIQ175U",
+        "DIQ175V",
+        "DIQ175W",
+        "DIQ175X",
+        "DIQ180",
+        "DIQ050",
+        "DID060",
+        "DIQ060U",
+        "DIQ070",
+        "DIQ230",
+        "DIQ240",
+        "DID250",
+        "DID260",
+        "DIQ260U",
+        "DIQ275",
+        "DIQ280",
+        "DIQ291",
+        "DIQ300S",
+        "DIQ300D",
+        "DID310S",
+        "DID310D",
+        "DID320",
+        "DID330",
+        "DID341",
+        "DID350",
+        "DIQ350U",
+        "DIQ360",
+        "DIQ080",
+        "DBQ010",
+        "DBD030",
+        "DBD041",
+        "DBD050",
+        "DBD055",
+        "DBD061",
+        "DBQ073A",
+        "DBQ073B",
+        "DBQ073C",
+        "DBQ073D",
+        "DBQ073E",
+        "DBQ073U",
+        "DBQ700",
+        "DBQ197",
+        "DBQ223A",
+        "DBQ223B",
+        "DBQ223C",
+        "DBQ223D",
+        "DBQ223E",
+        "DBQ223U",
+        "DBQ229",
+        "DBQ235A",
+        "DBQ235B",
+        "DBQ235C",
+        "DBQ301",
+        "DBQ330",
+        "DBQ360",
+        "DBQ370",
+        "DBD381",
+        "DBQ390",
+        "DBQ400",
+        "DBD411",
+        "DBQ421",
+        "DBQ424",
+        "DBD895",
+        "DBD900",
+        "DBD905",
+        "DBD910",
+        "CBQ596",
+        "CBQ606",
+        "CBQ611",
+        "CBQ505",
+        "CBQ535",
+        "CBQ540",
+        "CBQ545",
+        "CBQ550",
+        "CBQ552",
+        "CBQ580",
+        "CBQ585",
+        "CBQ590",
+        "DED031",
+        "DEQ034A",
+        "DEQ034C",
+        "DEQ034D",
+        "DEQ038G",
+        "DEQ038Q",
+        "DED120",
+        "DED125",
+        "DLQ010",
+        "DLQ020",
+        "DLQ040",
+        "DLQ050",
+        "DLQ060",
+        "DLQ080",
+        "DPQ010",
+        "DPQ020",
+        "DPQ030",
+        "DPQ040",
+        "DPQ050",
+        "DPQ060",
+        "DPQ070",
+        "DPQ080",
+        "DPQ090",
+        "DPQ100",
+        "DUQ200",
+        "DUQ210",
+        "DUQ211",
+        "DUQ213",
+        "DUQ215Q",
+        "DUQ215U",
+        "DUQ217",
+        "DUQ219",
+        "DUQ220Q",
+        "DUQ220U",
+        "DUQ230",
+        "DUQ240",
+        "DUQ250",
+        "DUQ260",
+        "DUQ270Q",
+        "DUQ270U",
+        "DUQ272",
+        "DUQ280",
+        "DUQ290",
+        "DUQ300",
+        "DUQ310Q",
+        "DUQ310U",
+        "DUQ320",
+        "DUQ330",
+        "DUQ340",
+        "DUQ350Q",
+        "DUQ350U",
+        "DUQ352",
+        "DUQ360",
+        "DUQ370",
+        "DUQ380A",
+        "DUQ380B",
+        "DUQ380C",
+        "DUQ380D",
+        "DUQ380E",
+        "DUQ390",
+        "DUQ400Q",
+        "DUQ400U",
+        "DUQ410",
+        "DUQ420",
+        "DUQ430",
+        "ECD010",
+        "ECQ020",
+        "ECD070A",
+        "ECD070B",
+        "ECQ080",
+        "ECQ090",
+        "WHQ030E",
+        "MCQ080E",
+        "ECQ150",
+        "FSD032A",
+        "FSD032B",
+        "FSD032C",
+        "FSD041",
+        "FSD052",
+        "FSD061",
+        "FSD071",
+        "FSD081",
+        "FSD092",
+        "FSD102",
+        "FSD032D",
+        "FSD032E",
+        "FSD032F",
+        "FSD111",
+        "FSD122",
+        "FSD132",
+        "FSD141",
+        "FSD146",
+        "FSDHH",
+        "FSDAD",
+        "FSDCH",
+        "FSD151",
+        "FSQ165",
+        "FSQ012",
+        "FSD012N",
+        "FSD230",
+        "FSD225",
+        "FSQ235",
+        "FSQ162",
+        "FSD650ZC",
+        "FSD660ZC",
+        "FSD675",
+        "FSD680",
+        "FSD670ZC",
+        "FSQ690",
+        "FSQ695",
+        "FSD650ZW",
+        "FSD660ZW",
+        "FSD670ZW",
+        "HEQ010",
+        "HEQ020",
+        "HEQ030",
+        "HEQ040",
+        "HIQ011",
+        "HIQ031A",
+        "HIQ031B",
+        "HIQ031C",
+        "HIQ031D",
+        "HIQ031E",
+        "HIQ031F",
+        "HIQ031G",
+        "HIQ031H",
+        "HIQ031I",
+        "HIQ031J",
+        "HIQ031AA",
+        "HIQ260",
+        "HIQ105",
+        "HIQ270",
+        "HIQ210",
+        "HOD050",
+        "HOQ065",
+        "HUQ010",
+        "HUQ020",
+        "HUQ030",
+        "HUQ041",
+        "HUQ051",
+        "HUQ061",
+        "HUQ071",
+        "HUD080",
+        "HUQ090",
+        "IMQ011",
+        "IMQ020",
+        "IMQ040",
+        "IMQ070",
+        "IMQ080",
+        "IMQ090",
+        "IMQ045",
+        "INQ020",
+        "INQ012",
+        "INQ030",
+        "INQ060",
+        "INQ080",
+        "INQ090",
+        "INQ132",
+        "INQ140",
+        "INQ150",
+        "IND235",
+        "INDFMMPI",
+        "INDFMMPC",
+        "INQ244",
+        "IND247",
+        "MCQ010",
+        "MCQ025",
+        "MCQ035",
+        "MCQ040",
+        "MCQ050",
+        "AGQ030",
+        "MCQ053",
+        "MCQ070",
+        "MCQ075",
+        "MCQ080",
+        "MCQ082",
+        "MCQ084",
+        "MCQ086",
+        "MCQ092",
+        "MCD093",
+        "MCQ149",
+        "MCQ151",
+        "MCQ160A",
+        "MCQ180A",
+        "MCQ195",
+        "MCQ160N",
+        "MCQ180N",
+        "MCQ160B",
+        "MCQ180B",
+        "MCQ160C",
+        "MCQ180C",
+        "MCQ160D",
+        "MCQ180D",
+        "MCQ160E",
+        "MCQ180E",
+        "MCQ160F",
+        "MCQ180F",
+        "MCQ160G",
+        "MCQ180G",
+        "MCQ160M",
+        "MCQ170M",
+        "MCQ180M",
+        "MCQ160K",
+        "MCQ170K",
+        "MCQ180K",
+        "MCQ160L",
+        "MCQ170L",
+        "MCQ180L",
+        "MCQ160O",
+        "MCQ203",
+        "MCQ206",
+        "MCQ220",
+        "MCQ230A",
+        "MCQ230B",
+        "MCQ230C",
+        "MCQ230D",
+        "MCQ240A",
+        "MCQ240AA",
+        "MCQ240B",
+        "MCQ240BB",
+        "MCQ240C",
+        "MCQ240CC",
+        "MCQ240D",
+        "MCQ240DD",
+        "MCQ240DK",
+        "MCQ240E",
+        "MCQ240F",
+        "MCQ240G",
+        "MCQ240H",
+        "MCQ240J",
+        "MCQ240K",
+        "MCQ240L",
+        "MCQ240M",
+        "MCQ240N",
+        "MCQ240O",
+        "MCQ240P",
+        "MCQ240Q",
+        "MCQ240S",
+        "MCQ240T",
+        "MCQ240U",
+        "MCQ240V",
+        "MCQ240W",
+        "MCQ240X",
+        "MCQ240Y",
+        "MCQ240Z",
+        "MCQ300A",
+        "MCQ300B",
+        "MCQ300C",
+        "MCQ365A",
+        "MCQ365B",
+        "MCQ365C",
+        "MCQ365D",
+        "MCQ370A",
+        "MCQ370B",
+        "MCQ370C",
+        "MCQ370D",
+        "MCQ380",
+        "OCD150",
+        "OCQ180",
+        "OCQ210",
+        "OCQ260",
+        "OCD270",
+        "OCQ380",
+        "OCD390G",
+        "OCD395",
+        "OHQ030",
+        "OHQ033",
+        "OHQ770",
+        "OHQ780A",
+        "OHQ780B",
+        "OHQ780C",
+        "OHQ780D",
+        "OHQ780E",
+        "OHQ780F",
+        "OHQ780G",
+        "OHQ780H",
+        "OHQ780I",
+        "OHQ780J",
+        "OHQ780K",
+        "OHQ555G",
+        "OHQ555Q",
+        "OHQ555U",
+        "OHQ560G",
+        "OHQ560Q",
+        "OHQ560U",
+        "OHQ565",
+        "OHQ570Q",
+        "OHQ570U",
+        "OHQ575G",
+        "OHQ575Q",
+        "OHQ575U",
+        "OHQ580",
+        "OHQ585Q",
+        "OHQ585U",
+        "OHQ590G",
+        "OHQ590Q",
+        "OHQ590U",
+        "OHQ610",
+        "OHQ612",
+        "OHQ614",
+        "OHQ620",
+        "OHQ640",
+        "OHQ680",
+        "OHQ835",
+        "OHQ845",
+        "OHQ848G",
+        "OHQ848Q",
+        "OHQ849",
+        "OHQ850",
+        "OHQ855",
+        "OHQ860",
+        "OHQ865",
+        "OHQ870",
+        "OHQ875",
+        "OHQ880",
+        "OHQ885",
+        "OHQ895",
+        "OHQ900",
+        "OSQ010A",
+        "OSQ010B",
+        "OSQ010C",
+        "OSQ020A",
+        "OSQ020B",
+        "OSQ020C",
+        "OSD030AA",
+        "OSQ040AA",
+        "OSD050AA",
+        "OSD030AB",
+        "OSQ040AB",
+        "OSD050AB",
+        "OSD030AC",
+        "OSQ040AC",
+        "OSD050AC",
+        "OSD030BA",
+        "OSQ040BA",
+        "OSD050BA",
+        "OSD030BB",
+        "OSQ040BB",
+        "OSD050BB",
+        "OSD030BC",
+        "OSQ040BC",
+        "OSD050BC",
+        "OSD030BD",
+        "OSQ040BD",
+        "OSD050BD",
+        "OSD030BE",
+        "OSQ040BE",
+        "OSD030BF",
+        "OSQ040BF",
+        "OSD030BG",
+        "OSQ040BG",
+        "OSD030BH",
+        "OSQ040BH",
+        "OSD030BI",
+        "OSQ040BI",
+        "OSD030BJ",
+        "OSQ040BJ",
+        "OSD030CA",
+        "OSQ040CA",
+        "OSD050CA",
+        "OSD030CB",
+        "OSQ040CB",
+        "OSD050CB",
+        "OSD030CC",
+        "OSQ040CC",
+        "OSQ080",
+        "OSQ090A",
+        "OSQ100A",
+        "OSD110A",
+        "OSQ120A",
+        "OSQ090B",
+        "OSQ100B",
+        "OSD110B",
+        "OSQ120B",
+        "OSQ090C",
+        "OSQ100C",
+        "OSD110C",
+        "OSQ120C",
+        "OSQ090D",
+        "OSQ100D",
+        "OSD110D",
+        "OSQ120D",
+        "OSQ090E",
+        "OSQ100E",
+        "OSD110E",
+        "OSQ120E",
+        "OSQ090F",
+        "OSQ120F",
+        "OSQ090G",
+        "OSQ100G",
+        "OSD110G",
+        "OSQ120G",
+        "OSQ090H",
+        "OSQ120H",
+        "OSQ060",
+        "OSQ072",
+        "OSQ130",
+        "OSQ140Q",
+        "OSQ140U",
+        "OSQ150",
+        "OSQ160A",
+        "OSQ160B",
+        "OSQ170",
+        "OSQ180",
+        "OSQ190",
+        "OSQ200",
+        "OSQ210",
+        "OSQ220",
+        "PFQ020",
+        "PFQ030",
+        "PFQ033",
+        "PFQ041",
+        "PFQ049",
+        "PFQ051",
+        "PFQ054",
+        "PFQ057",
+        "PFQ059",
+        "PFQ061A",
+        "PFQ061B",
+        "PFQ061C",
+        "PFQ061D",
+        "PFQ061E",
+        "PFQ061F",
+        "PFQ061G",
+        "PFQ061H",
+        "PFQ061I",
+        "PFQ061J",
+        "PFQ061K",
+        "PFQ061L",
+        "PFQ061M",
+        "PFQ061N",
+        "PFQ061O",
+        "PFQ061P",
+        "PFQ061Q",
+        "PFQ061R",
+        "PFQ061S",
+        "PFQ061T",
+        "PFQ063A",
+        "PFQ063B",
+        "PFQ063C",
+        "PFQ063D",
+        "PFQ063E",
+        "PFQ090",
+        "PAQ605",
+        "PAQ610",
+        "PAD615",
+        "PAQ620",
+        "PAQ625",
+        "PAD630",
+        "PAQ635",
+        "PAQ640",
+        "PAD645",
+        "PAQ650",
+        "PAQ655",
+        "PAD660",
+        "PAQ665",
+        "PAQ670",
+        "PAD675",
+        "PAD680",
+        "PAQ706",
+        "PAQ710",
+        "PAQ715",
+        "PAQ722",
+        "PAQ724A",
+        "PAQ724B",
+        "PAQ724C",
+        "PAQ724D",
+        "PAQ724E",
+        "PAQ724F",
+        "PAQ724G",
+        "PAQ724H",
+        "PAQ724I",
+        "PAQ724J",
+        "PAQ724K",
+        "PAQ724L",
+        "PAQ724M",
+        "PAQ724N",
+        "PAQ724O",
+        "PAQ724P",
+        "PAQ724Q",
+        "PAQ724R",
+        "PAQ724S",
+        "PAQ724T",
+        "PAQ724U",
+        "PAQ724V",
+        "PAQ724W",
+        "PAQ724X",
+        "PAQ724Y",
+        "PAQ724Z",
+        "PAQ724AA",
+        "PAQ724AB",
+        "PAQ724AC",
+        "PAQ724AD",
+        "PAQ724AE",
+        "PAQ724AF",
+        "PAQ724CM",
+        "PAQ731",
+        "PAD733",
+        "PAQ677",
+        "PAQ678",
+        "PAQ740",
+        "PAQ742",
+        "PAQ744",
+        "PAQ746",
+        "PAQ748",
+        "PAQ755",
+        "PAQ759A",
+        "PAQ759B",
+        "PAQ759C",
+        "PAQ759D",
+        "PAQ759E",
+        "PAQ759F",
+        "PAQ759G",
+        "PAQ759H",
+        "PAQ759I",
+        "PAQ759J",
+        "PAQ759K",
+        "PAQ759L",
+        "PAQ759M",
+        "PAQ759N",
+        "PAQ759O",
+        "PAQ759P",
+        "PAQ759Q",
+        "PAQ759R",
+        "PAQ759S",
+        "PAQ759T",
+        "PAQ759U",
+        "PAQ759V",
+        "PAQ762",
+        "PAQ764",
+        "PAQ766",
+        "PAQ679",
+        "PAQ750",
+        "PAQ770",
+        "PAQ772A",
+        "PAQ772B",
+        "PAQ772C",
+        "PAAQUEX",
+        "PUQ100",
+        "PUQ110",
+        "RHQ010",
+        "RHQ020",
+        "RHQ031",
+        "RHD043",
+        "RHQ060",
+        "RHQ070",
+        "RHQ074",
+        "RHQ076",
+        "RHQ078",
+        "RHQ131",
+        "RHD143",
+        "RHQ160",
+        "RHQ162",
+        "RHQ163",
+        "RHQ166",
+        "RHQ169",
+        "RHQ172",
+        "RHD173",
+        "RHQ171",
+        "RHD180",
+        "RHD190",
+        "RHQ197",
+        "RHQ200",
+        "RHD280",
+        "RHQ291",
+        "RHQ305",
+        "RHQ332",
+        "RHQ420",
+        "RHQ540",
+        "RHQ542A",
+        "RHQ542B",
+        "RHQ542C",
+        "RHQ542D",
+        "RHQ554",
+        "RHQ560Q",
+        "RHQ560U",
+        "RHQ570",
+        "RHQ576Q",
+        "RHQ576U",
+        "RHQ580",
+        "RHQ586Q",
+        "RHQ586U",
+        "RHQ596",
+        "RHQ602Q",
+        "RHQ602U",
+        "RXQ510",
+        "RXQ515",
+        "RXQ520",
+        "RXQ525G",
+        "RXQ525Q",
+        "RXQ525U",
+        "RXD530",
+        "SLD010H",
+        "SLQ050",
+        "SLQ060",
+        "SMQ020",
+        "SMD030",
+        "SMQ040",
+        "SMQ050Q",
+        "SMQ050U",
+        "SMD055",
+        "SMD057",
+        "SMQ078",
+        "SMD641",
+        "SMD650",
+        "SMD093",
+        "SMDUPCA",
+        "SMD100BR",
+        "SMD100FL",
+        "SMD100MN",
+        "SMD100LN",
+        "SMD100TR",
+        "SMD100NI",
+        "SMD100CO",
+        "SMQ621",
+        "SMD630",
+        "SMQ661",
+        "SMQ665A",
+        "SMQ665B",
+        "SMQ665C",
+        "SMQ665D",
+        "SMQ670",
+        "SMQ848",
+        "SMQ852Q",
+        "SMQ852U",
+        "SMAQUEX2",
+        "SMD460",
+        "SMD470",
+        "SMD480",
+        "SMQ856",
+        "SMQ858",
+        "SMQ860",
+        "SMQ862",
+        "SMQ866",
+        "SMQ868",
+        "SMQ870",
+        "SMQ872",
+        "SMQ874",
+        "SMQ876",
+        "SMQ878",
+        "SMQ880",
+        "SMAQUEX.x",
+        "SMQ681",
+        "SMQ690A",
+        "SMQ710",
+        "SMQ720",
+        "SMQ725",
+        "SMQ690B",
+        "SMQ740",
+        "SMQ690C",
+        "SMQ770",
+        "SMQ690G",
+        "SMQ845",
+        "SMQ690H",
+        "SMQ849",
+        "SMQ851",
+        "SMQ690D",
+        "SMQ800",
+        "SMQ690E",
+        "SMQ817",
+        "SMQ690I",
+        "SMQ857",
+        "SMQ863",
+        "SMQ690F",
+        "SMQ830",
+        "SMQ840",
+        "SMDANY",
+        "SMAQUEX.y",
+        "SXD021",
+        "SXQ800",
+        "SXQ803",
+        "SXQ806",
+        "SXQ809",
+        "SXQ700",
+        "SXQ703",
+        "SXQ706",
+        "SXQ709",
+        "SXD031",
+        "SXD171",
+        "SXD510",
+        "SXQ824",
+        "SXQ827",
+        "SXD633",
+        "SXQ636",
+        "SXQ639",
+        "SXD642",
+        "SXQ410",
+        "SXQ550",
+        "SXQ836",
+        "SXQ841",
+        "SXQ853",
+        "SXD621",
+        "SXQ624",
+        "SXQ627",
+        "SXD630",
+        "SXQ645",
+        "SXQ648",
+        "SXQ610",
+        "SXQ251",
+        "SXQ590",
+        "SXQ600",
+        "SXD101",
+        "SXD450",
+        "SXQ724",
+        "SXQ727",
+        "SXQ130",
+        "SXQ490",
+        "SXQ741",
+        "SXQ753",
+        "SXQ260",
+        "SXQ265",
+        "SXQ267",
+        "SXQ270",
+        "SXQ272",
+        "SXQ280",
+        "SXQ292",
+        "SXQ294",
+        "WHD010",
+        "WHD020",
+        "WHQ030",
+        "WHQ040",
+        "WHD050",
+        "WHQ060",
+        "WHQ070",
+        "WHD080A",
+        "WHD080B",
+        "WHD080C",
+        "WHD080D",
+        "WHD080E",
+        "WHD080F",
+        "WHD080G",
+        "WHD080H",
+        "WHD080I",
+        "WHD080J",
+        "WHD080K",
+        "WHD080M",
+        "WHD080N",
+        "WHD080O",
+        "WHD080P",
+        "WHD080Q",
+        "WHD080R",
+        "WHD080S",
+        "WHD080T",
+        "WHD080U",
+        "WHD080L",
+        "WHD110",
+        "WHD120",
+        "WHD130",
+        "WHD140",
+        "WHQ150",
+        "WHQ030M",
+        "WHQ500",
+        "WHQ520"
+      ],
+      "values_sha256": "0d9a10cf083bc476a635935537555aad4b46738cb8a964ed2211c6d18be8844c"
+    },
+    "sigilyx:22f73d800087650a7ae254b60d2a621677b732dd878f94e18efcdd9bb1a3c4a8": {
+      "status": "ok",
+      "rows": 625,
+      "columns": [
+        "Airport ID",
+        "Length ft",
+        "Lighted",
+        "Right_Airport ID",
+        "Name",
+        "Region"
+      ],
+      "values_sha256": "9c8032f626a56045889095c0e461d2d3f67da4e8e2e8ac75179a3be336f27610"
+    },
+    "sigilyx:244496a4427c478aa0fc65c7d7009dc3959643d501b82f36785333e069ccb067": {
+      "status": "ok",
+      "rows": 798,
+      "columns": [
+        "Starting_Node",
+        "End_Node",
+        "length_of_dir"
+      ],
+      "values_sha256": "185727adc2677edc00fc9f12c55e5e1ca660074cf55d18a5c273b1a63991f2c9"
+    },
+    "sigilyx:261693ab15a1a05f1afe484eb21e47568f1dc2aeb6b7059111975180bf81563f": {
+      "status": "ok",
+      "rows": 2,
+      "columns": [
+        "type_transac",
+        "Total_FN_Incoherences"
+      ],
+      "values_sha256": "508dae7146b5011c6ea7aa0a7b2e07992edc64bfa0d184b8399b8f1d1836513e"
+    },
+    "sigilyx:27504e50aff8fc3a70c04689de4e5c97493a1f2dc60a601c7faf1749c7f16740": {
+      "status": "ok",
+      "rows": 93774,
+      "columns": [
+        "yarn_id",
+        "percentage",
+        "fiber_type_id",
+        "fiber_type_name",
+        "fiber_type_animal_fiber",
+        "fiber_type_synthetic",
+        "fiber_type_vegetable_fiber"
+      ],
+      "values_sha256": "1a2c75386831c883a7a247c13cd8d8872b3bb84e8fead4af73ae704da75676f4"
+    },
+    "sigilyx:287535bb27e00e7d0cbd24d729ae470e92c87152e612f6327e49fdbae91c03c6": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "c4f07b280934efa88dad845e52fade4c04f86168705f6ab2c227e5278f16c31a"
+    },
+    "sigilyx:28e62a8dea1355f387a7cf89eecf384886c154afa211978bde2577bd3fe1ea05": {
+      "status": "ok",
+      "rows": 13101,
+      "columns": [
+        "Master Patient ID",
+        "Patient Admission Datetime",
+        "Patient Discharge Datetime",
+        "Patient InICU Flag",
+        "Patient Address Number",
+        "Patient Address Street",
+        "Patient Address Full",
+        "Patient City",
+        "Patient Zip Code",
+        "Patient County",
+        "Patient State",
+        "Patient Country",
+        "Patient Name",
+        "Patient Gender",
+        "Patient LACE Score",
+        "Patient DOB",
+        "Patient Marital Status",
+        "Patient Primary Language",
+        "Patient Is Citizen Flag",
+        "Patient Is Deceased Flag",
+        "Patient PCP Type",
+        "Patient Ethnicity",
+        "Hospital Name",
+        "Hospital Address Number",
+        "Hospital Address Street",
+        "Hospital Address Full",
+        "Hospital City",
+        "Hospital Zip Code",
+        "Hospital County",
+        "Hospital State",
+        "Hospital Country",
+        "Department Name",
+        "Specialty Description",
+        "Primary ICD Diagnosis Code",
+        "Admit ICD Diangosis Code",
+        "Primary ICD Procedure Code",
+        "Primary Payor ID",
+        "Total Account Balance $",
+        "Total Account Adjustment $",
+        "Total Account Charge $",
+        "Total Account Payment $",
+        "HRRP Condition"
+      ],
+      "values_sha256": "3cbd4ab5980c0c73d00e5ad8374e062ecbe3be42cb046938438f11edc6f5df63"
+    },
+    "sigilyx:292993299d7d9d9f914de39488c290d97230d575d19b8a4dba97392f54c29683": {
+      "status": "ok",
+      "rows": 0,
+      "columns": [
+        "Total_VP"
+      ],
+      "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "sigilyx:29e529806d58e85909d6914b7a794bee3530325b9e51590874078665348af8e8": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "4a331f3b2a10ec3a9cd00362e2ac1de3e864086946fc6a37c33a4e6b5122b745"
+    },
+    "sigilyx:2f79a4581cc57c5dbbf7f6ddc36b67e4c09cf4c02d05496532a15924df2457b5": {
+      "status": "ok",
+      "rows": 500,
+      "columns": [
+        "Order ID",
+        "Order Date",
+        "CustomerName",
+        "State"
+      ],
+      "values_sha256": "bb762804eca51f5ab14ff2b95292703a8512879a2823ed0436fbf96582c97194"
+    },
+    "sigilyx:315cabea2e0c1433726248c644e270afc0c9d554ffdc3ab0fc0a7f229c62d847": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "609ed16461b527e8184f010b31a67759f97359b8d936aae922219a3d8570b9c2"
+    },
+    "sigilyx:31b2f93f3756b03526300eba325fa3c5418a9a3053809aed17759bfaa17b247d": {
+      "status": "ok",
+      "rows": 607,
+      "columns": [
+        "work_year",
+        "experience_level",
+        "employment_type",
+        "job_title",
+        "salary",
+        "salary_currency",
+        "salary_in_usd",
+        "employee_residence",
+        "remote_ratio",
+        "company_location_country_code",
+        "company_size"
+      ],
+      "values_sha256": "63fffb8ba8c1f7b1205449994800480ad1756639181d0f5a57520018b43d536d"
+    },
+    "sigilyx:32764f3265955730514a8d87f177cec2d0ae34e3738c6d8e3b8bc655cc830b18": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "79d90f3b6d330921cc10725685ce7782a915e415c9ab660fb7a6ab2874cb283d"
+    },
+    "sigilyx:32bcbcd8019e9457a1d74e5b77bc68aeede2a3a55a8ef2201e61cc61031d78a6": {
+      "status": "ok",
+      "rows": 2,
+      "columns": [
+        "Team",
+        "Sum_Total"
+      ],
+      "values_sha256": "5157efed4775eb710526b0aa936c8de81ef1045e7ecbfb2291db3ff24478ff34"
+    },
+    "sigilyx:33dfc8d045ba81df9d1a012112ad52856ac494f80c1784bf7ec386cfcca39bda": {
+      "status": "ok",
+      "rows": 11,
+      "columns": [
+        "first",
+        "last",
+        "gender",
+        "dining out expenses",
+        "age"
+      ],
+      "values_sha256": "6331e365778c1e88b2c4c6795d47190b7f5c63531fa8bcd601505390aa56c2f0"
+    },
+    "sigilyx:3461e5469cc3f5223df52466f88c2dd1eb20cf3b06a9ef200ab4b2a39dc20006": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "ba81078433baa9e568757bc550b9bffb06607ce9a29b02c8c503e5b7f8d1a58e"
+    },
+    "sigilyx:346e8bfb74546647d72014dc300eba4e7cd6acb7f135dc14766978b83d39b6de": {
+      "status": "ok",
+      "rows": 8365,
+      "columns": [
+        "Master Patient ID",
+        "Patient Admission Datetime",
+        "Patient Discharge Datetime",
+        "Patient InICU Flag",
+        "Patient Address Number",
+        "Patient Address Street",
+        "Patient Address Full",
+        "Patient City",
+        "Patient Zip Code",
+        "Patient County",
+        "Patient State",
+        "Patient Country",
+        "Patient Name",
+        "Patient Gender",
+        "Patient LACE Score",
+        "Patient DOB",
+        "Patient Marital Status",
+        "Patient Primary Language",
+        "Patient Is Citizen Flag",
+        "Patient Is Deceased Flag",
+        "Patient PCP Type",
+        "Patient Ethnicity",
+        "Hospital Name",
+        "Hospital Address Number",
+        "Hospital Address Street",
+        "Hospital Address Full",
+        "Hospital City",
+        "Hospital Zip Code",
+        "Hospital County",
+        "Hospital State",
+        "Hospital Country",
+        "Department Name",
+        "Specialty Description",
+        "Primary ICD Diagnosis Code",
+        "Admit ICD Diangosis Code",
+        "Primary ICD Procedure Code",
+        "Primary Payor ID",
+        "Total Account Balance $",
+        "Total Account Adjustment $",
+        "Total Account Charge $",
+        "Total Account Payment $",
+        "HRRP Condition",
+        "Patient Age",
+        "Length of Stay",
+        "DIAGNOSIS LONG DESCRIPTION",
+        "DIAGNOSIS SHORT DESCRIPTION ",
+        "PROCEDURE LONG DESCRIPTION",
+        "PROCEDURE SHORT DESCRIPTION",
+        "ADMIT LONG DESCRIPTION",
+        "Sequence ID",
+        "Readmit",
+        "ReadmitDelta",
+        "+30 Day Readmission"
+      ],
+      "values_sha256": "8b94eda44e6e4abcca416bbbfe427ed79ac2dbba517c2b87b192dbc2b625377f"
+    },
+    "sigilyx:37ef36b660a65de4897d4c8c398e51e22d8ddf913ca798aab7f565e03bcb1dae": {
+      "status": "ok",
+      "rows": 84,
+      "columns": [
+        "EdgeID",
+        "Node_s",
+        "Node_e",
+        "Steps",
+        "InputDir",
+        "OutputDir",
+        "ConnectableCount_s",
+        "ConnectableCount_e",
+        "Goal",
+        "Start"
+      ],
+      "values_sha256": "b0ed39d656c0de977eb75243c2a7ef74ff482b1630b966251682b44ee8039c23"
+    },
+    "sigilyx:388286a3d868b0c295ac4a96177d6fc4b237dff016c3a3d99175af2c75feada1": {
+      "status": "ok",
+      "rows": 4986,
+      "columns": [
+        "COURSE",
+        "HOLE",
+        "PAR",
+        "YARDS",
+        "AVG",
+        "+/-",
+        "EAGLE",
+        "BIRDIE",
+        "PARS",
+        "BOGEY",
+        "DBL BOGEY",
+        "DBL BOGEY+",
+        "Season "
+      ],
+      "values_sha256": "0e7e093e0d7d550732821efa9f6d9ad1aaa294bc514f83fda66f7755045103d6"
+    },
+    "sigilyx:389cc48715dcd494dbd5ee5c7f5285b4aad59f79b6a993c36d50c8209a3e95d1": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "17078b9bc9a0ff826facbe06d05756c0c07abaa194ab05714bd2107d6343269b"
+    },
+    "sigilyx:3995300f84054fb97dd0eec93e3d9fd11550d1bcde51dcfcc0e0a9a8db995a38": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "SpatialObj_Water"
+      ],
+      "values_sha256": "f8a20285f0652d8d19a70de35cbba7c1262434863f8dc7935f2140b5568836c8"
+    },
+    "sigilyx:3a30f216b753e3ade2f15af6f802d6567327335ef14bde0cd1ba50f6a368cf5e": {
+      "status": "ok",
+      "rows": 20000,
+      "columns": [
+        "Order",
+        "Input"
+      ],
+      "values_sha256": "ed85624a4877f632efba378d5777d1ba1e4aa28c786976faeb3a972dff7bfa9c"
+    },
+    "sigilyx:40263690192dcb948e3403cc22399805be448f45f86b6e3250429bef4ed01f12": {
+      "status": "ok",
+      "rows": 100,
+      "columns": [
+        "Id",
+        "Year_Birth",
+        "Education",
+        "Marital_Status",
+        "Income",
+        "Kidhome",
+        "Teenhome",
+        "Dt_Customer",
+        "Recency",
+        "MntWines",
+        "MntFruits",
+        "MntMeatProducts",
+        "MntFishProducts",
+        "MntSweetProducts",
+        "MntGoldProds",
+        "NumDealsPurchases",
+        "NumWebPurchases",
+        "NumCatalogPurchases",
+        "NumStorePurchases",
+        "NumWebVisitsMonth",
+        "Response",
+        "Complain",
+        "RecordID",
+        "Right_Id",
+        "Right_Year_Birth",
+        "Right_Education",
+        "Right_Marital_Status",
+        "Right_Income",
+        "Right_Kidhome",
+        "Right_Teenhome",
+        "Right_Dt_Customer",
+        "Right_Recency",
+        "Right_MntWines",
+        "Right_MntFruits",
+        "Right_MntMeatProducts",
+        "Right_MntFishProducts",
+        "Right_MntSweetProducts",
+        "Right_MntGoldProds",
+        "Right_NumDealsPurchases",
+        "Right_NumWebPurchases",
+        "Right_NumCatalogPurchases",
+        "Right_NumStorePurchases",
+        "Right_NumWebVisitsMonth",
+        "Right_Response",
+        "Right_Complain",
+        "Dt_Customer1",
+        "Dt_Customer2",
+        "Dt_Customer3"
+      ],
+      "values_sha256": "75be8eef64cf0c82eeb0862a9b5dcc6ee859ccfea6d7ce5985ca6d67b92bddfd"
+    },
+    "sigilyx:404ad05087e099ca159d4190a30c5e6a7de9314228a68a30fe6fbc5331230992": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "de90203774ec5721e0d14bf41c04f1e939f3a09827f88c601f69a1a40e4a61fa"
+    },
+    "sigilyx:41586f7612a7d27b84375e6162536cf5a483855ea0cc200aaef2b12c60d4eadc": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "c1213f5b257c792bf9238177af81a7c1736a774c4427a4e6a766f9842727087a"
+    },
+    "sigilyx:43925fb1ddcb7dc574e5a1dd3c0b7c51af66a72460bfce20f8951fc63e2c56bb": {
+      "status": "ok",
+      "rows": 13101,
+      "columns": [
+        "Master Patient ID",
+        "Patient Admission Datetime",
+        "Patient Discharge Datetime",
+        "Patient InICU Flag",
+        "Patient Address Number",
+        "Patient Address Street",
+        "Patient Address Full",
+        "Patient City",
+        "Patient Zip Code",
+        "Patient County",
+        "Patient State",
+        "Patient Country",
+        "Patient Name",
+        "Patient Gender",
+        "Patient LACE Score",
+        "Patient DOB",
+        "Patient Marital Status",
+        "Patient Primary Language",
+        "Patient Is Citizen Flag",
+        "Patient Is Deceased Flag",
+        "Patient PCP Type",
+        "Patient Ethnicity",
+        "Hospital Name",
+        "Hospital Address Number",
+        "Hospital Address Street",
+        "Hospital Address Full",
+        "Hospital City",
+        "Hospital Zip Code",
+        "Hospital County",
+        "Hospital State",
+        "Hospital Country",
+        "Department Name",
+        "Specialty Description",
+        "Primary ICD Diagnosis Code",
+        "Admit ICD Diangosis Code",
+        "Primary ICD Procedure Code",
+        "Primary Payor ID",
+        "Total Account Balance $",
+        "Total Account Adjustment $",
+        "Total Account Charge $",
+        "Total Account Payment $",
+        "HRRP Condition"
+      ],
+      "values_sha256": "e0f4de19400d22a7c217d5a48b02a365df79063789421b63cad5320ae0179f3a"
+    },
+    "sigilyx:4577ab0b59b4f1b052052bf334a8ded3d26f692f1966af08c9998b460bb6e50a": {
+      "status": "ok",
+      "rows": 1176,
+      "columns": [
+        "Before",
+        "After"
+      ],
+      "values_sha256": "af4a55827bbe24664a178f0a627116175c00609319f428d586bd48d437175f4f"
+    },
+    "sigilyx:4756878f100bc77c0edca1fb476ab3ef4f1e4c675d71d0f1b2323aba67a458ec": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "1febf3255d6e52ef66e08c54866a0f172d995bf4ceb357302ada8847a657a6ef"
+    },
+    "sigilyx:4837c26fd2268b81e703b74a34952bcc8339e8f3fa5e828756a22fcd4a07f77a": {
+      "status": "ok",
+      "rows": 1512,
+      "columns": [
+        "phone_name",
+        "brand",
+        "battery",
+        "price(USD)"
+      ],
+      "values_sha256": "00a7cb38e417d9a91ae591445690368f3feb73462ee977686cc5edc04f0e8429"
+    },
+    "sigilyx:4b69d667a6d262b6bd992a90bf8500c9c56c3a047f71f9dec3d5efb0c4e4e474": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "business_status",
+        "formatted_address",
+        "name",
+        "types_0",
+        "types_1",
+        "types_2"
+      ],
+      "values_sha256": "1babdfd20a98109538b7f642ab884470fc0588e95aec5ddf849872ef3009d38b"
+    },
+    "sigilyx:4c2d1c7808474532a5863868dcccf2df546d1d114918f57ca3133fd3f52fa29b": {
+      "status": "ok",
+      "rows": 302,
+      "columns": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "TOTAL",
+        "Cumulative Total",
+        "PCT_Jan",
+        "PCT_Feb",
+        "PCT_Mar",
+        "PCT_Apr"
+      ],
+      "values_sha256": "132e7be77ed8bc344c15977f5744cdb94187b22cfba6ae284ec6e59df0687db3"
+    },
+    "sigilyx:4d2489fa47306f64c80d187d4dc4609e0c7f54d2deb2a3e48cc5503d490fbdeb": {
+      "status": "ok",
+      "rows": 1000,
+      "columns": [
+        "Input"
+      ],
+      "values_sha256": "21d741d0a249a160bf87a2986d13f4c8261cee79b6d80a7f97303bf9064dac21"
+    },
+    "sigilyx:4d51932b12f5aae5f5ace6ec55a46948128a84ca428c893ee3ec5fac687bf161": {
+      "status": "ok",
+      "rows": 26751,
+      "columns": [
+        "EmailData",
+        "emailHeader",
+        "emailBody",
+        "MessageID",
+        "emailDate",
+        "emailFrom",
+        "emailTo",
+        "DateTime_Out",
+        "dayOfWeek",
+        "Month",
+        "Year",
+        "isReply",
+        "isForward"
+      ],
+      "values_sha256": "215b3f4aecbd6b570f9a418cc25c0b4ac6acdfb5d5501425fab4df4678e50fb5"
+    },
+    "sigilyx:4f1b1dea78920c999176d63266789654717663fe88083d53284fa87779ef7d65": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "e32520a00186151c0e471a0658f928d1ae901f5d262d6333d6fa636c9b2f31f8"
+    },
+    "sigilyx:509752a5113603749768e443caf9c35432c444618e66717e088eeb045136cc96": {
+      "status": "ok",
+      "rows": 3721,
+      "columns": [
+        "Port Name",
+        "Date",
+        "Month",
+        "Vehicle Type",
+        "Number of People",
+        "Port ID"
+      ],
+      "values_sha256": "5ed5c66c1cc414775630fb293ba6dd1240d570d48fc6e60486c20695142c5a8d"
+    },
+    "sigilyx:540ef104d278c44e15092648f6c3a110d1d67ac606435a74907f945e4eb3dd37": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "f9f244c8727af7a9b0788aa6607ae203eb69c7f67533ae3c3b790cd44c0d086e"
+    },
+    "sigilyx:55aaf8343a1f168f4ee044b75cf8019828a0706b339e417d6264c9a55165de5b": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Chart"
+      ],
+      "values_sha256": "2fc61cbf7aeee38ad160d04cd2d9481802e21f017845e6a1c3c91d864473a531"
+    },
+    "sigilyx:56c8235c4dc118abcf89ac144814dbc6dc9ec0d7e8a2ebf29f1f68b6bc67a927": {
+      "status": "ok",
+      "rows": 44175,
+      "columns": [
+        "CREATED",
+        "BIC NUMBER",
+        "ACCOUNT NAME",
+        "TRADE NAME",
+        "ADDRESS",
+        "CITY",
+        "STATE",
+        "POSTCODE",
+        "PHONE",
+        "EMAIL",
+        "MARKET",
+        "APPLICATION TYPE",
+        "DISPOSITION DATE",
+        "EFFECTIVE DATE",
+        "EXPIRATION DATE",
+        "EXPORT DATE",
+        "LATITUDE",
+        "LONGITUDE",
+        "COMMUNITY BOARD",
+        "COUNCIL DISTRICT",
+        "CENSUS TRACT",
+        "BIN",
+        "BBL",
+        "NTA",
+        "BORO"
+      ],
+      "values_sha256": "21a5af4550eac154c8d59c287c195faa801dcc0ecd54c0f70424ac54e530740f"
+    },
+    "sigilyx:56f908509118b791dbf1bca568fe445ea4386dd1b3d46102a56e295236aa90d1": {
+      "status": "ok",
+      "rows": 413,
+      "columns": [
+        "x",
+        "y",
+        "Max_x",
+        "Max_y",
+        "Dir",
+        "Input",
+        "Cost",
+        "Fixed",
+        "history"
+      ],
+      "values_sha256": "34119bfde4fbbbfc224b9d3a4754e2cb278021fd8631d8eeec62e32e60a042cd"
+    },
+    "sigilyx:57a7619be2b44cb7a7cacbafd964852f780f7e9694b00d48bfecd61b6a3db3d1": {
+      "status": "ok",
+      "rows": 10,
+      "columns": [
+        "Store",
+        "Address",
+        "City",
+        "Zip",
+        "Type",
+        "Cluster"
+      ],
+      "values_sha256": "4b1540438c68a49a93451d8eac440b787990c38eff110a85cf7c30fc6677a048"
+    },
+    "sigilyx:58ffa514cd66e6562c309e515a8d019b4be557299e303da85697a4e4be60e764": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "1d6f5e1cd961e310f05b22d7c3703f8df54f644a55c114d5f3ebe6f2b9f7d16e"
+    },
+    "sigilyx:5ae0e644c1f834f15e26e20ef84f4711892d0948c663bab4b13751fff653437a": {
+      "status": "ok",
+      "rows": 9,
+      "columns": [
+        "league",
+        "team",
+        "season",
+        "Player_Name",
+        "Position",
+        "Age",
+        "Annual_Salary_GBP",
+        "Weekly_Salary_GBP"
+      ],
+      "values_sha256": "7988f54c5d2544759ed189379e1115f4cd26c8844edf85cc53ee13c0f5722185"
+    },
+    "sigilyx:5c411cf4cc2594300ee087f83f9b89ae5667b8a1ccadc5a48a6f403d0cacd9bf": {
+      "status": "ok",
+      "rows": 5,
+      "columns": [
+        "CustomerID",
+        "FirstPurchaseDate"
+      ],
+      "values_sha256": "37e65acbebe382e06e9848aff51112f2a133babfe5d134c0858ef24bc122dc0f"
+    },
+    "sigilyx:5c5fe77a32ca58be9316ad1482e847128971c5e4f9f8e7697667e6e7c29745f9": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "65c10340aba95679b4c76bcded8361d6c85a13702e7a01f4c9442ae2e351e7db"
+    },
+    "sigilyx:5d58f1440e8773d8dec3bc3179cb48afd02547f144cefa5e9aee1110dcc27c2c": {
+      "status": "ok",
+      "rows": 12,
+      "columns": [
+        "FullPath",
+        "Directory",
+        "FileName",
+        "Size",
+        "Class",
+        "path",
+        "file",
+        "page",
+        "image",
+        "image_processed"
+      ],
+      "values_sha256": "c7e0bf7bbc89421e274b6041def577c70bb2ad4e3548e09c83d69125d93c9aa8"
+    },
+    "sigilyx:5df1743cfcc2e4d67fe6949d7df01f82be71b56bf2ade05951dd38a25ec99a94": {
+      "status": "ok",
+      "rows": 7493,
+      "columns": [
+        "EdgeID",
+        "Node_s",
+        "Node_e",
+        "Steps",
+        "InputDir",
+        "OutputDir",
+        "ConnectableCount_s",
+        "ConnectableCount_e",
+        "Goal",
+        "Start"
+      ],
+      "values_sha256": "6b8589144b426bc0e4bf6f847855a80563aa2ddbfe2c51bee8320f84d4d38607"
+    },
+    "sigilyx:5eeddc560976e28ca8a1302887a6e5d667f0bde996dc58bc779040c4bc5dddb3": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 68: data conversion error: E2 record has multiple exact Int32 framings with different values in field(s): Patient Age, Length of Stay"
+    },
+    "sigilyx:64bbd6f6ba868f8834bbb696a48f392d37b8beccf7ed0f8f18fc085699d7916b": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "bbeba968cb1c730282d4dcd779ebed69136a9f244d75c86440b61ac7d8383ead"
+    },
+    "sigilyx:660e0671fbc915e4fafd5da7db6a0d767ee9397f4d6b6d84091eeab9d78235fb": {
+      "status": "ok",
+      "rows": 12420,
+      "columns": [
+        "Category",
+        "City",
+        "Country/Region",
+        "Customer Name",
+        "Discount",
+        "Order ID",
+        "Postal Code",
+        "Product Name",
+        "Profit",
+        "Quantity",
+        "Region",
+        "Sales",
+        "Segment",
+        "Ship Mode",
+        "State",
+        "Sub-Category",
+        "OrderDate",
+        "ShipDate",
+        "Days to Ship Scheduled"
+      ],
+      "values_sha256": "877771d446417f79a09c2cfd3b0a402fa5c6904b0bcc339b5483361d6076aeab"
+    },
+    "sigilyx:6932356a4490e77039def43fdffbecaf1802b0ad3fe09219c2e1589ef5544fab": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "a11c4a611af5dc1dd8db187dd84b69914a0be2dbafb352d1bd05aa9061230f2f"
+    },
+    "sigilyx:69627fc6eff02e0b9833a39b0c267bd21c8e72ded18f03b793982048ca3a3de0": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "a8eb330082cf575e9133b81ea1a4e2b34c6f2106c3752f531f0209b7391ea136"
+    },
+    "sigilyx:6a41c1522c60d1d2b778fd7a3c3d220163b46219f966329747ce67cdd4d999f4": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 48789: data conversion error: E2 record has multiple exact Int32 framings with different values in field(s): Record_ID, Store"
+    },
+    "sigilyx:6aa39e917c094ac11f3dddd6155d9c1fc4fc6d966d5913a1aa53b232ae887f14": {
+      "status": "ok",
+      "rows": 1012364,
+      "columns": [
+        "Agency Number",
+        "Agency Name",
+        "Last Name",
+        "First Initial",
+        "Item Description",
+        "Amount",
+        "Merchant",
+        "Transaction Date",
+        "Post Date",
+        "Purchase Description",
+        "UpperLastName",
+        "CHFlag",
+        "CHRem",
+        "convertedAmount",
+        "EmployeeID",
+        "TransactionDate",
+        "PostedDate"
+      ],
+      "values_sha256": "1e339b0a6ba6f429218c74fbee5428892d2e3c8eb169d87fb97e78c42318b741"
+    },
+    "sigilyx:6e55cea03775f6e8b294a489dab1cec15967413ea1deaacb17d0f0907f63f9a4": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Chart"
+      ],
+      "values_sha256": "c66e8a538ad0b6f22e10f79b8a58dbed9d2104af98a3dfb3716c29e3f4895932"
+    },
+    "sigilyx:6f245c6006146b6092d62ffa7288f9023a26d25d8982029b3a85891f1efccca8": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "b4c3c43a2544da8c1de1c3593c744685b0869db1336b36d9d5fad8ac39890f1f"
+    },
+    "sigilyx:718ac75fdcbf6db3dec28e4e2593a55c37ad6e22f15d5dbafc0b88b6fb56e2d2": {
+      "status": "ok",
+      "rows": 3,
+      "columns": [
+        "Width_MM",
+        "RATIO",
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "c867d3d2365b72b911d4cd88a9ce2b8633bc1eda88fc306c253e104874e57dc4"
+    },
+    "sigilyx:75f56d31d753b576bed9987c74b2cb46518c6f86d0eb890a01b8ed65d23089c4": {
+      "status": "ok",
+      "rows": 793,
+      "columns": [
+        "Customer ID",
+        "Customer Name",
+        "Total_Revenue",
+        "Total_Margin",
+        "Total_Net_Profit_After_Returns",
+        "First_Order Date",
+        "Last_Order Date",
+        "LTV_Segment"
+      ],
+      "values_sha256": "6876458b565bf32b29cb6b253907282834967e4eee0244d337e6066735110417"
+    },
+    "sigilyx:763b19e40aaeafedac382e6492d6b2dd5e17a5d20f4d699240d2c248e3e28bc2": {
+      "status": "ok",
+      "rows": 14,
+      "columns": [
+        "borough",
+        "gispropnum",
+        "location",
+        "name",
+        "polygon",
+        "the_geom",
+        "pooltype",
+        "shape_star",
+        "shape_stle",
+        "Size",
+        "Accessible",
+        "lat",
+        "lon"
+      ],
+      "values_sha256": "3f7f6c66dc19138517bf8a156a3995363b83c451f0ff7f3ca08bacaa8a36a9bd"
+    },
+    "sigilyx:78e6f9954878d6f2b4e77024b648fa49f03e2b0f8d079adb5beff8cacdd0aa59": {
+      "status": "ok",
+      "rows": 5009,
+      "columns": [
+        "Order ID",
+        "Order Date",
+        "Ship Date",
+        "Customer ID",
+        "Product ID",
+        "Category",
+        "Sub-Category",
+        "Revenue",
+        "Quantity",
+        "Discount",
+        "Profit",
+        "Region",
+        "Country",
+        "State",
+        "City",
+        "Customer Name",
+        "Segment",
+        "Cost_Price",
+        "Returned",
+        "Return_Reason",
+        "COGS",
+        "Margin",
+        "Margin_pct",
+        "Return_flag",
+        "Net_Profit_After_Returns"
+      ],
+      "values_sha256": "54575301bf375039878ceaec4eb1296d5247316ead34b9d6aa493fb6170895a5"
+    },
+    "sigilyx:7915381a197d34ab36a171bdc3193b05fe5b9bc5f18d55c4be7ca02da2fc2ffa": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "a29197b674c97f2afaaa3639621b5c48565605a9850d584618c23c511f53bc16"
+    },
+    "sigilyx:7ab36db86d50b3aec6ec6620a3098a8c8b1a9fe031dd7b87359e4d3816cea66f": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 4537: data conversion error: E2 record has multiple exact Int32 framings with different values in field(s): SequenceNumber, Master Patient ID, PatientAge, LOS"
+    },
+    "sigilyx:7b32cbda58e24d75de7db6a8b355731efe081c171f661307e6e964e22cb8b8c4": {
+      "status": "ok",
+      "rows": 200000,
+      "columns": [
+        "Tree ID",
+        "Planting Date",
+        "Height (m)",
+        "Status",
+        "Health",
+        "Latin Name",
+        "Common Name",
+        "Borough Code",
+        "Latitude",
+        "Longitude",
+        "Centroid"
+      ],
+      "values_sha256": "d32e7afd9aa2d825e656f402c0643beb6800172c7ee253d63b00e9e6c0c524fa"
+    },
+    "sigilyx:7b75e18714785b5570c1153f0929ae180849bf291ff3c03462da7c7f2fb32776": {
+      "status": "ok",
+      "rows": 18,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "76b14da1b078ee7c7065c046ea3a3254b6a604a7d071dc6a969a4e5bd5eb6c4b"
+    },
+    "sigilyx:7dfb79432fde920670425606f24229afd713e82e165875469814cd917faf76c3": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 41: data conversion error: E2 record has multiple exact Int32 framings with different values in field(s): PatientAge, LOS"
+    },
+    "sigilyx:7eca4c3cb1eeb0ad8e174989dd795d4f7b4127a828a549a8f45cc87162ec320e": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 205: data conversion error: E2 record has multiple exact Int32 framings with different values in field(s): ID, x, y"
+    },
+    "sigilyx:80749e132037ab6449b1ea51f5f4e52d1ae3013ab2dc2c0b661b5133e07d8d1e": {
+      "status": "ok",
+      "rows": 3914,
+      "columns": [
+        "ORDER_ID",
+        "LINE_ITEM_ID",
+        "PRODUCT_ID",
+        "UNIT_PRICE",
+        "QUANTITY"
+      ],
+      "values_sha256": "aa38813da06cff0552ec994167da4f6e97e8495f3f2f1af3a044b4d6dfd236da"
+    },
+    "sigilyx:81bcceb50f035bce9048dac978ff6937314498189ef01935b684bd035aeea3fb": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "a856cd979d915651b4fe3cb7c7803347ccdd3902d26449911be086d7500e1570"
+    },
+    "sigilyx:83b034730634ed0a81b95eabce6b928c3d67f69113487eed6030d8491b7437f8": {
+      "status": "ok",
+      "rows": 5,
+      "columns": [
+        "Customer_ID",
+        "Store_Number",
+        "Customer_Segment",
+        "Region",
+        "TransInYear"
+      ],
+      "values_sha256": "f5d657844f6b617bef280261c05b00e71403cf967b7aae7a7c1ea08149eb0f9d"
+    },
+    "sigilyx:84787b23df0cb3d29e5b7713a198c81be15e5f49d2357b8144982d257466f5ed": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "cells",
+        "curr_c",
+        "curr_r",
+        "curr_dir_id",
+        "Max_c",
+        "Max_r",
+        "VisitHistory"
+      ],
+      "values_sha256": "7f1a639f9e35ee40b32dfacb373406afb15195d919085564dc3a6ecc69aaaabd"
+    },
+    "sigilyx:875bb3399ed4acc8b7c7f12f4b32b842a8e6a9962ea560fe35010967ee788cc3": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "data",
+        "row",
+        "column",
+        "dir"
+      ],
+      "values_sha256": "bcdd1f91a32d6ef9777dbfa722af966a1ac8422d6d55922feca8942c330183ad"
+    },
+    "sigilyx:87f87e9b1eb00a26e9b7520fff10f47ab75e58ebfa18024a982b51444ca3c849": {
+      "status": "ok",
+      "rows": 22,
+      "columns": [
+        "Row ID",
+        "Order ID",
+        "Order Date",
+        "Ship Date",
+        "Ship Mode",
+        "Customer ID",
+        "Customer Name",
+        "Segment",
+        "Country/Region",
+        "City",
+        "State/Province",
+        "Postal Code",
+        "Region",
+        "Product ID",
+        "Category",
+        "Sub-Category",
+        "Product Name",
+        "Sales",
+        "Quantity",
+        "Discount",
+        "Profit"
+      ],
+      "values_sha256": "3c6fb73d747cb475e721c69e2b57a15d235344ec6be0347fbfa3a2b7d957562d"
+    },
+    "sigilyx:88967def92b49e2a7a9f34f8aee76079a2dc405f8aa43916bf14d99e7a53afc2": {
+      "status": "ok",
+      "rows": 2319,
+      "columns": [
+        "Port Name",
+        "Date",
+        "Month",
+        "Vehicle Type",
+        "Number of People"
+      ],
+      "values_sha256": "51a0628920fef810ad3944bdad6700cf3053c3da40720474940271c06fbd103b"
+    },
+    "sigilyx:88e8d19624a08c4e3711d9eddee3a66cde0f1add6011274345e7dd6d438f3cd5": {
+      "status": "ok",
+      "rows": 58,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "a6caecb23fd4820fef28320173edb39447ae6fda9242240636fb537ef566c755"
+    },
+    "sigilyx:88e95bc630608fa933ad212ed3d5a2d35b282b54d4686ee34984b8b101544da2": {
+      "status": "ok",
+      "rows": 216,
+      "columns": [
+        "borough",
+        "gispropnum",
+        "location",
+        "name",
+        "polygon",
+        "the_geom",
+        "pooltype",
+        "shape_star",
+        "shape_stle",
+        "Size",
+        "Accessible",
+        "lat",
+        "lon"
+      ],
+      "values_sha256": "59f518cd2d76b317e6cc22e9aa981a41f9ea5e91d358f0a104ed48a4ca217521"
+    },
+    "sigilyx:8a578cf741075e25df184bcd3eb5bfae3effa1f5e8835e95a01ae240212b41d2": {
+      "status": "ok",
+      "rows": 56164,
+      "columns": [
+        "TRIPDURATION",
+        "STARTTIME",
+        "STOPTIME",
+        "START_STATION_ID",
+        "START_STATION_NAME",
+        "START_STATION_LATITUDE",
+        "START_STATION_LONGITUDE",
+        "END_STATION_ID",
+        "END_STATION_NAME",
+        "END_STATION_LATITUDE",
+        "END_STATION_LONGITUDE",
+        "BIKEID",
+        "MEMBERSHIP_TYPE",
+        "USERTYPE",
+        "BIRTH_YEAR",
+        "GENDER",
+        "BIRTH_MONTH",
+        "BIRTH_DAY",
+        "BIRTHDAY_STR",
+        "BIRTHDAY",
+        "AGE"
+      ],
+      "values_sha256": "a7db3b3ea768e9877aae5ed44299361111fdb6913afdb84471da4a048698f6c5"
+    },
+    "sigilyx:8a90e3079a89b429de4e930b5f4a72f06018a830d70e70df4f227c5ff322fdf8": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Total_FN_Sans_Incoferences"
+      ],
+      "values_sha256": "cf315fb9e0ee09af9571e4bd2adc322ac80ea6b0259b070af2ea418286354a8f"
+    },
+    "sigilyx:8ad6f216ef4b2460c16afcbd047ef173270dbc89fb223e603cff916133ae2a92": {
+      "status": "ok",
+      "rows": 5,
+      "columns": [
+        "Input"
+      ],
+      "values_sha256": "42d6fb29d92fbdb4efbef546502c101a634e76788b649bc2a3ab974057d36a6b"
+    },
+    "sigilyx:8b89e6719ae20a32b8bf6c5d2ba62da98f6d2ece674e8820cf0d2f86cf4d216e": {
+      "status": "ok",
+      "rows": 2,
+      "columns": [
+        "BFC_ID",
+        "USE_ID",
+        "BPY_ID",
+        "BFC_DESCR",
+        "BFG_FLG_STATE",
+        "BFC_NOTE",
+        "SYS_DATE_TIME_INS",
+        "SYS_DATE_TIME_UPD",
+        "MON_ID",
+        "SCE_ID_DEFAULT",
+        "BFC_FLG_TYPE",
+        "BFC_FORECAST_ID",
+        "MON_ID_SELLIN_EXP_START",
+        "MON_ID_SELLIN_LAST_ACTUAL",
+        "BFC_FLG_CAN_UPLOAD_EXPECTATIONS",
+        "BFC_VERSION"
+      ],
+      "values_sha256": "42a77f31dbf7115a2b21a65b9b5309aa84ac349047d4bc6d68426ad9a1b23418"
+    },
+    "sigilyx:8df7a129048d7d098ae88799cd6cdf83ecf04d636045569c0dd16e1236322fc1": {
+      "status": "ok",
+      "rows": 2020,
+      "columns": [
+        "EIN",
+        "invoice_amount",
+        "company_name",
+        "bill_contact",
+        "invoice_date",
+        "phone_number"
+      ],
+      "values_sha256": "5c6527a52156888dab45a5076fbea0bd931b08cb9f909171082d75891cc4f22d"
+    },
+    "sigilyx:8f63e157853f84db7255e56cb6da45b5062bf2065241e8ec68291bf439395be5": {
+      "status": "ok",
+      "rows": 8,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "699b6dffd3b37ab04d165a9d908c2c6525d7b025d83dfd349dd3dc295e659813"
+    },
+    "sigilyx:9042ef46359d12920802727bf4376c14fc11c46b2996228a00ca7634ed44e436": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Chart"
+      ],
+      "values_sha256": "3a0a58d1074a54f94b8365a158c8693af7070b3bc75533eec59990e5b2972bd2"
+    },
+    "sigilyx:9291a2eb0e072dbfb8b49757b5f06374d6ef8af1470921b1ad05c254ddb16262": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 32: data conversion error: E2 record has multiple exact Int32 framings with different values in field(s): discounted_price, actual_price"
+    },
+    "sigilyx:92ad03917b413a6096025d7048b70abcb19967f4b7932006e6bc748064c1b581": {
+      "status": "ok",
+      "rows": 1500,
+      "columns": [
+        "OrderID",
+        "Category",
+        "Total Profit"
+      ],
+      "values_sha256": "bc580a057b3738f83fb538ce75ed81e671aa60d8b100f13856cde55663640046"
+    },
+    "sigilyx:937f98169092b0c23c6bf35220bbd5f3ae4c3ecadd50df324b817eb6323c0331": {
+      "status": "ok",
+      "rows": 18319,
+      "columns": [
+        "Category",
+        "City",
+        "Country/Region",
+        "Customer Name",
+        "Discount",
+        "Order ID",
+        "Postal Code",
+        "Product Name",
+        "Profit",
+        "Quantity",
+        "Region",
+        "Sales",
+        "Segment",
+        "Ship Mode",
+        "State",
+        "Sub-Category",
+        "OrderDate",
+        "ShipDate",
+        "Days to Ship Scheduled"
+      ],
+      "values_sha256": "0fe3df69733a77cd81d422f092aff36f2e717941c939c20579dba51e6f29c1f6"
+    },
+    "sigilyx:94a4dd22c6a0331e4561626f603fe9bbdb4a8c422d52e053597308603a16ed9f": {
+      "status": "ok",
+      "rows": 50,
+      "columns": [
+        "Row ID",
+        "Customer Name",
+        "Region",
+        "Product Name",
+        "Sales",
+        "Quantity",
+        "Discount"
+      ],
+      "values_sha256": "6e0a672f609ddf2c8e62f940058c074d98a3ac85b74d136f69522ac2666e9de2"
+    },
+    "sigilyx:95876acd7f6252c8d80760dbad3a2f018b58a58aca515c493c44369e02722cd2": {
+      "status": "ok",
+      "rows": 21,
+      "columns": [
+        "league",
+        "team",
+        "season",
+        "Player_Name",
+        "Position",
+        "Age",
+        "Annual_Salary_GBP",
+        "Weekly_Salary_GBP"
+      ],
+      "values_sha256": "138e10700b7da8316fc24a315088c7d62755edbdf1ddf99fdcd8b574ee00eaac"
+    },
+    "sigilyx:96dd999ab7b624f1c51684f9f51ee8d5e3f66d3313ac98f81fd23df0a9407a95": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "7a6892e4b528e15cfd1a6dce01a264143d6388f436080491a194393218e5448e"
+    },
+    "sigilyx:9a5c20336e88675d9d1e97fa485b7ada9bb08cfebf26354e82e455403099757b": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "67aec68d67a257d324a8167989dd5d5e82e5e77dd7ffbb96d84ce7ff401ebdc5"
+    },
+    "sigilyx:9ad5fe00a6e9e0184a6b1c35a85b5d937151ffd82a3d880fd099e910059d3bf4": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 0: data conversion error: E2 record has multiple exact Int32 framings with different values in field(s): Quantity, Profit"
+    },
+    "sigilyx:9d54553de8e34bfb501233ce419ddb13281f0d4be6d39994abf07f8f75486d45": {
+      "status": "ok",
+      "rows": 4,
+      "columns": [
+        "Store",
+        "Amount",
+        "Date"
+      ],
+      "values_sha256": "53ffb170809f0a49646f049a0df77f2bed00b3eab980b587c3da7c9fbbbe9265"
+    },
+    "sigilyx:9de9cb9d70664e169f6813734224e9cd2a9b715c0c8934a520d3ae77d1144ebb": {
+      "status": "ok",
+      "rows": 21025,
+      "columns": [
+        "Id",
+        "SpatialObj",
+        "AEZ"
+      ],
+      "values_sha256": "d037cffb986346ab59e25855a35ae234b495aae07900e0ead341a32589c28614"
+    },
+    "sigilyx:a00779e2e06d4213c64e925a4ab8c7e34ba7ae44362bcea5ed8a1de5c3f0a89a": {
+      "status": "ok",
+      "rows": 96,
+      "columns": [
+        "ReportID",
+        "Field_1",
+        "number_cnt",
+        "Before",
+        "After",
+        "Left",
+        "Current",
+        "Right"
+      ],
+      "values_sha256": "ec573e2ab6570db3ce873a603d3acda060896c611013773f90edb0be344920d0"
+    },
+    "sigilyx:a2cbe94c18d882ed16e289ae9a7971ae699271c1750ba34ec5be9c063dbacc71": {
+      "status": "ok",
+      "rows": 20093,
+      "columns": [
+        "Site",
+        "Date.Time.Customer",
+        "JobTypeName - simple",
+        "ClosedReason",
+        "weightbread",
+        "weightdairy_alt",
+        "weightdessert",
+        "weightdrinks_water",
+        "weightdrinks_other",
+        "weightfruit",
+        "weightmeals_sw",
+        "weightmeat_eggs",
+        "weightpantry",
+        "weightsnacks",
+        "Date.Time.Customer1",
+        "Date.Time.Customer2",
+        "ID"
+      ],
+      "values_sha256": "1303aed9f35554c23269654e1538fc284883f379cba2a66ba6c3f55ecc112473"
+    },
+    "sigilyx:a2d882c35b0f192644ba98d686f38b85fd037673192e2b9c38d736422f28d731": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "7ef5ec3c5dab48616e5ab541e879fab0510262b9e3f0ae766e92b7a6ac7af2c4"
+    },
+    "sigilyx:a4da00172b896d7d53ddc6ea689ce61fe2446e962554ae8739257c0870cfcf6c": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Count_VP"
+      ],
+      "values_sha256": "76d0d491e38a3c6487fe171f0b93a52fe1be5462423fdcbbbe1ddfe980abff5b"
+    },
+    "sigilyx:a6574825a2a4edc46311a0ec358bbc0cc63c02ca940e5618041a65b137bebe5e": {
+      "status": "ok",
+      "rows": 58,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "a07ce17a236cff79f29ca7bda914b387530834df722f18fd1fad4866a4186e7b"
+    },
+    "sigilyx:a6694490cfba00033c4dc65a2242fd45eebb281d0c2fecb52b26f3fd609b1f18": {
+      "status": "ok",
+      "rows": 6,
+      "columns": [
+        "Players",
+        "Sum_Total"
+      ],
+      "values_sha256": "c17d4ea277ec4d9f6d59a51ec71ff9293cb2cbf63668888d81c6e18d1cee2f9e"
+    },
+    "sigilyx:a674bd1e545fa834b18b46e983f55dbf7b841d15017d44ec15eac65d7255bba4": {
+      "status": "ok",
+      "rows": 1000,
+      "columns": [
+        "Actor Popularity",
+        "Actor",
+        "Genre",
+        "Film Location",
+        "Revenue",
+        "Diva Score"
+      ],
+      "values_sha256": "63537713f27a8e32030ae9f43a20914dcdb779d544fcb1067182489731bd834e"
+    },
+    "sigilyx:a81bc23879605a80702ece6cb2c8f760212442176c8490ce391c409cd8f2bfff": {
+      "status": "ok",
+      "rows": 43,
+      "columns": [
+        "Challenge Number",
+        "Challenge URL",
+        "Challenge Name",
+        "Difficulty Level",
+        "Certification Level",
+        "Thread ID",
+        "Subject Matter",
+        "username",
+        "user id",
+        "Date Completed"
+      ],
+      "values_sha256": "05181c504ecf21921a41ed405385b3a542a7bfa04da3943a5598ea48be3bd4e9"
+    },
+    "sigilyx:a8eeee98a608fd1e181c3662c02c78884a05e807d02b580acacc90e052f03556": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Concat_Direction",
+        "HeadX",
+        "HeadY",
+        "TailX",
+        "TailY"
+      ],
+      "values_sha256": "9fa7f1f1d2b26daf7f2b7b613488ae7defadb9f9bb0a12641b1b1616d94de2e9"
+    },
+    "sigilyx:aaa9431b97d7eaff96730f4d115be3b522cdde8b0e0584955e249f5d014695ea": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "e29a1a2ccb7d4a08f9b4deaf13664b0361457dc7cb1ee63a1b15074f7bfaf415"
+    },
+    "sigilyx:acb2cc69c41098be0bc805a12143a7908bcf50eb9631cd6ed4bd4f863fd1ad20": {
+      "status": "ok",
+      "rows": 2678,
+      "columns": [
+        "Customer ID",
+        "First Name",
+        "Last Name",
+        "City",
+        "State",
+        "Transactions",
+        "TOTAL_Unit_Price",
+        "TOTAL_Sales"
+      ],
+      "values_sha256": "ba88f37c354a7eaa373c20c1bb1e11d430acb4a095b69a1811d2e2b709c18969"
+    },
+    "sigilyx:b06b54bf232f0e7889bd6bad96a45dde952aa0b95aeb721f63d6a19fd4db19e5": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 4: data conversion error: E2 record has 1 trailing byte(s) after its declared fields"
+    },
+    "sigilyx:b1d89869879c269654c0407ebbda06b01f3453de8d5a7e4407a30982e8fb8f12": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 37: data conversion error: E2 record has multiple exact Int32 framings with different values in field(s): x, y"
+    },
+    "sigilyx:b39d8516fb12922e509a2b7ecef27b3cc59ea2d672aee703d73e768f5cf340ec": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 0: data conversion error: E2 record has 1 trailing byte(s) after its declared fields"
+    },
+    "sigilyx:b3a58ee7257401dcce83e7358a21f209ea3a7b8abd5a49a603faa08dd986fc84": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "49ebcffbf7b8d0f7bc4deca91fcdf27902d82e9fae6099a3f7da76231365a561"
+    },
+    "sigilyx:b61104a9895b76bc02ef21d1c8f6846077082f13323a9a19a46a6cff4819d7d9": {
+      "status": "ok",
+      "rows": 73517,
+      "columns": [
+        "Order ID",
+        "Order Date",
+        "Ship Date",
+        "Customer ID",
+        "Product ID",
+        "Category",
+        "Sub-Category",
+        "Sales",
+        "Quantity",
+        "Discount",
+        "Profit",
+        "Region",
+        "Country",
+        "State",
+        "City",
+        "Customer Name",
+        "Segment",
+        "Cost_Price",
+        "Returned",
+        "Return_Reason"
+      ],
+      "values_sha256": "9672b61dd1938e1315d71142a2adb1f615d71e9fe76039cf65857ffa350348e7"
+    },
+    "sigilyx:b73e29e96b9a18584b586eebfab87e32d0a3c60967054f1e3c1085b2139714a5": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "1cb4e1acad956a06533f31e0715872dfc0680deaa07b3920d97e3fda49966e9f"
+    },
+    "sigilyx:b797b50d13ed4b497afacee218a85111ccef11872f0db7444c785b62f770f71f": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Name",
+        "Object"
+      ],
+      "values_sha256": "2b049bc14c005286bf9ba5e3d391d57e0ce3c5dd99a78eeb9ed185efcec180f9"
+    },
+    "sigilyx:b834d2100d6de6bca047fc368afa95cb4e1388b4c418a40813e0786e88967925": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "4d1140857a2dd7ab37289c4b60a9564c109e87e20451c5bd4c5cc9cd43a1d2ce"
+    },
+    "sigilyx:b85dfe922028b0759aa039ba4da3e1a2d717b757ae75a0e9fffb9f1addde5a65": {
+      "status": "ok",
+      "rows": 142,
+      "columns": [
+        "Input"
+      ],
+      "values_sha256": "2fa03af1c52fc16a8bb31285747738f05b37fbdbf16a9e00bd55c33dacb1480b"
+    },
+    "sigilyx:baeec5eff8c7702b0d944151f06d75b27391196fb1c84afce73f41cb5d81117d": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 10: data conversion error: E2 record has multiple exact Int32 framings with different values in field(s): RecordID, RowID"
+    },
+    "sigilyx:bc3eeda4369c0211700621a2b91ce9875595ba003d7695f31692b0468f87a2dd": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "cik",
+        "paddedCIK",
+        "url",
+        "DownloadHeaders",
+        "JSON_Name",
+        "JSON_ValueString",
+        "JSON_Name1",
+        "JSON_Name2",
+        "JSON_Name3",
+        "JSON_Name4",
+        "Right_cik",
+        "Right_paddedCIK",
+        "Right_url",
+        "Right_DownloadHeaders",
+        "Right_JSON_Name",
+        "Right_JSON_ValueString",
+        "Right_JSON_Name1",
+        "Right_JSON_Name2",
+        "Right_JSON_Name3",
+        "Right_JSON_Name4",
+        "number",
+        "shortCIK",
+        "10K_url",
+        "DownloadData",
+        "DownloadHeaders2"
+      ],
+      "values_sha256": "056e4f7699434fce67ba43f1bef7a2ab57de271aa70764caf4c34cc7dde31be8"
+    },
+    "sigilyx:bfd29cb89eb2fa9f8bc33f4638b42bac45a1ffe5ec0fa972747d79d776380b45": {
+      "status": "ok",
+      "rows": 250,
+      "columns": [
+        "Neighborhood",
+        "Sum_Residential Units",
+        "Sum_Commercial Units",
+        "Min_Year Built",
+        "Max_Year Built",
+        "Median_Sale Price"
+      ],
+      "values_sha256": "fc41ad53f612da11b7927f070d527d40fe33348d09a6548dadc634a67e99f9c1"
+    },
+    "sigilyx:c049c9dd2a974f64e4039ee2d07a32031e213e4360a2b9b1d8a1638980df6319": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "223496635aa0755922b1e8a982ef96334926a238458b452c0e8f4b5bc13142d1"
+    },
+    "sigilyx:c07530fe89c5b1ee572eb66dd57998247176dd79070eefba3fe869b6270d7c1f": {
+      "status": "ok",
+      "rows": 1500,
+      "columns": [
+        "Order ID",
+        "Order Date",
+        "CustomerName",
+        "State",
+        "Region",
+        "DOW",
+        "Sale Price",
+        "Quantity",
+        "Cost per Item",
+        "PaymentMode",
+        "Category",
+        "Sub-Category",
+        "Profit",
+        "Profitability"
+      ],
+      "values_sha256": "f2ef16056c813c1e064bcea78d18a0b359e2c101c9853054fdd49eba5a5d7729"
+    },
+    "sigilyx:c14482bc27b10cf54b0097799dc29d7ff9873f74aa63740c9be4f877fac40c58": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "ID",
+        "Description",
+        "Include Reports",
+        "Archived"
+      ],
+      "values_sha256": "d0df70e5cd9e60e6934d90e009d23176f94319033d8b31133755e5409b145c36"
+    },
+    "sigilyx:c2dd7e04f3f3f55d0b2fe3401057db07f4096f9171786f37af6c5cb28be6bfc3": {
+      "status": "ok",
+      "rows": 82,
+      "columns": [
+        "league",
+        "team",
+        "season",
+        "Player_Name",
+        "Position",
+        "Age",
+        "Annual_Salary_GBP",
+        "Weekly_Salary_GBP",
+        "Club",
+        "Goals",
+        "Assists",
+        "Combined"
+      ],
+      "values_sha256": "695a7f11154cb297639b827f7069ff8aa207aaec0631ec8b9e449697bba5246f"
+    },
+    "sigilyx:c3284b36a210b9ae2d0dd5948c77fb127937d9a7e778dddbd792957f56914ff1": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "719186cd64028e0340a8ba58a8325e203b331ee28511b5d45d3064b0e8dfe6a8"
+    },
+    "sigilyx:c3788ecb5c5e284a3a8a1b5bc780910e167dc868d971be5159821460c6be10cf": {
+      "status": "ok",
+      "rows": 346,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "a87c3c282d4ea56eb364b7f2d7df6425cfc08c7e752dac6806db6be1cadaf902"
+    },
+    "sigilyx:c3991569f65f1558e138b9ecdcd269d9a29eb07a18a5fc6654ef93346a40aef6": {
+      "status": "ok",
+      "rows": 5,
+      "columns": [
+        "RowID",
+        "Input",
+        "RouteDir"
+      ],
+      "values_sha256": "47ab937e486c97318353864ba4e14ed8067cc68fe3a8d857d3de10859dd5fdc9"
+    },
+    "sigilyx:c47d2db646cc237b60fcf31ee0064ccfe00e84042c050eec6fffaeb2ba8d29d4": {
+      "status": "ok",
+      "rows": 249,
+      "columns": [
+        "Neighborhood",
+        "Sum_Residential Units",
+        "Sum_Commercial Units",
+        "Min_Year Built",
+        "Max_Year Built",
+        "Median_Sale Price"
+      ],
+      "values_sha256": "dddb03e85f2bcef2c8022b4888b90a312f27c37e9896dc0c665cd2a3bc5e42d5"
+    },
+    "sigilyx:c53a756a87f0f903d868926fb5179fe1ce3cec49f9a0deb84dd051b19726d4ad": {
+      "status": "ok",
+      "rows": 1188,
+      "columns": [
+        "Trip ID",
+        "Date",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "61"
+      ],
+      "values_sha256": "5030d563e8c87e384c04bdbd4c0bf46a6b102e1d0233d6f39194f54dd3aa9322"
+    },
+    "sigilyx:c5ff454ee3805c2048c9d7f6b68845bf95d2d6971f14b335179c8d6bd38995fc": {
+      "status": "ok",
+      "rows": 21,
+      "columns": [
+        "Before",
+        "After"
+      ],
+      "values_sha256": "a148605c0bfebaea78377e84febb5de3904203c72ee42fb79705f7f8b7c280ac"
+    },
+    "sigilyx:c827410d278c6752212b0c9b9d5671684b01f57180ad66293ba847236d7a663f": {
+      "status": "ok",
+      "rows": 100,
+      "columns": [
+        "league",
+        "Team Name",
+        "season",
+        "Player",
+        "Position",
+        "Age",
+        "Annual_Salary_GBP",
+        "Weekly_Salary_GBP"
+      ],
+      "values_sha256": "ca42627e2059ec26b3afc963f232e357953673d632b3f934483278b9f9aee46b"
+    },
+    "sigilyx:caa39753763e3987a993e6b4084416666300b612aae67da26fffa42511472b0c": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "3eb5b679bf107f9003d5e8824d4710599247f39d92d977ccb7f6048fbaaf3de0"
+    },
+    "sigilyx:cba941f4c634071a81ab9c41f36374ae5a19c66075e299fd139124b4a09900cc": {
+      "status": "ok",
+      "rows": 10,
+      "columns": [
+        "RecordID",
+        "Store",
+        "Cluster"
+      ],
+      "values_sha256": "25343e440788b0c7fc4fc37c292b4820ea1949145877d0ea557e474f5e1fd505"
+    },
+    "sigilyx:ccc37a4e8d89318edec97e796d8aef50584a7f7d4f220cc61a6e372c51ad9c1f": {
+      "status": "ok",
+      "rows": 558715,
+      "columns": [
+        "FlightDate",
+        "Operating_Airline ",
+        "Flight_Number_Operating_Airline",
+        "Origin",
+        "Dest",
+        "CRSDepTime",
+        "DepDelayMinutes",
+        "CRSArrTime",
+        "ArrDelayMinutes",
+        "ArrDel15",
+        "Cancelled",
+        "Diverted",
+        "CarrierDelay",
+        "WeatherDelay",
+        "NASDelay",
+        "LateAircraftDelay",
+        "SLA_Breach",
+        "DelayCategory"
+      ],
+      "values_sha256": "826d9e2066e174f375571951978b0e9a46eeef06e16372d4d1f2bcfb6003932f"
+    },
+    "sigilyx:ccccff2c5e2aabe250bf8d21ec329f9b79f1e76f91087beaf04249d62fe8bf4c": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "18eae6b735d05965702bc4fca719524269851ec5042a95fe19c063ee3bed49b6"
+    },
+    "sigilyx:cfb9789abbee56d3dea244f58c8dce6fcb9992175017f34e6eb1a8e7a9e85ba3": {
+      "status": "ok",
+      "rows": 5296,
+      "columns": [
+        "Airport_Code",
+        "Airport_Name",
+        "City",
+        "Country",
+        "population"
+      ],
+      "values_sha256": "95025c34dbb20201cf1113a54e2c7cb8096f85883b365ce4239a6cae6477b373"
+    },
+    "sigilyx:d2d8f5dbc5f5a0215aa91837e5271fd611752ba34bbaf9a0cf407d294f427212": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "6a9ef51defb2bad2f758f9f495e7fb3d74735cea1c87015140b97d3dd59afbcb"
+    },
+    "sigilyx:d345339823ba271bbd61abb604c9227c8bc39c814b2eae582c2fd2d0f9b4d026": {
+      "status": "ok",
+      "rows": 7,
+      "columns": [
+        "Width_MM",
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "c84f9995d72f3e9a48186458e807f7363d3ca807ccca8a0d92992a41141990bd"
+    },
+    "sigilyx:d3b54fa3a7d9e405ebf4787076db2fb15652fb8f2e3c7bc3dcebb2a3fb541856": {
+      "status": "ok",
+      "rows": 9633,
+      "columns": [
+        "age",
+        "balance",
+        "default_no",
+        "default_yes",
+        "ed_primary",
+        "ed_secondary",
+        "ed_tertiary",
+        "ed_unknown",
+        "housing_no",
+        "housing_yes",
+        "job_admin_",
+        "job_blue_collar",
+        "job_entrepreneur",
+        "job_housemaid",
+        "job_management",
+        "job_retired",
+        "job_self_employed",
+        "job_services",
+        "job_student",
+        "job_technician",
+        "job_unemployed",
+        "job_unknown",
+        "loan_no",
+        "loan_yes",
+        "marital_divorced",
+        "marital_married",
+        "marital_single"
+      ],
+      "values_sha256": "4fba663873ec11acef5e9a4d6c7584a4611e3b405abe075bcbcbe4637eff612b"
+    },
+    "sigilyx:d80b328270b34289f361cb199d6f0c545b2f503d7db653e4b460dd75c79017d6": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Name",
+        "Value"
+      ],
+      "values_sha256": "fc76d508e45293bfeeb57b35ffe4aad816dbb3684a29a1bb1630d83c7dca6841"
+    },
+    "sigilyx:d91c428aa437f43aba8a1ce35e4326a17c96d31c322c9ea8d248856c579340a4": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "0fdcd9f4ef1f439cf1c5e323f968adf46947e01bab6cce97d7bbaf66f68d88d1"
+    },
+    "sigilyx:d9d69b2fdb01a9e2acf69bcf6d404843826b5581ca8888d44deca4ece23af056": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Total_FN_Amount_Inc"
+      ],
+      "values_sha256": "c4804be4ba32720d7c19dc84c1a421eb018cdfce5b3f981ad6b87288c170e911"
+    },
+    "sigilyx:dd016f78e6d2eacab67cc973ee0f59470af5a4acfbeca78e8ede6d5e0437f363": {
+      "status": "ok",
+      "rows": 6760,
+      "columns": [
+        "2",
+        "1"
+      ],
+      "values_sha256": "76631f80f9cec6508efbd874061837ab7f3c26ef8afafe0fd5721e70ab50ecf1"
+    },
+    "sigilyx:dec8f038dcce4a07ea425f8711c967134c4ccc31300cd51bc38d824f7730cae2": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 10: data conversion error: E2 record has 1 trailing byte(s) after its declared fields"
+    },
+    "sigilyx:e06a6ca47b29caf57994f3b306b448fd5634d0fdc5517c988a64eea2939288fb": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "e4c93d593833360be5b4568184482d3cd34badbd54cc3ddc8f09d83f87ffaaeb"
+    },
+    "sigilyx:e1157c95e5a1d5dc020029fa3bd7712a108404d1a1c67cc88d58843c48e467b7": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "Model"
+      ],
+      "values_sha256": "2d7f7ce62d294262bbc9ce7db83a59e451c5080bdc4ddfc83b65305cde2ea424"
+    },
+    "sigilyx:e50b34380767529b8689d1e09c041e6acb4d7bd4e43f2f403ef064b4dc0365d2": {
+      "status": "ok",
+      "rows": 16,
+      "columns": [
+        "County",
+        "SpatialObj_County"
+      ],
+      "values_sha256": "1c3357455ba420a0ea6cac00b553ad5f73020e5bcc306536e767e91b84da5f32"
+    },
+    "sigilyx:e68fc1f7a8771eab5a6c1637e827c7f1406c91180a24e5658b1fdd8dd7b1942e": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 0: data conversion error: E2 record does not match its declared schema using any exact Int32 framing"
+    },
+    "sigilyx:e9943c3fda1b4e3f696fe2fad76dbcfe9a5e8784c7996a9e23bad1980ea26171": {
+      "status": "ok",
+      "rows": 14069,
+      "columns": [
+        "NodeID",
+        "Goal",
+        "Dir",
+        "Cost",
+        "Fixed",
+        "history"
+      ],
+      "values_sha256": "afcc1ac725504bd6066042c642aeb0d11434411fb34723cfd9c4153725905350"
+    },
+    "sigilyx:e9f99982ca88c67af53b53ddcee2eaaff5994f47470af3e5d4a772c47026f0dd": {
+      "status": "ok",
+      "rows": 108646,
+      "columns": [
+        "CREATED",
+        "BIC NUMBER",
+        "ACCOUNT NAME",
+        "TRADE NAME",
+        "ADDRESS",
+        "CITY",
+        "STATE",
+        "POSTCODE",
+        "PHONE",
+        "EMAIL",
+        "MARKET",
+        "APPLICATION TYPE",
+        "DISPOSITION DATE",
+        "EFFECTIVE DATE",
+        "EXPIRATION DATE",
+        "EXPORT DATE",
+        "LATITUDE",
+        "LONGITUDE",
+        "COMMUNITY BOARD",
+        "COUNCIL DISTRICT",
+        "CENSUS TRACT",
+        "BIN",
+        "BBL",
+        "NTA",
+        "BORO"
+      ],
+      "values_sha256": "71872d0f99f74bf65fb3c27bc9b0ba32772f88fce2823b06ac32b7bdda4cba2c"
+    },
+    "sigilyx:eb40dadc09a9fb001f68361629849a43f9c6e146f8e4c3e899e6573454f0064f": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "ab0e0988fd1b6c0eed2b3c90020d075e8097a0b40783990bccb8b46c78327d98"
+    },
+    "sigilyx:eb5eb3bdb94fb4924bc9750bfb9d96c6c77d498a3aea9c77835277475483b6f9": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "078264f8e29dde61cfcb820a7574a9f75699bb9b8b95d70bdce22aed09111925"
+    },
+    "sigilyx:ece2fe70519b4f8c79915437b396751a3aaf606eb083b8135f4e8eb454e39972": {
+      "status": "ok",
+      "rows": 0,
+      "columns": [
+        "Formula1",
+        "Target",
+        "Formula2",
+        "Formula3"
+      ],
+      "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "sigilyx:ef80391e108626d4b2329d7e01ef594308a37a9990f1ab59b30e68d6ab2ae100": {
+      "status": "ok",
+      "rows": 1950,
+      "columns": [
+        "ORDER_ID",
+        "ORDER_DATE",
+        "CUSTOMER_ID",
+        "ORDER_STATUS",
+        "STORE_ID"
+      ],
+      "values_sha256": "b5a31aa0c606812ff3bfcb37a08d80d42fa20d27a31448a6a51ec985d757fcc9"
+    },
+    "sigilyx:f0ee048237383eeb47e448bfe487c5f58ee739a15493ff48db12fc29ae976573": {
+      "status": "ok",
+      "rows": 346,
+      "columns": [
+        "Challenge Number",
+        "Challenge URL",
+        "Challenge Name",
+        "Difficulty Level",
+        "Certification Level",
+        "Thread ID",
+        "Subject Matter"
+      ],
+      "values_sha256": "3767a0b576e92495b25ccf355f939bf755d180f8ab095138a0e0d8177a59ec27"
+    },
+    "sigilyx:f141d573e2b1067ea069b0c6cbc43c54a2cfacccebb265197c855841fc40a839": {
+      "status": "ok",
+      "rows": 1230,
+      "columns": [
+        "Index",
+        "Prime Number"
+      ],
+      "values_sha256": "b8a2c99fac5bee54cab562fb48f33f6a858d8b213a7aa8a08eb378fdf39ff140"
+    },
+    "sigilyx:f2b25ba716e3dd824000b3e2291a95f3b31ba2e769abe7eb3117c692a49d03e2": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "1",
+        "Width_MM",
+        "RATIO",
+        "Wheel size",
+        "Tire Height",
+        "Width_IN",
+        "Sidewall IN",
+        "circum",
+        "Revs/Mile"
+      ],
+      "values_sha256": "247a4192dc0583478e73f00ba2c97d37a8e1342a4086b85b4b3565a9d5a0ae79"
+    },
+    "sigilyx:f7eaf44aef0b3269f07cb5c0be05e6d6ea7cac17dd5ab2e413e857e6413c7238": {
+      "status": "ok",
+      "rows": 514,
+      "columns": [
+        "IterativeID",
+        "Start",
+        "DIr",
+        "Goar_dir",
+        "Goal",
+        "DiffCost"
+      ],
+      "values_sha256": "dc188fdff9589348637dad0cc4187063a8deebd2924370630f4e6f1da1d87109"
+    },
+    "sigilyx:fbc5b83fd88256eba152f79afe1811795b6e585831fc65225697dbcd681c8530": {
+      "status": "decode_error",
+      "error_type": "TypeError",
+      "error": "data conversion error: E2 failed to decode record 0: data conversion error: E2 record has 1 trailing byte(s) after its declared fields"
+    },
+    "sigilyx:fe52c8565c9368f8f54dd07ddda4805965cb11bd16625a432011d960cf403ebe": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "72f20a3f5b7aee0610c9a636b5867c0317c99a5ef2839899aa072123c01099b4"
+    },
+    "sigilyx:ff0da08c460430459eafe2b66acfde9bed1f72a410958b8e700aa2e2484cab72": {
+      "status": "ok",
+      "rows": 1,
+      "columns": [
+        "NotUseCache",
+        "CachePath",
+        "IsCache",
+        "Input"
+      ],
+      "values_sha256": "1947559b736547554d1f99c52a9c3aaac83201091bdf5d4553dc412c5df4054b"
+    },
+    "sigilyx:ff26a014699ea72e1fa9e0d29a3f0e7b26fa42bf048f924aac8a4f5c55e71a16": {
+      "status": "ok",
+      "rows": 299,
+      "columns": [
+        "brand",
+        "key",
+        "name",
+        "subhead",
+        "description",
+        "rating",
+        "rating_count",
+        "ingredients"
+      ],
+      "values_sha256": "c79f38eb34a2b14cd87f390ef66c87f6f55ea143179fce63972725f670357776"
+    },
+    "sigilyx:ffff479a709deeebc72ab34d1be32a0683170add690b493609dc6dd75c759a4f": {
+      "status": "ok",
+      "rows": 0,
+      "columns": [
+        "Formula1",
+        "Target",
+        "Formula2",
+        "Formula3"
+      ],
+      "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

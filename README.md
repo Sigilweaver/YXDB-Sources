@@ -15,16 +15,17 @@ Both share the `.yxdb` extension but are distinct formats.
 
 | | Repositories | Files |
 |---|---:|---:|
-| **E1** | 180 | 2,471 |
+| **E1** | 181 | 2,472 |
 | **E2** | 64 | 219 |
-| **Total unique repos** | 218 | 2,690 |
+| **Total unique repos** | 219 | 2,691 |
 
-*1,730 GitHub repositories scanned. 26 repos contain both E1 and E2 files.*
+*1,818 GitHub repositories scanned. 26 repos contain both E1 and E2 files.*
 
 Source listings:
 - [E1-Sources.md](E1-Sources.md) - Index of repositories containing E1 files with per-repo counts.
 - [E2-Sources.md](E2-Sources.md) - Full index of E2 files with per-file paths, sizes, and SHA-256 hashes. Repos archived on Software Heritage.
 - [index.json](index.json) - Machine-readable index of all repositories and files.
+- [CORPUS_STATUS.md](CORPUS_STATUS.md) - Latest hash reconciliation, retrieval results, and bounded refresh coverage.
 
 ## Methodology
 
@@ -54,6 +55,10 @@ uv run scripts/scan.py --discover-only
 
 # Re-check known repos only (skip discovery search)
 uv run scripts/scan.py --check-only
+
+# Bounded discovery with a reusable candidate report
+uv run scripts/scan.py --discover-only --search-pages 1 --report downloads/discovery-report.json
+uv run scripts/scan.py --candidates-from downloads/discovery-report.json --limit 30
 ```
 
 ### Archive E2 repos to Software Heritage
@@ -70,14 +75,17 @@ Set `SWH_API_TOKEN` in `.env` for higher rate limits (1,200/hr vs 120/hr anonymo
 ### Download files
 
 ```bash
-uv run scripts/download.py e2              # download all 207 E2 files
-uv run scripts/download.py e1              # download all 2,407 E1 files
+uv run scripts/download.py e2              # download all indexed E2 files
+uv run scripts/download.py e1              # download all indexed E1 files
 uv run scripts/download.py all             # download everything
 uv run scripts/download.py e2 --repo OWNER/NAME   # single repo
 uv run scripts/download.py e2 --dry-run    # preview
+uv run scripts/download.py e2 --report downloads/e2-report.json
 ```
 
-E2 files download directly from paths in `index.json`. E1 files require tree enumeration per repo (only counts are indexed).
+E2 files download from the immutable commits recorded in `index.json`. Existing files are hash-verified, local payloads are reused by hash, and basename collisions receive a stable source-and-content suffix. E1 files require tree enumeration per repo because only their counts are indexed. Retrieval failures are listed in the optional JSON report and produce a nonzero exit status.
+
+For hash-specific, subprocess-isolated reader comparisons across a corpus, see [VALIDATION.md](VALIDATION.md).
 
 ### Generate the index
 

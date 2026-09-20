@@ -112,6 +112,8 @@ def check_repo_for_yxdb(repo: str) -> dict | None:
     tree = gh_api(f"repos/{repo}/git/trees/{sha}?recursive=1", timeout=60)
     if not tree or "tree" not in tree:
         return None
+    if tree.get("truncated"):
+        raise RuntimeError("GitHub returned a truncated recursive tree")
 
     entries = tree["tree"]
     yxdb = [e for e in entries if e["path"].lower().endswith(".yxdb")]

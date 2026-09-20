@@ -20,6 +20,7 @@ import hashlib
 import io
 import json
 import os
+import shutil
 import sys
 import time
 import zipfile
@@ -40,14 +41,69 @@ def safe_filename(repo: str, path: str) -> str:
     return f"{repo.replace('/', '_')}_{os.path.basename(path)}"
 
 
-def download_e2(index: dict, repo_filter: str | None, dry_run: bool) -> None:
+def collision_filename(repo: str, path: str, expected: str = "") -> str:
+    """Return a stable fallback name when flattened source paths collide."""
+    basename = os.path.basename(path)
+    stem, ext = os.path.splitext(basename)
+    source_id = hashlib.sha256(path.encode("utf-8")).hexdigest()[:12]
+    content_id = expected[:12] if expected else "unknown"
+    return f"{repo.replace('/', '_')}_{stem}__{source_id}_{content_id}{ext}"
+
+
+def file_sha256(path: str) -> str | None:
+    """Hash a local file, returning None when it cannot be read."""
+    digest = hashlib.sha256()
+    try:
+        with open(path, "rb") as src:
+            for chunk in iter(lambda: src.read(1024 * 1024), b""):
+                digest.update(chunk)
+    except OSError:
+        return None
+    return digest.hexdigest()
+
+
+def e2_destination(dest_dir: str, repo: str, path: str, expected: str) -> tuple[str, bool]:
+    """Choose a destination without treating a basename collision as a hit.
+
+    The original layout is retained when its content matches the indexed hash.
+    A source-path fingerprint is added only when that legacy name is occupied by
+    different content.
+    """
+    legacy = os.path.join(dest_dir, safe_filename(repo, path))
+    if not os.path.exists(legacy) or file_sha256(legacy) == expected:
+        return legacy, os.path.exists(legacy)
+
+    fallback = os.path.join(dest_dir, collision_filename(repo, path, expected))
+    return fallback, os.path.exists(fallback) and file_sha256(fallback) == expected
+
+
+def local_payloads(root: str) -> dict[str, str]:
+    """Index local YXDB payloads by hash so earlier downloads can be reused."""
+    payloads = {}
+    if not os.path.isdir(root):
+        return payloads
+    for directory, _, filenames in os.walk(root):
+        for filename in filenames:
+            if not filename.lower().endswith(".yxdb"):
+                continue
+            path = os.path.join(directory, filename)
+            digest = file_sha256(path)
+            if digest:
+                payloads.setdefault(digest, path)
+    return payloads
+
+
+def download_e2(index: dict, repo_filter: str | None, dry_run: bool) -> dict:
     dest_dir = os.path.join(DOWNLOADS_DIR, "e2")
     os.makedirs(dest_dir, exist_ok=True)
 
     total = 0
     skipped = 0
     downloaded = 0
+    reused = 0
     failed = 0
+    failures = []
+    payloads = local_payloads(DOWNLOADS_DIR)
 
     for repo_entry in index["repos"]:
         repo = repo_entry["repo"]
@@ -56,15 +112,28 @@ def download_e2(index: dict, repo_filter: str | None, dry_run: bool) -> None:
         e2_files = repo_entry.get("e2_files", [])
         if not e2_files:
             continue
-        branch = repo_entry.get("default_branch", "main")
+        # Use the immutable commit recorded by the index. A branch may move
+        # between indexing and retrieval, yielding content with another hash.
+        ref = repo_entry.get("last_checked_sha") or repo_entry.get("default_branch", "main")
 
         for f in e2_files:
             total += 1
             path = f["path"]
-            dest = os.path.join(dest_dir, safe_filename(repo, path))
+            expected = f.get("sha256", "").lower()
+            dest, verified = e2_destination(dest_dir, repo, path, expected)
 
-            if os.path.exists(dest):
+            if verified:
                 skipped += 1
+                continue
+
+            cached = payloads.get(expected)
+            if cached:
+                if dry_run:
+                    print(f"  [dry-run, local reuse] {repo}: {path}")
+                else:
+                    shutil.copyfile(cached, dest)
+                    print(f"  [local reuse] {repo}: {path}")
+                reused += 1
                 continue
 
             if dry_run:
@@ -74,43 +143,72 @@ def download_e2(index: dict, repo_filter: str | None, dry_run: bool) -> None:
             # Handle archive-embedded paths (path contains !/, from .yxzp or .zip)
             if "!/" in path:
                 archive_path, inner_name = path.split("!/", 1)
-                data = download_raw(repo, archive_path, branch)
+                data = download_raw(repo, archive_path, ref)
                 if not data:
                     print(f"  FAIL (archive download): {repo}: {path}")
                     failed += 1
+                    failures.append({"repo": repo, "path": path, "reason": "archive_download"})
                     continue
                 try:
                     zf = zipfile.ZipFile(io.BytesIO(data))
                 except zipfile.BadZipFile:
                     print(f"  FAIL (bad zip): {repo}: {path}")
                     failed += 1
+                    failures.append({"repo": repo, "path": path, "reason": "bad_zip"})
                     continue
                 if inner_name not in zf.namelist():
                     print(f"  FAIL (missing inner): {repo}: {path}")
                     failed += 1
+                    failures.append({"repo": repo, "path": path, "reason": "missing_inner"})
                     continue
-                data = zf.read(inner_name)
+                try:
+                    data = zf.read(inner_name)
+                except (zipfile.BadZipFile, RuntimeError, OSError, EOFError):
+                    print(f"  FAIL (unreadable inner): {repo}: {path}")
+                    failed += 1
+                    failures.append({"repo": repo, "path": path, "reason": "unreadable_inner"})
+                    continue
             else:
-                data = download_raw(repo, path, branch)
+                data = download_raw(repo, path, ref)
             if not data:
                 print(f"  FAIL: {repo}: {path}")
                 failed += 1
+                failures.append({"repo": repo, "path": path, "reason": "download"})
                 continue
 
             file_hash = hashlib.sha256(data).hexdigest()
-            expected = f.get("sha256", "").lower()
             if expected and file_hash != expected:
                 print(f"  HASH MISMATCH: {repo}: {path}")
                 failed += 1
+                failures.append({
+                    "repo": repo,
+                    "path": path,
+                    "reason": "hash_mismatch",
+                    "expected_sha256": expected,
+                    "actual_sha256": file_hash,
+                })
                 continue
 
             with open(dest, "wb") as out:
                 out.write(data)
+            payloads.setdefault(file_hash, dest)
             downloaded += 1
             print(f"  {repo}: {path} ({len(data):,} bytes)")
             time.sleep(0.15)
 
-    print(f"\nE2: {total} total, {downloaded} downloaded, {skipped} skipped, {failed} failed")
+    print(
+        f"\nE2: {total} total, {downloaded} downloaded, {reused} locally reused, "
+        f"{skipped} verified existing, {failed} failed"
+    )
+    return {
+        "format": "e2",
+        "source_entries": total,
+        "downloaded": downloaded,
+        "locally_reused": reused,
+        "verified_existing": skipped,
+        "failed": failed,
+        "failures": failures,
+    }
 
 
 def download_e1(index: dict, repo_filter: str | None, dry_run: bool) -> None:
@@ -230,11 +328,12 @@ def download_e1(index: dict, repo_filter: str | None, dry_run: bool) -> None:
     print(f"\nE1: {total} total, {downloaded} downloaded, {skipped} skipped, {failed} failed")
 
 
-def main():
+def main() -> int:
     parser = argparse.ArgumentParser(description="Download YXDB files from the index")
     parser.add_argument("format", choices=["e1", "e2", "all"], help="Which format to download")
     parser.add_argument("--repo", help="Download from a single repo only (owner/name)")
     parser.add_argument("--dry-run", action="store_true", help="Show what would be downloaded")
+    parser.add_argument("--report", help="Write a JSON retrieval report")
     args = parser.parse_args()
 
     if not os.path.exists(INDEX_FILE):
@@ -243,14 +342,23 @@ def main():
 
     index = load_index()
 
+    reports = []
     if args.format in ("e2", "all"):
         print("=== Downloading E2 files ===")
-        download_e2(index, args.repo, args.dry_run)
+        reports.append(download_e2(index, args.repo, args.dry_run))
 
     if args.format in ("e1", "all"):
         print("\n=== Downloading E1 files ===")
         download_e1(index, args.repo, args.dry_run)
 
+    if args.report:
+        report_dir = os.path.dirname(os.path.abspath(args.report))
+        os.makedirs(report_dir, exist_ok=True)
+        with open(args.report, "w", encoding="utf-8") as out:
+            json.dump({"reports": reports}, out, indent=2)
+            out.write("\n")
+    return 1 if any(report.get("failed", 0) for report in reports) else 0
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
